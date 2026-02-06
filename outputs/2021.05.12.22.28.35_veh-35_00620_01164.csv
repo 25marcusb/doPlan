@@ -1,1 +1,5 @@
 1,50,instruction,potential tag
+0,37,test1,testlabel1,labeler1
+78,1377,Seg78-1377,test,mblennemann
+78,1377,seg78-1377,test2,mblennemann
+1651,2248,hello world - segment 1651-2248,test1,mblennemann
