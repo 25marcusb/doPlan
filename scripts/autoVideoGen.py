@@ -47,7 +47,7 @@ print(f"Using initial token: {TEST_INITIAL_LIDAR_PC}, timestamp: {TEST_INITIAL_T
 
 conn.close()
 
-
+#worth trying using a fake lidar
 scenario = NuPlanScenario(
             data_root=f"{NUPLAN_DATA_ROOT}/nuplan-v1.1/splits/mini",
             log_file_load_path=TEST_DB_FILE,
