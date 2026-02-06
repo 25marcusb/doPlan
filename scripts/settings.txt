@@ -1,0 +1,5 @@
+# Video labeling settings
+video_dir = /media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/videos
+base_name = 2021.05.12.22.28.35_veh-35_00620_01164
+min_segment_length = 150
+output_folder = /home/cvrr/Desktop/VLM Competition/doPlan/outputs
