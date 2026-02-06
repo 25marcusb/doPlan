@@ -1,3 +1,5 @@
+#to be ran by the labeler, draws settings from settings.txt
+
 import tkinter as tk
 import csv
 import cv2

@@ -1,3 +1,5 @@
+#used for testing the labeler or advance through videos
+
 import tkinter as tk
 import csv
 import cv2
