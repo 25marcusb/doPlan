@@ -1,4 +1,4 @@
-#to be ran by the labeler, draws settings from settings.txt
+# to be ran by the labeler, draws settings from settings.txt
 
 import tkinter as tk
 import csv
@@ -18,7 +18,7 @@ if not os.path.exists(SETTINGS_FILE):
 video_dir = ""
 base_name = ""
 min_segment_length = 150
-output_folder = os.path.join(SCRIPT_DIR, "outputs")  # default if not in settings
+output_folder = os.path.join(SCRIPT_DIR, "outputs")
 
 # Load settings
 with open(SETTINGS_FILE, "r") as f:
@@ -56,7 +56,9 @@ frame_images = {}
 ref_cap = caps["F0"]
 total_frames = int(ref_cap.get(cv2.CAP_PROP_FRAME_COUNT))
 if total_frames < min_segment_length:
-    raise RuntimeError(f"Video too short for minimum segment length of {min_segment_length} frames.")
+    raise RuntimeError(
+        f"Video too short for minimum segment length of {min_segment_length} frames."
+    )
 
 # ---------------- OUTPUT ----------------
 os.makedirs(output_folder, exist_ok=True)
@@ -70,6 +72,7 @@ root.geometry("1150x950")
 # ---------------- VARIABLES ----------------
 frame_label_var = tk.StringVar(value="Frame: 0")
 username_var = tk.StringVar(value="")
+basename_var = tk.StringVar(value=f"File: {base_name}")
 segment_start = tk.IntVar(value=0)
 segment_end = tk.IntVar(value=0)
 jump_var = tk.IntVar(value=100)
@@ -96,7 +99,10 @@ def update_frames():
         redraw_current_frames()
         if current_frame() >= segment_end.get():
             toggle_pause()
-    frame_label_var.set(f"Frame: {current_frame()} (Segment: {segment_start.get()}-{segment_end.get()})")
+    frame_label_var.set(
+        f"Frame: {current_frame()} "
+        f"(Segment: {segment_start.get()}-{segment_end.get()})"
+    )
     root.after(30, update_frames)
 
 def toggle_pause():
@@ -142,13 +148,18 @@ def save_segment_label():
     username = username_var.get()
     start = segment_start.get()
     end = segment_end.get()
+
     file_exists = os.path.exists(csv_path)
     file_empty = (not file_exists) or (os.path.getsize(csv_path) == 0)
+
     with open(csv_path, "a", newline="") as f:
         writer = csv.writer(f)
         if file_empty:
-            writer.writerow(["start_frame", "end_frame", "label", "commentary", "username"])
+            writer.writerow(
+                ["start_frame", "end_frame", "label", "commentary", "username"]
+            )
         writer.writerow([start, end, label, commentary, username])
+
     entry.delete(0, tk.END)
     commentary_entry.delete(0, tk.END)
 
@@ -161,6 +172,13 @@ def quit_program():
 main_frame = tk.Frame(root)
 main_frame.pack(padx=10, pady=10)
 
+# Display basename / file identifier
+tk.Label(
+    main_frame,
+    textvariable=basename_var,
+    font=("Helvetica", 14, "bold")
+).pack(pady=(0, 6))
+
 # Username input
 username_frame = tk.Frame(main_frame)
 username_frame.pack(pady=(0, 6))
@@ -170,15 +188,19 @@ tk.Entry(username_frame, textvariable=username_var, width=20).pack(side=tk.LEFT)
 # Video frame
 video_frame = tk.Frame(main_frame)
 video_frame.pack()
+
 video_labels = {}
 for i, cam in enumerate(["L0", "L1", "L2"]):
     lbl = tk.Label(video_frame)
     lbl.grid(row=i, column=0, padx=5, pady=5)
     video_labels[cam] = lbl
+
 video_labels["F0"] = tk.Label(video_frame)
 video_labels["F0"].grid(row=0, column=1, rowspan=2, padx=5, pady=5)
+
 video_labels["B0"] = tk.Label(video_frame)
 video_labels["B0"].grid(row=2, column=1, padx=5, pady=5)
+
 for i, cam in enumerate(["R0", "R1", "R2"]):
     lbl = tk.Label(video_frame)
     lbl.grid(row=i, column=2, padx=5, pady=5)
@@ -191,21 +213,55 @@ commentary_entry = tk.Entry(main_frame, width=80)
 commentary_entry.pack(pady=(0, 10))
 
 # Frame display
-tk.Label(main_frame, textvariable=frame_label_var, font=("Helvetica", 12)).pack(pady=4)
+tk.Label(
+    main_frame,
+    textvariable=frame_label_var,
+    font=("Helvetica", 12)
+).pack(pady=4)
 
 # Controls
 controls = tk.Frame(main_frame)
 controls.pack(pady=6)
+
 tk.Label(controls, text="Jump").pack(side=tk.LEFT)
 tk.Entry(controls, textvariable=jump_var, width=6).pack(side=tk.LEFT, padx=3)
-tk.Button(controls, text="<<", command=lambda: jump_frames(-jump_var.get())).pack(side=tk.LEFT, padx=4)
-tk.Button(controls, text=">>", command=lambda: jump_frames(jump_var.get())).pack(side=tk.LEFT, padx=4)
+tk.Button(
+    controls,
+    text="<<",
+    command=lambda: jump_frames(-jump_var.get())
+).pack(side=tk.LEFT, padx=4)
+tk.Button(
+    controls,
+    text=">>",
+    command=lambda: jump_frames(jump_var.get())
+).pack(side=tk.LEFT, padx=4)
+
 pause_button = tk.Button(controls, text="Pause", command=toggle_pause)
 pause_button.pack(side=tk.LEFT, padx=5)
-tk.Button(controls, text="Replay Segment", command=replay_segment).pack(side=tk.LEFT, padx=5)
-tk.Button(controls, text="Next Segment", command=random_segment).pack(side=tk.LEFT, padx=5)
-tk.Button(controls, text="Save Segment", command=save_segment_label).pack(side=tk.LEFT, padx=5)
-tk.Button(controls, text="Quit", command=quit_program).pack(side=tk.LEFT, padx=5)
+
+tk.Button(
+    controls,
+    text="Replay Segment",
+    command=replay_segment
+).pack(side=tk.LEFT, padx=5)
+
+tk.Button(
+    controls,
+    text="Next Segment",
+    command=random_segment
+).pack(side=tk.LEFT, padx=5)
+
+tk.Button(
+    controls,
+    text="Save Segment",
+    command=save_segment_label
+).pack(side=tk.LEFT, padx=5)
+
+tk.Button(
+    controls,
+    text="Quit",
+    command=quit_program
+).pack(side=tk.LEFT, padx=5)
 
 # ---------------- START ----------------
 random_segment()

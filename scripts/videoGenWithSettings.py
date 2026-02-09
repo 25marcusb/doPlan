@@ -11,17 +11,64 @@ from nuplan.common.actor_state.vehicle_parameters import get_pacifica_parameters
 from nuplan.planning.scenario_builder.nuplan_db.nuplan_scenario import NuPlanScenario, CameraChannel, LidarChannel
 from nuplan.planning.scenario_builder.nuplan_db.nuplan_scenario_utils import ScenarioExtractionInfo
 
+# ---------------- SETTINGS ----------------
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+SETTINGS_FILE = os.path.join(SCRIPT_DIR, "videoSettings.txt")
 
+if not os.path.exists(SETTINGS_FILE):
+    raise FileNotFoundError(f"{SETTINGS_FILE} not found")
 
-NUPLAN_DATA_ROOT = "/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset"
+# Defaults
+NUPLAN_DATA_ROOT = ""
+NUPLAN_MAPS_ROOT = ""
+OUTPUT_VIDEO_DIR = ""
+NAME = ""
+MAP_NAME = ""
 NUPLAN_MAP_VERSION = "nuplan-maps-v1.0"
-NUPLAN_MAPS_ROOT = "/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/maps"
+FPS = 20
+FRAME_STRIDE = 2
+
+with open(SETTINGS_FILE, "r") as f:
+    for line in f:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        key, value = line.split("=", 1)
+        key, value = key.strip(), value.strip()
+
+        if key == "nuplan_data_root":
+            NUPLAN_DATA_ROOT = value
+        elif key == "maps_root":
+            NUPLAN_MAPS_ROOT = value
+        elif key == "output_video_dir":
+            OUTPUT_VIDEO_DIR = value
+        elif key == "name":
+            NAME = value
+        elif key == "map_name":
+            MAP_NAME = value
+        elif key == "map_version":
+            NUPLAN_MAP_VERSION = value
+        elif key == "fps":
+            FPS = int(value)
+        elif key == "frame_stride":
+            FRAME_STRIDE = int(value)
+
+# Validate
+required = [NUPLAN_DATA_ROOT, NUPLAN_MAPS_ROOT, OUTPUT_VIDEO_DIR, NAME, MAP_NAME]
+if not all(required):
+    raise ValueError("Missing required fields in videoSettings.txt")
+
+os.makedirs(OUTPUT_VIDEO_DIR, exist_ok=True)
+
+#NUPLAN_DATA_ROOT = "/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset"
+#NUPLAN_MAP_VERSION = "nuplan-maps-v1.0"
+#NUPLAN_MAPS_ROOT = "/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/maps"
 NUPLAN_SENSOR_ROOT = f"{NUPLAN_DATA_ROOT}/nuplan-v1.1/sensor_blobs"
-NAME = "2021.05.12.22.00.38_veh-35_01008_01518" #change name to target file
+#NAME = "2021.05.12.22.00.38_veh-35_01008_01518" #change name to target file
 
 
 TEST_DB_FILE = f"{NUPLAN_DATA_ROOT}/nuplan-v1.1/splits/mini/{NAME}.db"
-MAP_NAME = "us-nv-las-vegas"
+#MAP_NAME = "us-nv-las-vegas"
 TEST_INITIAL_LIDAR_PC = "e1e4ee25d1ff58f2"
 TEST_INITIAL_TIMESTAMP = 1620857889651124
 
@@ -183,7 +230,7 @@ with imageio.get_writer(output_path, fps=fps, codec="libx264") as writer:
         try:
             sensors = scenario.get_sensors_at_iteration(
                 i,
-                [CameraChannel.CAM_B0, LidarChannel.MERGED_PC],
+                [CameraChannel.CAM_B0],
             )
         except Exception as e:
             print(f"Skipping frame {i} due to missing sensor data: {e}")
@@ -213,7 +260,7 @@ with imageio.get_writer(output_path, fps=fps, codec="libx264") as writer:
         try:
             sensors = scenario.get_sensors_at_iteration(
                 i,
-                [CameraChannel.CAM_F0, LidarChannel.MERGED_PC],
+                [CameraChannel.CAM_F0],
             )
         except Exception as e:
             print(f"Skipping frame {i} due to missing sensor data: {e}")
@@ -243,7 +290,7 @@ with imageio.get_writer(output_path, fps=fps, codec="libx264") as writer:
         try:
             sensors = scenario.get_sensors_at_iteration(
                 i,
-                [CameraChannel.CAM_L0, LidarChannel.MERGED_PC],
+                [CameraChannel.CAM_L0],
             )
         except Exception as e:
             print(f"Skipping frame {i} due to missing sensor data: {e}")
@@ -273,7 +320,7 @@ with imageio.get_writer(output_path, fps=fps, codec="libx264") as writer:
         try:
             sensors = scenario.get_sensors_at_iteration(
                 i,
-                [CameraChannel.CAM_L1, LidarChannel.MERGED_PC],
+                [CameraChannel.CAM_L1],
             )
         except Exception as e:
             print(f"Skipping frame {i} due to missing sensor data: {e}")
@@ -303,7 +350,7 @@ with imageio.get_writer(output_path, fps=fps, codec="libx264") as writer:
         try:
             sensors = scenario.get_sensors_at_iteration(
                 i,
-                [CameraChannel.CAM_L2, LidarChannel.MERGED_PC],
+                [CameraChannel.CAM_L2],
             )
         except Exception as e:
             print(f"Skipping frame {i} due to missing sensor data: {e}")
@@ -333,7 +380,7 @@ with imageio.get_writer(output_path, fps=fps, codec="libx264") as writer:
         try:
             sensors = scenario.get_sensors_at_iteration(
                 i,
-                [CameraChannel.CAM_R0, LidarChannel.MERGED_PC],
+                [CameraChannel.CAM_R0],
             )
         except Exception as e:
             print(f"Skipping frame {i} due to missing sensor data: {e}")
@@ -363,7 +410,7 @@ with imageio.get_writer(output_path, fps=fps, codec="libx264") as writer:
         try:
             sensors = scenario.get_sensors_at_iteration(
                 i,
-                [CameraChannel.CAM_R1, LidarChannel.MERGED_PC],
+                [CameraChannel.CAM_R1],
             )
         except Exception as e:
             print(f"Skipping frame {i} due to missing sensor data: {e}")
@@ -393,7 +440,7 @@ with imageio.get_writer(output_path, fps=fps, codec="libx264") as writer:
         try:
             sensors = scenario.get_sensors_at_iteration(
                 i,
-                [CameraChannel.CAM_R2, LidarChannel.MERGED_PC],
+                [CameraChannel.CAM_R2],
             )
         except Exception as e:
             print(f"Skipping frame {i} due to missing sensor data: {e}")

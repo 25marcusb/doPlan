@@ -1,0 +1,13 @@
+# -------- Paths --------
+nuplan_data_root=/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset
+maps_root=/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/maps
+output_video_dir=/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/videos
+
+# -------- Scenario --------
+name=2021.06.03.12.02.06_veh-35_00233_00609
+map_name=us-nv-las-vegas
+map_version=nuplan-maps-v1.0
+
+# -------- Video --------
+fps=20
+frame_stride=2

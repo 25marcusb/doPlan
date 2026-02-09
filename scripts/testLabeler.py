@@ -8,7 +8,7 @@ import os
 
 # ---------------- VIDEO SETUP ----------------
 video_dir = "/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/videos"
-base_name = "2021.05.12.22.28.35_veh-35_00620_01164"
+base_name = "2021.06.03.12.02.06_veh-35_00233_00609"
 
 camera_ids = ["L0", "L1", "L2", "F0", "B0", "R0", "R1", "R2"]
 
