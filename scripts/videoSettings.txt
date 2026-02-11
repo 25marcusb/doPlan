@@ -8,6 +8,3 @@ name=2021.06.03.12.02.06_veh-35_00233_00609
 map_name=us-nv-las-vegas
 map_version=nuplan-maps-v1.0
 
-# -------- Video --------
-fps=20
-frame_stride=2

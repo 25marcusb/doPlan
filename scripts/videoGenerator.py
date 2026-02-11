@@ -25,8 +25,7 @@ OUTPUT_VIDEO_DIR = ""
 NAME = ""
 MAP_NAME = ""
 NUPLAN_MAP_VERSION = "nuplan-maps-v1.0"
-FPS = 20
-FRAME_STRIDE = 2
+
 
 with open(SETTINGS_FILE, "r") as f:
     for line in f:
@@ -48,10 +47,6 @@ with open(SETTINGS_FILE, "r") as f:
             MAP_NAME = value
         elif key == "map_version":
             NUPLAN_MAP_VERSION = value
-        elif key == "fps":
-            FPS = int(value)
-        elif key == "frame_stride":
-            FRAME_STRIDE = int(value)
 
 # Validate
 required = [NUPLAN_DATA_ROOT, NUPLAN_MAPS_ROOT, OUTPUT_VIDEO_DIR, NAME, MAP_NAME]

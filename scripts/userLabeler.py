@@ -20,6 +20,14 @@ base_name = ""
 min_segment_length = 150
 output_folder = os.path.join(SCRIPT_DIR, "outputs")
 
+# Default commentary dropdown options
+commentary_options = [
+    "Non-Referential",
+    "Static Referential",
+    "Dynamic Referential",
+    "Both",
+]
+
 # Load settings
 with open(SETTINGS_FILE, "r") as f:
     for line in f:
@@ -29,6 +37,7 @@ with open(SETTINGS_FILE, "r") as f:
         key, value = line.split("=", 1)
         key = key.strip()
         value = value.strip()
+
         if key == "video_dir":
             video_dir = value
         elif key == "base_name":
@@ -37,6 +46,8 @@ with open(SETTINGS_FILE, "r") as f:
             min_segment_length = int(value)
         elif key == "output_folder":
             output_folder = value
+        elif key == "commentary_options":
+            commentary_options = [v.strip() for v in value.split(",") if v.strip()]
 
 if not video_dir or not base_name:
     raise ValueError("video_dir and base_name must be set in settings.txt")
@@ -44,6 +55,7 @@ if not video_dir or not base_name:
 # ---------------- VIDEO SETUP ----------------
 camera_ids = ["L0", "L1", "L2", "F0", "B0", "R0", "R1", "R2"]
 caps = {}
+
 for cam in camera_ids:
     path = os.path.join(video_dir, f"{base_name}{cam}.mp4")
     if not os.path.exists(path):
@@ -73,9 +85,12 @@ root.geometry("1150x950")
 frame_label_var = tk.StringVar(value="Frame: 0")
 username_var = tk.StringVar(value="")
 basename_var = tk.StringVar(value=f"File: {base_name}")
+
 segment_start = tk.IntVar(value=0)
 segment_end = tk.IntVar(value=0)
 jump_var = tk.IntVar(value=100)
+
+commentary_var = tk.StringVar(value=commentary_options[0])
 
 # ---------------- FUNCTIONS ----------------
 def current_frame():
@@ -144,7 +159,7 @@ def replay_segment():
 
 def save_segment_label():
     label = entry.get()
-    commentary = commentary_entry.get()
+    commentary = commentary_var.get()
     username = username_var.get()
     start = segment_start.get()
     end = segment_end.get()
@@ -161,7 +176,7 @@ def save_segment_label():
         writer.writerow([start, end, label, commentary, username])
 
     entry.delete(0, tk.END)
-    commentary_entry.delete(0, tk.END)
+    commentary_var.set(commentary_options[0])
 
 def quit_program():
     for cap in caps.values():
@@ -172,7 +187,7 @@ def quit_program():
 main_frame = tk.Frame(root)
 main_frame.pack(padx=10, pady=10)
 
-# Display basename / file identifier
+# Display basename
 tk.Label(
     main_frame,
     textvariable=basename_var,
@@ -209,8 +224,12 @@ for i, cam in enumerate(["R0", "R1", "R2"]):
 # Annotation entries
 entry = tk.Entry(main_frame, width=80)
 entry.pack(pady=(10, 4))
-commentary_entry = tk.Entry(main_frame, width=80)
-commentary_entry.pack(pady=(0, 10))
+
+tk.OptionMenu(
+    main_frame,
+    commentary_var,
+    *commentary_options
+).pack(pady=(0, 10))
 
 # Frame display
 tk.Label(
@@ -225,14 +244,14 @@ controls.pack(pady=6)
 
 tk.Label(controls, text="Jump").pack(side=tk.LEFT)
 tk.Entry(controls, textvariable=jump_var, width=6).pack(side=tk.LEFT, padx=3)
+
 tk.Button(
-    controls,
-    text="<<",
+    controls, text="<<",
     command=lambda: jump_frames(-jump_var.get())
 ).pack(side=tk.LEFT, padx=4)
+
 tk.Button(
-    controls,
-    text=">>",
+    controls, text=">>",
     command=lambda: jump_frames(jump_var.get())
 ).pack(side=tk.LEFT, padx=4)
 
@@ -240,26 +259,22 @@ pause_button = tk.Button(controls, text="Pause", command=toggle_pause)
 pause_button.pack(side=tk.LEFT, padx=5)
 
 tk.Button(
-    controls,
-    text="Replay Segment",
+    controls, text="Replay Segment",
     command=replay_segment
 ).pack(side=tk.LEFT, padx=5)
 
 tk.Button(
-    controls,
-    text="Next Segment",
+    controls, text="Next Segment",
     command=random_segment
 ).pack(side=tk.LEFT, padx=5)
 
 tk.Button(
-    controls,
-    text="Save Segment",
+    controls, text="Save Segment",
     command=save_segment_label
 ).pack(side=tk.LEFT, padx=5)
 
 tk.Button(
-    controls,
-    text="Quit",
+    controls, text="Quit",
     command=quit_program
 ).pack(side=tk.LEFT, padx=5)
 
