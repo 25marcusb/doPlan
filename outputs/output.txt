@@ -1,3 +1,0 @@
-Test2
-random segements not chosen by the user
-keep the initial user
