@@ -1,0 +1,12 @@
+start_frame,end_frame,label,commentary,username
+1948,2517,Go forward and shift left,Non-Referential,Marcus Blennemann
+774,980,Avoid the car shifting lanes ahead,Dynamic Referential,Marcus Blennemann
+231,2103,Continue forward for a while.,Non-Referential,Marcus Blennemann
+903,1147,Go through the yellow light,Static Referential,Marcus Blennemann
+2332,2527,Shift to the left lane and prepare to turn,Static Referential,Marcus Blennemann
+830,1777,Go forward,Non-Referential,Marcus Blennemann
+1501,2475,Go forward for a while then shift left after seeing the castle-like building on your right,Static Referential,Marcus Blennemann
+1586,2291,Go forward and be cuatious of the cars shifting lanes ahead of you,Dynamic Referential,Marcus Blennemann
+729,2192,Be careful of the cars shifting dangerously ahead and proceed forward,Dynamic Referential,Marcus Blennemann
+719,1008,Pass the Hell's Kitchen on your right and go forward,Static Referential,Marcus Blennemann
+1199,1359,Go towards the CVS,Static Referential,Marcus Blennemann

@@ -1,6 +1,6 @@
 # Video labeling settings
 video_dir = /media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/videos
-base_name = 2021.06.03.12.02.06_veh-35_00233_00609
+base_name = 2021.05.12.22.00.38_veh-35_01008_01518
 min_segment_length = 150
 output_folder = /home/cvrr/Desktop/VLM Competition/doPlan/outputs
 commentary_options=Non-Referential,Static Referential,Dynamic Referential,Both,Ambiguous
