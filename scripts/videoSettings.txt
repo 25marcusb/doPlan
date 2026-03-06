@@ -4,7 +4,13 @@ maps_root=/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/maps
 output_video_dir=/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/videos
 
 # -------- Scenario --------
-name=2021.06.03.12.02.06_veh-35_00233_00609
+name=2021.05.12.22.28.35_veh-35_00620_01164
 map_name=us-nv-las-vegas
 map_version=nuplan-maps-v1.0
 
+# -------- Video Resolution --------
+f0_width=640
+f0_height=360
+
+other_width=320
+other_height=180

@@ -57,13 +57,19 @@ camera_ids = ["L0", "L1", "L2", "F0", "B0", "R0", "R1", "R2"]
 caps = {}
 
 for cam in camera_ids:
-    path = os.path.join(video_dir, f"{base_name}{cam}.mp4")
+    path = os.path.join(video_dir, f"{base_name}_{cam}.mp4")
     if not os.path.exists(path):
         raise FileNotFoundError(f"Video file not found: {path}")
     caps[cam] = cv2.VideoCapture(path)
 
 paused = False
 frame_images = {}
+frame_buffers = {}
+
+BASE_SMALL_W = 320
+BASE_SMALL_H = 180
+BASE_LARGE_W = 640
+BASE_LARGE_H = 360
 
 ref_cap = caps["F0"]
 total_frames = int(ref_cap.get(cv2.CAP_PROP_FRAME_COUNT))
@@ -83,6 +89,7 @@ root.geometry("1150x950")
 
 # ---------------- VARIABLES ----------------
 frame_label_var = tk.StringVar(value="Frame: 0")
+time_label_var = tk.StringVar(value="Elapsed: 00:00.0")
 username_var = tk.StringVar(value="")
 basename_var = tk.StringVar(value=f"File: {base_name}")
 
@@ -96,14 +103,67 @@ commentary_var = tk.StringVar(value=commentary_options[0])
 def current_frame():
     return int(caps["F0"].get(cv2.CAP_PROP_POS_FRAMES))
 
-def redraw_current_frames():
+def update_elapsed_time():
+    frame = current_frame()
+    start = segment_start.get()
+
+    elapsed_frames = max(0, frame - start)
+    elapsed_seconds = elapsed_frames * 0.1
+
+    minutes = int(elapsed_seconds // 60)
+    seconds = int(elapsed_seconds % 60)
+    tenths = int((elapsed_seconds - int(elapsed_seconds)) * 10)
+
+    time_label_var.set(f"Elapsed: {minutes:02d}:{seconds:02d}.{tenths}")
+
+def get_video_scale():
+    main_w = max(1, main_frame.winfo_width())
+    main_h = max(1, main_frame.winfo_height())
+
+    # Keep non-video UI visible by reserving its required height.
+    reserve_h = (
+        basename_label.winfo_reqheight()
+        + username_frame.winfo_reqheight()
+        + entry.winfo_reqheight()
+        + commentary_menu.winfo_reqheight()
+        + frame_status_label.winfo_reqheight()
+        + time_status_label.winfo_reqheight()
+        + controls.winfo_reqheight()
+        + 90
+    )
+
+    avail_w = max(200, main_w - 30)
+    avail_h = max(120, main_h - reserve_h)
+
+    # Base camera mosaic footprint from the original fixed layout.
+    base_w = (BASE_SMALL_W * 2) + BASE_LARGE_W + 30
+    base_h = (BASE_SMALL_H * 3) + 30
+
+    scale = min(avail_w / base_w, avail_h / base_h)
+    return max(0.2, scale)
+
+
+def get_target_size(cam):
+    scale = get_video_scale()
+    if cam == "F0":
+        return int(BASE_LARGE_W * scale), int(BASE_LARGE_H * scale)
+    return int(BASE_SMALL_W * scale), int(BASE_SMALL_H * scale)
+
+
+def redraw_current_frames(read_new=True):
     for cam, cap in caps.items():
-        ret, frame = cap.read()
-        if not ret:
+        if read_new:
+            ret, frame = cap.read()
+            if not ret:
+                continue
+            frame_buffers[cam] = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+
+        frame_rgb = frame_buffers.get(cam)
+        if frame_rgb is None:
             continue
-        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        size = (640, 360) if cam == "F0" else (320, 180)
-        frame = cv2.resize(frame, size)
+
+        target_w, target_h = get_target_size(cam)
+        frame = cv2.resize(frame_rgb, (target_w, target_h), interpolation=cv2.INTER_LINEAR)
         img = ImageTk.PhotoImage(Image.fromarray(frame))
         frame_images[cam] = img
         video_labels[cam].config(image=img)
@@ -111,13 +171,17 @@ def redraw_current_frames():
 
 def update_frames():
     if not paused:
-        redraw_current_frames()
+        redraw_current_frames(read_new=True)
         if current_frame() >= segment_end.get():
             toggle_pause()
+
     frame_label_var.set(
         f"Frame: {current_frame()} "
         f"(Segment: {segment_start.get()}-{segment_end.get()})"
     )
+
+    update_elapsed_time()
+
     root.after(30, update_frames)
 
 def toggle_pause():
@@ -183,24 +247,26 @@ def quit_program():
         cap.release()
     root.destroy()
 
+
+def on_window_resize(_event):
+    redraw_current_frames(read_new=False)
+
 # ---------------- GUI LAYOUT ----------------
 main_frame = tk.Frame(root)
-main_frame.pack(padx=10, pady=10)
+main_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
-# Display basename
-tk.Label(
+basename_label = tk.Label(
     main_frame,
     textvariable=basename_var,
     font=("Helvetica", 14, "bold")
-).pack(pady=(0, 6))
+)
+basename_label.pack(pady=(0, 6))
 
-# Username input
 username_frame = tk.Frame(main_frame)
 username_frame.pack(pady=(0, 6))
 tk.Label(username_frame, text="Username:").pack(side=tk.LEFT)
 tk.Entry(username_frame, textvariable=username_var, width=20).pack(side=tk.LEFT)
 
-# Video frame
 video_frame = tk.Frame(main_frame)
 video_frame.pack()
 
@@ -221,24 +287,30 @@ for i, cam in enumerate(["R0", "R1", "R2"]):
     lbl.grid(row=i, column=2, padx=5, pady=5)
     video_labels[cam] = lbl
 
-# Annotation entries
 entry = tk.Entry(main_frame, width=80)
 entry.pack(pady=(10, 4))
 
-tk.OptionMenu(
+commentary_menu = tk.OptionMenu(
     main_frame,
     commentary_var,
     *commentary_options
-).pack(pady=(0, 10))
+)
+commentary_menu.pack(pady=(0, 10))
 
-# Frame display
-tk.Label(
+frame_status_label = tk.Label(
     main_frame,
     textvariable=frame_label_var,
     font=("Helvetica", 12)
-).pack(pady=4)
+)
+frame_status_label.pack(pady=4)
 
-# Controls
+time_status_label = tk.Label(
+    main_frame,
+    textvariable=time_label_var,
+    font=("Helvetica", 12)
+)
+time_status_label.pack(pady=2)
+
 controls = tk.Frame(main_frame)
 controls.pack(pady=6)
 
@@ -277,6 +349,8 @@ tk.Button(
     controls, text="Quit",
     command=quit_program
 ).pack(side=tk.LEFT, padx=5)
+
+root.bind("<Configure>", on_window_resize)
 
 # ---------------- START ----------------
 random_segment()
