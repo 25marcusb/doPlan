@@ -182,7 +182,7 @@ def update_frames():
 
     update_elapsed_time()
 
-    root.after(30, update_frames)
+    root.after(90, update_frames) #approx 10fps (the natural framerate) while accounting for some amount of lag
 
 def toggle_pause():
     global paused
