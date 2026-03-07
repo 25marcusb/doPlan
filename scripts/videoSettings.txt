@@ -1,10 +1,11 @@
 # -------- Paths --------
-nuplan_data_root=/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset
+nuplan_data_root=/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/nuplan-v1.1/splits/mini
 maps_root=/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/maps
 output_video_dir=/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/videos
 
 # -------- Scenario --------
-name=2021.05.12.22.28.35_veh-35_00620_01164
+#incluidng a name field will make the video generator only generate from a single .db file, otherwise all in the nuplan_dat_root will be generated
+# name=2021.05.12.22.28.35_veh-35_00620_01164
 map_name=us-nv-las-vegas
 map_version=nuplan-maps-v1.0
 
