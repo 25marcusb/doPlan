@@ -6,3 +6,4 @@ Usage:
 3. Use videoGenWithSettings.py to generate videos for each scenario; specifications must be given in videoSettings.txt
 4. Use userLabeler.py to run the labeling interface, specifications must be given in settings.txt
 5. Access data in the csvs generated into outputs folder (or wherever the user specifies in settings.txt)
+6. Submit the csv labels you create at https://docs.google.com/forms/d/e/1FAIpQLSddH6G8gL1wS_DZ8cp8TkQc0B8SFDQ8NIpmmLWs--a4Rmca4Q/viewform
