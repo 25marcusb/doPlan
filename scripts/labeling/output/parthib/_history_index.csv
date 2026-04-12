@@ -1,0 +1,2 @@
+video_set,base_name,start_frame,end_frame,label,commentary,csv_path,row_number
+las_vegas_2,2021.06.09.17.37.09_veh-12_00016_00140,77,528,wait until the pedestrians pass to proceed moving forward,(d),/home/proy/projects/mi3/doPlan/scripts/labeling/output/parthib/2021.06.09.17.37.09_veh-12_00016_00140.csv,1
