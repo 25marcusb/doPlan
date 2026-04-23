@@ -4,5 +4,3 @@ labeling/
 testvideos/
 Archive/
 scripts/autoLabeler/SampleData/
-scripts/__pycache__/
-scripts/labeling/__pycache__/
