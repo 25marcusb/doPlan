@@ -2,6 +2,7 @@ import os
 import sqlite3
 import subprocess
 import sys
+import argparse
 from pathlib import Path
 import numpy as np
 import imageio
@@ -80,6 +81,16 @@ if not all(required):
 
 os.makedirs(OUTPUT_VIDEO_DIR, exist_ok=True)
 
+# ---------------- CLI options ----------------
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "--map-only",
+    action="store_true",
+    help="Generate only gps.csv + map video, skip camera mp4 generation.",
+)
+args = parser.parse_args()
+
 # ---------------- Dataset paths ----------------
 
 DB_ROOT = NUPLAN_DATA_ROOT
@@ -130,7 +141,7 @@ def resize_image(img, width, height):
 
 
 def generate_map_video(csv_path: str) -> None:
-    gps_generator_script = os.path.join(SCRIPT_DIR, "GPSgenerator2.py")
+    gps_generator_script = os.path.join(SCRIPT_DIR, "GPSgenerator.py")
     cmd = [
         sys.executable,
         gps_generator_script,
@@ -211,18 +222,21 @@ for db_index, db_file in enumerate(db_files, start=1):
     fps = 20
     writers = {}
 
-    for name, channel in CAMERAS.items():
-        output_path = os.path.join(log_output_dir, f"{name}.mp4")
+    if not args.map_only:
+        for name, channel in CAMERAS.items():
+            output_path = os.path.join(log_output_dir, f"{name}.mp4")
 
-        writers[name] = imageio.get_writer(
-            output_path,
-            fps=fps,
-            codec="libx264",
-            macro_block_size=1,
-            ffmpeg_params=["-crf", "28", "-preset", "fast", "-g", "10"],
-        )
+            writers[name] = imageio.get_writer(
+                output_path,
+                fps=fps,
+                codec="libx264",
+                macro_block_size=1,
+                ffmpeg_params=["-crf", "28", "-preset", "fast", "-g", "10"],
+            )
 
-        print(f"Writing video: {output_path}")
+            print(f"Writing video: {output_path}")
+    else:
+        print("Map-only mode: skipping camera mp4 generation.")
 
     # ---------------- Create GPS CSV ----------------
 
@@ -236,14 +250,19 @@ for db_index, db_file in enumerate(db_files, start=1):
     frames_written = 0
 
     for i in tqdm(range(1, num_frames, 2), desc=f"{log_name}"):
-
-        try:
-            sensors = scenario.get_sensors_at_iteration(i, list(CAMERAS.values()))
-        except Exception as e:
-            print(f"Skipping frame {i}: {e}")
-            continue
-
-        ego_state = scenario.get_ego_state_at_iteration(i)
+        if args.map_only:
+            try:
+                ego_state = scenario.get_ego_state_at_iteration(i)
+            except Exception as e:
+                print(f"Skipping frame {i}: {e}")
+                continue
+        else:
+            try:
+                sensors = scenario.get_sensors_at_iteration(i, list(CAMERAS.values()))
+                ego_state = scenario.get_ego_state_at_iteration(i)
+            except Exception as e:
+                print(f"Skipping frame {i}: {e}")
+                continue
 
         x = ego_state.rear_axle.x
         y = ego_state.rear_axle.y
@@ -253,30 +272,32 @@ for db_index, db_file in enumerate(db_files, start=1):
 
         csv_writer.writerow([i, timestamp, lat, lon])
 
-        for name, channel in CAMERAS.items():
-            try:
-                img = sensors.images[channel].as_numpy
-            except Exception:
-                continue
+        if not args.map_only:
+            for name, channel in CAMERAS.items():
+                try:
+                    img = sensors.images[channel].as_numpy
+                except Exception:
+                    continue
 
-            if img.dtype != "uint8":
-                img = img.astype("uint8")
+                if img.dtype != "uint8":
+                    img = img.astype("uint8")
 
-            if img.ndim == 2:
-                img = np.stack([img] * 3, axis=-1)
-            elif img.shape[2] == 4:
-                img = img[:, :, :3]
+                if img.ndim == 2:
+                    img = np.stack([img] * 3, axis=-1)
+                elif img.shape[2] == 4:
+                    img = img[:, :, :3]
 
-            width, height = RESOLUTION[name]
-            img = resize_image(img, width, height)
+                width, height = RESOLUTION[name]
+                img = resize_image(img, width, height)
 
-            writers[name].append_data(img)
-            frames_written += 1
+                writers[name].append_data(img)
+                frames_written += 1
 
     # ---------------- Close everything ----------------
 
-    for writer in writers.values():
-        writer.close()
+    if not args.map_only:
+        for writer in writers.values():
+            writer.close()
 
     csv_file.close()
 

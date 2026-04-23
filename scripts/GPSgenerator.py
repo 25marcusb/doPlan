@@ -48,20 +48,41 @@ def resolve_csv_path(csv_input: Path, csv_dir: Optional[Path]) -> Path:
     Resolve csv_input, searching csv_dir for relative filenames and optional
     '<log_name>_gps.csv' convention.
     """
+    def expand_candidate(candidate: Path) -> list[Path]:
+        """
+        Expand a candidate path into plausible CSV file paths.
+        """
+        if candidate.is_dir():
+            nested = [
+                candidate / f"{candidate.name}_gps.csv",
+                candidate / "gps.csv",
+            ]
+            nested.extend(sorted(candidate.glob("*_gps.csv")))
+            return nested
+
+        expanded = [candidate]
+        if candidate.suffix.lower() != ".csv":
+            expanded.append(candidate.with_name(f"{candidate.name}_gps.csv"))
+        return expanded
+
     if csv_input.is_absolute():
+        for candidate in expand_candidate(csv_input):
+            if candidate.is_file():
+                return candidate
         return csv_input
 
     candidates = [csv_input]
     if csv_dir is not None:
         candidates.append(csv_dir / csv_input)
-        if csv_input.suffix.lower() != ".csv":
-            candidates.append(csv_dir / f"{csv_input.name}_gps.csv")
-
+    expanded_candidates: list[Path] = []
     for candidate in candidates:
-        if candidate.exists():
+        expanded_candidates.extend(expand_candidate(candidate))
+
+    for candidate in expanded_candidates:
+        if candidate.is_file():
             return candidate
 
-    return candidates[-1]
+    return expanded_candidates[-1] if expanded_candidates else candidates[-1]
 
 
 def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -533,15 +554,106 @@ def projected_points_to_pixel_coords(
         "py": py,
     })
 
-def crop_centered_with_padding(
+
+def labels_to_pixel_coords(
+    labels_gdf: gpd.GeoDataFrame,
+    bbox_projected: gpd.GeoDataFrame,
+    width_px: int,
+    height_px: int,
+) -> pd.DataFrame:
+    if labels_gdf is None or labels_gdf.empty:
+        return pd.DataFrame(columns=["name", "px", "py"])
+
+    geom_col = labels_gdf.geometry.name
+    xmin, ymin, xmax, ymax = bbox_projected.total_bounds
+
+    labels = labels_gdf.copy()
+    xs = labels[geom_col].x
+    ys = labels[geom_col].y
+
+    px = ((xs - xmin) / (xmax - xmin) * (width_px - 1)).round().astype(int)
+    py = (height_px - 1 - (ys - ymin) / (ymax - ymin) * (height_px - 1)).round().astype(int)
+
+    px = px.clip(0, width_px - 1)
+    py = py.clip(0, height_px - 1)
+
+    names = labels["name"].astype(str).str.strip()
+    out = pd.DataFrame({"name": names, "px": px, "py": py})
+    out = out[out["name"] != ""].reset_index(drop=True)
+    return out
+
+
+def attach_heading_degrees(
+    frame_pixels_df: pd.DataFrame,
+    dense_projected_gdf: gpd.GeoDataFrame,
+    min_motion_m: float = 0.2,
+    heading_window: int = 9,
+    smoothing_alpha: float = 0.1,
+) -> pd.DataFrame:
+    # Estimate heading in image space so rotation behavior matches rendered pixels.
+    # Use a wider temporal window and vector smoothing to reduce jitter.
+    pxs = frame_pixels_df["px"].to_numpy(dtype=float)
+    pys = frame_pixels_df["py"].to_numpy(dtype=float)
+
+    n = len(pxs)
+    out = frame_pixels_df.copy()
+    if n == 0:
+        out["heading_deg"] = np.array([], dtype=float)
+        return out
+
+    k = max(1, int(heading_window))
+    alpha = float(np.clip(smoothing_alpha, 0.01, 1.0))
+
+    idx = np.arange(n, dtype=int)
+    prev_idx = np.clip(idx - k, 0, n - 1)
+    next_idx = np.clip(idx + k, 0, n - 1)
+    span = np.maximum(1, next_idx - prev_idx).astype(float)
+
+    dx = (pxs[next_idx] - pxs[prev_idx]) / span
+    dy = (pys[next_idx] - pys[prev_idx]) / span
+    speed = np.hypot(dx, dy)
+
+    # Convert image-space motion to map heading where east=0, north=90.
+    raw_heading_rad = np.arctan2(-dy, dx)
+    ux = np.cos(raw_heading_rad)
+    uy = np.sin(raw_heading_rad)
+
+    ux_s = np.zeros(n, dtype=float)
+    uy_s = np.zeros(n, dtype=float)
+
+    ux_s[0] = ux[0]
+    uy_s[0] = uy[0]
+
+    for i in range(1, n):
+        if speed[i] >= min_motion_m:
+            target_ux, target_uy = ux[i], uy[i]
+        else:
+            # Hold last stable direction when movement is too small.
+            target_ux, target_uy = ux_s[i - 1], uy_s[i - 1]
+
+        ux_s[i] = (1.0 - alpha) * ux_s[i - 1] + alpha * target_ux
+        uy_s[i] = (1.0 - alpha) * uy_s[i - 1] + alpha * target_uy
+
+        norm = np.hypot(ux_s[i], uy_s[i])
+        if norm > 1e-8:
+            ux_s[i] /= norm
+            uy_s[i] /= norm
+        else:
+            ux_s[i], uy_s[i] = ux_s[i - 1], uy_s[i - 1]
+
+    heading_deg = np.degrees(np.arctan2(uy_s, ux_s))
+    out["heading_deg"] = heading_deg
+    return out
+
+
+def crop_centered_with_padding_meta(
     image: np.ndarray,
     center_x: int,
     center_y: int,
     crop_size: int,
-) -> np.ndarray:
+) -> tuple[np.ndarray, int, int, int, int]:
     """
-    Return a crop_size x crop_size image centered on (center_x, center_y).
-    Pads with white if the crop goes outside image bounds.
+    Return (crop, src_x0, src_y0, pad_left, pad_top).
     """
     half = crop_size // 2
     h, w = image.shape[:2]
@@ -574,12 +686,28 @@ def crop_centered_with_padding(
             value=(255, 255, 255),
         )
 
+    return crop, src_x0, src_y0, pad_left, pad_top
+
+
+def crop_centered_with_padding(
+    image: np.ndarray,
+    center_x: int,
+    center_y: int,
+    crop_size: int,
+) -> np.ndarray:
+    crop, _, _, _, _ = crop_centered_with_padding_meta(
+        image=image,
+        center_x=center_x,
+        center_y=center_y,
+        crop_size=crop_size,
+    )
     return crop
 
 def write_ego_centered_map_video(
     background_png: Path,
     output_video: Path,
     frame_pixels_df: pd.DataFrame,
+    labels_pixels_df: Optional[pd.DataFrame] = None,
     fps: int = 20,
     crop_size: int = 900,
     dot_radius: int = 7,
@@ -603,20 +731,75 @@ def write_ego_centered_map_video(
 
     center_px = crop_size // 2
     center_py = crop_size // 2
+    pre_crop_size = int(np.ceil(crop_size * 1.5))
+    pre_crop_size += pre_crop_size % 2
+    final_x0 = (pre_crop_size - crop_size) // 2
+    final_y0 = (pre_crop_size - crop_size) // 2
+
+    if labels_pixels_df is None:
+        labels_pixels_df = pd.DataFrame(columns=["name", "px", "py"])
+
+    label_names = labels_pixels_df["name"].tolist()
+    label_xs = labels_pixels_df["px"].to_numpy(dtype=float)
+    label_ys = labels_pixels_df["py"].to_numpy(dtype=float)
 
     try:
         for _, row in frame_pixels_df.iterrows():
             px = int(row["px"])
             py = int(row["py"])
+            heading_deg = float(row.get("heading_deg", 90.0))
+            # Rotate map so current heading points upward in the output frame.
+            rotate_deg = 90.0 - heading_deg
 
-            frame_img = crop_centered_with_padding(
+            pre_crop, src_x0, src_y0, pad_left, pad_top = crop_centered_with_padding_meta(
                 background,
                 center_x=px,
                 center_y=py,
-                crop_size=crop_size,
+                crop_size=pre_crop_size,
             )
 
+            rot_center = (pre_crop_size / 2.0, pre_crop_size / 2.0)
+            rot_m = cv2.getRotationMatrix2D(rot_center, rotate_deg, 1.0)
+            rotated = cv2.warpAffine(
+                pre_crop,
+                rot_m,
+                (pre_crop_size, pre_crop_size),
+                flags=cv2.INTER_LINEAR,
+                borderMode=cv2.BORDER_CONSTANT,
+                borderValue=(255, 255, 255),
+            )
+
+            frame_img = rotated[
+                final_y0:final_y0 + crop_size,
+                final_x0:final_x0 + crop_size,
+            ].copy()
+
             cv2.circle(frame_img, (center_px, center_py), dot_radius, (0, 0, 255), thickness=-1)
+
+            if len(label_names) > 0:
+                # Convert world pixel positions -> pre-crop -> rotated -> final crop
+                lx = label_xs - src_x0 + pad_left
+                ly = label_ys - src_y0 + pad_top
+                ones = np.ones_like(lx)
+                rot_xy = rot_m @ np.vstack([lx, ly, ones])
+                rx = rot_xy[0] - final_x0
+                ry = rot_xy[1] - final_y0
+
+                for i, name in enumerate(label_names):
+                    tx = int(round(rx[i]))
+                    ty = int(round(ry[i]))
+                    if tx < 10 or ty < 12 or tx >= crop_size - 10 or ty >= crop_size - 10:
+                        continue
+                    cv2.putText(
+                        frame_img,
+                        name,
+                        (tx + 6, ty - 6),
+                        cv2.FONT_HERSHEY_SIMPLEX,
+                        0.45,
+                        (30, 30, 30),
+                        1,
+                        cv2.LINE_AA,
+                    )
 
             if draw_frame_label:
                 label = f"frame {int(row['video_frame'])}"
@@ -692,7 +875,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--csv", required=True, type=Path)
     parser.add_argument("--csv-dir", type=Path, default=DEFAULT_CSV_DIR)
     parser.add_argument("--padding-meters", type=float, default=600.0)
-    parser.add_argument("--output-png", type=Path, default=Path("outputs/background_map.png"))
+    parser.add_argument("--output-png", type=Path, default=None)
     parser.add_argument("--width", type=int, default=900)
     parser.add_argument("--height", type=int, default=900)
     parser.add_argument("--show-trajectory", action="store_true")
@@ -723,6 +906,14 @@ def main() -> None:
         output_video_path = csv_path.with_name(f"{stem}_map.mp4")
     else:
         output_video_path = args.output_video
+
+    if args.output_png is None:
+        stem = csv_path.stem
+        if stem.endswith("_gps"):
+            stem = stem[:-4]
+        output_png_path = csv_path.with_name(f"{stem}_background_map.png")
+    else:
+        output_png_path = args.output_png
 
     sparse_df = load_and_validate_csv(csv_path)
 
@@ -785,7 +976,7 @@ def main() -> None:
     print(f"POI points: {len(poi_points_gdf)}")
 
     render_background_png(
-        output_png=args.output_png,
+        output_png=output_png_path,
         edges_gdf=edges_gdf,
         bbox_projected=bbox_projected,
         trajectory_gdf=gdf_projected,
@@ -799,10 +990,26 @@ def main() -> None:
         show_trajectory=args.show_trajectory,
     )
 
-    print(f"\nSaved background PNG to: {args.output_png}")
+    print(f"\nSaved background PNG to: {output_png_path}")
     print("\nStep 3 complete.")
 
     if args.make_video:
+        video_base_png = output_png_path.with_name(f"{output_png_path.stem}_base.png")
+        render_background_png(
+            output_png=video_base_png,
+            edges_gdf=edges_gdf,
+            bbox_projected=bbox_projected,
+            trajectory_gdf=gdf_projected,
+            buildings_gdf=buildings_gdf,
+            green_areas_gdf=green_areas_gdf,
+            parking_gdf=parking_gdf,
+            poi_points_gdf=poi_points_gdf,
+            labels_gdf=None,  # keep labels upright by overlaying them after rotation
+            width_px=render_width,
+            height_px=render_height,
+            show_trajectory=args.show_trajectory,
+        )
+
         dense_df = build_dense_frame_positions(sparse_df=sparse_df)
 
         dense_projected_gdf = project_dense_positions_to_match(
@@ -816,16 +1023,31 @@ def main() -> None:
             width_px=render_width,
             height_px=render_height,
         )
+        frame_pixels_df = attach_heading_degrees(
+            frame_pixels_df=frame_pixels_df,
+            dense_projected_gdf=dense_projected_gdf,
+        )
+        label_pixels_df = labels_to_pixel_coords(
+            labels_gdf=labels_gdf,
+            bbox_projected=bbox_projected,
+            width_px=render_width,
+            height_px=render_height,
+        )
 
         print("\n=== VIDEO ===")
         print(f"Video frames: {len(frame_pixels_df)}")
+        if len(frame_pixels_df) > 0:
+            hmin = float(frame_pixels_df["heading_deg"].min())
+            hmax = float(frame_pixels_df["heading_deg"].max())
+            print(f"Heading range (deg): {hmin:.1f} -> {hmax:.1f}")
         print(f"Crop size: {args.crop_size}x{args.crop_size}")
         print(f"FPS: {args.fps}")
 
         write_ego_centered_map_video(
-            background_png=args.output_png,
+            background_png=video_base_png,
             output_video=output_video_path,
             frame_pixels_df=frame_pixels_df,
+            labels_pixels_df=label_pixels_df,
             fps=args.fps,
             crop_size=args.crop_size,
             dot_radius=args.dot_radius,
