@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+labeling/
+testvideos/
+Archive/
+scripts/autoLabeler/SampleData/

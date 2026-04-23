@@ -1,11 +1,11 @@
 # Path to the directory containing top-level video-set folders
-video_dir=/home/proy/data/datasets/mi3_videos
+video_dir=/home/cvrr/Desktop/VLM Competition/doPlan/scripts/testvideos
 
 # Minimum number of frames in a sampled segment
 min_segment_length=150
 
 # Folder where per-user labeling outputs will be written
-output_folder=/home/proy/projects/mi3/doPlan/scripts/labeling/output
+output_folder=/home/cvrr/Desktop/VLM Competition/doPlan/scripts/labeling/output
 
 # Dropdown options shown in the UI
 commentary_options=Non-Referential, Static Referential, Dynamic Referential, Both

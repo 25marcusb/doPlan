@@ -1,10 +1,14 @@
 import os
 import sqlite3
+import subprocess
+import sys
 from pathlib import Path
 import numpy as np
 import imageio
 import cv2
 from tqdm import tqdm
+import csv
+from pyproj import Transformer
 
 from nuplan.common.actor_state.vehicle_parameters import get_pacifica_parameters
 from nuplan.planning.scenario_builder.nuplan_db.nuplan_scenario import (
@@ -124,6 +128,19 @@ RESOLUTION = {
 def resize_image(img, width, height):
     return cv2.resize(img, (width, height), interpolation=cv2.INTER_AREA)
 
+
+def generate_map_video(csv_path: str) -> None:
+    gps_generator_script = os.path.join(SCRIPT_DIR, "GPSgenerator2.py")
+    cmd = [
+        sys.executable,
+        gps_generator_script,
+        "--csv",
+        csv_path,
+        "--make-video",
+    ]
+    print(f"Running map generation: {' '.join(cmd)}")
+    subprocess.run(cmd, check=True)
+
 # ---------------- Process each DB ----------------
 
 for db_index, db_file in enumerate(db_files, start=1):
@@ -134,7 +151,12 @@ for db_index, db_file in enumerate(db_files, start=1):
     print(f"Processing log {db_index}/{len(db_files)}: {log_name}")
     print("=" * 70)
 
-    # ---------------- Get first LiDAR frame ----------------
+    # Create per-log output directory:
+    # OUTPUT_VIDEO_DIR  / log_name
+    log_output_dir = os.path.join(OUTPUT_VIDEO_DIR, log_name)
+    os.makedirs(log_output_dir, exist_ok=True)
+
+    # ---------------- Get first LiDAR frame + EPSG ----------------
 
     conn = sqlite3.connect(db_file)
     cursor = conn.cursor()
@@ -142,7 +164,6 @@ for db_index, db_file in enumerate(db_files, start=1):
     cursor.execute(
         "SELECT token, timestamp FROM lidar_pc ORDER BY timestamp ASC LIMIT 1"
     )
-
     row = cursor.fetchone()
 
     if row is None:
@@ -153,7 +174,13 @@ for db_index, db_file in enumerate(db_files, start=1):
     initial_token = row[0].hex()
     initial_timestamp = row[1]
 
+    cursor.execute("SELECT DISTINCT epsg FROM ego_pose")
+    epsg = cursor.fetchone()[0]
+    print(f"Using EPSG:{epsg}")
+
     conn.close()
+
+    transformer = Transformer.from_crs(f"EPSG:{epsg}", "EPSG:4326", always_xy=True)
 
     # ---------------- Build scenario ----------------
 
@@ -177,7 +204,6 @@ for db_index, db_file in enumerate(db_files, start=1):
     )
 
     num_frames = scenario.get_number_of_iterations()
-
     print(f"Scenario contains {num_frames} LiDAR frames")
 
     # ---------------- Create video writers ----------------
@@ -186,49 +212,48 @@ for db_index, db_file in enumerate(db_files, start=1):
     writers = {}
 
     for name, channel in CAMERAS.items():
-
-        output_path = os.path.join(
-            OUTPUT_VIDEO_DIR,
-            f"{log_name}_{name}.mp4",
-        )
+        output_path = os.path.join(log_output_dir, f"{name}.mp4")
 
         writers[name] = imageio.get_writer(
             output_path,
             fps=fps,
             codec="libx264",
-            macro_block_size=1,   # suppress macroblock resizing warning
-            ffmpeg_params=[
-                "-crf",
-                "28",
-                "-preset",
-                "fast",
-                "-g",
-                "10",
-            ],
+            macro_block_size=1,
+            ffmpeg_params=["-crf", "28", "-preset", "fast", "-g", "10"],
         )
 
         print(f"Writing video: {output_path}")
+
+    # ---------------- Create GPS CSV ----------------
+
+    csv_path = os.path.join(log_output_dir, "gps.csv")
+    csv_file = open(csv_path, "w", newline="")
+    csv_writer = csv.writer(csv_file)
+    csv_writer.writerow(["frame", "timestamp_us", "lat", "lon"])
 
     # ---------------- Write frames ----------------
 
     frames_written = 0
 
-    for i in tqdm(
-        range(1, num_frames, 2),
-        desc=f"{log_name}",
-    ):
+    for i in tqdm(range(1, num_frames, 2), desc=f"{log_name}"):
 
         try:
-            sensors = scenario.get_sensors_at_iteration(
-                i,
-                list(CAMERAS.values()),
-            )
+            sensors = scenario.get_sensors_at_iteration(i, list(CAMERAS.values()))
         except Exception as e:
             print(f"Skipping frame {i}: {e}")
             continue
 
-        for name, channel in CAMERAS.items():
+        ego_state = scenario.get_ego_state_at_iteration(i)
 
+        x = ego_state.rear_axle.x
+        y = ego_state.rear_axle.y
+        timestamp = ego_state.time_point.time_us
+
+        lon, lat = transformer.transform(x, y)
+
+        csv_writer.writerow([i, timestamp, lat, lon])
+
+        for name, channel in CAMERAS.items():
             try:
                 img = sensors.images[channel].as_numpy
             except Exception:
@@ -248,13 +273,23 @@ for db_index, db_file in enumerate(db_files, start=1):
             writers[name].append_data(img)
             frames_written += 1
 
-    # ---------------- Close writers ----------------
+    # ---------------- Close everything ----------------
 
     for writer in writers.values():
         writer.close()
 
+    csv_file.close()
+
+    # ---------------- Generate map video from CSV ----------------
+
+    try:
+        generate_map_video(csv_path)
+    except Exception as e:
+        print(f"Map generation failed for {log_name}: {e}")
+
     print(f"\n✓ Finished processing {log_name}")
     print(f"  Frames written: {frames_written}")
+    print(f"  GPS saved to: {csv_path}")
     print("=" * 70)
 
 print("\nAll logs processed successfully.")

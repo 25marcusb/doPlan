@@ -4,3 +4,4 @@ base_name = 2021.05.12.22.00.38_veh-35_01008_01518
 min_segment_length = 150
 output_folder = /home/cvrr/Desktop/VLM Competition/doPlan/outputs
 commentary_options=Non-Referential,Static Referential,Dynamic Referential,Both,Ambiguous
+debug = 0
