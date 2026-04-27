@@ -5,3 +5,5 @@ Usage:
 2. Run userLabeler.py to run the labeling interface, specifications must be given in settings.txt
 3. Access data in the csvs generated into outputs folder (or wherever the user specifies in settings.txt)
 4. Submit the csv labels you create at https://docs.google.com/forms/d/e/1FAIpQLSddH6G8gL1wS_DZ8cp8TkQc0B8SFDQ8NIpmmLWs--a4Rmca4Q/viewform
+
+The other scripts are used to generate the videos from the raw nuPlan data. They are not necessary for labeling, but if you generate any new raw data, they may be useful for formatting for labeling.
