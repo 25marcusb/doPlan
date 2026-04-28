@@ -1,0 +1,13 @@
+# Copy this file to settings.txt and fill in your paths
+
+# Required: Path to your downloaded videos
+video_dir=/path/to/your/videos
+
+# Required: Where to save your labels (replace 'username' with your name)
+output_folder=outputs/username
+
+# Optional settings (defaults below)
+min_segment_length=150
+commentary_options=Non-Referential,Static Referential,Dynamic Referential,Both,Ambiguous
+debug=0
+fps=10.0
