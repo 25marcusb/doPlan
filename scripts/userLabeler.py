@@ -19,6 +19,7 @@ base_name = ""
 min_segment_length = 150
 output_folder = os.path.join(SCRIPT_DIR, "outputs")
 debug = 0
+fps = 10.0
 
 commentary_options = [
     "Non-Referential",
@@ -46,6 +47,8 @@ with open(SETTINGS_FILE, "r") as f:
             output_folder = value
         elif key == "debug":
             debug = int(value)
+        elif key == "fps":
+            fps = float(value)
         elif key == "commentary_options":
             commentary_options = [v.strip() for v in value.split(",") if v.strip()]
 
@@ -55,8 +58,13 @@ if not video_dir:
 if debug not in (0, 1):
     raise ValueError("debug must be 0 or 1 in settings.txt")
 
+if fps <= 0:
+    raise ValueError("fps must be greater than 0 in settings.txt")
+
 if not os.path.isdir(video_dir):
     raise FileNotFoundError(f"Video directory not found: {video_dir}")
+
+FRAME_DELAY_MS = max(1, int(round(1000 / fps)))
 
 # ---------------- VIDEO SETUP ----------------
 camera_ids = ["L0", "L1", "L2", "F0", "B0", "R0", "R1", "R2", "gps_map"]
@@ -176,7 +184,7 @@ def update_elapsed_time():
     start = segment_start.get()
 
     elapsed_frames = max(0, frame - start)
-    elapsed_seconds = elapsed_frames * 0.1
+    elapsed_seconds = elapsed_frames / fps
 
     minutes = int(elapsed_seconds // 60)
     seconds = int(elapsed_seconds % 60)
@@ -253,11 +261,11 @@ def update_frames():
     if debug == 1:
         frame_label_var.set(
             f"Frame: {current_frame()} "
-            f"(Segment: {segment_start.get()}-{segment_end.get()})"
+            f"(Segment: {segment_start.get()}-{segment_end.get()}, FPS: {fps})"
         )
 
     update_elapsed_time()
-    root.after(90, update_frames)
+    root.after(FRAME_DELAY_MS, update_frames)
 
 def toggle_pause():
     global paused
@@ -274,9 +282,11 @@ def jump_frames(offset):
     if offset != 0:
         target -= 1
     target = max(segment_start.get(), min(segment_end.get(), target))
+
     for cap in caps.values():
         cap.set(cv2.CAP_PROP_POS_FRAMES, target)
-    redraw_current_frames()
+
+    redraw_current_frames(read_new=True)
 
 def set_segment_start_frame():
     if not caps:
@@ -284,7 +294,8 @@ def set_segment_start_frame():
 
     for cap in caps.values():
         cap.set(cv2.CAP_PROP_POS_FRAMES, segment_start.get())
-    redraw_current_frames()
+
+    redraw_current_frames(read_new=True)
 
 def random_segment():
     global paused
