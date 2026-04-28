@@ -4,3 +4,5 @@ labeling/
 testvideos/
 Archive/
 scripts/autoLabeler/SampleData/
+scripts/settings.txt
+scripts/outputs/
