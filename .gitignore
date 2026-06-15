@@ -6,3 +6,5 @@ Archive/
 scripts/autoLabeler/SampleData/
 scripts/settings.txt
 scripts/outputs/
+data/
+outputs/
