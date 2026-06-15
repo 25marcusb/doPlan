@@ -308,8 +308,20 @@ def random_segment():
         except RuntimeError:
             continue
 
-    start = random.randint(0, total_frames - min_segment_length)
-    end = random.randint(start + min_segment_length, total_frames - 1)
+    # Uniformly sample the segment length, then sample a valid start
+    N = total_frames
+    L_min = min_segment_length
+
+    # Maximum possible segment length is the full video length
+    L_max = N
+
+    length = random.randint(L_min, L_max)
+
+    max_start = N - length
+    start = random.randint(0, max_start)
+
+    end = start + length
+
     segment_start.set(start)
     segment_end.set(end)
     set_segment_start_frame()
