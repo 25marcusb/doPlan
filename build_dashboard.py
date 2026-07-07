@@ -102,10 +102,28 @@ def load_and_normalize(csv_path: str) -> pd.DataFrame:
     return df
 
 
+MANIFEST_FILENAME = "clip_manifest.csv"
+
+
+def load_manifest(root_dir: str):
+    """Finds clip_manifest.csv (produced by list_clips.py) anywhere under root_dir.
+    Returns a DataFrame with clip_id/relative_path/duration_sec, or None if absent."""
+    matches = [
+        p for p in glob.glob(os.path.join(root_dir, "**", "*.csv"), recursive=True)
+        if os.path.basename(p).lower() == MANIFEST_FILENAME
+    ]
+    if not matches:
+        return None
+    manifest = pd.read_csv(matches[0])
+    manifest.columns = [c.strip().lower() for c in manifest.columns]
+    return manifest
+
+
 def merge_all(root_dir: str):
     frames, skipped = [], []
     for path in glob.glob(os.path.join(root_dir, "**", "*.csv"), recursive=True):
-        if os.path.basename(path).startswith("_"):
+        base = os.path.basename(path)
+        if base.startswith("_") or base.lower() == MANIFEST_FILENAME:
             continue
         try:
             frames.append(load_and_normalize(path))
@@ -149,9 +167,12 @@ def instruction_similarity(a: str, b: str) -> float:
 
 
 # ---------------- STATS ----------------
-def compute_stats(df: pd.DataFrame) -> dict:
+def compute_stats(df: pd.DataFrame, manifest: pd.DataFrame = None) -> dict:
     blank = _is_blank(df["label"])
     labeled = df[~blank].copy()
+
+    # ---- Fig 1: annotations per annotator ----
+    per_annotator_counts = df.groupby("username").size().sort_values(ascending=False).to_dict()
 
     # ---- Table I: Dataset Scale and Coverage Summary ----
     table1 = {
@@ -198,8 +219,43 @@ def compute_stats(df: pd.DataFrame) -> dict:
         for cls in CANONICAL_COMMENTARY
     }
 
+    # ---- Coverage (requires clip_manifest.csv from list_clips.py) ----
+    coverage = None
+    unannotated_clips = []
+    manifest_mismatches = []
+    if manifest is not None and not manifest.empty:
+        annotated_clip_ids = set(df["folder"].unique())
+        manifest_clip_ids = set(manifest["clip_id"].unique())
+
+        total_clips = len(manifest_clip_ids)
+        annotated_in_manifest = annotated_clip_ids & manifest_clip_ids
+        unannotated_clips = sorted(manifest_clip_ids - annotated_clip_ids)
+        # clips referenced in CSVs but missing from the manifest -- likely a
+        # naming mismatch/typo, or the manifest is stale
+        manifest_mismatches = sorted(annotated_clip_ids - manifest_clip_ids)
+
+        total_available_time_hrs = float(manifest["duration_sec"].sum() / 3600)
+        annotated_time_hrs = float(
+            manifest.loc[manifest["clip_id"].isin(annotated_in_manifest), "duration_sec"].sum() / 3600
+        )
+
+        coverage = {
+            "total_clips_in_manifest": total_clips,
+            "clips_annotated": len(annotated_in_manifest),
+            "clips_unannotated": len(unannotated_clips),
+            "coverage_pct": (len(annotated_in_manifest) / total_clips * 100) if total_clips else 0.0,
+            "total_available_driving_time_hrs": total_available_time_hrs,
+            "annotated_clip_time_hrs": annotated_time_hrs,
+            "time_coverage_pct": (annotated_time_hrs / total_available_time_hrs * 100) if total_available_time_hrs else 0.0,
+        }
+
     # ---- Fig 6 + Table III: diversity and overlap ----
     per_clip_counts = df.groupby("folder").size()
+    if manifest is not None and not manifest.empty:
+        # include clips with zero annotations so the distribution reflects true coverage
+        zero_count_clips = len(set(manifest["clip_id"].unique()) - set(per_clip_counts.index))
+    else:
+        zero_count_clips = None
     table3 = {
         "mean_annotations_per_clip": float(per_clip_counts.mean()),
         "median_annotations_per_clip": float(per_clip_counts.median()),
@@ -233,15 +289,23 @@ def compute_stats(df: pd.DataFrame) -> dict:
         ),
     })
 
+    per_clip_distribution = per_clip_counts.value_counts().sort_index().to_dict()
+    if zero_count_clips:
+        per_clip_distribution = {0: zero_count_clips, **per_clip_distribution}
+
     return {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "table1": table1,
         "table2": table2,
         "table3": table3,
+        "coverage": coverage,
+        "unannotated_clips": unannotated_clips,
+        "manifest_mismatches": manifest_mismatches,
+        "per_annotator_counts": per_annotator_counts,
         "referential_distribution": referential_distribution,
         "unmapped_commentary": unmapped_commentary,
         "length_by_class": length_by_class,
-        "per_clip_counts": per_clip_counts.value_counts().sort_index().to_dict(),
+        "per_clip_counts": per_clip_distribution,
     }
 
 
@@ -259,10 +323,29 @@ def chart_duration_distribution(df, stats):
     fig = go.Figure(go.Histogram(x=df["duration_sec"], nbinsx=30, marker_color=TEAL, name="Segments"))
     mean_v = stats["table1"]["mean_segment_duration_sec"]
     median_v = stats["table1"]["median_segment_duration_sec"]
-    fig.add_vline(x=mean_v, line_dash="dash", line_color=AMBER, annotation_text=f"Mean: {mean_v:.1f}s")
-    fig.add_vline(x=median_v, line_dash="dot", line_color=CORAL, annotation_text=f"Median: {median_v:.1f}s")
+    fig.add_vline(
+        x=mean_v, line_dash="dash", line_color=AMBER,
+        annotation_text=f"Mean: {mean_v:.1f}s", annotation_position="top left",
+        annotation_font_color=AMBER, annotation_y=1.0, annotation_yref="paper",
+    )
+    fig.add_vline(
+        x=median_v, line_dash="dot", line_color=CORAL,
+        annotation_text=f"Median: {median_v:.1f}s", annotation_position="bottom right",
+        annotation_font_color=CORAL, annotation_y=0.0, annotation_yref="paper",
+    )
     fig.update_layout(**_base_layout("Fig 3 — Segment Duration Distribution"))
     fig.update_xaxes(title="Segment duration (s)")
+    fig.update_yaxes(title="Number of annotations")
+    return fig
+
+
+def chart_annotations_per_annotator(stats):
+    per_annotator = stats["per_annotator_counts"]
+    fig = go.Figure(go.Bar(
+        x=list(per_annotator.keys()), y=list(per_annotator.values()),
+        marker_color=TEAL, text=list(per_annotator.values()), textposition="outside",
+    ))
+    fig.update_layout(**_base_layout("Fig 1 — Annotations per Annotator"))
     fig.update_yaxes(title="Number of annotations")
     return fig
 
@@ -346,12 +429,30 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
     ])
 
     charts = [
+        chart_annotations_per_annotator(stats),
         chart_duration_distribution(df, stats),
         chart_referential_distribution(stats),
         chart_length_by_class(stats),
         chart_annotations_per_clip(stats),
     ]
     chart_divs = "".join(f'<div class="card chart">{_fig_div(c)}</div>' for c in charts)
+
+    coverage_section = ""
+    if stats["coverage"]:
+        cov = stats["coverage"]
+        coverage_cards = _scorecards([
+            (f"{cov['total_clips_in_manifest']:,}", "Total clips in library"),
+            (f"{cov['clips_annotated']:,}", "Clips with 1+ annotation"),
+            (f"{cov['clips_unannotated']:,}", "Clips with zero annotations"),
+            (f"{cov['coverage_pct']:.1f}%", "Clip coverage"),
+            (f"{cov['total_available_driving_time_hrs']:.1f} hrs", "Total available driving time"),
+            (f"{cov['annotated_clip_time_hrs']:.1f} hrs", "Driving time within touched clips"),
+            (f"{cov['time_coverage_pct']:.1f}%", "Time coverage"),
+        ])
+        coverage_section = f"""
+  <div class="section-title">Coverage (from clip_manifest.csv)</div>
+  <div class="scorecards">{coverage_cards}</div>
+"""
 
     quality_notes = []
     if stats["unmapped_commentary"]:
@@ -362,6 +463,22 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
         quality_notes.append(f"{dupes_dropped} duplicate row(s) dropped during merge.")
     if skipped:
         quality_notes.append(f"{len(skipped)} file(s) failed to parse and were skipped.")
+    if stats["manifest_mismatches"]:
+        quality_notes.append(
+            f"{len(stats['manifest_mismatches'])} clip folder name(s) appear in annotation CSVs but not in "
+            f"clip_manifest.csv -- possible typo or a stale manifest. First few: "
+            f"{stats['manifest_mismatches'][:5]}"
+        )
+    if stats["coverage"] is None:
+        quality_notes.append(
+            "No clip_manifest.csv found -- coverage stats are unavailable. Run list_clips.py against the "
+            "video library and drop clip_manifest.csv into the shared Drive folder to enable them."
+        )
+    elif stats["unannotated_clips"]:
+        quality_notes.append(
+            f"{len(stats['unannotated_clips'])} clip(s) in the library have zero annotations so far. "
+            f"Full list written to unannotated_clips.csv alongside this dashboard."
+        )
     quality_html = (
         "".join(f'<div class="flag">{n}</div>' for n in quality_notes)
         if quality_notes else '<div class="flag ok">No data-quality issues detected.</div>'
@@ -413,7 +530,7 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
 
   <div class="section-title">Table I — Dataset Scale and Coverage Summary</div>
   <div class="scorecards">{table1_cards}</div>
-
+  {coverage_section}
   <div class="section-title">Table II — Language Statistics</div>
   <div class="scorecards">{table2_cards}</div>
 
@@ -458,11 +575,17 @@ def main():
         print("No valid CSVs found under", args.root)
         return
 
-    stats = compute_stats(df)
+    manifest = load_manifest(args.root)
+    stats = compute_stats(df, manifest)
 
     df.to_csv(os.path.join(args.out, "combined_annotations.csv"), index=False)
     with open(os.path.join(args.out, "stats.json"), "w") as f:
         json.dump(stats, f, indent=2, default=str)
+
+    if stats["unannotated_clips"]:
+        with open(os.path.join(args.out, "unannotated_clips.csv"), "w") as f:
+            f.write("clip_id\n")
+            f.write("\n".join(stats["unannotated_clips"]))
 
     build_dashboard_html(df, stats, dupes_dropped, skipped, os.path.join(args.out, "dashboard.html"))
 
