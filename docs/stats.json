@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T18:25:32",
+  "generated_at": "2026-07-07T18:45:47",
   "table1": {
     "number_of_annotations": 1161,
     "number_of_unique_source_clips": 673,
@@ -28,6 +28,16 @@
     "overlapping_annotation_pairs": 639,
     "mean_temporal_overlap_ratio": 0.4672772949923134,
     "mean_instruction_similarity_for_overlaps": 0.34110721843310843
+  },
+  "coverage": null,
+  "unannotated_clips": [],
+  "manifest_mismatches": [],
+  "per_annotator_counts": {
+    "giovanni": 1006,
+    "Marcus": 48,
+    "Vrishan": 44,
+    "jeremykemmerer": 36,
+    "grod": 23
   },
   "referential_distribution": {
     "Non-Referential": 351,
