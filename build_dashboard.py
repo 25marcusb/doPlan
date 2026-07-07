@@ -641,7 +641,12 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
         (f"{t1['median_segment_duration_sec']:.1f}s", "Median segment duration"),
         (f"{t1['min_segment_duration_sec']:.1f}s", "Minimum segment duration"),
         (f"{t1['max_segment_duration_sec']:.1f}s", "Maximum segment duration"),
-    ])
+    ] + ([
+        (f"{stats['coverage']['clips_unannotated']:,}", "Clips with zero annotations"),
+        (f"{stats['coverage']['coverage_pct']:.1f}%", "Clip coverage"),
+        (f"{stats['coverage']['total_available_driving_time_hrs']:.1f} hrs", "Total available driving time"),
+        (f"{stats['coverage']['time_coverage_pct']:.1f}%", "Time coverage"),
+    ] if stats["coverage"] else []))
 
     table2_cards = _scorecards([
         (f"{t2['number_of_instructions']:,}", "Number of instructions"),
@@ -685,23 +690,6 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
         f'<div class="section-title">Random Scene — Annotation Overlap</div>{viewer_html}'
         if viewer_html else ""
     )
-
-    coverage_section = ""
-    if stats["coverage"]:
-        cov = stats["coverage"]
-        coverage_cards = _scorecards([
-            (f"{cov['total_clips_in_manifest']:,}", "Total clips in library"),
-            (f"{cov['clips_annotated']:,}", "Clips with 1+ annotation"),
-            (f"{cov['clips_unannotated']:,}", "Clips with zero annotations"),
-            (f"{cov['coverage_pct']:.1f}%", "Clip coverage"),
-            (f"{cov['total_available_driving_time_hrs']:.1f} hrs", "Total available driving time"),
-            (f"{cov['annotated_clip_time_hrs']:.1f} hrs", "Driving time within touched clips"),
-            (f"{cov['time_coverage_pct']:.1f}%", "Time coverage"),
-        ])
-        coverage_section = f"""
-  <div class="section-title">Coverage (from clip_manifest.csv)</div>
-  <div class="scorecards">{coverage_cards}</div>
-"""
 
     quality_notes = []
     if stats["unmapped_commentary"]:
@@ -787,7 +775,7 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
 
   <div class="section-title">Table I — Dataset Scale and Coverage Summary</div>
   <div class="scorecards">{table1_cards}</div>
-  {coverage_section}
+
   <div class="section-title">Table II — Language Statistics</div>
   <div class="scorecards">{table2_cards}</div>
 
@@ -804,15 +792,7 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
   {quality_html}
 
   <footer>
-    Definitions mirror doPlan Section IV. Durations assume {FPS} fps for every contributor.
-    "Overlapping annotation pair" = same clip, intersecting [start_frame, end_frame].
-    "Temporal overlap ratio" = intersection / union of frame ranges, averaged over overlapping pairs.
-    "Instruction similarity for overlaps" = Jaccard similarity of lowercase word sets between the two
-    instructions in an overlapping pair (both must have a non-blank label), averaged across such pairs --
-    this is a lightweight stand-in since the paper doesn't specify its exact similarity method; swap in
-    something else in instruction_similarity() if needed. These numbers are computed live from the current
-    merged dataset, so they will differ from (and grow past) the paper's published snapshot of 1,108
-    annotations / 3 annotators -- that's expected.
+    Dashboard of annotation statistics built for tracking progress on the doPlan dataset. Data updates every 6 hours.
   </footer>
 </body>
 </html>"""
