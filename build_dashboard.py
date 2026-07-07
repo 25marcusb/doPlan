@@ -166,6 +166,31 @@ def instruction_similarity(a: str, b: str) -> float:
     return len(set_a & set_b) / len(set_a | set_b)
 
 
+def merge_intervals(intervals):
+    """Merge overlapping/adjacent (start, end) ranges. Input/output in the same unit (seconds)."""
+    if not intervals:
+        return []
+    ordered = sorted(intervals)
+    merged = [list(ordered[0])]
+    for start, end in ordered[1:]:
+        if start <= merged[-1][1]:
+            merged[-1][1] = max(merged[-1][1], end)
+        else:
+            merged.append([start, end])
+    return [tuple(pair) for pair in merged]
+
+
+def scene_intervals_seconds(df: pd.DataFrame, clip_id: str):
+    """All annotation intervals for one clip, in SECONDS (start_frame/end_frame are 10fps units)."""
+    rows = df[df["folder"] == clip_id]
+    out = []
+    for _, r in rows.iterrows():
+        s = min(r["start_frame"], r["end_frame"]) / FPS
+        e = max(r["start_frame"], r["end_frame"]) / FPS
+        out.append((s, e, str(r["username"]), str(r["label"])))
+    return out
+
+
 # ---------------- STATS ----------------
 def compute_stats(df: pd.DataFrame, manifest: pd.DataFrame = None) -> dict:
     blank = _is_blank(df["label"])
@@ -249,6 +274,35 @@ def compute_stats(df: pd.DataFrame, manifest: pd.DataFrame = None) -> dict:
             "time_coverage_pct": (annotated_time_hrs / total_available_time_hrs * 100) if total_available_time_hrs else 0.0,
         }
 
+        # ---- Per-scene coverage (all math in SECONDS) ----
+        # For every clip in the manifest: its total duration, the union of all
+        # annotation intervals (merged so overlaps aren't double-counted), and
+        # what fraction of the clip that union covers.
+        annotated_ids_set = set(df["folder"].unique())
+        per_scene = []
+        for _, mrow in manifest.iterrows():
+            clip_id = str(mrow["clip_id"]).strip()
+            total_sec = float(mrow["duration_sec"])
+            city = str(mrow["relative_path"]).strip().split("/")[0]
+            raw = [(s, e) for (s, e, _u, _l) in scene_intervals_seconds(df, clip_id)]
+            # clamp to clip bounds before merging so a stray over-long annotation
+            # can't push coverage above 100%
+            clamped = [(max(0.0, s), min(total_sec, e)) for s, e in raw if e > 0 and s < total_sec]
+            merged = merge_intervals(clamped)
+            covered_sec = sum(e - s for s, e in merged)
+            per_scene.append({
+                "clip_id": clip_id,
+                "city": city,
+                "total_sec": total_sec,
+                "covered_sec": covered_sec,
+                "coverage_pct": (covered_sec / total_sec * 100) if total_sec else 0.0,
+                "num_annotations": int((df["folder"] == clip_id).sum()),
+            })
+
+        coverage["per_scene"] = per_scene
+        # distribution of per-scene coverage % (Fig 2)
+        coverage["scene_coverage_pcts"] = [s["coverage_pct"] for s in per_scene]
+
     # ---- Fig 6 + Table III: diversity and overlap ----
     per_clip_counts = df.groupby("folder").size()
     if manifest is not None and not manifest.empty:
@@ -293,6 +347,28 @@ def compute_stats(df: pd.DataFrame, manifest: pd.DataFrame = None) -> dict:
     if zero_count_clips:
         per_clip_distribution = {0: zero_count_clips, **per_clip_distribution}
 
+    # ---- Raw per-scene intervals (seconds) for the random-scene overlap viewer ----
+    # Only for scenes that (a) exist in the manifest and (b) have >=1 annotation.
+    scene_timelines = {}
+    if manifest is not None and not manifest.empty:
+        manifest_lookup = {str(r["clip_id"]).strip(): float(r["duration_sec"]) for _, r in manifest.iterrows()}
+        for clip_id in df["folder"].unique():
+            clip_id = str(clip_id)
+            if clip_id not in manifest_lookup:
+                continue
+            total_sec = manifest_lookup[clip_id]
+            bars = []
+            for s, e, user, label in scene_intervals_seconds(df, clip_id):
+                bars.append({
+                    "start": round(max(0.0, s), 2),
+                    "end": round(min(total_sec, e), 2),
+                    "user": user,
+                    "label": (label[:80] + "...") if len(label) > 80 else label,
+                })
+            # sort by start so stacked rows read left-to-right
+            bars.sort(key=lambda b: b["start"])
+            scene_timelines[clip_id] = {"total_sec": total_sec, "bars": bars}
+
     return {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "table1": table1,
@@ -306,6 +382,7 @@ def compute_stats(df: pd.DataFrame, manifest: pd.DataFrame = None) -> dict:
         "unmapped_commentary": unmapped_commentary,
         "length_by_class": length_by_class,
         "per_clip_counts": per_clip_distribution,
+        "scene_timelines": scene_timelines,
     }
 
 
@@ -350,6 +427,15 @@ def chart_annotations_per_annotator(stats):
     return fig
 
 
+def chart_scene_coverage_hist(stats):
+    pcts = stats["coverage"]["scene_coverage_pcts"] if stats["coverage"] else []
+    fig = go.Figure(go.Histogram(x=pcts, xbins=dict(start=0, end=100, size=10), marker_color="#8C7CF0"))
+    fig.update_layout(**_base_layout("Fig 2 — Percent of Scene Covered by Annotations"))
+    fig.update_xaxes(title="Percent of scene covered (%)", range=[0, 100])
+    fig.update_yaxes(title="Number of scenes")
+    return fig
+
+
 def chart_referential_distribution(stats):
     dist = stats["referential_distribution"]
     total = sum(dist.values()) or 1
@@ -383,6 +469,156 @@ def chart_annotations_per_clip(stats):
 
 def _fig_div(fig):
     return fig.to_html(full_html=False, include_plotlyjs=False, config={"displayModeBar": False})
+
+
+# ---------------- FULL-WIDTH COVERAGE STRIP (coverageViewer-style) ----------------
+def build_coverage_strip(stats):
+    """One horizontal timeline per city + an ALL row. Green = annotated union,
+    grey = downloaded-but-unannotated remainder. All widths proportional to
+    seconds. Returns an HTML string (inline SVG)."""
+    if not stats["coverage"] or not stats["coverage"].get("per_scene"):
+        return ""
+
+    per_scene = stats["coverage"]["per_scene"]
+    cities = sorted({s["city"] for s in per_scene})
+    rows = [("ALL", per_scene)] + [(c, [s for s in per_scene if s["city"] == c]) for c in cities]
+
+    STRIP_H = 26
+    ROW_GAP = 46
+    LABEL_W = 90
+    width = 1100
+    track_w = width - LABEL_W - 20
+
+    svg_rows = []
+    y = 10
+    for label, entries in rows:
+        total = sum(e["total_sec"] for e in entries) or 1.0
+        covered = sum(e["covered_sec"] for e in entries)
+        pct = covered / total * 100
+
+        # background grey track
+        svg_rows.append(
+            f'<rect x="{LABEL_W}" y="{y}" width="{track_w}" height="{STRIP_H}" fill="#2B2F38" rx="3"/>'
+        )
+        # walk scenes left-to-right, drawing grey per-scene segments then green covered sub-segments
+        cursor_sec = 0.0
+        for e in entries:
+            seg_x = LABEL_W + (cursor_sec / total) * track_w
+            seg_w = (e["total_sec"] / total) * track_w
+            # faint divider between scenes
+            svg_rows.append(
+                f'<rect x="{seg_x:.2f}" y="{y}" width="{seg_w:.2f}" height="{STRIP_H}" '
+                f'fill="#d9d9d9" opacity="0.10"/>'
+            )
+            cursor_sec += e["total_sec"]
+
+        # green covered blocks (recompute merged union positions along the concatenated timeline)
+        cursor_sec = 0.0
+        for e in entries:
+            frac_covered = (e["covered_sec"] / e["total_sec"]) if e["total_sec"] else 0.0
+            if frac_covered > 0:
+                gx = LABEL_W + (cursor_sec / total) * track_w
+                gw = (e["covered_sec"] / total) * track_w
+                svg_rows.append(
+                    f'<rect x="{gx:.2f}" y="{y}" width="{gw:.2f}" height="{STRIP_H}" fill="#4FD1C5" rx="2"/>'
+                )
+            cursor_sec += e["total_sec"]
+
+        hours_total = total / 3600
+        hours_cov = covered / 3600
+        svg_rows.append(
+            f'<text x="{LABEL_W - 8}" y="{y + STRIP_H/2 + 4}" text-anchor="end" '
+            f'font-size="12" fill="#F5F3EE" font-family="IBM Plex Mono">{label}</text>'
+        )
+        svg_rows.append(
+            f'<text x="{LABEL_W}" y="{y + STRIP_H + 15}" font-size="11" fill="#9AA0AC" '
+            f'font-family="IBM Plex Sans">{pct:.1f}% covered — {hours_cov:.2f}h / {hours_total:.2f}h annotated</text>'
+        )
+        y += ROW_GAP
+
+    svg_h = y + 6
+    svg = (
+        f'<svg viewBox="0 0 {width} {svg_h}" width="100%" xmlns="http://www.w3.org/2000/svg">'
+        + "".join(svg_rows) + "</svg>"
+    )
+
+    legend = (
+        '<div class="legend">'
+        '<span><i style="background:#4FD1C5"></i> annotated</span>'
+        '<span><i style="background:#d9d9d9;opacity:0.3"></i> downloaded, not annotated</span>'
+        '</div>'
+    )
+    return f'<div class="card fullwidth">{svg}{legend}</div>'
+
+
+# ---------------- RANDOM-SCENE OVERLAP VIEWER ----------------
+def build_random_scene_viewer(stats):
+    """Interactive: picks a random annotated scene, draws its full timeline as
+    a bottom axis, and stacks each individual annotation as a mini interval bar
+    above it -- so overlap is visible qualitatively. A button re-rolls to a new
+    random scene. All scene data is embedded as JSON; selection happens client-side."""
+    timelines = stats.get("scene_timelines") or {}
+    if not timelines:
+        return ""
+
+    data_json = json.dumps(timelines)
+    return f"""
+  <div class="card fullwidth">
+    <div class="scene-header">
+      <span id="scene-title" style="font-family:'IBM Plex Mono',monospace;font-size:14px;"></span>
+      <button id="scene-reroll" class="reroll-btn">Pick another random scene</button>
+    </div>
+    <div id="scene-viewer"></div>
+  </div>
+  <script>
+  (function() {{
+    const scenes = {data_json};
+    const ids = Object.keys(scenes);
+    const palette = ["#4FD1C5","#F2B705","#8C7CF0","#E8604C","#5FB0E8","#6FCF97","#E0729B","#C9A227"];
+
+    function render(clipId) {{
+      const scene = scenes[clipId];
+      const total = scene.total_sec;
+      const bars = scene.bars;
+      const W = 1080, LEFT = 12, RIGHT = 12, trackW = W - LEFT - RIGHT;
+      const rowH = 20, rowGap = 4, topPad = 8;
+      const axisH = 44;
+      const H = topPad + bars.length * (rowH + rowGap) + axisH;
+      const x = s => LEFT + (s / total) * trackW;
+
+      let svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" xmlns="http://www.w3.org/2000/svg">';
+
+      bars.forEach((b, i) => {{
+        const y = topPad + i * (rowH + rowGap);
+        const bx = x(b.start), bw = Math.max(2, x(b.end) - x(b.start));
+        const color = palette[i % palette.length];
+        svg += '<rect x="' + bx.toFixed(1) + '" y="' + y + '" width="' + bw.toFixed(1) + '" height="' + rowH + '" rx="3" fill="' + color + '" opacity="0.85"><title>' + b.user + ' [' + b.start + 's–' + b.end + 's]: ' + (b.label||'').replace(/"/g,'&quot;') + '</title></rect>';
+        svg += '<text x="' + (bx + 5).toFixed(1) + '" y="' + (y + 14) + '" font-size="10" fill="#14161A" font-family="IBM Plex Sans" style="pointer-events:none;">' + b.user + '</text>';
+      }});
+
+      // bottom axis
+      const axisY = topPad + bars.length * (rowH + rowGap) + 10;
+      svg += '<line x1="' + LEFT + '" y1="' + axisY + '" x2="' + (LEFT + trackW) + '" y2="' + axisY + '" stroke="#4B5160" stroke-width="1.5"/>';
+      const ticks = 6;
+      for (let t = 0; t <= ticks; t++) {{
+        const sec = (total / ticks) * t;
+        const tx = x(sec);
+        svg += '<line x1="' + tx.toFixed(1) + '" y1="' + axisY + '" x2="' + tx.toFixed(1) + '" y2="' + (axisY + 5) + '" stroke="#4B5160"/>';
+        svg += '<text x="' + tx.toFixed(1) + '" y="' + (axisY + 18) + '" text-anchor="middle" font-size="10" fill="#9AA0AC" font-family="IBM Plex Mono">' + sec.toFixed(0) + 's</text>';
+      }}
+
+      svg += '</svg>';
+      document.getElementById('scene-viewer').innerHTML = svg;
+      document.getElementById('scene-title').textContent =
+        clipId + '  ·  ' + bars.length + ' annotation(s)  ·  ' + total.toFixed(1) + 's total';
+    }}
+
+    function reroll() {{ render(ids[Math.floor(Math.random() * ids.length)]); }}
+    document.getElementById('scene-reroll').addEventListener('click', reroll);
+    reroll();
+  }})();
+  </script>
+"""
 
 
 # ---------------- HTML ----------------
@@ -428,14 +664,27 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
         (f"{t3['mean_instruction_similarity_for_overlaps']:.3f}", "Mean instruction similarity for overlaps"),
     ])
 
-    charts = [
-        chart_annotations_per_annotator(stats),
+    charts = [chart_annotations_per_annotator(stats)]
+    if stats["coverage"]:
+        charts.append(chart_scene_coverage_hist(stats))
+    charts += [
         chart_duration_distribution(df, stats),
         chart_referential_distribution(stats),
         chart_length_by_class(stats),
         chart_annotations_per_clip(stats),
     ]
     chart_divs = "".join(f'<div class="card chart">{_fig_div(c)}</div>' for c in charts)
+
+    strip_html = build_coverage_strip(stats)
+    coverage_strip_section = (
+        f'<div class="section-title">Coverage Timeline (annotated vs. available, by city)</div>{strip_html}'
+        if strip_html else ""
+    )
+    viewer_html = build_random_scene_viewer(stats)
+    scene_viewer_section = (
+        f'<div class="section-title">Random Scene — Annotation Overlap</div>{viewer_html}'
+        if viewer_html else ""
+    )
 
     coverage_section = ""
     if stats["coverage"]:
@@ -510,6 +759,14 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
   .score-label {{ font-size: 11px; color: var(--muted); margin-top: 4px; }}
   .charts {{ display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }}
   .chart {{ padding: 8px 8px 0; }}
+  .fullwidth {{ margin-top: 8px; padding: 20px; }}
+  .legend {{ display: flex; gap: 24px; margin-top: 12px; font-size: 12px; color: var(--muted); }}
+  .legend i {{ display: inline-block; width: 14px; height: 14px; border-radius: 3px; vertical-align: -2px; margin-right: 6px; }}
+  .scene-header {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }}
+  .reroll-btn {{ background: var(--teal); color: #14161A; border: none; border-radius: 6px;
+    padding: 8px 14px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; cursor: pointer; font-weight: 600; }}
+  .reroll-btn:hover {{ opacity: 0.85; }}
+  .reroll-btn:focus-visible {{ outline: 2px solid var(--amber); outline-offset: 2px; }}
   .section-title {{ font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--muted);
     text-transform: uppercase; letter-spacing: 0.5px; margin: 34px 0 12px; }}
   .flag {{ background: rgba(79,209,197,0.10); border: 1px solid var(--teal); color: var(--text);
@@ -539,6 +796,9 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
 
   <div class="section-title">Figures</div>
   <div class="charts">{chart_divs}</div>
+
+  {coverage_strip_section}
+  {scene_viewer_section}
 
   <div class="section-title">Data quality</div>
   {quality_html}
