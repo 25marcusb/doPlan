@@ -31,7 +31,10 @@ jobs:
 
       - name: Build dashboard
         run: python build_dashboard_v2.py --root ./staging --out ./docs
-
+        
+      - name: Prevent Jekyll processing
+        run: touch docs/.nojekyll
+        
       - name: Commit updated dashboard
         run: |
           git config user.name "dashboard-bot"
