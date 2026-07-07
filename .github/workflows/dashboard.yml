@@ -1,0 +1,41 @@
+name: Refresh annotation dashboard
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours; adjust freely
+  workflow_dispatch: {}       # adds a manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build-dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pandas plotly google-api-python-client google-auth
+
+      - name: Write service account key
+        run: echo '${{ secrets.GDRIVE_SA_KEY }}' > /tmp/sa.json
+
+      - name: Fetch CSVs from Drive
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: python fetch_from_drive.py --folder-id "${{ secrets.GDRIVE_FOLDER_ID }}" --out ./staging
+
+      - name: Build dashboard
+        run: python build_dashboard_v2.py --root ./staging --out ./docs
+
+      - name: Commit updated dashboard
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "actions@github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "Refresh annotation dashboard"
+          git push
