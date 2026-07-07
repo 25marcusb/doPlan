@@ -644,8 +644,6 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
     ] + ([
         (f"{stats['coverage']['clips_unannotated']:,}", "Clips with zero annotations"),
         (f"{stats['coverage']['coverage_pct']:.1f}%", "Clip coverage"),
-        (f"{stats['coverage']['total_available_driving_time_hrs']:.1f} hrs", "Total available driving time"),
-        (f"{stats['coverage']['time_coverage_pct']:.1f}%", "Time coverage"),
     ] if stats["coverage"] else []))
 
     table2_cards = _scorecards([
