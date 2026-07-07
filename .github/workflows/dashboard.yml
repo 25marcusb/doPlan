@@ -30,7 +30,7 @@ jobs:
         run: python fetch_from_drive.py --folder-id "${{ secrets.GDRIVE_FOLDER_ID }}" --out ./staging
 
       - name: Build dashboard
-        run: python build_dashboard_v2.py --root ./staging --out ./docs
+        run: python build_dashboard.py --root ./staging --out ./docs
         
       - name: Prevent Jekyll processing
         run: touch docs/.nojekyll
