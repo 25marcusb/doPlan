@@ -1042,6 +1042,104 @@ folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
 2021.10.06.14.31.13_veh-28_00014_00079,34,205,Turn right at the stop sign,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,17.1
 2021.10.06.19.27.33_veh-28_00805_01736,747,2247,"Turn right at the light, then get into the left lane",Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,150.0
 2021.09.15.12.32.43_veh-28_02111_02342,641,960,Stop by the pedestrians,Dynamic Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,31.9
+2021.05.12.23.36.44_veh-35_00152_00504,638,2351,Pass the Aria,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,171.3
+2021.06.09.17.23.18_veh-38_02094_02305,854,1041,wait at the red light,Static Referential,Marcus,./staging/labels - Yash Tandon.csv,18.7
+2021.06.09.14.50.36_veh-26_03310_03392,79,296,wait for the people to cross the crosswalk,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,21.7
+2021.06.09.17.23.18_veh-38_02094_02305,715,922,shift to the right lane,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,20.7
+2021.10.01.17.52.06_veh-28_00675_00737,92,299,take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,20.7
+2021.10.01.17.52.06_veh-28_01141_01264,265,562,take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,29.7
+2021.10.01.14.20.36_veh-28_00243_00388,546,717,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,17.1
+2021.10.01.18.26.05_veh-28_01081_01159,55,367,Wait for the stopped vehicle,Static Referential,Marcus,./staging/labels - Yash Tandon.csv,31.2
+2021.09.15.14.00.15_veh-28_00288_00408,69,313,take a right then a left while watching out for the cyclist,Dynamic Referential,Marcus,./staging/labels - Yash Tandon.csv,24.4
+2021.09.15.11.49.23_veh-28_01869_02000,429,587,take a left at the three way intersection,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.8
+2021.09.15.11.49.23_veh-28_01869_02000,35,446,Take 2 lefts and a right to turn around,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,41.1
+2021.10.06.13.21.47_veh-28_00441_00515,119,339,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,22.0
+2021.10.06.17.08.46_veh-28_00016_00116,333,488,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.5
+2021.09.15.11.49.23_veh-28_01869_02000,256,481,Take a left then a right,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,22.5
+2021.09.15.13.52.55_veh-39_01385_01446,115,286,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,17.1
+2021.10.01.13.28.54_veh-28_01098_01337,227,497,Prepare to turn left,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,27.0
+2021.10.01.19.16.42_veh-28_00094_00216,320,526,Take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,20.6
+2021.09.15.13.12.49_veh-39_00022_00104,127,359,Watch out for the pedestrian,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,23.2
+2021.10.06.18.52.07_veh-28_01297_01462,432,688,Wait for the hazards to clear then go forward,Dynamic Referential,Marcus,./staging/labels - Yash Tandon.csv,25.6
+2021.09.15.13.16.40_veh-28_02198_02321,302,458,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.6
+2021.10.01.18.26.05_veh-28_00005_00413,37,1645,Make a big loop by turning right and go on both bridges,Static Referential,Marcus,./staging/labels - Yash Tandon.csv,160.8
+2021.10.01.19.16.42_veh-28_01731_01935,7,720,Take me to eastport Park,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,71.3
+2021.09.15.14.27.22_veh-39_01491_01763,926,1263,Take a left at iron street park,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,33.7
+2021.10.06.14.31.13_veh-28_00223_00350,439,595,Go into the dead end,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.6
+2021.10.06.17.08.46_veh-28_01626_01702,39,209,Go toward summer street bridge,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,17.0
+2021.09.15.11.49.23_veh-28_00280_00506,524,883,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,35.9
+2021.09.15.15.34.53_veh-28_01820_02314,768,2308,Make a big circle around the river starting at the hood milk bottle,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,154.0
+2021.09.15.16.51.15_veh-28_01225_01302,0,353,Go towards hampton inn & homewood suites,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,35.3
+2021.09.15.16.51.15_veh-28_01225_01302,7,355,Go to hampton inn and homewood suites,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,34.8
+2021.10.06.18.52.07_veh-28_00442_00578,103,630,Go to the residence inn mariott,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,52.7
+2021.10.01.18.26.05_veh-28_01081_01159,157,351,Do not pass the stalled vehicle. Wait for it to move then go.,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,19.4
+2021.10.01.14.20.36_veh-28_01415_01480,68,233,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,16.5
+2021.09.15.15.34.53_veh-28_01533_01596,69,226,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.7
+2021.09.15.14.27.22_veh-39_00665_00745,190,393,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,20.3
+2021.10.06.13.21.47_veh-28_00441_00515,174,338,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,16.4
+2021.09.15.16.17.26_veh-28_01085_01182,28,464,Take the summer street bridge,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,43.6
+2021.09.15.16.17.26_veh-28_00586_00712,8,215,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,20.7
+2021.09.15.11.49.23_veh-28_01108_01493,1423,1637,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,21.4
+2021.09.15.16.51.15_veh-28_01468_01533,24,222,Take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,19.8
+2021.10.01.19.16.42_veh-28_00392_00906,895,1294,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,39.9
+2021.10.01.14.20.36_veh-28_01491_01630,478,634,Go to the pier,Static Referential,Marcus,./staging/labels - Yash Tandon.csv,15.6
+2021.10.06.14.31.13_veh-28_01388_01849,1501,1932,Take a left then left again,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,43.1
+2021.09.15.13.12.49_veh-39_00022_00104,9,290,Leave the pier and go back to the main road,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,28.1
+2021.09.15.11.49.23_veh-28_00280_00506,819,977,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.8
+2021.09.15.11.49.23_veh-28_00520_00669,194,469,Go to the institute of contemporary art,Static Referential,Marcus,./staging/labels - Yash Tandon.csv,27.5
+2021.10.06.13.21.47_veh-28_00441_00515,65,293,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,22.8
+2021.09.15.13.12.49_veh-39_00135_00467,776,1311,Go to the institute of contemporary art,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,53.5
+2021.09.15.11.49.23_veh-28_00520_00669,261,619,Take a detour to the institute of contemporary art then return to the main road,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,35.8
+2021.10.01.17.52.06_veh-28_01141_01264,418,592,Keep going straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,17.4
+2021.10.01.19.16.42_veh-28_02903_03140,387,1111,"Take the right from the roundabout and keep straight on the road, going past Boston Fish Pier",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,72.4
+2021.08.17.17.17.01_veh-45_02098_02251,541,723,Take a right from the signal and keep straight towards Citgo gas station,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,18.2
+2021.09.15.14.50.05_veh-28_00389_00508,383,563,Take left from the signal right before The Envoy Hotel,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,18.0
+2021.08.17.13.15.12_veh-45_01049_01467,442,1538,"Drive across Tunnel Park, then make a left in the middle of it. Then navigate to the road with the Goodwill Employment Training Center.",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,109.6
+2021.08.17.18.44.32_veh-08_00586_00848,944,1194,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,25.0
+2021.10.06.18.52.07_veh-28_00839_00968,71,337,Drive towards Pier 10 Park,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,26.6
+2021.10.01.18.26.05_veh-28_00005_00413,1150,1894,"Take a right at the intersection near The Envoy Hotel, then drive towards Residence Inn Marriott",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,74.4
+2021.08.17.15.02.08_veh-45_01756_01966,284,829,"Take a right at the light, then prepare to take a left past the McGowan Institute for Regenerative Medicine",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,54.5
+2021.08.17.13.15.12_veh-45_02124_02293,328,717,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,38.9
+2021.07.16.21.17.55_veh-26_01392_01488,17,289,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,27.2
+2021.10.01.19.16.42_veh-28_00094_00216,372,586,"Go past Dry Dock Plaza Park to take the first right, then drive straight towards the dead end",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,21.4
+2021.07.16.21.17.55_veh-26_05156_05225,2,219,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,21.7
+2021.08.17.14.45.12_veh-42_00542_00803,822,1245,Take a left at the intersection with construction work to go in the direction towards Prince of Peace Roman Catholic Church,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,42.3
+2021.09.15.14.50.05_veh-28_00083_00152,131,281,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,15.0
+2021.10.06.14.31.13_veh-28_00981_01226,238,730,"Take a complete loop of the entire block, then prepare to turn left at the signal",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,49.2
+2021.10.11.05.34.05_veh-50_00442_00556,349,558,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,20.9
+2021.10.01.17.52.06_veh-28_01034_01107,193,357,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,16.4
+2021.10.11.02.57.41_veh-50_00838_01005,8,373,"Take a round of the drop-off loop ahead, and come back",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,36.5
+2021.08.17.18.44.32_veh-08_00586_00848,584,956,"Pull out of the curb, take the second left, then the first right.",Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,37.2
+2021.08.17.17.17.01_veh-45_02098_02251,185,705,"Keep going straight, then take the third right",Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,52.0
+2021.08.17.13.15.12_veh-45_00565_00643,181,364,Take the right to head towards Citgo,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,18.3
+2021.07.16.16.27.22_veh-26_00016_01515,555,1252,Exit Luxor Las Vegas and take the first left to head towards the direction of the Statue of Liberty,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,69.7
+2021.07.16.23.22.27_veh-14_01631_03833,2123,2530,Exit the drop-off loop,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,40.7
+2021.09.15.13.16.40_veh-28_00088_00157,87,270,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,18.3
+2021.08.17.18.44.32_veh-08_00586_00848,805,1275,"Take a left, then the first right, then the first left",Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,47.0
+2021.09.15.14.50.05_veh-28_01511_01690,102,680,Keep straight until a left at the diagonal street towards Boston Wharf Co. Sign,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,57.8
+2021.10.01.19.16.42_veh-28_03307_03808,294,808,Keep straight towards Graphic Arts Building,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,51.4
+2021.09.15.12.32.43_veh-28_00417_00527,191,428,Perform a U-Turn by taking two rights,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,23.7
+2021.10.01.19.16.42_veh-28_01511_01624,294,531,Take a right and drive straight towards the dead-end,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,23.7
+2021.10.01.17.52.06_veh-28_01289_01353,5,252,Exit out of the dead-end and keep straight until the stop sign,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,24.7
+2021.07.16.21.17.55_veh-26_03860_03930,167,338,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,17.1
+2021.08.17.17.55.18_veh-43_00016_00083,96,325,Take a right and head in the direction of Citgo,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,22.9
+2021.09.15.16.17.26_veh-28_01085_01182,208,386,Take a left onto Summer Street Bridge and keep straight,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,17.8
+2021.07.16.23.22.27_veh-14_06339_07673,197,1763,"Keep straight towards The Cromwell Las Vegas, constantly following the white car ahead",Both,ytandon,./staging/labels - Yash Tandon.csv,156.6
+2021.10.06.13.21.47_veh-28_00441_00515,63,247,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,18.4
+2021.07.16.22.40.23_veh-38_00016_00182,253,650,"Stop at the drop-off loop at Luxor Las Vegas, then take a right to exit",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,39.7
+2021.07.16.18.06.21_veh-38_05338_05486,186,711,Go to the Luxor Las Vegas drop-off loop,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,52.5
+2021.10.06.18.52.07_veh-28_00592_00655,125,287,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,16.2
+2021.10.11.07.12.18_veh-50_00345_00498,319,747,"Exit MindChamps PreSchool @ Biopolis by taking a left, then take a right at the signal",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,42.8
+2021.09.15.14.27.22_veh-39_01420_01480,31,246,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,21.5
+2021.08.17.18.11.12_veh-08_00234_00611,1332,1748,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,41.6
+2021.08.17.15.02.08_veh-45_02111_02303,472,923,"Take a right to head towards South Shore Riverfront Park, then take the left into Hot Metal Bridge",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,45.1
+2021.08.17.18.54.02_veh-45_00511_00579,154,324,Take the next left,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,17.0
+2021.09.15.11.49.23_veh-28_01869_02000,346,563,Take a right,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,21.7
+2021.08.17.14.32.33_veh-08_01262_01528,90,412,Keep heading straight before making a couple of left turns to be on the other side of the block and heading towards Hazelwood Green Plaza,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,32.2
+2021.07.16.20.45.29_veh-35_00016_00589,2231,2455,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,22.4
+2021.08.17.17.17.01_veh-45_01443_01678,148,609,"Enter Tunnel Park, stop at the curb before the stop sign for a few seconds, then keep straight",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,46.1
+2021.09.15.13.52.55_veh-39_01385_01446,83,236,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,15.3
+2021.09.15.12.32.43_veh-28_00625_00697,199,353,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,15.4
 2021.10.11.05.34.05_veh-50_00697_00766,12,333,Drop me off in front of this building.  ,Static Referential,grod,./staging/labels - Gabriel Rodriguez.csv,32.1
 2021.10.11.07.47.13_veh-50_00736_00843,14,481,Turn left at the next light and then turn left again right away. ,Static Referential,grod,./staging/labels - Gabriel Rodriguez.csv,46.7
 2021.10.11.05.34.05_veh-50_00020_00149,107,611,At the next interesection make a right. ,Static Referential,grod,./staging/labels - Gabriel Rodriguez.csv,50.4
@@ -1065,54 +1163,6 @@ folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
 2021.10.11.08.31.07_veh-50_01001_01076,15,291,Make a left at this next intersection and drop me off at the building on the end. ,Static Referential,grod,./staging/labels - Gabriel Rodriguez.csv,27.6
 2021.10.11.05.34.05_veh-50_00697_00766,51,296,Drop me off at the last building. ,Static Referential,grod,./staging/labels - Gabriel Rodriguez.csv,24.5
 2021.10.11.05.34.05_veh-50_00568_00631,107,260,Head towards the cul de sac at the end of this street. ,Static Referential,grod,./staging/labels - Gabriel Rodriguez.csv,15.3
-2021.05.12.23.36.44_veh-35_00152_00504,638,2351,Pass the Aria,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,171.3
-2021.06.09.17.23.18_veh-38_02094_02305,854,1041,wait at the red light,Static Referential,Marcus,./staging/labels - Marcus Blennemann.csv,18.7
-2021.06.09.14.50.36_veh-26_03310_03392,79,296,wait for the people to cross the crosswalk,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,21.7
-2021.06.09.17.23.18_veh-38_02094_02305,715,922,shift to the right lane,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,20.7
-2021.10.01.17.52.06_veh-28_00675_00737,92,299,take a right,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,20.7
-2021.10.01.17.52.06_veh-28_01141_01264,265,562,take a right,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,29.7
-2021.10.01.14.20.36_veh-28_00243_00388,546,717,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,17.1
-2021.10.01.18.26.05_veh-28_01081_01159,55,367,Wait for the stopped vehicle,Static Referential,Marcus,./staging/labels - Marcus Blennemann.csv,31.2
-2021.09.15.14.00.15_veh-28_00288_00408,69,313,take a right then a left while watching out for the cyclist,Dynamic Referential,Marcus,./staging/labels - Marcus Blennemann.csv,24.4
-2021.09.15.11.49.23_veh-28_01869_02000,429,587,take a left at the three way intersection,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,15.8
-2021.09.15.11.49.23_veh-28_01869_02000,35,446,Take 2 lefts and a right to turn around,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,41.1
-2021.10.06.13.21.47_veh-28_00441_00515,119,339,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,22.0
-2021.10.06.17.08.46_veh-28_00016_00116,333,488,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,15.5
-2021.09.15.11.49.23_veh-28_01869_02000,256,481,Take a left then a right,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,22.5
-2021.09.15.13.52.55_veh-39_01385_01446,115,286,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,17.1
-2021.10.01.13.28.54_veh-28_01098_01337,227,497,Prepare to turn left,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,27.0
-2021.10.01.19.16.42_veh-28_00094_00216,320,526,Take a right,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,20.6
-2021.09.15.13.12.49_veh-39_00022_00104,127,359,Watch out for the pedestrian,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,23.2
-2021.10.06.18.52.07_veh-28_01297_01462,432,688,Wait for the hazards to clear then go forward,Dynamic Referential,Marcus,./staging/labels - Marcus Blennemann.csv,25.6
-2021.09.15.13.16.40_veh-28_02198_02321,302,458,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,15.6
-2021.10.01.18.26.05_veh-28_00005_00413,37,1645,Make a big loop by turning right and go on both bridges,Static Referential,Marcus,./staging/labels - Marcus Blennemann.csv,160.8
-2021.10.01.19.16.42_veh-28_01731_01935,7,720,Take me to eastport Park,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,71.3
-2021.09.15.14.27.22_veh-39_01491_01763,926,1263,Take a left at iron street park,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,33.7
-2021.10.06.14.31.13_veh-28_00223_00350,439,595,Go into the dead end,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,15.6
-2021.10.06.17.08.46_veh-28_01626_01702,39,209,Go toward summer street bridge,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,17.0
-2021.09.15.11.49.23_veh-28_00280_00506,524,883,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,35.9
-2021.09.15.15.34.53_veh-28_01820_02314,768,2308,Make a big circle around the river starting at the hood milk bottle,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,154.0
-2021.09.15.16.51.15_veh-28_01225_01302,0,353,Go towards hampton inn & homewood suites,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,35.3
-2021.09.15.16.51.15_veh-28_01225_01302,7,355,Go to hampton inn and homewood suites,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,34.8
-2021.10.06.18.52.07_veh-28_00442_00578,103,630,Go to the residence inn mariott,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,52.7
-2021.10.01.18.26.05_veh-28_01081_01159,157,351,Do not pass the stalled vehicle. Wait for it to move then go.,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,19.4
-2021.10.01.14.20.36_veh-28_01415_01480,68,233,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,16.5
-2021.09.15.15.34.53_veh-28_01533_01596,69,226,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,15.7
-2021.09.15.14.27.22_veh-39_00665_00745,190,393,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,20.3
-2021.10.06.13.21.47_veh-28_00441_00515,174,338,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,16.4
-2021.09.15.16.17.26_veh-28_01085_01182,28,464,Take the summer street bridge,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,43.6
-2021.09.15.16.17.26_veh-28_00586_00712,8,215,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,20.7
-2021.09.15.11.49.23_veh-28_01108_01493,1423,1637,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,21.4
-2021.09.15.16.51.15_veh-28_01468_01533,24,222,Take a right,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,19.8
-2021.10.01.19.16.42_veh-28_00392_00906,895,1294,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,39.9
-2021.10.01.14.20.36_veh-28_01491_01630,478,634,Go to the pier,Static Referential,Marcus,./staging/labels - Marcus Blennemann.csv,15.6
-2021.10.06.14.31.13_veh-28_01388_01849,1501,1932,Take a left then left again,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,43.1
-2021.09.15.13.12.49_veh-39_00022_00104,9,290,Leave the pier and go back to the main road,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,28.1
-2021.09.15.11.49.23_veh-28_00280_00506,819,977,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,15.8
-2021.09.15.11.49.23_veh-28_00520_00669,194,469,Go to the institute of contemporary art,Static Referential,Marcus,./staging/labels - Marcus Blennemann.csv,27.5
-2021.10.06.13.21.47_veh-28_00441_00515,65,293,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,22.8
-2021.09.15.13.12.49_veh-39_00135_00467,776,1311,Go to the institute of contemporary art,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,53.5
-2021.09.15.11.49.23_veh-28_00520_00669,261,619,Take a detour to the institute of contemporary art then return to the main road,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,35.8
 2021.06.09.14.03.17_veh-12_00375_00566,24,571,,Non-Referential,proy3,./staging/parthib_submissions1 - Parthib Roy.csv,54.7
 2021.09.15.15.02.19_veh-39_00214_00558,633,1248,"make a right turn at the light and continue going straight, at the next stoplight make another right turn and keep going straight.",Non-Referential,parthib,./staging/parthib_submissions1 - Parthib Roy.csv,61.5
 2021.10.11.05.34.05_veh-50_00568_00631,24,280,,Non-Referential,parthib,./staging/parthib_submissions1 - Parthib Roy.csv,25.6
