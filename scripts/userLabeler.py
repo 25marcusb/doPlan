@@ -6,6 +6,8 @@ import cv2
 from PIL import Image, ImageTk
 import os
 import random
+import math
+import numpy as np
 
 # ---------------- SETTINGS ----------------
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -82,6 +84,11 @@ BASE_LARGE_H = 360
 current_folder_name = ""
 current_video_folder = ""
 total_frames = 0
+heading_by_frame = None
+
+COMPASS_HEADING_WINDOW = 9
+COMPASS_SMOOTHING_ALPHA = 0.1
+COMPASS_MIN_MOTION_M = 0.2
 
 # ---------------- OUTPUT ----------------
 os.makedirs(output_folder, exist_ok=True)
@@ -138,11 +145,149 @@ def release_partial_caps(partial_caps):
     for cap in partial_caps.values():
         cap.release()
 
+def compute_heading_by_frame(csv_path):
+    # Mirrors GPSgenerator.py's attach_heading_degrees so the compass matches
+    # the same rotation the gps_map video was rendered with. Row order after
+    # sorting/deduping by frame is the map video's frame index (1:1 with the
+    # camera .mp4 frame counts, as produced by videoGPSGenerator.py).
+    if not os.path.exists(csv_path):
+        return None
+
+    rows = []
+    with open(csv_path, newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            try:
+                frame = int(row["frame"])
+                lat = float(row["lat"])
+                lon = float(row["lon"])
+            except (KeyError, TypeError, ValueError):
+                continue
+            rows.append((frame, lat, lon))
+
+    rows.sort(key=lambda r: r[0])
+    seen = set()
+    deduped = []
+    for frame, lat, lon in rows:
+        if frame in seen:
+            continue
+        seen.add(frame)
+        deduped.append((frame, lat, lon))
+
+    if len(deduped) < 2:
+        return None
+
+    lats = [r[1] for r in deduped]
+    lons = [r[2] for r in deduped]
+    lat0 = sum(lats) / len(lats)
+    lon0 = sum(lons) / len(lons)
+
+    earth_radius_m = 6371000.0
+    lat0_rad = math.radians(lat0)
+    xs = [math.radians(lon - lon0) * math.cos(lat0_rad) * earth_radius_m for lon in lons]
+    ys = [math.radians(lat - lat0) * earth_radius_m for lat in lats]
+
+    n = len(xs)
+    k = max(1, COMPASS_HEADING_WINDOW)
+    alpha = max(0.01, min(1.0, COMPASS_SMOOTHING_ALPHA))
+
+    ux_s = [0.0] * n
+    uy_s = [0.0] * n
+    heading_deg = [0.0] * n
+
+    for i in range(n):
+        p = max(0, i - k)
+        q = min(n - 1, i + k)
+        span = max(1, q - p)
+        dx = (xs[q] - xs[p]) / span
+        dy = (ys[q] - ys[p]) / span
+        speed = math.hypot(dx, dy)
+        raw = math.atan2(dy, dx)
+        ux, uy = math.cos(raw), math.sin(raw)
+
+        if i == 0:
+            ux_s[0], uy_s[0] = ux, uy
+        else:
+            if speed >= COMPASS_MIN_MOTION_M:
+                target_ux, target_uy = ux, uy
+            else:
+                target_ux, target_uy = ux_s[i - 1], uy_s[i - 1]
+
+            ux_s[i] = (1.0 - alpha) * ux_s[i - 1] + alpha * target_ux
+            uy_s[i] = (1.0 - alpha) * uy_s[i - 1] + alpha * target_uy
+
+            norm = math.hypot(ux_s[i], uy_s[i])
+            if norm > 1e-8:
+                ux_s[i] /= norm
+                uy_s[i] /= norm
+            else:
+                ux_s[i], uy_s[i] = ux_s[i - 1], uy_s[i - 1]
+
+        heading_deg[i] = math.degrees(math.atan2(uy_s[i], ux_s[i]))
+
+    return heading_deg
+
+def _compass_point(cx, cy, r, bearing_deg):
+    # bearing_deg is clockwise from screen-up (0 = up, +90 = right).
+    a = math.radians(bearing_deg)
+    return (cx + r * math.sin(a), cy - r * math.cos(a))
+
+def draw_compass(frame, north_bearing_deg):
+    # Four-point compass rose. north_bearing_deg is clockwise from screen-up,
+    # so the whole rose rotates and the N point tracks map-north.
+    h, w = frame.shape[:2]
+    radius = max(8, min(w, h) // 16)
+    margin = max(12, radius)
+    cx = w - margin - radius
+    cy = margin + radius
+
+    inner = radius * 0.34
+    b = north_bearing_deg
+
+    dark = (60, 60, 60)
+    light = (245, 245, 245)
+    north_dark = (200, 30, 30)
+    north_light = (255, 170, 170)
+    outline = (30, 30, 30)
+
+    # Faint backing disc for legibility over the map (not an enclosing ring).
+    cv2.circle(frame, (int(cx), int(cy)), int(radius * 1.28), (255, 255, 255), -1, cv2.LINE_AA)
+    cv2.circle(frame, (int(cx), int(cy)), int(radius * 1.28), (210, 210, 210), 1, cv2.LINE_AA)
+
+    center = (cx, cy)
+    # Each cardinal point is two triangles (cw half dark, ccw half light).
+    for offset, c_dark, c_light in [
+        (0, north_dark, north_light),  # N
+        (90, dark, light),             # E
+        (180, dark, light),            # S
+        (270, dark, light),            # W
+    ]:
+        tip = _compass_point(cx, cy, radius, b + offset)
+        left_inner = _compass_point(cx, cy, inner, b + offset - 45)
+        right_inner = _compass_point(cx, cy, inner, b + offset + 45)
+        tri_cw = np.array([center, tip, right_inner], dtype=np.int32)
+        tri_ccw = np.array([center, tip, left_inner], dtype=np.int32)
+        cv2.fillConvexPoly(frame, tri_cw, c_dark, cv2.LINE_AA)
+        cv2.fillConvexPoly(frame, tri_ccw, c_light, cv2.LINE_AA)
+        cv2.polylines(frame, [tri_cw], True, outline, 1, cv2.LINE_AA)
+        cv2.polylines(frame, [tri_ccw], True, outline, 1, cv2.LINE_AA)
+
+    # Cardinal letters just beyond each tip.
+    for offset, letter in [(0, "N"), (90, "E"), (180, "S"), (270, "W")]:
+        lx, ly = _compass_point(cx, cy, radius * 1.18, b + offset)
+        (tw, th), _ = cv2.getTextSize(letter, cv2.FONT_HERSHEY_SIMPLEX, 0.4, 1)
+        color = (200, 30, 30) if letter == "N" else (30, 30, 30)
+        cv2.putText(frame, letter, (int(lx - tw / 2), int(ly + th / 2)),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.4, color, 1, cv2.LINE_AA)
+
+    return frame
+
 def load_video_folder(folder_path):
-    global caps, current_folder_name, current_video_folder, total_frames, frame_buffers
+    global caps, current_folder_name, current_video_folder, total_frames, frame_buffers, heading_by_frame
 
     release_caps()
     frame_buffers = {}
+    heading_by_frame = compute_heading_by_frame(os.path.join(folder_path, "gps.csv"))
 
     new_caps = {}
     for cam in camera_ids:
@@ -247,6 +392,12 @@ def redraw_current_frames(read_new=True):
 
         target_w, target_h = get_target_size(cam)
         frame = cv2.resize(frame_rgb, (target_w, target_h), interpolation=cv2.INTER_LINEAR)
+
+        if cam == "gps_map" and heading_by_frame is not None:
+            idx = current_frame() - 1
+            if 0 <= idx < len(heading_by_frame):
+                frame = draw_compass(frame, heading_by_frame[idx] - 90.0)
+
         img = ImageTk.PhotoImage(Image.fromarray(frame))
         frame_images[cam] = img
         label_widget.config(image=img)
