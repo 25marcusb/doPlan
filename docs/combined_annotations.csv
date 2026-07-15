@@ -1411,6 +1411,93 @@ folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
 2021.08.17.16.48.45_veh-43_00936_01035,209,486,switch to the left lane once you pass all the parked vehicles and make a left turn when the light is green,Static Referential,parthib,./staging/parthib_submissions1 - Parthib Roy.csv,27.7
 2021.10.11.02.57.41_veh-50_02318_02417,14,475,make a left turn at the intersection and follow the road,Non-Referential,parthib,./staging/parthib_submissions1 - Parthib Roy.csv,46.1
 2021.06.14.14.25.15_veh-26_02179_02316,86,591,,Non-Referential,parthib,./staging/parthib_submissions1 - Parthib Roy.csv,50.5
+2021.06.14.18.33.41_veh-35_00898_01182,420,1376,turn left when the light turns green,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,95.6
+2021.06.14.18.33.41_veh-35_00898_01182,41,884,yield to pedestrians crossing the street,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,84.3
+2021.06.14.18.33.41_veh-35_00898_01182,1090,1386,follow the black car,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,29.6
+2021.06.14.18.33.41_veh-35_00898_01182,179,1284,turn left when the light turns green,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,110.5
+2021.06.14.18.33.41_veh-35_00898_01182,943,1237,follow the black car,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,29.4
+2021.06.14.18.33.41_veh-35_00898_01182,86,1274,turn left when the light turns green,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,118.8
+2021.06.09.12.39.51_veh-26_01491_01642,258,636,merge left and avoid pedestrians,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,37.8
+2021.06.09.12.39.51_veh-26_01491_01642,208,633,turn left,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,42.5
+2021.06.09.12.39.51_veh-26_01491_01642,103,423,turn right,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,32.0
+2021.06.09.12.39.51_veh-26_01491_01642,383,653,stop here,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,27.0
+2021.06.09.12.06.35_veh-35_00149_00262,324,496,go straight,Static Referential,,./staging/labels - Jonathan Boaz.csv,17.2
+2021.06.09.12.06.35_veh-35_00149_00262,183,349,drive straight,Non-Referential,,./staging/labels - Jonathan Boaz.csv,16.6
+2021.06.09.12.06.35_veh-35_00149_00262,108,310,stop at the red light,Static Referential,,./staging/labels - Jonathan Boaz.csv,20.2
+2021.06.09.12.06.35_veh-35_00149_00262,175,522,,Non-Referential,,./staging/labels - Jonathan Boaz.csv,34.7
+2021.06.09.11.54.15_veh-12_01403_01526,262,562,turn right,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,30.0
+2021.06.09.11.54.15_veh-12_01403_01526,128,323,merge right and turn right at the intersection,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,19.5
+2021.06.09.11.54.15_veh-12_01403_01526,24,496,merge to the rightmost lane,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,47.2
+2021.06.09.12.51.31_veh-35_00697_00820,70,608,follow the motorcyclist,Dynamic Referential,,./staging/labels - Jonathan Boaz.csv,53.8
+2021.06.09.12.51.31_veh-35_00697_00820,141,575,drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,43.4
+2021.06.09.12.51.31_veh-35_00697_00820,192,525,drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,33.3
+2021.06.09.12.51.31_veh-35_00697_00820,290,511,follow the motorcyclist,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,22.1
+2021.05.12.23.36.44_veh-35_00515_00701,3,898,follow the green truck,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,89.5
+2021.05.12.23.36.44_veh-35_00515_00701,404,806,turn right at the intersection,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,40.2
+2021.05.12.23.36.44_veh-35_00515_00701,114,689,merge left and follow the gold sedan,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,57.5
+2021.05.12.23.36.44_veh-35_00515_00701,157,569,turn left at the light,Non-Referential,jboaz,./staging/labels - Jonathan Boaz.csv,41.2
+2021.05.12.19.36.12_veh-35_01744_01934,27,240,turn right at the intersection,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,21.3
+2021.05.12.19.36.12_veh-35_01744_01934,168,700,drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,53.2
+2021.06.09.12.39.51_veh-26_01418_01480,12,176,wait for pedestrians to cross,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,16.4
+2021.06.09.12.39.51_veh-26_01418_01480,70,292,wait for the light to turn green,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,22.2
+2021.06.09.11.54.15_veh-12_00689_01229,119,1482,turn right and merge left,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,136.3
+2021.05.12.23.36.44_veh-35_00785_01041,389,1151,drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,76.2
+2021.06.09.12.39.51_veh-26_04255_04331,83,282,,Non-Referential,jboaz,./staging/labels - Jonathan Boaz.csv,19.9
+2021.06.09.11.54.15_veh-12_02957_03110,480,754,follow the black suv,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,27.4
+2021.06.09.12.51.31_veh-35_00007_00089,81,349,merge left,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,26.8
+2021.06.09.12.39.51_veh-26_00371_00480,178,493,yield to mergeing vehicles,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,31.5
+2021.05.12.19.36.12_veh-35_01400_01643,238,414,follow the white van,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,17.6
+2021.06.09.12.39.51_veh-26_00055_00360,78,1480,follow the fed-ex truck,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,140.2
+2021.05.12.19.36.12_veh-35_01400_01643,47,1011,wait for pedestrians to cross,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,96.4
+2021.05.12.19.36.12_veh-35_00215_00405,91,844,drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,75.3
+2021.05.12.19.36.12_veh-35_01400_01643,852,1108,turn right and follow the white truck,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,25.6
+2021.06.09.12.39.51_veh-26_00371_00480,40,486,turn right after pedestrians cross,Non-Referential,jboaz,./staging/labels - Jonathan Boaz.csv,44.6
+2021.05.12.19.36.12_veh-35_01400_01643,102,1109,drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,100.7
+2021.05.12.19.36.12_veh-35_00005_00204,599,802,follow the black van,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,20.3
+2021.06.09.12.06.35_veh-35_01164_01494,498,1458,follow the grey suv,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,96.0
+2021.06.09.11.54.15_veh-12_01902_02277,177,1549,drive straight and turn left at the light,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,137.2
+2021.06.09.11.54.15_veh-12_05108_05331,326,1034,follow the black van and turn left after the pedestrians cross the intersection,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,70.8
+2021.06.09.11.54.15_veh-12_01902_02277,38,312,drive straight,Non-Referential,jboaz,./staging/labels - Jonathan Boaz.csv,27.4
+2021.06.09.12.06.35_veh-35_01164_01494,181,1325,drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,114.4
+2021.06.09.12.39.51_veh-26_04543_05321,487,2541,turn right,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,205.4
+2021.06.09.12.39.51_veh-26_04543_05321,748,1457,follow the white car,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,70.9
+2021.06.09.12.39.51_veh-26_02470_02648,173,425,turn right,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,25.2
+2021.06.09.12.39.51_veh-26_04543_05321,604,1678,drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,107.4
+2021.06.09.12.39.51_veh-26_02470_02648,148,857,merge right and turn right at the intersection,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,70.9
+2021.05.12.22.00.38_veh-35_01008_01518,1125,2186,follow the blue car,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,106.1
+2021.06.09.11.54.15_veh-12_05342_05403,25,192,follow the white van,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,16.7
+2021.06.09.12.39.51_veh-26_04543_05321,1071,1437,wait for pedestrians to cross the intersection,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,36.6
+2021.06.09.12.39.51_veh-26_02470_02648,232,825,follow the white car,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,59.3
+2021.05.12.22.00.38_veh-35_01008_01518,1099,2503,follow the blue car,Non-Referential,jboaz,./staging/labels - Jonathan Boaz.csv,140.4
+2021.06.09.12.39.51_veh-26_04543_05321,661,1550,,Non-Referential,jboaz,./staging/labels - Jonathan Boaz.csv,88.9
+2021.05.12.22.00.38_veh-35_01008_01518,987,1572,drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,58.5
+2021.06.09.12.39.51_veh-26_04543_05321,1418,2227,wait for the light to turn green,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,80.9
+2021.08.17.18.44.32_veh-08_00873_01540,494,2245,turn left and drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,175.1
+2021.08.17.18.44.32_veh-08_00873_01540,909,2465,drive straight and turn left ,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,155.6
+2021.08.17.13.15.12_veh-45_00925_00987,17,297,turn left at the light then take a right at the next light,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,28.0
+2021.08.17.15.02.08_veh-45_01348_01731,290,463,wait for pedestrians to cross then turn right ,Both,jboaz,./staging/labels - Jonathan Boaz.csv,17.3
+2021.08.17.18.13.38_veh-45_00410_00618,60,294,turn left at the intersection ,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,23.4
+2021.08.17.18.13.38_veh-45_00410_00618,61,813,turn left when the intersection is clear,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,75.2
+2021.08.17.19.18.39_veh-08_00118_00178,34,201,turn right then turn right at the light,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,16.7
+2021.08.17.14.45.12_veh-42_00542_00803,13,1250,turn left then merge right and turn right at the next light,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,123.7
+2021.08.17.19.18.39_veh-08_00118_00178,0,162,turn right then turn right again ,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,16.2
+2021.08.17.18.44.32_veh-08_00873_01540,161,2497,turn left when the intersection is clear and drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,233.6
+2021.08.17.14.45.12_veh-42_00542_00803,227,563,merge left and turn left at the intersection,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,33.6
+2021.08.17.14.32.33_veh-08_01576_01919,137,1277,drive straight then make a left at the stop sign,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,114.0
+2021.08.17.18.44.32_veh-08_00873_01540,124,2426,turn left at the light and drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,230.2
+2021.08.17.16.48.45_veh-43_02070_02652,1317,2525,turn left at the light and turn left again at the next intersection,Non-Referential,jboaz,./staging/labels - Jonathan Boaz.csv,120.8
+2021.08.17.14.32.33_veh-08_01576_01919,553,1451,turn left then turn left at the stop sign and drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,89.8
+2021.08.17.18.11.12_veh-08_00629_01599,298,620,follow the red truck,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,32.2
+2021.08.17.14.45.12_veh-42_00542_00803,161,833,drive straight then turn left at the light then turn left at the stop sign,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,67.2
+2021.08.17.13.15.12_veh-45_00925_00987,105,291,turn left at the light then turn right at the next light,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,18.6
+2021.08.17.14.45.12_veh-42_00542_00803,449,1232,turn left at the light then turn left at the stop sign then merge left then turn left at the next light,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,78.3
+2021.08.17.13.15.12_veh-45_02124_02293,17,828,turn left at the stop sign then drive straight and merge left to avoid the truck then turn left at the stop sign then right at the next stop sign,Both,jboaz,./staging/labels - Jonathan Boaz.csv,81.1
+2021.08.17.18.13.38_veh-45_00410_00618,502,1015,turn left then turn right and drive straight for two blocks,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,51.3
+2021.08.17.13.15.12_veh-45_02124_02293,340,801,turn left at the stop sign then right at the next stop sign and drive straight until the next stop sign,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,46.1
+2021.08.17.18.11.12_veh-08_00629_01599,125,2329,merge left to avoid the truck then follow the red truck ,Both,jboaz,./staging/labels - Jonathan Boaz.csv,220.4
+2021.08.17.15.02.08_veh-45_01348_01731,115,1685,turn left and drive straight for blocks then turn right ,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,157.0
+2021.08.17.16.48.45_veh-43_02070_02652,1143,1983,turn left at the light and turn left at the next light then drive straight across the bridge,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,84.0
+2021.08.17.18.13.38_veh-45_00410_00618,88,498,turn left at the light then drive straight,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,41.0
 2021.10.11.02.57.41_veh-50_00145_00308,135,714,change to right lane after white car passes,Static Referential,Vrishan,./staging/labels - Vrishan Inukollu.csv,57.9
 2021.10.11.02.57.41_veh-50_00145_00308,564,732,,Non-Referential,Vrishan,./staging/labels - Vrishan Inukollu.csv,16.8
 2021.10.11.05.34.05_veh-50_00697_00766,188,338,,Non-Referential,Vrishan,./staging/labels - Vrishan Inukollu.csv,15.0

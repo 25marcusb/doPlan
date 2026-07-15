@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-07-14T19:12:25",
+  "generated_at": "2026-07-15T01:58:49",
   "table1": {
-    "number_of_annotations": 1459,
-    "number_of_unique_source_clips": 775,
-    "number_of_annotators": 8,
-    "total_annotated_driving_time_hrs": 16.36711111111111,
-    "mean_segment_duration_sec": 40.38492117888965,
-    "median_segment_duration_sec": 27.5,
+    "number_of_annotations": 1546,
+    "number_of_unique_source_clips": 782,
+    "number_of_annotators": 9,
+    "total_annotated_driving_time_hrs": 18.025222222222222,
+    "mean_segment_duration_sec": 41.973350582147475,
+    "median_segment_duration_sec": 28.200000000000003,
     "min_segment_duration_sec": 15.0,
     "max_segment_duration_sec": 249.9
   },
   "table2": {
-    "number_of_instructions": 1053,
-    "mean_instruction_length_words": 18.125356125356124,
-    "median_instruction_length_words": 14.0,
+    "number_of_instructions": 1137,
+    "mean_instruction_length_words": 17.262093227792437,
+    "median_instruction_length_words": 13.0,
     "min_instruction_length_words": 2,
     "max_instruction_length_words": 113,
-    "vocabulary_size": 529,
-    "type_token_ratio": 0.027716650948339097,
-    "multi_sentence_pct": 51.37701804368471
+    "vocabulary_size": 537,
+    "type_token_ratio": 0.02735887507642144,
+    "multi_sentence_pct": 47.58135444151275
   },
   "table3": {
-    "mean_annotations_per_clip": 1.8825806451612903,
+    "mean_annotations_per_clip": 1.9769820971867007,
     "median_annotations_per_clip": 2.0,
-    "max_annotations_single_clip": 9,
-    "clips_with_multiple_annotations_pct": 54.32258064516129,
-    "overlapping_annotation_pairs": 969,
-    "mean_temporal_overlap_ratio": 0.4705866893098443,
-    "mean_instruction_similarity_for_overlaps": 0.29669582941344735
+    "max_annotations_single_clip": 10,
+    "clips_with_multiple_annotations_pct": 56.01023017902813,
+    "overlapping_annotation_pairs": 1181,
+    "mean_temporal_overlap_ratio": 0.4639664798153391,
+    "mean_instruction_similarity_for_overlaps": 0.2794164529724862
   },
   "coverage": {
     "total_clips_in_manifest": 1085,
-    "clips_annotated": 775,
-    "clips_unannotated": 310,
-    "coverage_pct": 71.42857142857143,
+    "clips_annotated": 782,
+    "clips_unannotated": 303,
+    "coverage_pct": 72.07373271889401,
     "total_available_driving_time_hrs": 32.46205555555555,
-    "annotated_clip_time_hrs": 22.691444444444446,
-    "time_coverage_pct": 69.9014404852161,
+    "annotated_clip_time_hrs": 22.9325,
+    "time_coverage_pct": 70.64401686071089,
     "per_scene": [
       {
         "clip_id": "2021.09.15.11.49.23_veh-28_00081_00237",
@@ -1530,17 +1530,17 @@
         "clip_id": "2021.05.12.19.36.12_veh-35_00005_00204",
         "city": "las_vegas_1",
         "total_sec": 99.0,
-        "covered_sec": 47.4,
-        "coverage_pct": 47.878787878787875,
-        "num_annotations": 2
+        "covered_sec": 65.2,
+        "coverage_pct": 65.85858585858585,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.05.12.19.36.12_veh-35_00215_00405",
         "city": "las_vegas_1",
         "total_sec": 94.5,
-        "covered_sec": 52.1,
-        "coverage_pct": 55.13227513227513,
-        "num_annotations": 2
+        "covered_sec": 75.30000000000001,
+        "coverage_pct": 79.6825396825397,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.05.12.19.36.12_veh-35_00416_00557",
@@ -1578,9 +1578,9 @@
         "clip_id": "2021.05.12.19.36.12_veh-35_01400_01643",
         "city": "las_vegas_1",
         "total_sec": 120.9,
-        "covered_sec": 85.3,
-        "coverage_pct": 70.55417700578991,
-        "num_annotations": 2
+        "covered_sec": 115.8,
+        "coverage_pct": 95.78163771712158,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.05.12.19.36.12_veh-35_01654_01733",
@@ -1594,9 +1594,9 @@
         "clip_id": "2021.05.12.19.36.12_veh-35_01744_01934",
         "city": "las_vegas_1",
         "total_sec": 94.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 67.3,
+        "coverage_pct": 71.21693121693121,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.05.12.19.36.12_veh-35_01945_02065",
@@ -1642,9 +1642,9 @@
         "clip_id": "2021.05.12.22.00.38_veh-35_01008_01518",
         "city": "las_vegas_1",
         "total_sec": 254.4,
-        "covered_sec": 32.0,
-        "coverage_pct": 12.578616352201259,
-        "num_annotations": 1
+        "covered_sec": 151.60000000000002,
+        "coverage_pct": 59.59119496855346,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.05.12.22.28.35_veh-35_00025_00115",
@@ -1714,9 +1714,9 @@
         "clip_id": "2021.05.12.23.36.44_veh-35_00515_00701",
         "city": "las_vegas_1",
         "total_sec": 92.4,
-        "covered_sec": 83.6,
-        "coverage_pct": 90.47619047619047,
-        "num_annotations": 2
+        "covered_sec": 90.0,
+        "coverage_pct": 97.40259740259741,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.05.12.23.36.44_veh-35_00712_00774",
@@ -1730,9 +1730,9 @@
         "clip_id": "2021.05.12.23.36.44_veh-35_00785_01041",
         "city": "las_vegas_1",
         "total_sec": 127.4,
-        "covered_sec": 25.10000000000001,
-        "coverage_pct": 19.701726844583995,
-        "num_annotations": 1
+        "covered_sec": 76.19999999999999,
+        "coverage_pct": 59.81161695447409,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.05.12.23.36.44_veh-35_01133_01535",
@@ -1794,9 +1794,9 @@
         "clip_id": "2021.06.09.11.54.15_veh-12_00689_01229",
         "city": "las_vegas_1",
         "total_sec": 254.5,
-        "covered_sec": 142.1,
-        "coverage_pct": 55.83497053045187,
-        "num_annotations": 4
+        "covered_sec": 189.1,
+        "coverage_pct": 74.30255402750491,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.06.09.11.54.15_veh-12_01240_01361",
@@ -1810,9 +1810,9 @@
         "clip_id": "2021.06.09.11.54.15_veh-12_01403_01526",
         "city": "las_vegas_1",
         "total_sec": 61.0,
-        "covered_sec": 15.899999999999999,
-        "coverage_pct": 26.065573770491802,
-        "num_annotations": 1
+        "covered_sec": 56.4,
+        "coverage_pct": 92.45901639344261,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.09.11.54.15_veh-12_01537_01628",
@@ -1834,9 +1834,9 @@
         "clip_id": "2021.06.09.11.54.15_veh-12_01902_02277",
         "city": "las_vegas_1",
         "total_sec": 186.9,
-        "covered_sec": 64.49999999999999,
-        "coverage_pct": 34.510433386837875,
-        "num_annotations": 1
+        "covered_sec": 151.1,
+        "coverage_pct": 80.84537185660781,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.11.54.15_veh-12_02288_02529",
@@ -1866,9 +1866,9 @@
         "clip_id": "2021.06.09.11.54.15_veh-12_02957_03110",
         "city": "las_vegas_1",
         "total_sec": 75.9,
-        "covered_sec": 64.0,
-        "coverage_pct": 84.32147562582345,
-        "num_annotations": 1
+        "covered_sec": 68.5,
+        "coverage_pct": 90.25032938076416,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.09.11.54.15_veh-12_03121_03319",
@@ -1932,15 +1932,15 @@
         "total_sec": 110.9,
         "covered_sec": 88.2,
         "coverage_pct": 79.53110910730388,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.11.54.15_veh-12_05342_05403",
         "city": "las_vegas_1",
         "total_sec": 29.9,
-        "covered_sec": 23.2,
-        "coverage_pct": 77.59197324414716,
-        "num_annotations": 2
+        "covered_sec": 27.0,
+        "coverage_pct": 90.30100334448161,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.11.54.15_veh-12_05414_05511",
@@ -1964,7 +1964,7 @@
         "total_sec": 56.0,
         "covered_sec": 52.5,
         "coverage_pct": 93.75,
-        "num_annotations": 1
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.06.09.12.06.35_veh-35_00284_00410",
@@ -1986,25 +1986,25 @@
         "clip_id": "2021.06.09.12.06.35_veh-35_01164_01494",
         "city": "las_vegas_1",
         "total_sec": 164.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 127.70000000000002,
+        "coverage_pct": 77.629179331307,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.09.12.39.51_veh-26_00055_00360",
         "city": "las_vegas_1",
         "total_sec": 151.9,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 140.2,
+        "coverage_pct": 92.2975641869651,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.09.12.39.51_veh-26_00371_00480",
         "city": "las_vegas_1",
         "total_sec": 53.9,
-        "covered_sec": 27.000000000000004,
-        "coverage_pct": 50.09276437847867,
-        "num_annotations": 1
+        "covered_sec": 45.3,
+        "coverage_pct": 84.04452690166976,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.12.39.51_veh-26_00492_00587",
@@ -2034,17 +2034,17 @@
         "clip_id": "2021.06.09.12.39.51_veh-26_01418_01480",
         "city": "las_vegas_1",
         "total_sec": 30.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 28.0,
+        "coverage_pct": 91.80327868852459,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.09.12.39.51_veh-26_01491_01642",
         "city": "las_vegas_1",
         "total_sec": 74.9,
-        "covered_sec": 30.900000000000002,
-        "coverage_pct": 41.25500667556742,
-        "num_annotations": 1
+        "covered_sec": 55.0,
+        "coverage_pct": 73.43124165554072,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.06.09.12.39.51_veh-26_01653_01919",
@@ -2074,9 +2074,9 @@
         "clip_id": "2021.06.09.12.39.51_veh-26_02470_02648",
         "city": "las_vegas_1",
         "total_sec": 88.4,
-        "covered_sec": 31.900000000000006,
-        "coverage_pct": 36.085972850678736,
-        "num_annotations": 1
+        "covered_sec": 70.9,
+        "coverage_pct": 80.20361990950227,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.09.12.39.51_veh-26_02729_02878",
@@ -2132,7 +2132,7 @@
         "total_sec": 37.4,
         "covered_sec": 31.299999999999997,
         "coverage_pct": 83.6898395721925,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.12.39.51_veh-26_04374_04513",
@@ -2146,9 +2146,9 @@
         "clip_id": "2021.06.09.12.39.51_veh-26_04543_05321",
         "city": "las_vegas_1",
         "total_sec": 254.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 205.39999999999998,
+        "coverage_pct": 80.70726915520628,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.06.09.12.39.51_veh-26_05332_05540",
@@ -2170,9 +2170,9 @@
         "clip_id": "2021.06.09.12.51.31_veh-35_00007_00089",
         "city": "las_vegas_1",
         "total_sec": 40.4,
-        "covered_sec": 27.400000000000002,
-        "coverage_pct": 67.82178217821783,
-        "num_annotations": 2
+        "covered_sec": 34.199999999999996,
+        "coverage_pct": 84.65346534653465,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.12.51.31_veh-35_00100_00277",
@@ -2202,9 +2202,9 @@
         "clip_id": "2021.06.09.12.51.31_veh-35_00697_00820",
         "city": "las_vegas_1",
         "total_sec": 60.9,
-        "covered_sec": 15.100000000000001,
-        "coverage_pct": 24.79474548440066,
-        "num_annotations": 1
+        "covered_sec": 53.8,
+        "coverage_pct": 88.3415435139573,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.06.09.12.51.31_veh-35_00852_01020",
@@ -5394,9 +5394,9 @@
         "clip_id": "2021.06.14.18.33.41_veh-35_00898_01182",
         "city": "las_vegas_5",
         "total_sec": 141.4,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 134.5,
+        "coverage_pct": 95.12022630834511,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.06.14.18.33.41_veh-35_01193_01304",
@@ -7658,9 +7658,9 @@
         "clip_id": "2021.08.17.13.15.12_veh-45_00925_00987",
         "city": "pittsburgh_1",
         "total_sec": 30.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 28.0,
+        "coverage_pct": 91.80327868852459,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.08.17.13.15.12_veh-45_01049_01467",
@@ -7698,9 +7698,9 @@
         "clip_id": "2021.08.17.13.15.12_veh-45_02124_02293",
         "city": "pittsburgh_1",
         "total_sec": 84.0,
-        "covered_sec": 67.9,
-        "coverage_pct": 80.83333333333333,
-        "num_annotations": 6
+        "covered_sec": 81.1,
+        "coverage_pct": 96.54761904761904,
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.08.17.13.15.12_veh-45_02304_02650",
@@ -7754,9 +7754,9 @@
         "clip_id": "2021.08.17.14.32.33_veh-08_01576_01919",
         "city": "pittsburgh_1",
         "total_sec": 170.9,
-        "covered_sec": 143.6,
-        "coverage_pct": 84.02574605032181,
-        "num_annotations": 4
+        "covered_sec": 155.70000000000002,
+        "coverage_pct": 91.10590988882387,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.08.17.14.45.12_veh-42_00092_00301",
@@ -7778,9 +7778,9 @@
         "clip_id": "2021.08.17.14.45.12_veh-42_00542_00803",
         "city": "pittsburgh_1",
         "total_sec": 129.9,
-        "covered_sec": 117.99999999999999,
-        "coverage_pct": 90.83910700538874,
-        "num_annotations": 6
+        "covered_sec": 127.39999999999999,
+        "coverage_pct": 98.0754426481909,
+        "num_annotations": 10
       },
       {
         "clip_id": "2021.08.17.14.45.12_veh-42_00831_01079",
@@ -7850,9 +7850,9 @@
         "clip_id": "2021.08.17.15.02.08_veh-45_01348_01731",
         "city": "pittsburgh_1",
         "total_sec": 191.0,
-        "covered_sec": 88.29999999999998,
-        "coverage_pct": 46.230366492146594,
-        "num_annotations": 1
+        "covered_sec": 157.0,
+        "coverage_pct": 82.19895287958116,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.08.17.15.02.08_veh-45_01756_01966",
@@ -7946,9 +7946,9 @@
         "clip_id": "2021.08.17.16.48.45_veh-43_02070_02652",
         "city": "pittsburgh_1",
         "total_sec": 254.5,
-        "covered_sec": 168.7,
-        "coverage_pct": 66.28683693516699,
-        "num_annotations": 5
+        "covered_sec": 233.5,
+        "coverage_pct": 91.74852652259332,
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.08.17.16.48.45_veh-43_02693_03062",
@@ -8130,9 +8130,9 @@
         "clip_id": "2021.08.17.18.11.12_veh-08_00629_01599",
         "city": "pittsburgh_1",
         "total_sec": 254.5,
-        "covered_sec": 170.3,
-        "coverage_pct": 66.9155206286837,
-        "num_annotations": 2
+        "covered_sec": 220.4,
+        "coverage_pct": 86.60117878192534,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.08.17.18.11.12_veh-08_01622_01709",
@@ -8162,9 +8162,9 @@
         "clip_id": "2021.08.17.18.13.38_veh-45_00410_00618",
         "city": "pittsburgh_1",
         "total_sec": 103.4,
-        "covered_sec": 61.300000000000004,
-        "coverage_pct": 59.284332688588,
-        "num_annotations": 2
+        "covered_sec": 95.5,
+        "coverage_pct": 92.35976789168278,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.08.17.18.13.38_veh-45_00641_00881",
@@ -8266,9 +8266,9 @@
         "clip_id": "2021.08.17.18.44.32_veh-08_00873_01540",
         "city": "pittsburgh_1",
         "total_sec": 254.5,
-        "covered_sec": 189.8,
-        "coverage_pct": 74.57760314341847,
-        "num_annotations": 3
+        "covered_sec": 237.29999999999998,
+        "coverage_pct": 93.24165029469548,
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.08.17.18.54.02_veh-45_00016_00304",
@@ -8330,9 +8330,9 @@
         "clip_id": "2021.08.17.19.18.39_veh-08_00118_00178",
         "city": "pittsburgh_1",
         "total_sec": 29.4,
-        "covered_sec": 26.3,
-        "coverage_pct": 89.45578231292518,
-        "num_annotations": 3
+        "covered_sec": 29.0,
+        "coverage_pct": 98.63945578231294,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.08.17.19.18.39_veh-08_00208_00380",
@@ -8906,21 +8906,21 @@
       0.0,
       50.20374898125509,
       87.19056974459725,
-      47.878787878787875,
-      55.13227513227513,
+      65.85858585858585,
+      79.6825396825397,
       35.42857142857142,
       89.90176817288801,
       61.145194274028626,
       0.0,
-      70.55417700578991,
+      95.78163771712158,
       83.54755784061697,
-      0.0,
+      71.21693121693121,
       0.0,
       0.0,
       80.0,
       44.98644986449865,
       0.0,
-      12.578616352201259,
+      59.59119496855346,
       0.0,
       28.80075542965061,
       46.4516129032258,
@@ -8929,9 +8929,9 @@
       0.0,
       0.0,
       92.25071225071225,
-      90.47619047619047,
+      97.40259740259741,
       94.42622950819673,
-      19.701726844583995,
+      59.81161695447409,
       31.636726546906196,
       49.63715529753265,
       16.213768115942035,
@@ -8939,16 +8939,16 @@
       26.66666666666667,
       77.35294117647058,
       16.27612412919569,
-      55.83497053045187,
+      74.30255402750491,
       0.0,
-      26.065573770491802,
+      92.45901639344261,
       84.18708240534521,
       42.50720461095101,
-      34.510433386837875,
+      80.84537185660781,
       79.83333333333333,
       71.72717271727173,
       68.21631878557875,
-      84.32147562582345,
+      90.25032938076416,
       88.93401015228427,
       64.2698295033358,
       0.0,
@@ -8957,24 +8957,24 @@
       18.021680216802167,
       0.0,
       79.53110910730388,
-      77.59197324414716,
+      90.30100334448161,
       83.54166666666667,
       83.42391304347825,
       93.75,
       66.02564102564104,
       54.26326129666011,
-      0.0,
-      0.0,
-      50.09276437847867,
+      77.629179331307,
+      92.2975641869651,
+      84.04452690166976,
       51.70212765957446,
       0.0,
       0.0,
-      0.0,
-      41.25500667556742,
+      91.80327868852459,
+      73.43124165554072,
       17.069486404833842,
       0.0,
       72.62103505843072,
-      36.085972850678736,
+      80.20361990950227,
       44.38430311231393,
       81.84210526315789,
       0.0,
@@ -8983,14 +8983,14 @@
       0.0,
       83.6898395721925,
       35.12336719883889,
+      80.70726915520628,
+      0.0,
+      0.0,
+      84.65346534653465,
       0.0,
       0.0,
       0.0,
-      67.82178217821783,
-      0.0,
-      0.0,
-      0.0,
-      24.79474548440066,
+      88.3415435139573,
       68.38323353293413,
       19.847328244274813,
       0.0,
@@ -9389,7 +9389,7 @@
       96.16438356164385,
       0.0,
       50.64710957722174,
-      0.0,
+      95.12022630834511,
       72.18181818181819,
       23.914643119941132,
       96.35258358662614,
@@ -9672,22 +9672,22 @@
       96.87500000000001,
       43.13725490196079,
       47.962382445141074,
-      0.0,
+      91.80327868852459,
       52.565947242206235,
       46.133333333333326,
       0.0,
       0.0,
-      80.83333333333333,
+      96.54761904761904,
       41.56521739130435,
       0.0,
       69.53125000000001,
       41.80746561886051,
       70.34220532319391,
       78.56603773584905,
-      84.02574605032181,
+      91.10590988882387,
       84.99999999999999,
       33.119266055045884,
-      90.83910700538874,
+      98.0754426481909,
       0.0,
       37.493975903614455,
       0.0,
@@ -9696,7 +9696,7 @@
       39.27855711422846,
       40.80808080808082,
       12.057044079515986,
-      46.230366492146594,
+      82.19895287958116,
       62.83524904214558,
       83.41463414634147,
       90.7853403141361,
@@ -9708,7 +9708,7 @@
       66.3111111111111,
       56.451612903225815,
       68.56856856856857,
-      66.28683693516699,
+      91.74852652259332,
       31.70201196302338,
       96.26168224299066,
       0.0,
@@ -9731,11 +9731,11 @@
       58.31533477321814,
       0.0,
       62.05428419372006,
-      66.9155206286837,
+      86.60117878192534,
       0.0,
       0.0,
       14.735945485519588,
-      59.284332688588,
+      92.35976789168278,
       90.03350083752095,
       13.7524557956778,
       87.07269155206285,
@@ -9748,7 +9748,7 @@
       0.0,
       0.0,
       75.23006134969324,
-      74.57760314341847,
+      93.24165029469548,
       11.916376306620215,
       89.82035928143713,
       31.62907268170426,
@@ -9756,7 +9756,7 @@
       48.487229862475445,
       97.10843373493975,
       0.0,
-      89.45578231292518,
+      98.63945578231294,
       48.82903981264637,
       22.48394004282655,
       61.367249602543716,
@@ -9809,7 +9809,6 @@
   },
   "unannotated_clips": [
     "2021.05.12.19.36.12_veh-35_01305_01389",
-    "2021.05.12.19.36.12_veh-35_01744_01934",
     "2021.05.12.19.36.12_veh-35_01945_02065",
     "2021.05.12.19.36.12_veh-35_02079_02176",
     "2021.05.12.22.00.38_veh-35_00215_00995",
@@ -9821,15 +9820,11 @@
     "2021.06.09.11.54.15_veh-12_03653_03902",
     "2021.06.09.11.54.15_veh-12_04138_04355",
     "2021.06.09.11.54.15_veh-12_04821_05096",
-    "2021.06.09.12.06.35_veh-35_01164_01494",
-    "2021.06.09.12.39.51_veh-26_00055_00360",
     "2021.06.09.12.39.51_veh-26_00609_01168",
     "2021.06.09.12.39.51_veh-26_01179_01338",
-    "2021.06.09.12.39.51_veh-26_01418_01480",
     "2021.06.09.12.39.51_veh-26_01943_02303",
     "2021.06.09.12.39.51_veh-26_02989_03385",
     "2021.06.09.12.39.51_veh-26_03951_04180",
-    "2021.06.09.12.39.51_veh-26_04543_05321",
     "2021.06.09.12.39.51_veh-26_05332_05540",
     "2021.06.09.12.39.51_veh-26_05620_06003",
     "2021.06.09.12.51.31_veh-35_00100_00277",
@@ -9964,7 +9959,6 @@
     "2021.06.14.18.13.35_veh-26_05671_05749",
     "2021.06.14.18.33.41_veh-35_00016_00213",
     "2021.06.14.18.33.41_veh-35_00573_00643",
-    "2021.06.14.18.33.41_veh-35_00898_01182",
     "2021.06.14.18.33.41_veh-35_01739_01918",
     "2021.06.14.18.33.41_veh-35_02339_02447",
     "2021.06.14.18.33.41_veh-35_03901_04264",
@@ -10070,7 +10064,6 @@
     "2021.07.16.23.22.27_veh-14_04496_06203",
     "2021.08.17.13.10.50_veh-08_00726_01027",
     "2021.08.17.13.10.50_veh-08_01060_01340",
-    "2021.08.17.13.15.12_veh-45_00925_00987",
     "2021.08.17.13.15.12_veh-45_01679_01816",
     "2021.08.17.13.15.12_veh-45_02025_02103",
     "2021.08.17.14.32.33_veh-08_00016_00354",
@@ -10123,6 +10116,7 @@
   "per_annotator_counts": {
     "giovanni": 1006,
     "parthib": 247,
+    "jboaz": 82,
     "ytandon": 50,
     "Marcus": 48,
     "Vrishan": 44,
@@ -10131,10 +10125,10 @@
     "proy3": 1
   },
   "referential_distribution": {
-    "Non-Referential": 548,
-    "Static Referential": 253,
-    "Dynamic Referential": 225,
-    "Both": 414
+    "Non-Referential": 557,
+    "Static Referential": 304,
+    "Dynamic Referential": 249,
+    "Both": 417
   },
   "unmapped_commentary": {
     "Ambiguous": 19
@@ -10285,7 +10279,13 @@
       8,
       9,
       9,
-      11
+      11,
+      2,
+      5,
+      5,
+      2,
+      4,
+      13
     ],
     "Static Referential": [
       23,
@@ -10532,6 +10532,57 @@
       17,
       15,
       22,
+      7,
+      7,
+      7,
+      2,
+      2,
+      2,
+      2,
+      5,
+      2,
+      8,
+      5,
+      2,
+      2,
+      5,
+      5,
+      2,
+      7,
+      5,
+      2,
+      2,
+      2,
+      2,
+      8,
+      2,
+      2,
+      2,
+      2,
+      8,
+      2,
+      7,
+      5,
+      5,
+      13,
+      5,
+      7,
+      8,
+      12,
+      6,
+      10,
+      8,
+      10,
+      8,
+      12,
+      15,
+      12,
+      22,
+      11,
+      21,
+      10,
+      18,
+      8,
       8,
       8,
       17,
@@ -10765,6 +10816,30 @@
       8,
       8,
       12,
+      6,
+      4,
+      4,
+      5,
+      3,
+      3,
+      4,
+      7,
+      5,
+      4,
+      4,
+      4,
+      4,
+      5,
+      7,
+      4,
+      4,
+      13,
+      4,
+      4,
+      4,
+      7,
+      4,
+      4,
       24
     ],
     "Both": [
@@ -11180,20 +11255,24 @@
       18,
       26,
       25,
-      17
+      17,
+      8,
+      30,
+      11
     ]
   },
   "per_clip_counts": {
-    "0": 310,
-    "1": 354,
-    "2": 252,
-    "3": 116,
-    "4": 27,
-    "5": 17,
-    "6": 6,
-    "7": 1,
-    "8": 1,
-    "9": 1
+    "0": 303,
+    "1": 344,
+    "2": 248,
+    "3": 123,
+    "4": 29,
+    "5": 21,
+    "6": 10,
+    "7": 3,
+    "8": 2,
+    "9": 1,
+    "10": 1
   },
   "scene_timelines": {
     "2021.06.14.13.27.42_veh-35_00353_00531": {
@@ -12485,6 +12564,24 @@
       "total_sec": 254.4,
       "bars": [
         {
+          "start": 98.7,
+          "end": 157.2,
+          "user": "jboaz",
+          "label": "drive straight"
+        },
+        {
+          "start": 109.9,
+          "end": 250.3,
+          "user": "jboaz",
+          "label": "follow the blue car"
+        },
+        {
+          "start": 112.5,
+          "end": 218.6,
+          "user": "jboaz",
+          "label": "follow the blue car"
+        },
+        {
           "start": 175.5,
           "end": 207.5,
           "user": "giovanni",
@@ -12883,6 +12980,24 @@
       "total_sec": 61.0,
       "bars": [
         {
+          "start": 2.4,
+          "end": 49.6,
+          "user": "jboaz",
+          "label": "merge to the rightmost lane"
+        },
+        {
+          "start": 12.8,
+          "end": 32.3,
+          "user": "jboaz",
+          "label": "merge right and turn right at the intersection"
+        },
+        {
+          "start": 26.2,
+          "end": 56.2,
+          "user": "jboaz",
+          "label": "turn right"
+        },
+        {
           "start": 42.9,
           "end": 58.8,
           "user": "giovanni",
@@ -12904,6 +13019,18 @@
     "2021.06.09.11.54.15_veh-12_01902_02277": {
       "total_sec": 186.9,
       "bars": [
+        {
+          "start": 3.8,
+          "end": 31.2,
+          "user": "jboaz",
+          "label": "drive straight"
+        },
+        {
+          "start": 17.7,
+          "end": 154.9,
+          "user": "jboaz",
+          "label": "drive straight and turn left at the light"
+        },
         {
           "start": 69.7,
           "end": 134.2,
@@ -13094,6 +13221,12 @@
       "total_sec": 84.0,
       "bars": [
         {
+          "start": 1.7,
+          "end": 82.8,
+          "user": "jboaz",
+          "label": "turn left at the stop sign then drive straight and merge left to avoid the truck..."
+        },
+        {
           "start": 7.3,
           "end": 59.9,
           "user": "giovanni",
@@ -13110,6 +13243,12 @@
           "end": 71.7,
           "user": "ytandon",
           "label": "nan"
+        },
+        {
+          "start": 34.0,
+          "end": 80.1,
+          "user": "jboaz",
+          "label": "turn left at the stop sign then right at the next stop sign and drive straight u..."
         },
         {
           "start": 36.9,
@@ -13163,10 +13302,34 @@
       "total_sec": 92.4,
       "bars": [
         {
+          "start": 0.3,
+          "end": 89.8,
+          "user": "jboaz",
+          "label": "follow the green truck"
+        },
+        {
           "start": 6.7,
           "end": 90.3,
           "user": "parthib",
           "label": "make a right lane switch after passing the intersection, then make the right tur..."
+        },
+        {
+          "start": 11.4,
+          "end": 68.9,
+          "user": "jboaz",
+          "label": "merge left and follow the gold sedan"
+        },
+        {
+          "start": 15.7,
+          "end": 56.9,
+          "user": "jboaz",
+          "label": "turn left at the light"
+        },
+        {
+          "start": 40.4,
+          "end": 80.6,
+          "user": "jboaz",
+          "label": "turn right at the intersection"
         },
         {
           "start": 42.2,
@@ -13461,10 +13624,34 @@
       "total_sec": 74.9,
       "bars": [
         {
+          "start": 10.3,
+          "end": 42.3,
+          "user": "jboaz",
+          "label": "turn right"
+        },
+        {
           "start": 15.7,
           "end": 46.6,
           "user": "giovanni",
           "label": "Turn into the Diamond Seven & Taxi services. Slow down and let the vehicle ahead..."
+        },
+        {
+          "start": 20.8,
+          "end": 63.3,
+          "user": "jboaz",
+          "label": "turn left"
+        },
+        {
+          "start": 25.8,
+          "end": 63.6,
+          "user": "jboaz",
+          "label": "merge left and avoid pedestrians"
+        },
+        {
+          "start": 38.3,
+          "end": 65.3,
+          "user": "jboaz",
+          "label": "stop here"
         }
       ]
     },
@@ -13704,10 +13891,34 @@
       "total_sec": 120.9,
       "bars": [
         {
+          "start": 4.7,
+          "end": 101.1,
+          "user": "jboaz",
+          "label": "wait for pedestrians to cross"
+        },
+        {
+          "start": 10.2,
+          "end": 110.9,
+          "user": "jboaz",
+          "label": "drive straight"
+        },
+        {
+          "start": 23.8,
+          "end": 41.4,
+          "user": "jboaz",
+          "label": "follow the white van"
+        },
+        {
           "start": 35.2,
           "end": 120.2,
           "user": "giovanni",
           "label": "Stop behind the white vehicle during the red light. Merge one lane to the right...."
+        },
+        {
+          "start": 85.2,
+          "end": 110.8,
+          "user": "jboaz",
+          "label": "turn right and follow the white truck"
         },
         {
           "start": 102.2,
@@ -13845,6 +14056,12 @@
           "end": 28.1,
           "user": "giovanni",
           "label": "Look for oncoming vehicles before procceding."
+        },
+        {
+          "start": 8.1,
+          "end": 34.9,
+          "user": "jboaz",
+          "label": "merge left"
         }
       ]
     },
@@ -14176,16 +14393,40 @@
       "total_sec": 129.9,
       "bars": [
         {
+          "start": 1.3,
+          "end": 125.0,
+          "user": "jboaz",
+          "label": "turn left then merge right and turn right at the next light"
+        },
+        {
           "start": 10.7,
           "end": 98.7,
           "user": "Vrishan",
           "label": "nan"
         },
         {
+          "start": 16.1,
+          "end": 83.3,
+          "user": "jboaz",
+          "label": "drive straight then turn left at the light then turn left at the stop sign"
+        },
+        {
+          "start": 22.7,
+          "end": 56.3,
+          "user": "jboaz",
+          "label": "merge left and turn left at the intersection"
+        },
+        {
           "start": 33.1,
           "end": 128.2,
           "user": "giovanni",
           "label": "Stop at the stop sign. Look for oncoming traffic and turn left. Merge into the l..."
+        },
+        {
+          "start": 44.9,
+          "end": 123.2,
+          "user": "jboaz",
+          "label": "turn left at the light then turn left at the stop sign then merge left then turn..."
         },
         {
           "start": 66.0,
@@ -14714,6 +14955,12 @@
     "2021.06.09.11.54.15_veh-12_00689_01229": {
       "total_sec": 254.5,
       "bars": [
+        {
+          "start": 11.9,
+          "end": 148.2,
+          "user": "jboaz",
+          "label": "turn right and merge left"
+        },
         {
           "start": 58.9,
           "end": 165.3,
@@ -15423,6 +15670,18 @@
           "end": 104.4,
           "user": "Vrishan",
           "label": "nan"
+        },
+        {
+          "start": 114.3,
+          "end": 198.3,
+          "user": "jboaz",
+          "label": "turn left at the light and turn left at the next light then drive straight acros..."
+        },
+        {
+          "start": 131.7,
+          "end": 252.5,
+          "user": "jboaz",
+          "label": "turn left at the light and turn left again at the next intersection"
         },
         {
           "start": 178.3,
@@ -16542,10 +16801,34 @@
       "total_sec": 103.4,
       "bars": [
         {
+          "start": 6.0,
+          "end": 29.4,
+          "user": "jboaz",
+          "label": "turn left at the intersection "
+        },
+        {
+          "start": 6.1,
+          "end": 81.3,
+          "user": "jboaz",
+          "label": "turn left when the intersection is clear"
+        },
+        {
+          "start": 8.8,
+          "end": 49.8,
+          "user": "jboaz",
+          "label": "turn left at the light then drive straight"
+        },
+        {
           "start": 29.9,
           "end": 91.2,
           "user": "parthib",
           "label": "go straight after passing the stopsign"
+        },
+        {
+          "start": 50.2,
+          "end": 101.5,
+          "user": "jboaz",
+          "label": "turn left then turn right and drive straight for two blocks"
         },
         {
           "start": 72.4,
@@ -17494,6 +17777,12 @@
       "total_sec": 127.4,
       "bars": [
         {
+          "start": 38.9,
+          "end": 115.1,
+          "user": "jboaz",
+          "label": "drive straight"
+        },
+        {
           "start": 83.3,
           "end": 108.4,
           "user": "giovanni",
@@ -17593,6 +17882,12 @@
           "end": 43.2,
           "user": "giovanni",
           "label": "nan"
+        },
+        {
+          "start": 59.9,
+          "end": 80.2,
+          "user": "jboaz",
+          "label": "follow the black van"
         },
         {
           "start": 77.7,
@@ -18157,6 +18452,12 @@
     "2021.05.12.19.36.12_veh-35_00215_00405": {
       "total_sec": 94.5,
       "bars": [
+        {
+          "start": 9.1,
+          "end": 84.4,
+          "user": "jboaz",
+          "label": "drive straight"
+        },
         {
           "start": 28.4,
           "end": 80.5,
@@ -18952,6 +19253,12 @@
     "2021.06.09.11.54.15_veh-12_05342_05403": {
       "total_sec": 29.9,
       "bars": [
+        {
+          "start": 2.5,
+          "end": 19.2,
+          "user": "jboaz",
+          "label": "follow the white van"
+        },
         {
           "start": 6.3,
           "end": 29.5,
@@ -20049,6 +20356,18 @@
       "total_sec": 191.0,
       "bars": [
         {
+          "start": 11.5,
+          "end": 168.5,
+          "user": "jboaz",
+          "label": "turn left and drive straight for blocks then turn right "
+        },
+        {
+          "start": 29.0,
+          "end": 46.3,
+          "user": "jboaz",
+          "label": "wait for pedestrians to cross then turn right "
+        },
+        {
           "start": 76.9,
           "end": 165.2,
           "user": "giovanni",
@@ -20555,6 +20874,24 @@
       "total_sec": 88.4,
       "bars": [
         {
+          "start": 14.8,
+          "end": 85.7,
+          "user": "jboaz",
+          "label": "merge right and turn right at the intersection"
+        },
+        {
+          "start": 17.3,
+          "end": 42.5,
+          "user": "jboaz",
+          "label": "turn right"
+        },
+        {
+          "start": 23.2,
+          "end": 82.5,
+          "user": "jboaz",
+          "label": "follow the white car"
+        },
+        {
           "start": 47.5,
           "end": 79.4,
           "user": "giovanni",
@@ -20744,6 +21081,12 @@
           "start": 1.0,
           "end": 23.0,
           "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 8.3,
+          "end": 28.2,
+          "user": "jboaz",
           "label": "nan"
         },
         {
@@ -21229,6 +21572,30 @@
       "total_sec": 60.9,
       "bars": [
         {
+          "start": 7.0,
+          "end": 60.8,
+          "user": "nan",
+          "label": "follow the motorcyclist"
+        },
+        {
+          "start": 14.1,
+          "end": 57.5,
+          "user": "jboaz",
+          "label": "drive straight"
+        },
+        {
+          "start": 19.2,
+          "end": 52.5,
+          "user": "jboaz",
+          "label": "drive straight"
+        },
+        {
+          "start": 29.0,
+          "end": 51.1,
+          "user": "jboaz",
+          "label": "follow the motorcyclist"
+        },
+        {
           "start": 45.6,
           "end": 60.7,
           "user": "giovanni",
@@ -21568,6 +21935,12 @@
           "end": 86.6,
           "user": "parthib",
           "label": "make a right into the paris las vegas"
+        },
+        {
+          "start": 32.6,
+          "end": 103.4,
+          "user": "jboaz",
+          "label": "follow the black van and turn left after the pedestrians cross the intersection"
         },
         {
           "start": 77.8,
@@ -22906,6 +23279,12 @@
           "end": 70.9,
           "user": "parthib",
           "label": "nan"
+        },
+        {
+          "start": 48.0,
+          "end": 75.4,
+          "user": "jboaz",
+          "label": "follow the black suv"
         }
       ]
     },
@@ -23029,10 +23408,22 @@
       "total_sec": 53.9,
       "bars": [
         {
+          "start": 4.0,
+          "end": 48.6,
+          "user": "jboaz",
+          "label": "turn right after pedestrians cross"
+        },
+        {
           "start": 14.2,
           "end": 41.2,
           "user": "parthib",
           "label": "go through the roundabout"
+        },
+        {
+          "start": 17.8,
+          "end": 49.3,
+          "user": "jboaz",
+          "label": "yield to mergeing vehicles"
         }
       ]
     },
@@ -23331,6 +23722,30 @@
           "end": 55.5,
           "user": "parthib",
           "label": "make a right turn at the second stoplight once all the cars from the left side h..."
+        },
+        {
+          "start": 10.8,
+          "end": 31.0,
+          "user": "nan",
+          "label": "stop at the red light"
+        },
+        {
+          "start": 17.5,
+          "end": 52.2,
+          "user": "nan",
+          "label": "nan"
+        },
+        {
+          "start": 18.3,
+          "end": 34.9,
+          "user": "nan",
+          "label": "drive straight"
+        },
+        {
+          "start": 32.4,
+          "end": 49.6,
+          "user": "nan",
+          "label": "go straight"
         }
       ]
     },
@@ -23587,6 +24002,12 @@
       "total_sec": 170.9,
       "bars": [
         {
+          "start": 13.7,
+          "end": 127.7,
+          "user": "jboaz",
+          "label": "drive straight then make a left at the stop sign"
+        },
+        {
           "start": 18.9,
           "end": 136.4,
           "user": "parthib",
@@ -23597,6 +24018,12 @@
           "end": 98.3,
           "user": "Vrishan",
           "label": "nan"
+        },
+        {
+          "start": 55.3,
+          "end": 145.1,
+          "user": "jboaz",
+          "label": "turn left then turn left at the stop sign and drive straight"
         },
         {
           "start": 143.3,
@@ -23733,6 +24160,278 @@
         }
       ]
     },
+    "2021.06.14.18.33.41_veh-35_00898_01182": {
+      "total_sec": 141.4,
+      "bars": [
+        {
+          "start": 4.1,
+          "end": 88.4,
+          "user": "jboaz",
+          "label": "yield to pedestrians crossing the street"
+        },
+        {
+          "start": 8.6,
+          "end": 127.4,
+          "user": "jboaz",
+          "label": "turn left when the light turns green"
+        },
+        {
+          "start": 17.9,
+          "end": 128.4,
+          "user": "jboaz",
+          "label": "turn left when the light turns green"
+        },
+        {
+          "start": 42.0,
+          "end": 137.6,
+          "user": "jboaz",
+          "label": "turn left when the light turns green"
+        },
+        {
+          "start": 94.3,
+          "end": 123.7,
+          "user": "jboaz",
+          "label": "follow the black car"
+        },
+        {
+          "start": 109.0,
+          "end": 138.6,
+          "user": "jboaz",
+          "label": "follow the black car"
+        }
+      ]
+    },
+    "2021.05.12.19.36.12_veh-35_01744_01934": {
+      "total_sec": 94.5,
+      "bars": [
+        {
+          "start": 2.7,
+          "end": 24.0,
+          "user": "jboaz",
+          "label": "turn right at the intersection"
+        },
+        {
+          "start": 16.8,
+          "end": 70.0,
+          "user": "jboaz",
+          "label": "drive straight"
+        }
+      ]
+    },
+    "2021.06.09.12.39.51_veh-26_01418_01480": {
+      "total_sec": 30.5,
+      "bars": [
+        {
+          "start": 1.2,
+          "end": 17.6,
+          "user": "jboaz",
+          "label": "wait for pedestrians to cross"
+        },
+        {
+          "start": 7.0,
+          "end": 29.2,
+          "user": "jboaz",
+          "label": "wait for the light to turn green"
+        }
+      ]
+    },
+    "2021.06.09.12.39.51_veh-26_00055_00360": {
+      "total_sec": 151.9,
+      "bars": [
+        {
+          "start": 7.8,
+          "end": 148.0,
+          "user": "jboaz",
+          "label": "follow the fed-ex truck"
+        }
+      ]
+    },
+    "2021.06.09.12.06.35_veh-35_01164_01494": {
+      "total_sec": 164.5,
+      "bars": [
+        {
+          "start": 18.1,
+          "end": 132.5,
+          "user": "jboaz",
+          "label": "drive straight"
+        },
+        {
+          "start": 49.8,
+          "end": 145.8,
+          "user": "jboaz",
+          "label": "follow the grey suv"
+        }
+      ]
+    },
+    "2021.06.09.12.39.51_veh-26_04543_05321": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 48.7,
+          "end": 254.1,
+          "user": "jboaz",
+          "label": "turn right"
+        },
+        {
+          "start": 60.4,
+          "end": 167.8,
+          "user": "jboaz",
+          "label": "drive straight"
+        },
+        {
+          "start": 66.1,
+          "end": 155.0,
+          "user": "jboaz",
+          "label": "nan"
+        },
+        {
+          "start": 74.8,
+          "end": 145.7,
+          "user": "jboaz",
+          "label": "follow the white car"
+        },
+        {
+          "start": 107.1,
+          "end": 143.7,
+          "user": "jboaz",
+          "label": "wait for pedestrians to cross the intersection"
+        },
+        {
+          "start": 141.8,
+          "end": 222.7,
+          "user": "jboaz",
+          "label": "wait for the light to turn green"
+        }
+      ]
+    },
+    "2021.08.17.18.44.32_veh-08_00873_01540": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 12.4,
+          "end": 242.6,
+          "user": "jboaz",
+          "label": "turn left at the light and drive straight"
+        },
+        {
+          "start": 16.1,
+          "end": 249.7,
+          "user": "jboaz",
+          "label": "turn left when the intersection is clear and drive straight"
+        },
+        {
+          "start": 49.4,
+          "end": 224.5,
+          "user": "jboaz",
+          "label": "turn left and drive straight"
+        },
+        {
+          "start": 52.3,
+          "end": 119.7,
+          "user": "Vrishan",
+          "label": "nan"
+        },
+        {
+          "start": 64.8,
+          "end": 101.5,
+          "user": "Vrishan",
+          "label": "nan"
+        },
+        {
+          "start": 90.9,
+          "end": 246.5,
+          "user": "jboaz",
+          "label": "drive straight and turn left "
+        },
+        {
+          "start": 109.6,
+          "end": 242.1,
+          "user": "Vrishan",
+          "label": "park behind van"
+        }
+      ]
+    },
+    "2021.08.17.13.15.12_veh-45_00925_00987": {
+      "total_sec": 30.5,
+      "bars": [
+        {
+          "start": 1.7,
+          "end": 29.7,
+          "user": "jboaz",
+          "label": "turn left at the light then take a right at the next light"
+        },
+        {
+          "start": 10.5,
+          "end": 29.1,
+          "user": "jboaz",
+          "label": "turn left at the light then turn right at the next light"
+        }
+      ]
+    },
+    "2021.08.17.19.18.39_veh-08_00118_00178": {
+      "total_sec": 29.4,
+      "bars": [
+        {
+          "start": 0.0,
+          "end": 16.2,
+          "user": "jboaz",
+          "label": "turn right then turn right again "
+        },
+        {
+          "start": 2.7,
+          "end": 21.2,
+          "user": "Vrishan",
+          "label": "nan"
+        },
+        {
+          "start": 3.4,
+          "end": 20.1,
+          "user": "jboaz",
+          "label": "turn right then turn right at the light"
+        },
+        {
+          "start": 12.3,
+          "end": 27.7,
+          "user": "Vrishan",
+          "label": "nan"
+        },
+        {
+          "start": 13.5,
+          "end": 29.0,
+          "user": "Vrishan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.08.17.18.11.12_veh-08_00629_01599": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 12.5,
+          "end": 232.9,
+          "user": "jboaz",
+          "label": "merge left to avoid the truck then follow the red truck "
+        },
+        {
+          "start": 29.8,
+          "end": 62.0,
+          "user": "jboaz",
+          "label": "follow the red truck"
+        },
+        {
+          "start": 49.5,
+          "end": 208.5,
+          "user": "Vrishan",
+          "label": "nan"
+        },
+        {
+          "start": 89.0,
+          "end": 219.8,
+          "user": "Vrishan",
+          "label": "nan"
+        }
+      ]
+    },
     "2021.10.11.02.57.41_veh-50_00145_00308": {
       "total_sec": 81.0,
       "bars": [
@@ -23759,69 +24458,6 @@
           "end": 73.2,
           "user": "Vrishan",
           "label": "nan"
-        }
-      ]
-    },
-    "2021.08.17.18.11.12_veh-08_00629_01599": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 49.5,
-          "end": 208.5,
-          "user": "Vrishan",
-          "label": "nan"
-        },
-        {
-          "start": 89.0,
-          "end": 219.8,
-          "user": "Vrishan",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.08.17.19.18.39_veh-08_00118_00178": {
-      "total_sec": 29.4,
-      "bars": [
-        {
-          "start": 2.7,
-          "end": 21.2,
-          "user": "Vrishan",
-          "label": "nan"
-        },
-        {
-          "start": 12.3,
-          "end": 27.7,
-          "user": "Vrishan",
-          "label": "nan"
-        },
-        {
-          "start": 13.5,
-          "end": 29.0,
-          "user": "Vrishan",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.08.17.18.44.32_veh-08_00873_01540": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 52.3,
-          "end": 119.7,
-          "user": "Vrishan",
-          "label": "nan"
-        },
-        {
-          "start": 64.8,
-          "end": 101.5,
-          "user": "Vrishan",
-          "label": "nan"
-        },
-        {
-          "start": 109.6,
-          "end": 242.1,
-          "user": "Vrishan",
-          "label": "park behind van"
         }
       ]
     }
