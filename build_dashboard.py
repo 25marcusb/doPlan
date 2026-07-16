@@ -191,6 +191,75 @@ def scene_intervals_seconds(df: pd.DataFrame, clip_id: str):
     return out
 
 
+def _clip_intervals(group: pd.DataFrame, clip_total):
+    """Annotation intervals (seconds) for one group of rows, clamped to the clip
+    length when it's known so a stray over-long annotation can't exceed 100%."""
+    ivs = []
+    for _, r in group.iterrows():
+        s = min(r["start_frame"], r["end_frame"]) / FPS
+        e = max(r["start_frame"], r["end_frame"]) / FPS
+        if clip_total is not None:
+            s = max(0.0, s)
+            e = min(clip_total, e)
+        if e > s:
+            ivs.append((s, e))
+    return ivs
+
+
+def reviewed_seconds(sub_df: pd.DataFrame, manifest_durations: dict) -> float:
+    """Deduplicated ('reviewed') annotated seconds for a set of rows: within each
+    scene, merge the group's overlapping/adjacent intervals into their union, then
+    sum across scenes. Unlike a raw sum of segment durations, this doesn't
+    double-count footage a group covered more than once."""
+    total = 0.0
+    for folder, group in sub_df.groupby("folder"):
+        clip_total = manifest_durations.get(str(folder)) if manifest_durations else None
+        total += sum(e - s for s, e in merge_intervals(_clip_intervals(group, clip_total)))
+    return total
+
+
+def figure_payload(sub_df: pd.DataFrame, manifest_durations: dict, scene_cov_override=None) -> dict:
+    """The raw arrays each of Fig 2-6 needs, for one subset of the data (the whole
+    dataset, or a single annotator). Embedded per annotator so the figures can be
+    rebuilt client-side when an annotator bar is clicked (see build_figure_filter_js)."""
+    durations = [round(float(x), 3) for x in sub_df["duration_sec"].tolist()]
+
+    commentary_counts = sub_df["commentary"].value_counts()
+    referential = {cls: int(commentary_counts.get(cls, 0)) for cls in CANONICAL_COMMENTARY}
+
+    sub_labeled = sub_df[~_is_blank(sub_df["label"])].copy()
+    word_counts = sub_labeled["label"].astype(str).str.split().apply(len)
+    sub_labeled["word_count"] = word_counts
+    length_by_class = {
+        cls: [int(v) for v in sub_labeled.loc[sub_labeled["commentary"] == cls, "word_count"].tolist()]
+        for cls in CANONICAL_COMMENTARY
+    }
+
+    per_clip = {
+        int(k): int(v)
+        for k, v in sub_df.groupby("folder").size().value_counts().sort_index().items()
+    }
+
+    if scene_cov_override is not None:
+        scene_cov = [round(float(x), 3) for x in scene_cov_override]
+    else:
+        scene_cov = []
+        for folder, group in sub_df.groupby("folder"):
+            clip_total = manifest_durations.get(str(folder)) if manifest_durations else None
+            if not clip_total or clip_total <= 0:
+                continue
+            covered = sum(e - s for s, e in merge_intervals(_clip_intervals(group, clip_total)))
+            scene_cov.append(round(covered / clip_total * 100, 3))
+
+    return {
+        "durations": durations,
+        "referential": referential,
+        "length_by_class": length_by_class,
+        "per_clip": per_clip,
+        "scene_cov": scene_cov,
+    }
+
+
 # ---------------- STATS ----------------
 def compute_stats(df: pd.DataFrame, manifest: pd.DataFrame = None) -> dict:
     blank = _is_blank(df["label"])
@@ -369,6 +438,47 @@ def compute_stats(df: pd.DataFrame, manifest: pd.DataFrame = None) -> dict:
             bars.sort(key=lambda b: b["start"])
             scene_timelines[clip_id] = {"total_sec": total_sec, "bars": bars}
 
+    # ---- Two driving-time headline numbers + per-annotator figure data ----
+    # Table I shows both side by side:
+    #   "Annotated-hours of reviewed scenes" = RAW SUM of every segment duration
+    #       (== total_annotated_driving_time_hrs; overlaps are counted each time).
+    #   "Unique annotated driving time"       = UNION of all annotation intervals
+    #       per scene (reviewed_seconds over the whole df), so each moment of
+    #       driving footage is counted once regardless of how many annotators
+    #       covered it -- a few hours smaller than the raw sum.
+    manifest_durations = {}
+    if manifest is not None and not manifest.empty:
+        manifest_durations = {
+            str(r["clip_id"]).strip(): float(r["duration_sec"]) for _, r in manifest.iterrows()
+        }
+
+    # per-annotator raw annotated seconds + avg per scene, for the Fig 1 hover
+    per_annotator_raw_sec = {}
+    per_annotator_avg_seg_per_scene = {}
+    per_annotator_figures = {}
+    for user, group in df.groupby("username"):
+        user = str(user)
+        per_annotator_raw_sec[user] = float(group["duration_sec"].sum())
+        n_scenes = int(group["folder"].nunique())
+        # mean seconds of annotation laid down per distinct scene the annotator touched
+        per_annotator_avg_seg_per_scene[user] = (
+            float(group["duration_sec"].sum() / n_scenes) if n_scenes else 0.0
+        )
+        per_annotator_figures[user] = figure_payload(group, manifest_durations)
+
+    raw_sum_sec = float(df["duration_sec"].sum())
+    unique_annotated_sec = reviewed_seconds(df, manifest_durations)
+    DOSCENE_CLIP_SEC = 19.5  # ~length of one doScene clip
+    table1["unique_annotated_driving_hrs"] = unique_annotated_sec / 3600
+    table1["equivalent_doscene_annotations"] = int(round(raw_sum_sec / DOSCENE_CLIP_SEC))
+
+    # global payload lets the client reset the filtered figures back to "all";
+    # reuse the manifest-wide scene coverage (incl. zero-annotation scenes) for Fig 2
+    all_figures = figure_payload(
+        df, manifest_durations,
+        scene_cov_override=(coverage["scene_coverage_pcts"] if coverage else None),
+    )
+
     return {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "table1": table1,
@@ -378,6 +488,10 @@ def compute_stats(df: pd.DataFrame, manifest: pd.DataFrame = None) -> dict:
         "unannotated_clips": unannotated_clips,
         "manifest_mismatches": manifest_mismatches,
         "per_annotator_counts": per_annotator_counts,
+        "per_annotator_raw_sec": per_annotator_raw_sec,
+        "per_annotator_avg_seg_per_scene": per_annotator_avg_seg_per_scene,
+        "per_annotator_figures": per_annotator_figures,
+        "all_figures": all_figures,
         "referential_distribution": referential_distribution,
         "unmapped_commentary": unmapped_commentary,
         "length_by_class": length_by_class,
@@ -416,11 +530,37 @@ def chart_duration_distribution(df, stats):
     return fig
 
 
+def _fmt_hm(seconds: float) -> str:
+    """Seconds -> 'Xh Ym' (e.g. 74220s -> '20h 37m')."""
+    minutes = int(round(seconds / 60))
+    h, m = divmod(minutes, 60)
+    return f"{h}h {m}m"
+
+
 def chart_annotations_per_annotator(stats):
     per_annotator = stats["per_annotator_counts"]
+    users = list(per_annotator.keys())
+    counts = list(per_annotator.values())
+
+    raw_sec = stats["per_annotator_raw_sec"]
+    avg_seg = stats["per_annotator_avg_seg_per_scene"]
+    total_raw = sum(raw_sec.values()) or 1.0
+    # customdata per bar: [raw-sum "Xh Ym", % of total raw sum, avg annotated s/scene]
+    customdata = [
+        [_fmt_hm(raw_sec.get(u, 0.0)), raw_sec.get(u, 0.0) / total_raw * 100, avg_seg.get(u, 0.0)]
+        for u in users
+    ]
     fig = go.Figure(go.Bar(
-        x=list(per_annotator.keys()), y=list(per_annotator.values()),
-        marker_color=TEAL, text=list(per_annotator.values()), textposition="outside",
+        x=users, y=counts, marker_color=TEAL, text=counts, textposition="outside",
+        customdata=customdata,
+        hovertemplate=(
+            "<b>%{x}</b><br>"
+            "%{y} annotations<br>"
+            "Annotated time (raw sum): %{customdata[0]} "
+            "(%{customdata[1]:.1f}% of total)<br>"
+            "Avg annotated per scene: %{customdata[2]:.1f}s"
+            "<extra></extra>"
+        ),
     ))
     fig.update_layout(**_base_layout("Fig 1 — Annotations per Annotator"))
     fig.update_yaxes(title="Number of annotations")
@@ -467,8 +607,11 @@ def chart_annotations_per_clip(stats):
     return fig
 
 
-def _fig_div(fig):
-    return fig.to_html(full_html=False, include_plotlyjs=False, config={"displayModeBar": False})
+def _fig_div(fig, div_id=None):
+    return fig.to_html(
+        full_html=False, include_plotlyjs=False, div_id=div_id,
+        config={"displayModeBar": False},
+    )
 
 
 # ---------------- FULL-WIDTH COVERAGE STRIP (coverageViewer-style) ----------------
@@ -621,6 +764,141 @@ def build_random_scene_viewer(stats):
 """
 
 
+# ---------------- CLICK-TO-FILTER FIGURES ----------------
+def build_figure_filter_js(stats):
+    """Clicking an annotator bar in Fig 1 rebuilds Fig 2-6 (client-side, via
+    Plotly.react) for just that annotator; clicking the same bar again resets to
+    all annotators. Mirrors the Python chart builders so filtered figures match."""
+    per_ann = stats.get("per_annotator_figures") or {}
+    all_fig = stats.get("all_figures")
+    if not per_ann or all_fig is None:
+        return ""
+
+    payload = json.dumps({
+        "perAnn": per_ann,
+        "allFig": all_fig,
+        "seq": CHART_SEQUENCE,
+        "canon": CANONICAL_COMMENTARY,
+        "hasScenecov": bool(stats.get("coverage")),
+    })
+
+    return f"""
+  <script>
+  (function() {{
+    const D = {payload};
+    const SEQ = D.seq, CANON = D.canon;
+    const TEAL = "{TEAL}", AMBER = "{AMBER}", CORAL = "{CORAL}",
+          MUTED = "{MUTED}", TEXT = "{TEXT}", PURPLE = "#8C7CF0";
+
+    function baseLayout(title) {{
+      return {{
+        title: {{ text: title, font: {{ size: 15, color: TEXT, family: "IBM Plex Sans" }} }},
+        paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
+        font: {{ family: "IBM Plex Sans", color: MUTED, size: 12 }},
+        margin: {{ l: 40, r: 20, t: 50, b: 40 }}, height: 360, colorway: SEQ,
+      }};
+    }}
+
+    function buildScenecov(p, suf) {{
+      const lay = baseLayout("Fig 2 — Percent of Scene Covered by Annotations" + suf);
+      lay.xaxis = {{ title: "Percent of scene covered (%)", range: [0, 100] }};
+      lay.yaxis = {{ title: "Number of scenes" }};
+      return {{ data: [{{ type: "histogram", x: p.scene_cov,
+        xbins: {{ start: 0, end: 100, size: 10 }}, marker: {{ color: PURPLE }} }}], layout: lay }};
+    }}
+
+    function buildDuration(p, suf) {{
+      const arr = p.durations;
+      const mean = arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : 0;
+      const s = [...arr].sort((a, b) => a - b);
+      const median = !s.length ? 0 : (s.length % 2 ? s[(s.length - 1) / 2]
+        : (s[s.length / 2 - 1] + s[s.length / 2]) / 2);
+      const lay = baseLayout("Fig 3 — Segment Duration Distribution" + suf);
+      lay.xaxis = {{ title: "Segment duration (s)" }};
+      lay.yaxis = {{ title: "Number of annotations" }};
+      lay.shapes = [
+        {{ type: "line", x0: mean, x1: mean, yref: "paper", y0: 0, y1: 1, line: {{ color: AMBER, dash: "dash" }} }},
+        {{ type: "line", x0: median, x1: median, yref: "paper", y0: 0, y1: 1, line: {{ color: CORAL, dash: "dot" }} }},
+      ];
+      lay.annotations = [
+        {{ x: mean, y: 1, yref: "paper", text: "Mean: " + mean.toFixed(1) + "s", showarrow: false, font: {{ color: AMBER }}, xanchor: "right" }},
+        {{ x: median, y: 0, yref: "paper", text: "Median: " + median.toFixed(1) + "s", showarrow: false, font: {{ color: CORAL }}, xanchor: "left" }},
+      ];
+      return {{ data: [{{ type: "histogram", x: arr, nbinsx: 30, marker: {{ color: TEAL }}, name: "Segments" }}], layout: lay }};
+    }}
+
+    function buildReferential(p, suf) {{
+      const vals = CANON.map(c => p.referential[c] || 0);
+      const tot = vals.reduce((a, b) => a + b, 0) || 1;
+      const text = vals.map(v => v + " (" + (v / tot * 100).toFixed(1) + "%)");
+      const lay = baseLayout("Fig 4 — Referential Class Distribution" + suf);
+      lay.yaxis = {{ title: "Number of annotations" }};
+      return {{ data: [{{ type: "bar", x: CANON, y: vals, text: text,
+        textposition: "outside", marker: {{ color: SEQ }} }}], layout: lay }};
+    }}
+
+    function buildLength(p, suf) {{
+      const data = CANON.map((c, i) => ({{ type: "box", y: p.length_by_class[c] || [],
+        name: c, marker: {{ color: SEQ[i % SEQ.length] }}, boxmean: true }}));
+      const lay = baseLayout("Fig 5 — Instruction Length by Referential Class" + suf);
+      lay.yaxis = {{ title: "Instruction length (words)" }};
+      return {{ data: data, layout: lay }};
+    }}
+
+    function buildPerclip(p, suf) {{
+      const keys = Object.keys(p.per_clip).map(Number).sort((a, b) => a - b);
+      const vals = keys.map(k => p.per_clip[k]);
+      const lay = baseLayout("Fig 6 — Annotations per Source Clip Distribution" + suf);
+      lay.xaxis = {{ title: "Annotations per source clip", dtick: 1 }};
+      lay.yaxis = {{ title: "Number of source clips" }};
+      return {{ data: [{{ type: "bar", x: keys, y: vals, marker: {{ color: AMBER }} }}], layout: lay }};
+    }}
+
+    const BUILDERS = {{
+      "fig-duration": buildDuration,
+      "fig-referential": buildReferential,
+      "fig-length": buildLength,
+      "fig-perclip": buildPerclip,
+    }};
+    if (D.hasScenecov) BUILDERS["fig-scenecov"] = buildScenecov;
+
+    let selected = null;
+    function apply(user) {{
+      const p = user ? D.perAnn[user] : D.allFig;
+      const suf = user ? "  \\u00b7  " + user : "";
+      Object.keys(BUILDERS).forEach(id => {{
+        const el = document.getElementById(id);
+        if (el && p) {{
+          const spec = BUILDERS[id](p, suf);
+          Plotly.react(el, spec.data, spec.layout, {{ displayModeBar: false }});
+        }}
+      }});
+      const status = document.getElementById("filter-status");
+      if (status) status.textContent = user
+        ? ("Figures below filtered to: " + user + "  \\u2014  click the bar again to reset")
+        : "";
+    }}
+
+    function wire() {{
+      const gd = document.getElementById("fig-annotator");
+      if (!gd || !gd.on) {{ setTimeout(wire, 100); return; }}
+      gd.on("plotly_click", function(ev) {{
+        if (!ev.points || !ev.points.length) return;
+        const u = ev.points[0].x;
+        selected = (selected === u) ? null : u;
+        apply(selected);
+      }});
+    }}
+    if (document.readyState === "loading") {{
+      document.addEventListener("DOMContentLoaded", wire);
+    }} else {{
+      wire();
+    }}
+  }})();
+  </script>
+"""
+
+
 # ---------------- HTML ----------------
 def _scorecards(pairs):
     return "".join(
@@ -636,7 +914,9 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
         (f"{t1['number_of_annotations']:,}", "Number of annotations"),
         (f"{t1['number_of_unique_source_clips']:,}", "Unique source clips"),
         (f"{t1['number_of_annotators']}", "Annotators"),
-        (f"{t1['total_annotated_driving_time_hrs']:.1f} hrs", "Total annotated driving time"),
+        (_fmt_hm(t1['total_annotated_driving_time_hrs'] * 3600), "Annotated-hours of reviewed scenes"),
+        (_fmt_hm(t1['unique_annotated_driving_hrs'] * 3600), "Unique annotated driving time (overlap merged)"),
+        (f"{t1['equivalent_doscene_annotations']:,}", "Equivalent doScene annotations (~19.5s each)"),
         (f"{t1['mean_segment_duration_sec']:.1f}s", "Mean segment duration"),
         (f"{t1['median_segment_duration_sec']:.1f}s", "Median segment duration"),
         (f"{t1['min_segment_duration_sec']:.1f}s", "Minimum segment duration"),
@@ -667,16 +947,20 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
         (f"{t3['mean_instruction_similarity_for_overlaps']:.3f}", "Mean instruction similarity for overlaps"),
     ])
 
-    charts = [chart_annotations_per_annotator(stats)]
+    # explicit div ids so clicking Fig 1 can rebuild the others client-side
+    chart_specs = [("fig-annotator", chart_annotations_per_annotator(stats))]
     if stats["coverage"]:
-        charts.append(chart_scene_coverage_hist(stats))
-    charts += [
-        chart_duration_distribution(df, stats),
-        chart_referential_distribution(stats),
-        chart_length_by_class(stats),
-        chart_annotations_per_clip(stats),
+        chart_specs.append(("fig-scenecov", chart_scene_coverage_hist(stats)))
+    chart_specs += [
+        ("fig-duration", chart_duration_distribution(df, stats)),
+        ("fig-referential", chart_referential_distribution(stats)),
+        ("fig-length", chart_length_by_class(stats)),
+        ("fig-perclip", chart_annotations_per_clip(stats)),
     ]
-    chart_divs = "".join(f'<div class="card chart">{_fig_div(c)}</div>' for c in charts)
+    chart_divs = "".join(
+        f'<div class="card chart">{_fig_div(c, div_id=div_id)}</div>' for div_id, c in chart_specs
+    )
+    figure_filter_js = build_figure_filter_js(stats)
 
     strip_html = build_coverage_strip(stats)
     coverage_strip_section = (
@@ -755,6 +1039,8 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
   .reroll-btn:focus-visible {{ outline: 2px solid var(--amber); outline-offset: 2px; }}
   .section-title {{ font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--muted);
     text-transform: uppercase; letter-spacing: 0.5px; margin: 34px 0 12px; }}
+  .filter-hint {{ font-size: 12px; color: var(--muted); margin: -4px 0 10px; }}
+  #filter-status {{ color: var(--teal); font-weight: 600; margin-left: 6px; }}
   .flag {{ background: rgba(79,209,197,0.10); border: 1px solid var(--teal); color: var(--text);
     border-radius: 8px; padding: 10px 14px; font-size: 13px; margin-bottom: 8px; }}
   footer {{ margin-top: 40px; color: var(--muted); font-size: 12px; line-height: 1.7; }}
@@ -781,7 +1067,9 @@ def build_dashboard_html(df, stats, dupes_dropped, skipped, out_path):
   <div class="scorecards">{table3_cards}</div>
 
   <div class="section-title">Figures</div>
+  <div class="filter-hint">Click an annotator's bar in Fig 1 to filter the other figures to that annotator; click it again to reset. <span id="filter-status"></span></div>
   <div class="charts">{chart_divs}</div>
+  {figure_filter_js}
 
   {coverage_strip_section}
   {scene_viewer_section}
