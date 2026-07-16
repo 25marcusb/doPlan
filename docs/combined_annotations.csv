@@ -1,4 +1,60 @@
 folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
+2021.09.15.16.17.26_veh-28_00772_00880,370,529,Get into the left lane after the intersection,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.9
+2021.10.01.19.16.42_veh-28_01731_01935,342,539,Take the first exit of the roundabout,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,19.7
+2021.10.06.18.52.07_veh-28_01297_01462,472,803,"Drive around the truck, then get back in the right lane",Dynamic Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,33.1
+2021.09.15.13.12.49_veh-39_00645_00802,525,683,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.8
+2021.10.06.14.31.13_veh-28_00589_00665,12,349,"Turn left, then turn right at the next light",Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,33.7
+2021.09.15.14.27.22_veh-39_00665_00745,23,343,Turn left,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,32.0
+2021.10.01.15.32.11_veh-28_00475_00930,1037,1919,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,88.2
+2021.09.15.16.51.15_veh-28_00176_00329,391,589,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,19.8
+2021.09.15.14.27.22_veh-39_00473_00568,191,416,Turn right at the intersection,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,22.5
+2021.09.15.15.02.19_veh-39_00105_00203,97,427,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,33.0
+2021.09.15.15.34.53_veh-28_01303_01395,131,388,Turn right,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,25.7
+2021.10.01.17.52.06_veh-28_00098_00211,384,536,Move to the right lane to go around the car,Dynamic Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.2
+2021.09.15.15.34.53_veh-28_01639_01805,671,821,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.0
+2021.10.01.13.28.54_veh-28_00607_00973,950,1226,Turn left at the light,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,27.6
+2021.10.01.18.26.05_veh-28_01081_01159,230,380,Turn left at the light,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.0
+2021.09.15.15.02.19_veh-39_00856_01095,45,533,"Turn left, then right",Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,48.8
+2021.10.01.19.16.42_veh-28_02011_02410,450,1712,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,126.2
+2021.10.01.14.20.36_veh-28_00931_01128,105,527,"Drive to the next stoplight, then turn left",Static-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,42.2
+2021.09.15.12.32.43_veh-28_00708_00866,491,695,Go around the truck,Dynamic Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,20.4
+2021.10.01.19.16.42_veh-28_02568_02833,97,1202,Turn left at the end of the road,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,110.5
+2021.10.06.17.08.46_veh-28_00127_00428,705,1221,Take the second exit of the roundabout,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,51.6
+2021.10.01.15.32.11_veh-28_00025_00097,194,345,Go left around the trucks,Dynamic Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.1
+2021.10.01.19.16.42_veh-28_00917_01499,1528,2394,Switch to the left lane then go straight,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,86.6
+2021.09.15.14.27.22_veh-39_01420_01480,138,290,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.2
+2021.09.15.14.00.15_veh-28_00288_00408,270,467,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,19.7
+2021.10.01.13.28.54_veh-28_00995_01087,114,286,Turn right around the pedestrians,Dynamic Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,17.2
+2021.09.15.15.34.53_veh-28_00030_00128,202,483,Turn right at the parking garage,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,28.1
+2021.10.06.17.43.07_veh-28_01587_01694,48,503,"Turn left at the end of the road, then turn into the lot the pickup truck is coming out of",Dynamic-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,45.5
+2021.09.15.14.27.22_veh-39_01281_01346,64,311,"Turn left at the trailer, then turn right back onto the main road",Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,24.7
+2021.09.15.12.32.43_veh-28_00973_01056,56,262,Turn right at the stop sign,Static-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,20.6
+2021.10.06.17.08.46_veh-28_01626_01702,186,344,"Turn left onto the bridge, and stay in the right lane",Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.8
+2021.10.01.17.52.06_veh-28_01622_01687,163,314,Turn right,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.1
+2021.10.06.19.27.33_veh-28_00121_00289,37,356,Turn right twice by the hotel,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,31.9
+2021.10.01.18.26.05_veh-28_01689_01890,466,823,Turn right at the parking garage,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,35.7
+2021.10.01.17.52.06_veh-28_00450_00599,383,718,"Get into the right lane, then go straight until the next intersection",Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,33.5
+2021.10.01.13.28.54_veh-28_01421_01615,126,792,Turn left at the light,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,66.6
+2021.09.15.16.17.26_veh-28_01370_01439,52,278,Turn right at the stop sign,Static-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,22.6
+2021.09.15.13.12.49_veh-39_00022_00104,172,325,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.3
+2021.09.15.14.50.05_veh-28_00389_00508,42,295,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,25.3
+2021.09.15.16.51.15_veh-28_01468_01533,119,301,Go around the trucks,Dynamic Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,18.2
+2021.10.01.19.16.42_veh-28_03215_03296,197,368,Follow the truck,Dynamic-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,17.1
+2021.09.15.11.49.23_veh-28_00520_00669,582,736,Turn right,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.4
+2021.09.15.15.34.53_veh-28_01820_02314,1845,2282,"Turn right at the light, then stay in the left lane",Static-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,43.7
+2021.09.15.14.50.05_veh-28_01187_01281,270,450,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,18.0
+2021.09.15.13.12.49_veh-39_01329_01520,730,892,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,16.2
+2021.10.01.15.32.11_veh-28_01000_01136,400,661,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,26.1
+2021.09.15.12.32.43_veh-28_00625_00697,200,350,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.0
+2021.10.01.13.28.54_veh-28_00405_00547,357,668,"Go around the stopped car, then keep going straight",Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,31.1
+2021.10.06.19.27.33_veh-28_00805_01736,864,2290,Turn right onto the bridge,Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,142.6
+2021.10.01.17.52.06_veh-28_00098_00211,329,485,Go around the white car,Dynamic Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.6
+2021.10.06.19.27.33_veh-28_00016_00079,155,305,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.0
+2021.10.06.17.43.07_veh-28_01118_01302,391,744,"Go all the way to the water, then turn left",Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,35.3
+2021.09.15.14.27.22_veh-39_01166_01252,226,388,,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,16.2
+2021.09.15.13.16.40_veh-28_00642_01267,1190,2269,Follow the car ahead,Dynamic Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,107.9
+2021.09.15.13.52.55_veh-39_00371_00631,1083,1273,"Go past the park, then get in the right lane",Static Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,19.0
+2021.09.15.11.49.23_veh-28_00520_00669,583,733,Turn right,Non-Referential,jeremykemmerer,./staging/labels_submission2 - Jeremy K.csv,15.0
 2021.06.14.13.27.42_veh-35_00353_00531,567,853,slow down as the vehicle infront has came to a stop and continue forward,Dynamic Referential,giovanni,./staging/labels - Jose Tapia.csv,28.6
 2021.07.09.01.37.16_veh-26_04675_04767,210,407,Switch to the left lane and come to a stop for the pedestrians at the cross walk and continue aftward and stop once again for the red traffic light,Both,giovanni,./staging/labels - Jose Tapia.csv,19.7
 2021.10.11.02.57.41_veh-50_00704_00776,74,335,,Non-Referential,giovanni,./staging/labels - Jose Tapia.csv,26.1
