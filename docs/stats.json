@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-07-16T22:49:46",
+  "generated_at": "2026-07-17T02:11:56",
   "table1": {
-    "number_of_annotations": 1853,
-    "number_of_unique_source_clips": 858,
-    "number_of_annotators": 9,
-    "total_annotated_driving_time_hrs": 22.443972222222218,
-    "mean_segment_duration_sec": 43.60404749055585,
-    "median_segment_duration_sec": 29.0,
+    "number_of_annotations": 1952,
+    "number_of_unique_source_clips": 883,
+    "number_of_annotators": 10,
+    "total_annotated_driving_time_hrs": 24.177083333333332,
+    "mean_segment_duration_sec": 44.58888319672131,
+    "median_segment_duration_sec": 29.6,
     "min_segment_duration_sec": 15.0,
     "max_segment_duration_sec": 254.3,
-    "unique_annotated_driving_hrs": 14.912361111111101,
-    "equivalent_doscene_annotations": 4144
+    "unique_annotated_driving_hrs": 15.786722222222213,
+    "equivalent_doscene_annotations": 4463
   },
   "table2": {
-    "number_of_instructions": 1346,
-    "mean_instruction_length_words": 17.39227340267459,
+    "number_of_instructions": 1414,
+    "mean_instruction_length_words": 17.434229137199434,
     "median_instruction_length_words": 13.0,
     "min_instruction_length_words": 2,
     "max_instruction_length_words": 140,
-    "vocabulary_size": 585,
-    "type_token_ratio": 0.024987186058431574,
-    "multi_sentence_pct": 43.98216939078752
+    "vocabulary_size": 605,
+    "type_token_ratio": 0.024539628457856736,
+    "multi_sentence_pct": 44.76661951909477
   },
   "table3": {
-    "mean_annotations_per_clip": 2.15967365967366,
+    "mean_annotations_per_clip": 2.2106455266138165,
     "median_annotations_per_clip": 2.0,
     "max_annotations_single_clip": 10,
-    "clips_with_multiple_annotations_pct": 63.51981351981352,
-    "overlapping_annotation_pairs": 1556,
-    "mean_temporal_overlap_ratio": 0.4663274636083969,
-    "mean_instruction_similarity_for_overlaps": 0.26026030033857267
+    "clips_with_multiple_annotations_pct": 64.77916194790487,
+    "overlapping_annotation_pairs": 1698,
+    "mean_temporal_overlap_ratio": 0.4679375379566712,
+    "mean_instruction_similarity_for_overlaps": 0.257085502360749
   },
   "coverage": {
     "total_clips_in_manifest": 1085,
-    "clips_annotated": 858,
-    "clips_unannotated": 227,
-    "coverage_pct": 79.07834101382488,
+    "clips_annotated": 883,
+    "clips_unannotated": 202,
+    "coverage_pct": 81.38248847926268,
     "total_available_driving_time_hrs": 32.46205555555555,
-    "annotated_clip_time_hrs": 25.183861111111113,
-    "time_coverage_pct": 77.57937900146669,
+    "annotated_clip_time_hrs": 26.094583333333333,
+    "time_coverage_pct": 80.38487670220104,
     "per_scene": [
       {
         "clip_id": "2021.09.15.11.49.23_veh-28_00081_00237",
@@ -2388,9 +2388,9 @@
         "clip_id": "2021.06.09.14.03.17_veh-12_00711_00839",
         "city": "las_vegas_2",
         "total_sec": 63.5,
-        "covered_sec": 30.3,
-        "coverage_pct": 47.71653543307087,
-        "num_annotations": 1
+        "covered_sec": 51.0,
+        "coverage_pct": 80.31496062992126,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.09.14.03.17_veh-12_00859_00931",
@@ -2412,9 +2412,9 @@
         "clip_id": "2021.06.09.14.03.17_veh-12_01225_01437",
         "city": "las_vegas_2",
         "total_sec": 105.4,
-        "covered_sec": 19.700000000000003,
-        "coverage_pct": 18.690702087286528,
-        "num_annotations": 1
+        "covered_sec": 35.10000000000001,
+        "coverage_pct": 33.30170777988615,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.09.14.03.17_veh-12_01603_01708",
@@ -2444,9 +2444,9 @@
         "clip_id": "2021.06.09.14.03.17_veh-12_02112_02202",
         "city": "las_vegas_2",
         "total_sec": 44.4,
-        "covered_sec": 33.2,
-        "coverage_pct": 74.77477477477478,
-        "num_annotations": 3
+        "covered_sec": 35.400000000000006,
+        "coverage_pct": 79.72972972972975,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.09.14.03.17_veh-12_02213_02304",
@@ -2516,9 +2516,9 @@
         "clip_id": "2021.06.09.14.03.17_veh-12_03798_04118",
         "city": "las_vegas_2",
         "total_sec": 159.5,
-        "covered_sec": 126.5,
-        "coverage_pct": 79.3103448275862,
-        "num_annotations": 2
+        "covered_sec": 152.70000000000002,
+        "coverage_pct": 95.73667711598746,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.14.03.17_veh-12_04129_04237",
@@ -2652,9 +2652,9 @@
         "clip_id": "2021.06.09.14.50.36_veh-26_03061_03152",
         "city": "las_vegas_2",
         "total_sec": 44.9,
-        "covered_sec": 30.199999999999996,
-        "coverage_pct": 67.26057906458797,
-        "num_annotations": 2
+        "covered_sec": 44.0,
+        "coverage_pct": 97.9955456570156,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.14.50.36_veh-26_03208_03299",
@@ -2668,9 +2668,9 @@
         "clip_id": "2021.06.09.14.50.36_veh-26_03310_03392",
         "city": "las_vegas_2",
         "total_sec": 40.4,
-        "covered_sec": 21.700000000000003,
-        "coverage_pct": 53.71287128712873,
-        "num_annotations": 1
+        "covered_sec": 25.700000000000003,
+        "coverage_pct": 63.61386138613862,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.14.50.36_veh-26_03403_03496",
@@ -2700,9 +2700,9 @@
         "clip_id": "2021.06.09.14.50.36_veh-26_03874_04112",
         "city": "las_vegas_2",
         "total_sec": 118.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 34.5,
+        "coverage_pct": 29.11392405063291,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.09.14.50.36_veh-26_04123_04185",
@@ -2828,9 +2828,9 @@
         "clip_id": "2021.06.09.14.58.55_veh-35_01785_01883",
         "city": "las_vegas_2",
         "total_sec": 48.5,
-        "covered_sec": 34.0,
-        "coverage_pct": 70.10309278350515,
-        "num_annotations": 2
+        "covered_sec": 45.300000000000004,
+        "coverage_pct": 93.40206185567011,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.14.58.55_veh-35_01894_02311",
@@ -2902,7 +2902,7 @@
         "total_sec": 33.0,
         "covered_sec": 31.900000000000002,
         "coverage_pct": 96.66666666666669,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.14.58.55_veh-35_03390_03537",
@@ -2966,7 +2966,7 @@
         "total_sec": 254.5,
         "covered_sec": 243.3,
         "coverage_pct": 95.5992141453831,
-        "num_annotations": 3
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.09.14.58.55_veh-35_05473_05626",
@@ -3076,17 +3076,17 @@
         "clip_id": "2021.06.09.17.23.18_veh-38_02526_03027",
         "city": "las_vegas_2",
         "total_sec": 250.0,
-        "covered_sec": 20.400000000000006,
-        "coverage_pct": 8.160000000000002,
-        "num_annotations": 1
+        "covered_sec": 224.1,
+        "coverage_pct": 89.64,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.09.17.23.18_veh-38_03095_03280",
         "city": "las_vegas_2",
         "total_sec": 91.9,
-        "covered_sec": 27.300000000000004,
-        "coverage_pct": 29.706202393906423,
-        "num_annotations": 2
+        "covered_sec": 60.800000000000004,
+        "coverage_pct": 66.1588683351469,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.17.23.18_veh-38_03302_03414",
@@ -3140,17 +3140,17 @@
         "clip_id": "2021.06.09.17.23.18_veh-38_04782_05228",
         "city": "las_vegas_3",
         "total_sec": 222.4,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 205.3,
+        "coverage_pct": 92.31115107913669,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.09.17.23.18_veh-38_05239_05412",
         "city": "las_vegas_3",
         "total_sec": 86.0,
-        "covered_sec": 63.1,
-        "coverage_pct": 73.37209302325581,
-        "num_annotations": 2
+        "covered_sec": 68.2,
+        "coverage_pct": 79.30232558139535,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.17.23.18_veh-38_05423_05550",
@@ -3220,9 +3220,9 @@
         "clip_id": "2021.06.09.17.37.09_veh-12_01465_01790",
         "city": "las_vegas_3",
         "total_sec": 162.0,
-        "covered_sec": 51.70000000000002,
-        "coverage_pct": 31.913580246913593,
-        "num_annotations": 1
+        "covered_sec": 77.5,
+        "coverage_pct": 47.839506172839506,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.09.17.37.09_veh-12_01801_01925",
@@ -3268,9 +3268,9 @@
         "clip_id": "2021.06.09.17.37.09_veh-12_02445_02566",
         "city": "las_vegas_3",
         "total_sec": 60.0,
-        "covered_sec": 39.9,
-        "coverage_pct": 66.49999999999999,
-        "num_annotations": 2
+        "covered_sec": 46.6,
+        "coverage_pct": 77.66666666666667,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.17.37.09_veh-12_02639_02992",
@@ -3300,9 +3300,9 @@
         "clip_id": "2021.06.09.17.37.09_veh-12_03219_03372",
         "city": "las_vegas_3",
         "total_sec": 76.0,
-        "covered_sec": 52.800000000000004,
-        "coverage_pct": 69.47368421052632,
-        "num_annotations": 1
+        "covered_sec": 63.6,
+        "coverage_pct": 83.6842105263158,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.09.17.37.09_veh-12_03420_03578",
@@ -3324,9 +3324,9 @@
         "clip_id": "2021.06.09.17.37.09_veh-12_03830_04329",
         "city": "las_vegas_3",
         "total_sec": 248.9,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 62.19999999999999,
+        "coverage_pct": 24.98995580554439,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.09.17.37.09_veh-12_04340_04478",
@@ -3340,9 +3340,9 @@
         "clip_id": "2021.06.09.17.37.09_veh-12_04489_04816",
         "city": "las_vegas_3",
         "total_sec": 163.0,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 30.9,
+        "coverage_pct": 18.957055214723926,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.09.18.23.43_veh-35_00026_00274",
@@ -3364,9 +3364,9 @@
         "clip_id": "2021.06.09.18.23.43_veh-35_00555_00726",
         "city": "las_vegas_3",
         "total_sec": 85.0,
-        "covered_sec": 72.30000000000001,
-        "coverage_pct": 85.05882352941178,
-        "num_annotations": 2
+        "covered_sec": 76.0,
+        "coverage_pct": 89.41176470588236,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.09.18.23.43_veh-35_00799_01004",
@@ -3412,9 +3412,9 @@
         "clip_id": "2021.06.09.18.23.43_veh-35_01702_01928",
         "city": "las_vegas_3",
         "total_sec": 112.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 100.6,
+        "coverage_pct": 89.42222222222222,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.09.18.23.43_veh-35_01939_02025",
@@ -3428,9 +3428,9 @@
         "clip_id": "2021.06.09.18.23.43_veh-35_02086_02333",
         "city": "las_vegas_3",
         "total_sec": 123.0,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 88.8,
+        "coverage_pct": 72.1951219512195,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.09.18.23.43_veh-35_02344_02669",
@@ -3508,9 +3508,9 @@
         "clip_id": "2021.06.09.18.23.43_veh-35_03967_05057",
         "city": "las_vegas_3",
         "total_sec": 254.5,
-        "covered_sec": 125.70000000000002,
-        "coverage_pct": 49.390962671905704,
-        "num_annotations": 2
+        "covered_sec": 167.9,
+        "coverage_pct": 65.97249508840865,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.09.18.23.43_veh-35_05068_05186",
@@ -3548,9 +3548,9 @@
         "clip_id": "2021.06.09.19.40.26_veh-12_01241_01510",
         "city": "las_vegas_3",
         "total_sec": 133.9,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 24.599999999999994,
+        "coverage_pct": 18.371919342793124,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.09.19.40.26_veh-12_01525_02020",
@@ -3646,7 +3646,7 @@
         "total_sec": 97.5,
         "covered_sec": 73.2,
         "coverage_pct": 75.07692307692308,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.14.11.44.56_veh-35_01145_01297",
@@ -3676,9 +3676,9 @@
         "clip_id": "2021.06.14.11.44.56_veh-35_01869_01972",
         "city": "las_vegas_3",
         "total_sec": 51.0,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 35.3,
+        "coverage_pct": 69.2156862745098,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.14.11.44.56_veh-35_01983_02053",
@@ -3700,9 +3700,9 @@
         "clip_id": "2021.06.14.11.44.56_veh-35_02399_02672",
         "city": "las_vegas_3",
         "total_sec": 135.9,
-        "covered_sec": 24.60000000000001,
-        "coverage_pct": 18.10154525386314,
-        "num_annotations": 2
+        "covered_sec": 118.60000000000001,
+        "coverage_pct": 87.2700515084621,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.14.11.44.56_veh-35_02696_02932",
@@ -3732,9 +3732,9 @@
         "clip_id": "2021.06.14.11.44.56_veh-35_04178_05084",
         "city": "las_vegas_3",
         "total_sec": 254.5,
-        "covered_sec": 138.29999999999998,
-        "coverage_pct": 54.341846758349696,
-        "num_annotations": 1
+        "covered_sec": 176.2,
+        "coverage_pct": 69.23379174852651,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.14.11.44.56_veh-35_05211_05338",
@@ -3748,9 +3748,9 @@
         "clip_id": "2021.06.14.13.27.42_veh-35_00005_00123",
         "city": "las_vegas_3",
         "total_sec": 58.4,
-        "covered_sec": 51.3,
-        "coverage_pct": 87.84246575342466,
-        "num_annotations": 2
+        "covered_sec": 52.3,
+        "coverage_pct": 89.55479452054794,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.14.13.27.42_veh-35_00142_00231",
@@ -3788,9 +3788,9 @@
         "clip_id": "2021.06.14.13.27.42_veh-35_00691_00798",
         "city": "las_vegas_3",
         "total_sec": 53.0,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 17.6,
+        "coverage_pct": 33.20754716981133,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.14.13.27.42_veh-35_00842_00940",
@@ -3812,9 +3812,9 @@
         "clip_id": "2021.06.14.13.27.42_veh-35_01160_01331",
         "city": "las_vegas_3",
         "total_sec": 85.0,
-        "covered_sec": 60.199999999999996,
-        "coverage_pct": 70.8235294117647,
-        "num_annotations": 2
+        "covered_sec": 84.9,
+        "coverage_pct": 99.88235294117648,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.14.13.27.42_veh-35_01342_01461",
@@ -3894,7 +3894,7 @@
         "total_sec": 130.5,
         "covered_sec": 62.8,
         "coverage_pct": 48.122605363984675,
-        "num_annotations": 1
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.14.13.27.42_veh-35_03463_03587",
@@ -4764,9 +4764,9 @@
         "clip_id": "2021.06.14.16.48.02_veh-12_01732_01853",
         "city": "las_vegas_5",
         "total_sec": 59.9,
-        "covered_sec": 32.699999999999996,
-        "coverage_pct": 54.59098497495825,
-        "num_annotations": 1
+        "covered_sec": 50.6,
+        "coverage_pct": 84.47412353923205,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.14.16.48.02_veh-12_01880_02198",
@@ -4828,9 +4828,9 @@
         "clip_id": "2021.06.14.16.48.02_veh-12_03091_03461",
         "city": "las_vegas_5",
         "total_sec": 184.4,
-        "covered_sec": 15.799999999999997,
-        "coverage_pct": 8.568329718004335,
-        "num_annotations": 1
+        "covered_sec": 44.0,
+        "coverage_pct": 23.86117136659436,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.14.16.48.02_veh-12_03472_03779",
@@ -5060,9 +5060,9 @@
         "clip_id": "2021.06.14.17.26.26_veh-38_05760_05896",
         "city": "las_vegas_5",
         "total_sec": 67.4,
-        "covered_sec": 44.4,
-        "coverage_pct": 65.87537091988129,
-        "num_annotations": 2
+        "covered_sec": 64.10000000000001,
+        "coverage_pct": 95.10385756676558,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.14.18.13.35_veh-26_00027_00215",
@@ -5148,9 +5148,9 @@
         "clip_id": "2021.06.14.18.13.35_veh-26_01537_01717",
         "city": "las_vegas_5",
         "total_sec": 89.6,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 76.5,
+        "coverage_pct": 85.37946428571429,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.14.18.13.35_veh-26_01728_01918",
@@ -5388,9 +5388,9 @@
         "clip_id": "2021.06.14.18.33.41_veh-35_00654_00887",
         "city": "las_vegas_5",
         "total_sec": 115.9,
-        "covered_sec": 58.699999999999996,
-        "coverage_pct": 50.64710957722174,
-        "num_annotations": 1
+        "covered_sec": 59.199999999999996,
+        "coverage_pct": 51.07851596203623,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.14.18.33.41_veh-35_00898_01182",
@@ -5412,9 +5412,9 @@
         "clip_id": "2021.06.14.18.33.41_veh-35_01363_01636",
         "city": "las_vegas_5",
         "total_sec": 135.9,
-        "covered_sec": 32.5,
-        "coverage_pct": 23.914643119941132,
-        "num_annotations": 2
+        "covered_sec": 49.599999999999994,
+        "coverage_pct": 36.49742457689477,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.14.18.33.41_veh-35_01647_01714",
@@ -5476,17 +5476,17 @@
         "clip_id": "2021.06.14.18.33.41_veh-35_03367_03508",
         "city": "las_vegas_5",
         "total_sec": 70.0,
-        "covered_sec": 17.599999999999994,
-        "coverage_pct": 25.14285714285713,
-        "num_annotations": 1
+        "covered_sec": 64.89999999999999,
+        "coverage_pct": 92.71428571428571,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.14.18.33.41_veh-35_03575_03668",
         "city": "las_vegas_5",
         "total_sec": 46.0,
-        "covered_sec": 29.700000000000003,
-        "coverage_pct": 64.56521739130436,
-        "num_annotations": 1
+        "covered_sec": 31.799999999999997,
+        "coverage_pct": 69.13043478260869,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.14.18.33.41_veh-35_03679_03787",
@@ -5644,9 +5644,9 @@
         "clip_id": "2021.06.14.18.42.45_veh-12_02233_02300",
         "city": "las_vegas_6",
         "total_sec": 32.9,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 17.4,
+        "coverage_pct": 52.88753799392097,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.14.18.42.45_veh-12_02318_02407",
@@ -5700,9 +5700,9 @@
         "clip_id": "2021.06.14.18.42.45_veh-12_03340_03403",
         "city": "las_vegas_6",
         "total_sec": 31.0,
-        "covered_sec": 16.8,
-        "coverage_pct": 54.19354838709678,
-        "num_annotations": 1
+        "covered_sec": 20.5,
+        "coverage_pct": 66.12903225806451,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.14.18.42.45_veh-12_03445_03902",
@@ -5710,15 +5710,15 @@
         "total_sec": 227.9,
         "covered_sec": 140.79999999999998,
         "coverage_pct": 61.7814831066257,
-        "num_annotations": 1
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.14.18.42.45_veh-12_03913_04017",
         "city": "las_vegas_6",
         "total_sec": 51.5,
-        "covered_sec": 47.400000000000006,
-        "coverage_pct": 92.03883495145632,
-        "num_annotations": 3
+        "covered_sec": 47.7,
+        "coverage_pct": 92.62135922330098,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.14.18.42.45_veh-12_04086_04221",
@@ -5766,7 +5766,7 @@
         "total_sec": 39.0,
         "covered_sec": 24.2,
         "coverage_pct": 62.05128205128205,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.14.18.42.45_veh-12_05170_05261",
@@ -5812,9 +5812,9 @@
         "clip_id": "2021.06.14.19.22.11_veh-38_01134_01389",
         "city": "las_vegas_6",
         "total_sec": 126.9,
-        "covered_sec": 45.60000000000001,
-        "coverage_pct": 35.93380614657211,
-        "num_annotations": 3
+        "covered_sec": 50.900000000000006,
+        "coverage_pct": 40.110323089046496,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.14.19.22.11_veh-38_01400_01469",
@@ -5828,9 +5828,9 @@
         "clip_id": "2021.06.14.19.22.11_veh-38_01480_01860",
         "city": "las_vegas_6",
         "total_sec": 189.4,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 171.2,
+        "coverage_pct": 90.39070749736008,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.14.19.22.11_veh-38_01871_02040",
@@ -5862,15 +5862,15 @@
         "total_sec": 103.9,
         "covered_sec": 94.2,
         "coverage_pct": 90.66410009624639,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.06.14.19.22.11_veh-38_02686_02846",
         "city": "las_vegas_6",
         "total_sec": 79.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 18.500000000000007,
+        "coverage_pct": 23.270440251572335,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.14.19.22.11_veh-38_02857_03230",
@@ -5934,7 +5934,7 @@
         "total_sec": 44.5,
         "covered_sec": 43.3,
         "coverage_pct": 97.30337078651685,
-        "num_annotations": 1
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.23.14.06.20_veh-26_00020_01142",
@@ -5966,7 +5966,7 @@
         "total_sec": 134.5,
         "covered_sec": 134.20000000000002,
         "coverage_pct": 99.77695167286247,
-        "num_annotations": 5
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.06.23.14.54.32_veh-16_00016_00290",
@@ -6004,9 +6004,9 @@
         "clip_id": "2021.06.23.14.54.32_veh-16_00862_01000",
         "city": "las_vegas_6",
         "total_sec": 68.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 36.0,
+        "coverage_pct": 52.55474452554745,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.23.14.54.32_veh-16_01011_01166",
@@ -6078,7 +6078,7 @@
         "total_sec": 63.0,
         "covered_sec": 57.8,
         "coverage_pct": 91.74603174603175,
-        "num_annotations": 3
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.23.15.18.10_veh-26_00165_02848",
@@ -6092,9 +6092,9 @@
         "clip_id": "2021.06.23.15.56.12_veh-16_00066_00818",
         "city": "las_vegas_6",
         "total_sec": 254.5,
-        "covered_sec": 218.1,
-        "coverage_pct": 85.69744597249509,
-        "num_annotations": 3
+        "covered_sec": 219.7,
+        "coverage_pct": 86.32612966601178,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.23.15.56.12_veh-16_00839_01285",
@@ -6228,17 +6228,17 @@
         "clip_id": "2021.06.23.17.31.36_veh-16_00398_00623",
         "city": "las_vegas_6",
         "total_sec": 111.9,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 40.4,
+        "coverage_pct": 36.103663985701516,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.06.23.17.31.36_veh-16_00634_01421",
         "city": "las_vegas_6",
         "total_sec": 254.5,
-        "covered_sec": 214.0,
-        "coverage_pct": 84.08644400785855,
-        "num_annotations": 4
+        "covered_sec": 235.4,
+        "coverage_pct": 92.49508840864439,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.06.23.17.31.36_veh-16_01443_01606",
@@ -6316,9 +6316,9 @@
         "clip_id": "2021.06.23.18.23.38_veh-26_01438_01758",
         "city": "las_vegas_6",
         "total_sec": 159.4,
-        "covered_sec": 102.5,
-        "coverage_pct": 64.30363864491844,
-        "num_annotations": 1
+        "covered_sec": 143.0,
+        "coverage_pct": 89.71141781681304,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.06.23.18.23.38_veh-26_01769_01925",
@@ -6366,7 +6366,7 @@
         "total_sec": 46.9,
         "covered_sec": 38.7,
         "coverage_pct": 82.51599147121536,
-        "num_annotations": 3
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.06.23.20.43.31_veh-16_00016_00216",
@@ -6516,17 +6516,17 @@
         "clip_id": "2021.07.09.01.37.16_veh-26_01726_01793",
         "city": "las_vegas_7",
         "total_sec": 33.0,
-        "covered_sec": 25.7,
-        "coverage_pct": 77.87878787878788,
-        "num_annotations": 3
+        "covered_sec": 27.5,
+        "coverage_pct": 83.33333333333334,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.07.09.01.37.16_veh-26_02856_02932",
         "city": "las_vegas_7",
         "total_sec": 37.5,
-        "covered_sec": 26.599999999999998,
-        "coverage_pct": 70.93333333333332,
-        "num_annotations": 2
+        "covered_sec": 31.9,
+        "coverage_pct": 85.06666666666666,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.07.09.01.37.16_veh-26_03306_03373",
@@ -6598,7 +6598,7 @@
         "total_sec": 58.9,
         "covered_sec": 40.099999999999994,
         "coverage_pct": 68.08149405772494,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.07.09.15.53.28_veh-38_00053_00163",
@@ -6612,9 +6612,9 @@
         "clip_id": "2021.07.09.15.53.28_veh-38_00184_02293",
         "city": "las_vegas_7",
         "total_sec": 254.5,
-        "covered_sec": 89.89999999999999,
-        "coverage_pct": 35.32416502946955,
-        "num_annotations": 1
+        "covered_sec": 197.4,
+        "coverage_pct": 77.56385068762279,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.07.09.15.53.28_veh-38_02316_03434",
@@ -6694,7 +6694,7 @@
         "total_sec": 35.0,
         "covered_sec": 29.499999999999996,
         "coverage_pct": 84.28571428571428,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.07.09.16.12.19_veh-26_07208_07271",
@@ -6708,9 +6708,9 @@
         "clip_id": "2021.07.09.17.06.37_veh-35_00049_00237",
         "city": "las_vegas_7",
         "total_sec": 93.4,
-        "covered_sec": 77.6,
-        "coverage_pct": 83.08351177730191,
-        "num_annotations": 2
+        "covered_sec": 86.0,
+        "coverage_pct": 92.07708779443254,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.07.09.17.06.37_veh-35_00258_00748",
@@ -6724,17 +6724,17 @@
         "clip_id": "2021.07.09.17.06.37_veh-35_00769_00907",
         "city": "las_vegas_7",
         "total_sec": 68.5,
-        "covered_sec": 31.699999999999996,
-        "coverage_pct": 46.27737226277372,
-        "num_annotations": 1
+        "covered_sec": 53.4,
+        "coverage_pct": 77.95620437956204,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.07.09.17.06.37_veh-35_00928_02567",
         "city": "las_vegas_7",
         "total_sec": 254.5,
-        "covered_sec": 54.400000000000006,
-        "coverage_pct": 21.375245579567782,
-        "num_annotations": 1
+        "covered_sec": 89.5,
+        "coverage_pct": 35.16699410609037,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.07.09.17.06.37_veh-35_02609_05015",
@@ -6790,7 +6790,7 @@
         "total_sec": 254.5,
         "covered_sec": 220.0,
         "coverage_pct": 86.44400785854617,
-        "num_annotations": 3
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.07.09.20.59.12_veh-38_00113_00669",
@@ -6988,9 +6988,9 @@
         "clip_id": "2021.07.16.00.51.05_veh-17_03264_05261",
         "city": "las_vegas_7",
         "total_sec": 254.5,
-        "covered_sec": 21.30000000000001,
-        "coverage_pct": 8.369351669941064,
-        "num_annotations": 1
+        "covered_sec": 239.3,
+        "coverage_pct": 94.02750491159136,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.07.16.01.22.41_veh-14_00015_00547",
@@ -7020,9 +7020,9 @@
         "clip_id": "2021.07.16.01.22.41_veh-14_02003_02615",
         "city": "las_vegas_7",
         "total_sec": 254.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 70.2,
+        "coverage_pct": 27.583497053045186,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.07.16.01.22.41_veh-14_02626_04289",
@@ -7052,9 +7052,9 @@
         "clip_id": "2021.07.16.16.01.30_veh-38_00016_00333",
         "city": "las_vegas_7",
         "total_sec": 157.9,
-        "covered_sec": 110.2,
-        "coverage_pct": 69.79100696643445,
-        "num_annotations": 2
+        "covered_sec": 135.0,
+        "coverage_pct": 85.49715009499683,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.07.16.16.01.30_veh-38_00356_02486",
@@ -7140,9 +7140,9 @@
         "clip_id": "2021.07.16.16.08.35_veh-35_02551_02640",
         "city": "las_vegas_8",
         "total_sec": 44.0,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 16.2,
+        "coverage_pct": 36.81818181818181,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.07.16.16.08.35_veh-35_02651_03700",
@@ -7316,9 +7316,9 @@
         "clip_id": "2021.07.16.18.19.22_veh-35_00440_00858",
         "city": "las_vegas_8",
         "total_sec": 208.5,
-        "covered_sec": 99.80000000000001,
-        "coverage_pct": 47.865707434052766,
-        "num_annotations": 1
+        "covered_sec": 191.20000000000002,
+        "coverage_pct": 91.70263788968825,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.07.16.18.19.22_veh-35_00869_03454",
@@ -7332,9 +7332,9 @@
         "clip_id": "2021.07.16.18.49.56_veh-26_00015_00235",
         "city": "las_vegas_8",
         "total_sec": 109.4,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 64.4,
+        "coverage_pct": 58.866544789762344,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.07.16.18.49.56_veh-26_00256_00822",
@@ -7396,9 +7396,9 @@
         "clip_id": "2021.07.16.20.45.29_veh-35_02509_02649",
         "city": "las_vegas_8",
         "total_sec": 69.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 35.9,
+        "coverage_pct": 51.65467625899281,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.07.16.21.17.55_veh-26_00715_00781",
@@ -7460,9 +7460,9 @@
         "clip_id": "2021.07.16.21.17.55_veh-26_03860_03930",
         "city": "las_vegas_8",
         "total_sec": 34.4,
-        "covered_sec": 17.099999999999998,
-        "coverage_pct": 49.70930232558139,
-        "num_annotations": 1
+        "covered_sec": 25.999999999999996,
+        "coverage_pct": 75.5813953488372,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.07.16.21.17.55_veh-26_04426_04488",
@@ -7516,9 +7516,9 @@
         "clip_id": "2021.07.16.22.40.23_veh-38_00818_03032",
         "city": "las_vegas_8",
         "total_sec": 254.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 109.2,
+        "coverage_pct": 42.90766208251473,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_00015_01368",
@@ -7548,9 +7548,9 @@
         "clip_id": "2021.07.16.23.22.27_veh-14_01631_03833",
         "city": "las_vegas_8",
         "total_sec": 254.5,
-        "covered_sec": 40.69999999999999,
-        "coverage_pct": 15.992141453831039,
-        "num_annotations": 1
+        "covered_sec": 150.29999999999998,
+        "coverage_pct": 59.05697445972494,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_03844_04474",
@@ -7564,9 +7564,9 @@
         "clip_id": "2021.07.16.23.22.27_veh-14_04496_06203",
         "city": "las_vegas_8",
         "total_sec": 254.5,
-        "covered_sec": 161.7,
-        "coverage_pct": 63.53634577603143,
-        "num_annotations": 1
+        "covered_sec": 177.7,
+        "coverage_pct": 69.82318271119843,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_06214_06318",
@@ -7604,9 +7604,9 @@
         "clip_id": "2021.08.17.13.10.50_veh-08_00726_01027",
         "city": "pittsburgh_1",
         "total_sec": 149.9,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 77.5,
+        "coverage_pct": 51.70113408939293,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.08.17.13.10.50_veh-08_01060_01340",
@@ -7614,7 +7614,7 @@
         "total_sec": 139.5,
         "covered_sec": 124.8,
         "coverage_pct": 89.46236559139786,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.08.17.13.15.12_veh-45_00168_00302",
@@ -7748,9 +7748,9 @@
         "clip_id": "2021.08.17.14.32.33_veh-08_01262_01528",
         "city": "pittsburgh_1",
         "total_sec": 132.5,
-        "covered_sec": 104.1,
-        "coverage_pct": 78.56603773584905,
-        "num_annotations": 3
+        "covered_sec": 116.2,
+        "coverage_pct": 87.69811320754717,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.08.17.14.32.33_veh-08_01576_01919",
@@ -7876,9 +7876,9 @@
         "clip_id": "2021.08.17.15.02.08_veh-45_02111_02303",
         "city": "pittsburgh_1",
         "total_sec": 95.5,
-        "covered_sec": 86.69999999999999,
-        "coverage_pct": 90.7853403141361,
-        "num_annotations": 3
+        "covered_sec": 94.7,
+        "coverage_pct": 99.16230366492147,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.08.17.15.02.08_veh-45_02452_02521",
@@ -7948,9 +7948,9 @@
         "clip_id": "2021.08.17.16.48.45_veh-43_02070_02652",
         "city": "pittsburgh_1",
         "total_sec": 254.5,
-        "covered_sec": 233.5,
-        "coverage_pct": 91.74852652259332,
-        "num_annotations": 7
+        "covered_sec": 245.9,
+        "coverage_pct": 96.62082514734774,
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.08.17.16.48.45_veh-43_02693_03062",
@@ -8012,9 +8012,9 @@
         "clip_id": "2021.08.17.17.17.01_veh-45_00123_00191",
         "city": "pittsburgh_1",
         "total_sec": 33.5,
-        "covered_sec": 29.000000000000004,
-        "coverage_pct": 86.56716417910448,
-        "num_annotations": 1
+        "covered_sec": 30.1,
+        "coverage_pct": 89.85074626865672,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.08.17.17.17.01_veh-45_00207_00594",
@@ -8092,9 +8092,9 @@
         "clip_id": "2021.08.17.17.55.18_veh-43_00358_00673",
         "city": "pittsburgh_1",
         "total_sec": 156.9,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 138.5,
+        "coverage_pct": 88.27278521351178,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.08.17.17.55.18_veh-43_00802_01030",
@@ -8252,9 +8252,9 @@
         "clip_id": "2021.08.17.18.44.32_veh-08_00016_00564",
         "city": "pittsburgh_1",
         "total_sec": 254.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 69.5,
+        "coverage_pct": 27.308447937131632,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.08.17.18.44.32_veh-08_00586_00848",
@@ -8324,9 +8324,9 @@
         "clip_id": "2021.08.17.18.54.02_veh-45_02202_02416",
         "city": "pittsburgh_1",
         "total_sec": 106.5,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 55.5,
+        "coverage_pct": 52.112676056338024,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.08.17.19.18.39_veh-08_00118_00178",
@@ -8372,9 +8372,9 @@
         "clip_id": "2021.10.11.02.57.41_veh-50_00145_00308",
         "city": "singapore_1",
         "total_sec": 81.0,
-        "covered_sec": 61.900000000000006,
-        "coverage_pct": 76.41975308641976,
-        "num_annotations": 4
+        "covered_sec": 68.8,
+        "coverage_pct": 84.93827160493827,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.10.11.02.57.41_veh-50_00352_00535",
@@ -8486,7 +8486,7 @@
         "total_sec": 33.9,
         "covered_sec": 33.3,
         "coverage_pct": 98.23008849557522,
-        "num_annotations": 9
+        "num_annotations": 10
       },
       {
         "clip_id": "2021.10.11.05.34.05_veh-50_00838_00947",
@@ -8596,9 +8596,9 @@
         "clip_id": "2021.10.11.07.47.13_veh-50_00736_00843",
         "city": "singapore_1",
         "total_sec": 52.9,
-        "covered_sec": 46.7,
-        "coverage_pct": 88.27977315689982,
-        "num_annotations": 4
+        "covered_sec": 48.5,
+        "coverage_pct": 91.68241965973534,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.10.11.07.47.13_veh-50_00886_00952",
@@ -8652,9 +8652,9 @@
         "clip_id": "2021.10.11.08.31.07_veh-50_00791_00954",
         "city": "singapore_1",
         "total_sec": 80.9,
-        "covered_sec": 0,
-        "coverage_pct": 0.0,
-        "num_annotations": 0
+        "covered_sec": 71.89999999999999,
+        "coverage_pct": 88.87515451174288,
+        "num_annotations": 1
       },
       {
         "clip_id": "2021.10.11.08.31.07_veh-50_01001_01076",
@@ -9015,14 +9015,14 @@
       99.67479674796748,
       46.37681159420289,
       75.13171759747101,
-      47.71653543307087,
+      80.31496062992126,
       0.0,
       28.69269949066214,
-      18.690702087286528,
+      33.30170777988615,
       45.66473988439307,
       0.0,
       94.81981981981983,
-      74.77477477477478,
+      79.72972972972975,
       98.66666666666666,
       59.375,
       26.09147609147609,
@@ -9031,7 +9031,7 @@
       66.66666666666669,
       48.53658536585366,
       49.53617810760669,
-      79.3103448275862,
+      95.73667711598746,
       0.0,
       54.75524475524476,
       0.0,
@@ -9048,13 +9048,13 @@
       44.212962962962955,
       0.0,
       42.03125,
-      67.26057906458797,
+      97.9955456570156,
       39.55555555555556,
-      53.71287128712873,
+      63.61386138613862,
       37.82608695652174,
       74.21052631578947,
       13.493253373313344,
-      0.0,
+      29.11392405063291,
       84.91803278688525,
       0.0,
       0.0,
@@ -9070,7 +9070,7 @@
       49.7938144329897,
       0.0,
       0.0,
-      70.10309278350515,
+      93.40206185567011,
       37.518037518037524,
       78.94736842105263,
       64.13043478260869,
@@ -9101,16 +9101,16 @@
       59.103908484270725,
       64.49864498644986,
       80.87774294670848,
-      8.160000000000002,
-      29.706202393906423,
+      89.64,
+      66.1588683351469,
       76.21621621621621,
       0.0,
       55.80246913580247,
       41.623931623931625,
       0.0,
       83.55263157894738,
-      0.0,
-      73.37209302325581,
+      92.31115107913669,
+      79.30232558139535,
       57.30158730158731,
       0.0,
       57.16612377850162,
@@ -9119,33 +9119,33 @@
       11.104331909701047,
       88.3018867924528,
       94.92537313432837,
-      31.913580246913593,
+      47.839506172839506,
       69.54397394136808,
       0.0,
       62.75862068965517,
       71.78082191780821,
       73.71323529411764,
-      66.49999999999999,
+      77.66666666666667,
       74.82954545454544,
       84.24657534246575,
       86.66666666666667,
-      69.47368421052632,
+      83.6842105263158,
       83.92857142857142,
       67.91187739463602,
-      0.0,
+      24.98995580554439,
       76.2043795620438,
-      0.0,
+      18.957055214723926,
       30.388978930307943,
       0.0,
-      85.05882352941178,
+      89.41176470588236,
       85.37782139352305,
       15.72916666666666,
       91.97674418604652,
       35.641025641025635,
       37.051039697542535,
-      0.0,
+      89.42222222222222,
       90.33018867924528,
-      0.0,
+      72.1951219512195,
       34.44444444444444,
       0.0,
       98.82198952879581,
@@ -9155,12 +9155,12 @@
       38.82352941176471,
       76.93989071038251,
       92.31788079470196,
-      49.390962671905704,
+      65.97249508840865,
       0.0,
       58.295081967213115,
       62.78026905829596,
       29.07662082514736,
-      0.0,
+      18.371919342793124,
       74.69635627530364,
       98.87755102040818,
       0.0,
@@ -9176,24 +9176,24 @@
       54.03973509933775,
       84.20669577874817,
       40.480769230769226,
-      0.0,
+      69.2156862745098,
       59.130434782608695,
       43.715170278637764,
-      18.10154525386314,
+      87.2700515084621,
       90.97872340425532,
       0.0,
       78.23182711198429,
-      54.341846758349696,
+      69.23379174852651,
       58.028616852146264,
-      87.84246575342466,
+      89.55479452054794,
       0.0,
       0.0,
       89.7175141242938,
       0.0,
-      0.0,
+      33.20754716981133,
       72.93388429752066,
       85.0,
-      70.8235294117647,
+      99.88235294117648,
       49.74533106960951,
       71.88796680497924,
       62.377850162866444,
@@ -9312,7 +9312,7 @@
       84.90566037735849,
       63.0901287553648,
       0.0,
-      54.59098497495825,
+      84.47412353923205,
       0.0,
       86.47342995169082,
       0.0,
@@ -9320,7 +9320,7 @@
       79.63525835866261,
       0.0,
       81.38528138528139,
-      8.568329718004335,
+      23.86117136659436,
       30.019620667102682,
       16.875981161695446,
       0.0,
@@ -9349,7 +9349,7 @@
       39.85507246376812,
       0.0,
       10.245901639344263,
-      65.87537091988129,
+      95.10385756676558,
       69.27194860813705,
       71.9298245614035,
       37.17647058823529,
@@ -9360,7 +9360,7 @@
       40.526315789473685,
       66.50887573964496,
       0.0,
-      0.0,
+      85.37946428571429,
       0.0,
       0.0,
       0.0,
@@ -9390,10 +9390,10 @@
       28.09917355371901,
       96.16438356164385,
       0.0,
-      50.64710957722174,
+      51.07851596203623,
       95.12022630834511,
       72.18181818181819,
-      23.914643119941132,
+      36.49742457689477,
       96.35258358662614,
       0.0,
       94.42896935933148,
@@ -9401,8 +9401,8 @@
       63.20855614973263,
       93.83177570093459,
       61.80746561886051,
-      25.14285714285713,
-      64.56521739130436,
+      92.71428571428571,
+      69.13043478260869,
       97.00934579439252,
       82.59587020648968,
       0.0,
@@ -9422,16 +9422,16 @@
       0.0,
       45.59585492227979,
       0.0,
-      0.0,
+      52.88753799392097,
       50.797266514806374,
       65.0,
       0.0,
       94.84265734265733,
       96.39639639639641,
       0.0,
-      54.19354838709678,
+      66.12903225806451,
       61.7814831066257,
-      92.03883495145632,
+      92.62135922330098,
       59.49177877428997,
       0.0,
       63.51351351351351,
@@ -9443,14 +9443,14 @@
       50.534759358288774,
       54.08450704225351,
       0.0,
-      35.93380614657211,
+      40.110323089046496,
       78.76106194690264,
-      0.0,
+      90.39070749736008,
       40.11904761904762,
       28.86792452830188,
       0.0,
       90.66410009624639,
-      0.0,
+      23.270440251572335,
       97.09677419354838,
       91.39489194499018,
       93.30188679245283,
@@ -9467,7 +9467,7 @@
       61.41001855287569,
       17.63546798029556,
       0.0,
-      0.0,
+      52.55474452554745,
       20.41612483745124,
       0.0,
       0.0,
@@ -9478,7 +9478,7 @@
       21.689587426326128,
       91.74603174603175,
       55.677799607072686,
-      85.69744597249509,
+      86.32612966601178,
       7.011235955056177,
       0.0,
       21.218074656188605,
@@ -9495,8 +9495,8 @@
       49.14564686737185,
       35.86525759577278,
       31.000000000000007,
-      0.0,
-      84.08644400785855,
+      36.103663985701516,
+      92.49508840864439,
       21.260815822002467,
       48.78612716763006,
       83.38108882521492,
@@ -9506,7 +9506,7 @@
       51.198428290766216,
       30.530451866404718,
       73.07692307692307,
-      64.30363864491844,
+      89.71141781681304,
       81.67741935483872,
       0.0,
       64.95088408644402,
@@ -9531,8 +9531,8 @@
       72.7536231884058,
       57.96610169491526,
       85.76271186440678,
-      77.87878787878788,
-      70.93333333333332,
+      83.33333333333334,
+      85.06666666666666,
       94.24242424242425,
       68.85714285714286,
       78.52941176470588,
@@ -9543,7 +9543,7 @@
       78.0746561886051,
       68.08149405772494,
       45.95588235294118,
-      35.32416502946955,
+      77.56385068762279,
       0.0,
       23.339882121807467,
       40.20283975659229,
@@ -9555,10 +9555,10 @@
       72.38095238095237,
       84.28571428571428,
       0.0,
-      83.08351177730191,
+      92.07708779443254,
       29.623567921440262,
-      46.27737226277372,
-      21.375245579567782,
+      77.95620437956204,
+      35.16699410609037,
       0.0,
       80.98231827111984,
       54.73477406679764,
@@ -9590,15 +9590,15 @@
       56.66011787819254,
       45.22593320235756,
       14.263261296660124,
-      8.369351669941064,
+      94.02750491159136,
       78.38899803536346,
       40.70726915520629,
       98.26446280991735,
-      0.0,
+      27.583497053045186,
       45.18664047151277,
       45.06876227897838,
       14.263261296660124,
-      69.79100696643445,
+      85.49715009499683,
       85.50098231827111,
       6.679764243614931,
       38.62475442043222,
@@ -9609,7 +9609,7 @@
       60.27315914489311,
       0.0,
       53.94366197183098,
-      0.0,
+      36.81818181818181,
       98.1925343811395,
       0.0,
       0.0,
@@ -9631,9 +9631,9 @@
       83.78746594005449,
       22.116301239275497,
       30.284301606922128,
-      47.865707434052766,
+      91.70263788968825,
       67.22986247544203,
-      0.0,
+      58.866544789762344,
       33.045186640471506,
       78.19339434938321,
       0.0,
@@ -9641,7 +9641,7 @@
       0.0,
       0.0,
       0.0,
-      0.0,
+      51.65467625899281,
       0.0,
       0.0,
       0.0,
@@ -9649,25 +9649,25 @@
       0.0,
       0.0,
       0.0,
-      49.70930232558139,
+      75.5813953488372,
       0.0,
       63.8235294117647,
       0.0,
       48.17961165048544,
       0.0,
       77.49529190207156,
-      0.0,
+      42.90766208251473,
       16.385068762278983,
       48.84210526315789,
       77.34082397003745,
-      15.992141453831039,
+      59.05697445972494,
       14.734774066797637,
-      63.53634577603143,
+      69.82318271119843,
       29.571984435797667,
       61.532416502946965,
       76.16279069767442,
       59.32746196957566,
-      0.0,
+      51.70113408939293,
       89.46236559139786,
       37.44360902255639,
       19.634146341463406,
@@ -9685,7 +9685,7 @@
       82.55208333333334,
       41.80746561886051,
       70.34220532319391,
-      78.56603773584905,
+      87.69811320754717,
       91.10590988882387,
       84.99999999999999,
       33.119266055045884,
@@ -9701,7 +9701,7 @@
       82.19895287958116,
       62.83524904214558,
       83.41463414634147,
-      90.7853403141361,
+      99.16230366492147,
       84.95575221238938,
       45.43028685790527,
       57.89976133651551,
@@ -9710,7 +9710,7 @@
       96.26666666666667,
       56.451612903225815,
       68.56856856856857,
-      91.74852652259332,
+      96.62082514734774,
       54.54051114736269,
       96.4485981308411,
       69.39759036144578,
@@ -9718,7 +9718,7 @@
       59.77382875605816,
       94.57760314341847,
       81.37931034482759,
-      86.56716417910448,
+      89.85074626865672,
       64.04145077720209,
       40.992555831265506,
       57.22488038277511,
@@ -9728,7 +9728,7 @@
       77.2576636288318,
       89.0909090909091,
       71.25867195242813,
-      0.0,
+      88.27278521351178,
       78.76651982378854,
       58.31533477321814,
       64.65517241379311,
@@ -9748,7 +9748,7 @@
       64.43768996960488,
       96.73913043478261,
       0.0,
-      0.0,
+      27.308447937131632,
       75.23006134969324,
       93.24165029469548,
       11.916376306620215,
@@ -9757,13 +9757,13 @@
       87.29446935724961,
       98.7426326129666,
       97.10843373493975,
-      0.0,
+      52.112676056338024,
       98.63945578231294,
       48.82903981264637,
       22.48394004282655,
       61.367249602543716,
       84.42307692307692,
-      76.41975308641976,
+      84.93827160493827,
       87.14285714285714,
       90.67796610169492,
       92.40048250904704,
@@ -9791,14 +9791,14 @@
       92.54498714652956,
       80.1498127340824,
       45.535714285714285,
-      88.27977315689982,
+      91.68241965973534,
       97.23076923076923,
       0.0,
       40.229885057471265,
       70.96267190569745,
       37.74385072094996,
       0.0,
-      0.0,
+      88.87515451174288,
       74.79674796747969,
       56.92771084337348,
       0.0,
@@ -9842,7 +9842,6 @@
     "2021.06.09.14.50.36_veh-26_00832_00905",
     "2021.06.09.14.50.36_veh-26_01537_01600",
     "2021.06.09.14.50.36_veh-26_02680_02781",
-    "2021.06.09.14.50.36_veh-26_03874_04112",
     "2021.06.09.14.50.36_veh-26_04226_04484",
     "2021.06.09.14.50.36_veh-26_04495_04561",
     "2021.06.09.14.58.55_veh-35_01496_01664",
@@ -9857,30 +9856,22 @@
     "2021.06.09.17.23.18_veh-38_01598_01750",
     "2021.06.09.17.23.18_veh-38_03425_04047",
     "2021.06.09.17.23.18_veh-38_04544_04697",
-    "2021.06.09.17.23.18_veh-38_04782_05228",
     "2021.06.09.17.23.18_veh-38_05602_05695",
     "2021.06.09.17.37.09_veh-12_00151_00393",
     "2021.06.09.17.37.09_veh-12_00404_00864",
     "2021.06.09.17.37.09_veh-12_01936_02067",
-    "2021.06.09.17.37.09_veh-12_03830_04329",
-    "2021.06.09.17.37.09_veh-12_04489_04816",
     "2021.06.09.18.23.43_veh-35_00349_00544",
-    "2021.06.09.18.23.43_veh-35_01702_01928",
-    "2021.06.09.18.23.43_veh-35_02086_02333",
     "2021.06.09.18.23.43_veh-35_02680_02868",
     "2021.06.09.18.23.43_veh-35_03190_03392",
     "2021.06.09.18.23.43_veh-35_05068_05186",
-    "2021.06.09.19.40.26_veh-12_01241_01510",
     "2021.06.09.20.26.11_veh-35_00026_00236",
     "2021.06.09.20.26.11_veh-35_00247_00529",
     "2021.06.09.20.26.11_veh-35_00970_01216",
     "2021.06.14.11.44.56_veh-35_00742_00927",
-    "2021.06.14.11.44.56_veh-35_01869_01972",
     "2021.06.14.11.44.56_veh-35_02983_03378",
     "2021.06.14.13.27.42_veh-35_00142_00231",
     "2021.06.14.13.27.42_veh-35_00243_00342",
     "2021.06.14.13.27.42_veh-35_00542_00645",
-    "2021.06.14.13.27.42_veh-35_00691_00798",
     "2021.06.14.13.27.42_veh-35_02853_02953",
     "2021.06.14.13.27.42_veh-35_04596_04692",
     "2021.06.14.13.28.41_veh-12_00169_00783",
@@ -9922,7 +9913,6 @@
     "2021.06.14.17.26.26_veh-38_05281_05444",
     "2021.06.14.18.13.35_veh-26_00863_00924",
     "2021.06.14.18.13.35_veh-26_01331_01526",
-    "2021.06.14.18.13.35_veh-26_01537_01717",
     "2021.06.14.18.13.35_veh-26_01728_01918",
     "2021.06.14.18.13.35_veh-26_01931_02022",
     "2021.06.14.18.13.35_veh-26_02033_02313",
@@ -9940,18 +9930,14 @@
     "2021.06.14.18.42.45_veh-12_00016_00185",
     "2021.06.14.18.42.45_veh-12_01680_01744",
     "2021.06.14.18.42.45_veh-12_02099_02167",
-    "2021.06.14.18.42.45_veh-12_02233_02300",
     "2021.06.14.18.42.45_veh-12_02596_02661",
     "2021.06.14.18.42.45_veh-12_03200_03329",
     "2021.06.14.18.42.45_veh-12_04233_04472",
     "2021.06.14.19.22.11_veh-38_00910_01029",
-    "2021.06.14.19.22.11_veh-38_01480_01860",
     "2021.06.14.19.22.11_veh-38_02275_02455",
-    "2021.06.14.19.22.11_veh-38_02686_02846",
     "2021.06.14.20.14.09_veh-26_00248_00477",
     "2021.06.14.20.14.09_veh-26_01027_01110",
     "2021.06.23.14.54.32_veh-16_00636_00840",
-    "2021.06.23.14.54.32_veh-16_00862_01000",
     "2021.06.23.14.54.32_veh-16_01187_03336",
     "2021.06.23.14.58.13_veh-35_00016_00153",
     "2021.06.23.14.58.13_veh-35_00765_01108",
@@ -9962,7 +9948,6 @@
     "2021.06.23.16.52.00_veh-26_03120_03293",
     "2021.06.23.16.52.00_veh-26_03304_03611",
     "2021.06.23.16.54.19_veh-35_00808_01256",
-    "2021.06.23.17.31.36_veh-16_00398_00623",
     "2021.06.23.20.00.35_veh-35_00016_00119",
     "2021.06.23.20.43.31_veh-16_00588_00792",
     "2021.06.23.20.43.31_veh-16_02216_02667",
@@ -9978,10 +9963,8 @@
     "2021.07.09.20.59.12_veh-38_07245_07341",
     "2021.07.09.23.23.48_veh-26_04648_06327",
     "2021.07.16.00.24.14_veh-38_00094_00346",
-    "2021.07.16.01.22.41_veh-14_02003_02615",
     "2021.07.16.16.01.30_veh-38_05766_06843",
     "2021.07.16.16.08.35_veh-35_01664_02376",
-    "2021.07.16.16.08.35_veh-35_02551_02640",
     "2021.07.16.16.08.35_veh-35_03711_04709",
     "2021.07.16.16.08.35_veh-35_04744_06051",
     "2021.07.16.16.27.22_veh-26_02282_03814",
@@ -9996,12 +9979,10 @@
     "2021.07.16.18.06.21_veh-38_04311_04460",
     "2021.07.16.18.06.21_veh-38_04471_04922",
     "2021.07.16.18.06.21_veh-38_04933_05307",
-    "2021.07.16.18.49.56_veh-26_00015_00235",
     "2021.07.16.18.49.56_veh-26_03407_03538",
     "2021.07.16.20.45.29_veh-35_00600_01084",
     "2021.07.16.20.45.29_veh-35_01095_01486",
     "2021.07.16.20.45.29_veh-35_01513_02486",
-    "2021.07.16.20.45.29_veh-35_02509_02649",
     "2021.07.16.21.17.55_veh-26_00715_00781",
     "2021.07.16.21.17.55_veh-26_00872_00937",
     "2021.07.16.21.17.55_veh-26_01014_01075",
@@ -10011,17 +9992,12 @@
     "2021.07.16.21.17.55_veh-26_04426_04488",
     "2021.07.16.21.17.55_veh-26_05558_05627",
     "2021.07.16.22.40.23_veh-38_00204_00360",
-    "2021.07.16.22.40.23_veh-38_00818_03032",
-    "2021.08.17.13.10.50_veh-08_00726_01027",
     "2021.08.17.14.32.33_veh-08_00016_00354",
     "2021.08.17.14.45.12_veh-42_00831_01079",
     "2021.08.17.14.45.12_veh-42_01562_01754",
-    "2021.08.17.17.55.18_veh-43_00358_00673",
     "2021.08.17.18.11.12_veh-08_01622_01709",
     "2021.08.17.18.43.12_veh-43_01906_02722",
     "2021.08.17.18.43.12_veh-43_03294_03490",
-    "2021.08.17.18.44.32_veh-08_00016_00564",
-    "2021.08.17.18.54.02_veh-45_02202_02416",
     "2021.09.15.11.49.23_veh-28_00767_00955",
     "2021.09.15.12.32.43_veh-28_01513_01697",
     "2021.09.15.13.12.49_veh-39_01049_01301",
@@ -10035,13 +10011,13 @@
     "2021.10.01.18.26.05_veh-28_00481_00656",
     "2021.10.11.07.47.13_veh-50_01020_01123",
     "2021.10.11.08.31.07_veh-50_00282_00680",
-    "2021.10.11.08.31.07_veh-50_00791_00954",
     "2021.10.11.08.31.07_veh-50_01365_01539"
   ],
   "manifest_mismatches": [],
   "per_annotator_counts": {
     "giovanni": 1006,
     "parthib": 498,
+    "Jeevan": 99,
     "jeremykemmerer": 92,
     "jboaz": 82,
     "ytandon": 50,
@@ -10051,6 +10027,7 @@
     "proy3": 1
   },
   "per_annotator_raw_sec": {
+    "Jeevan": 6239.2,
     "Marcus": 1688.5,
     "Vrishan": 1672.4,
     "giovanni": 38518.2,
@@ -10062,6 +10039,7 @@
     "ytandon": 1832.3999999999999
   },
   "per_annotator_avg_seg_per_scene": {
+    "Jeevan": 68.56263736263736,
     "Marcus": 44.43421052631579,
     "Vrishan": 98.37647058823529,
     "giovanni": 60.56320754716981,
@@ -10073,6 +10051,291 @@
     "ytandon": 38.98723404255319
   },
   "per_annotator_figures": {
+    "Jeevan": {
+      "durations": [
+        28.2,
+        30.9,
+        18.3,
+        42.1,
+        47.0,
+        22.4,
+        55.5,
+        94.7,
+        118.6,
+        28.1,
+        80.4,
+        70.9,
+        109.6,
+        69.4,
+        26.7,
+        25.8,
+        46.6,
+        100.6,
+        35.3,
+        54.9,
+        25.5,
+        16.9,
+        45.2,
+        39.6,
+        140.4,
+        222.7,
+        39.9,
+        16.2,
+        16.3,
+        29.6,
+        186.2,
+        33.5,
+        197.4,
+        205.3,
+        71.9,
+        77.6,
+        21.8,
+        30.5,
+        235.4,
+        138.5,
+        40.4,
+        57.4,
+        17.6,
+        143.4,
+        20.0,
+        153.7,
+        69.5,
+        25.3,
+        62.7,
+        239.3,
+        41.4,
+        31.8,
+        24.5,
+        17.4,
+        34.8,
+        51.4,
+        64.1,
+        109.2,
+        18.5,
+        47.6,
+        45.3,
+        68.2,
+        27.2,
+        35.9,
+        105.6,
+        18.9,
+        16.8,
+        64.4,
+        23.9,
+        24.6,
+        117.8,
+        77.5,
+        77.0,
+        36.0,
+        84.9,
+        41.7,
+        88.8,
+        15.8,
+        70.2,
+        17.4,
+        34.5,
+        130.9,
+        45.3,
+        171.2,
+        29.6,
+        76.5,
+        44.0,
+        36.5,
+        34.5,
+        19.3,
+        50.6,
+        23.0,
+        28.7,
+        67.8,
+        49.7,
+        43.7,
+        48.4,
+        18.5,
+        62.2
+      ],
+      "referential": {
+        "Non-Referential": 57,
+        "Static Referential": 28,
+        "Dynamic Referential": 5,
+        "Both": 9
+      },
+      "length_by_class": {
+        "Non-Referential": [
+          10,
+          2,
+          7,
+          9,
+          6,
+          21,
+          7,
+          5,
+          7,
+          8,
+          5,
+          6,
+          10,
+          11,
+          8,
+          6,
+          13,
+          6,
+          10,
+          6,
+          5,
+          8,
+          8,
+          3,
+          6,
+          10
+        ],
+        "Static Referential": [
+          11,
+          23,
+          35,
+          33,
+          14,
+          13,
+          15,
+          38,
+          59,
+          72,
+          68,
+          13,
+          14,
+          42,
+          18,
+          9,
+          15,
+          8,
+          26,
+          18,
+          15,
+          48,
+          7,
+          42,
+          10,
+          8,
+          7,
+          6
+        ],
+        "Dynamic Referential": [
+          14,
+          7,
+          18,
+          16,
+          12
+        ],
+        "Both": [
+          64,
+          13,
+          18,
+          38,
+          41,
+          38,
+          27,
+          25,
+          21
+        ]
+      },
+      "per_clip": {
+        "1": 84,
+        "2": 6,
+        "3": 1
+      },
+      "scene_cov": [
+        73.386,
+        30.171,
+        63.288,
+        48.276,
+        97.996,
+        52.97,
+        29.114,
+        93.402,
+        86.97,
+        60.393,
+        89.08,
+        36.453,
+        92.311,
+        79.302,
+        29.012,
+        60.833,
+        72.237,
+        24.99,
+        18.957,
+        80.588,
+        89.422,
+        72.195,
+        27.269,
+        18.372,
+        31.282,
+        69.216,
+        87.27,
+        56.542,
+        67.808,
+        33.208,
+        99.882,
+        22.682,
+        84.474,
+        15.293,
+        95.104,
+        85.379,
+        25.539,
+        18.028,
+        82.0,
+        55.435,
+        52.888,
+        64.516,
+        20.886,
+        66.99,
+        47.436,
+        32.624,
+        90.391,
+        42.06,
+        23.27,
+        36.629,
+        29.665,
+        52.555,
+        43.175,
+        51.434,
+        36.104,
+        92.495,
+        42.535,
+        47.761,
+        78.182,
+        42.133,
+        32.767,
+        77.564,
+        49.714,
+        83.084,
+        70.657,
+        31.591,
+        56.346,
+        94.028,
+        27.583,
+        74.604,
+        36.818,
+        89.305,
+        58.867,
+        51.655,
+        69.477,
+        42.908,
+        43.065,
+        10.491,
+        51.701,
+        36.846,
+        31.472,
+        99.162,
+        41.493,
+        75.522,
+        88.273,
+        27.308,
+        52.113,
+        28.395,
+        64.307,
+        65.784,
+        88.875
+      ]
+    },
     "Marcus": {
       "durations": [
         171.3,
@@ -14763,6 +15026,105 @@
   },
   "all_figures": {
     "durations": [
+      28.2,
+      30.9,
+      18.3,
+      42.1,
+      47.0,
+      22.4,
+      55.5,
+      94.7,
+      118.6,
+      28.1,
+      80.4,
+      70.9,
+      109.6,
+      69.4,
+      26.7,
+      25.8,
+      46.6,
+      100.6,
+      35.3,
+      54.9,
+      25.5,
+      16.9,
+      45.2,
+      39.6,
+      140.4,
+      222.7,
+      39.9,
+      16.2,
+      16.3,
+      29.6,
+      186.2,
+      33.5,
+      197.4,
+      205.3,
+      71.9,
+      77.6,
+      21.8,
+      30.5,
+      235.4,
+      138.5,
+      40.4,
+      57.4,
+      17.6,
+      143.4,
+      20.0,
+      153.7,
+      69.5,
+      25.3,
+      62.7,
+      239.3,
+      41.4,
+      31.8,
+      24.5,
+      17.4,
+      34.8,
+      51.4,
+      64.1,
+      109.2,
+      18.5,
+      47.6,
+      45.3,
+      68.2,
+      27.2,
+      35.9,
+      105.6,
+      18.9,
+      16.8,
+      64.4,
+      23.9,
+      24.6,
+      117.8,
+      77.5,
+      77.0,
+      36.0,
+      84.9,
+      41.7,
+      88.8,
+      15.8,
+      70.2,
+      17.4,
+      34.5,
+      130.9,
+      45.3,
+      171.2,
+      29.6,
+      76.5,
+      44.0,
+      36.5,
+      34.5,
+      19.3,
+      50.6,
+      23.0,
+      28.7,
+      67.8,
+      49.7,
+      43.7,
+      48.4,
+      18.5,
+      62.2,
       171.3,
       18.7,
       21.7,
@@ -16618,13 +16980,39 @@
       15.0
     ],
     "referential": {
-      "Non-Referential": 701,
-      "Static Referential": 404,
-      "Dynamic Referential": 291,
-      "Both": 432
+      "Non-Referential": 758,
+      "Static Referential": 432,
+      "Dynamic Referential": 296,
+      "Both": 441
     },
     "length_by_class": {
       "Non-Referential": [
+        10,
+        2,
+        7,
+        9,
+        6,
+        21,
+        7,
+        5,
+        7,
+        8,
+        5,
+        6,
+        10,
+        11,
+        8,
+        6,
+        13,
+        6,
+        10,
+        6,
+        5,
+        8,
+        8,
+        3,
+        6,
+        10,
         3,
         8,
         5,
@@ -16825,6 +17213,34 @@
         2
       ],
       "Static Referential": [
+        11,
+        23,
+        35,
+        33,
+        14,
+        13,
+        15,
+        38,
+        59,
+        72,
+        68,
+        13,
+        14,
+        42,
+        18,
+        9,
+        15,
+        8,
+        26,
+        18,
+        15,
+        48,
+        7,
+        42,
+        10,
+        8,
+        7,
+        6,
         5,
         5,
         12,
@@ -17229,6 +17645,11 @@
         10
       ],
       "Dynamic Referential": [
+        14,
+        7,
+        18,
+        16,
+        12,
         12,
         9,
         31,
@@ -17521,6 +17942,15 @@
         4
       ],
       "Both": [
+        64,
+        13,
+        18,
+        38,
+        41,
+        38,
+        27,
+        25,
+        21,
         13,
         16,
         18,
@@ -17955,16 +18385,15 @@
       ]
     },
     "per_clip": {
-      "1": 313,
-      "2": 280,
-      "3": 163,
-      "4": 55,
-      "5": 27,
-      "6": 12,
-      "7": 3,
-      "8": 3,
-      "9": 1,
-      "10": 1
+      "1": 311,
+      "2": 282,
+      "3": 173,
+      "4": 67,
+      "5": 28,
+      "6": 14,
+      "7": 2,
+      "8": 4,
+      "10": 2
     },
     "scene_cov": [
       22.409,
@@ -18260,14 +18689,14 @@
       99.675,
       46.377,
       75.132,
-      47.717,
+      80.315,
       0.0,
       28.693,
-      18.691,
+      33.302,
       45.665,
       0.0,
       94.82,
-      74.775,
+      79.73,
       98.667,
       59.375,
       26.091,
@@ -18276,7 +18705,7 @@
       66.667,
       48.537,
       49.536,
-      79.31,
+      95.737,
       0.0,
       54.755,
       0.0,
@@ -18293,13 +18722,13 @@
       44.213,
       0.0,
       42.031,
-      67.261,
+      97.996,
       39.556,
-      53.713,
+      63.614,
       37.826,
       74.211,
       13.493,
-      0.0,
+      29.114,
       84.918,
       0.0,
       0.0,
@@ -18315,7 +18744,7 @@
       49.794,
       0.0,
       0.0,
-      70.103,
+      93.402,
       37.518,
       78.947,
       64.13,
@@ -18346,16 +18775,16 @@
       59.104,
       64.499,
       80.878,
-      8.16,
-      29.706,
+      89.64,
+      66.159,
       76.216,
       0.0,
       55.802,
       41.624,
       0.0,
       83.553,
-      0.0,
-      73.372,
+      92.311,
+      79.302,
       57.302,
       0.0,
       57.166,
@@ -18364,33 +18793,33 @@
       11.104,
       88.302,
       94.925,
-      31.914,
+      47.84,
       69.544,
       0.0,
       62.759,
       71.781,
       73.713,
-      66.5,
+      77.667,
       74.83,
       84.247,
       86.667,
-      69.474,
+      83.684,
       83.929,
       67.912,
-      0.0,
+      24.99,
       76.204,
-      0.0,
+      18.957,
       30.389,
       0.0,
-      85.059,
+      89.412,
       85.378,
       15.729,
       91.977,
       35.641,
       37.051,
-      0.0,
+      89.422,
       90.33,
-      0.0,
+      72.195,
       34.444,
       0.0,
       98.822,
@@ -18400,12 +18829,12 @@
       38.824,
       76.94,
       92.318,
-      49.391,
+      65.972,
       0.0,
       58.295,
       62.78,
       29.077,
-      0.0,
+      18.372,
       74.696,
       98.878,
       0.0,
@@ -18421,24 +18850,24 @@
       54.04,
       84.207,
       40.481,
-      0.0,
+      69.216,
       59.13,
       43.715,
-      18.102,
+      87.27,
       90.979,
       0.0,
       78.232,
-      54.342,
+      69.234,
       58.029,
-      87.842,
+      89.555,
       0.0,
       0.0,
       89.718,
       0.0,
-      0.0,
+      33.208,
       72.934,
       85.0,
-      70.824,
+      99.882,
       49.745,
       71.888,
       62.378,
@@ -18557,7 +18986,7 @@
       84.906,
       63.09,
       0.0,
-      54.591,
+      84.474,
       0.0,
       86.473,
       0.0,
@@ -18565,7 +18994,7 @@
       79.635,
       0.0,
       81.385,
-      8.568,
+      23.861,
       30.02,
       16.876,
       0.0,
@@ -18594,7 +19023,7 @@
       39.855,
       0.0,
       10.246,
-      65.875,
+      95.104,
       69.272,
       71.93,
       37.176,
@@ -18605,7 +19034,7 @@
       40.526,
       66.509,
       0.0,
-      0.0,
+      85.379,
       0.0,
       0.0,
       0.0,
@@ -18635,10 +19064,10 @@
       28.099,
       96.164,
       0.0,
-      50.647,
+      51.079,
       95.12,
       72.182,
-      23.915,
+      36.497,
       96.353,
       0.0,
       94.429,
@@ -18646,8 +19075,8 @@
       63.209,
       93.832,
       61.807,
-      25.143,
-      64.565,
+      92.714,
+      69.13,
       97.009,
       82.596,
       0.0,
@@ -18667,16 +19096,16 @@
       0.0,
       45.596,
       0.0,
-      0.0,
+      52.888,
       50.797,
       65.0,
       0.0,
       94.843,
       96.396,
       0.0,
-      54.194,
+      66.129,
       61.781,
-      92.039,
+      92.621,
       59.492,
       0.0,
       63.514,
@@ -18688,14 +19117,14 @@
       50.535,
       54.085,
       0.0,
-      35.934,
+      40.11,
       78.761,
-      0.0,
+      90.391,
       40.119,
       28.868,
       0.0,
       90.664,
-      0.0,
+      23.27,
       97.097,
       91.395,
       93.302,
@@ -18712,7 +19141,7 @@
       61.41,
       17.635,
       0.0,
-      0.0,
+      52.555,
       20.416,
       0.0,
       0.0,
@@ -18723,7 +19152,7 @@
       21.69,
       91.746,
       55.678,
-      85.697,
+      86.326,
       7.011,
       0.0,
       21.218,
@@ -18740,8 +19169,8 @@
       49.146,
       35.865,
       31.0,
-      0.0,
-      84.086,
+      36.104,
+      92.495,
       21.261,
       48.786,
       83.381,
@@ -18751,7 +19180,7 @@
       51.198,
       30.53,
       73.077,
-      64.304,
+      89.711,
       81.677,
       0.0,
       64.951,
@@ -18776,8 +19205,8 @@
       72.754,
       57.966,
       85.763,
-      77.879,
-      70.933,
+      83.333,
+      85.067,
       94.242,
       68.857,
       78.529,
@@ -18788,7 +19217,7 @@
       78.075,
       68.081,
       45.956,
-      35.324,
+      77.564,
       0.0,
       23.34,
       40.203,
@@ -18800,10 +19229,10 @@
       72.381,
       84.286,
       0.0,
-      83.084,
+      92.077,
       29.624,
-      46.277,
-      21.375,
+      77.956,
+      35.167,
       0.0,
       80.982,
       54.735,
@@ -18835,15 +19264,15 @@
       56.66,
       45.226,
       14.263,
-      8.369,
+      94.028,
       78.389,
       40.707,
       98.264,
-      0.0,
+      27.583,
       45.187,
       45.069,
       14.263,
-      69.791,
+      85.497,
       85.501,
       6.68,
       38.625,
@@ -18854,7 +19283,7 @@
       60.273,
       0.0,
       53.944,
-      0.0,
+      36.818,
       98.193,
       0.0,
       0.0,
@@ -18876,9 +19305,9 @@
       83.787,
       22.116,
       30.284,
-      47.866,
+      91.703,
       67.23,
-      0.0,
+      58.867,
       33.045,
       78.193,
       0.0,
@@ -18886,7 +19315,7 @@
       0.0,
       0.0,
       0.0,
-      0.0,
+      51.655,
       0.0,
       0.0,
       0.0,
@@ -18894,25 +19323,25 @@
       0.0,
       0.0,
       0.0,
-      49.709,
+      75.581,
       0.0,
       63.824,
       0.0,
       48.18,
       0.0,
       77.495,
-      0.0,
+      42.908,
       16.385,
       48.842,
       77.341,
-      15.992,
+      59.057,
       14.735,
-      63.536,
+      69.823,
       29.572,
       61.532,
       76.163,
       59.327,
-      0.0,
+      51.701,
       89.462,
       37.444,
       19.634,
@@ -18930,7 +19359,7 @@
       82.552,
       41.807,
       70.342,
-      78.566,
+      87.698,
       91.106,
       85.0,
       33.119,
@@ -18946,7 +19375,7 @@
       82.199,
       62.835,
       83.415,
-      90.785,
+      99.162,
       84.956,
       45.43,
       57.9,
@@ -18955,7 +19384,7 @@
       96.267,
       56.452,
       68.569,
-      91.749,
+      96.621,
       54.541,
       96.449,
       69.398,
@@ -18963,7 +19392,7 @@
       59.774,
       94.578,
       81.379,
-      86.567,
+      89.851,
       64.041,
       40.993,
       57.225,
@@ -18973,7 +19402,7 @@
       77.258,
       89.091,
       71.259,
-      0.0,
+      88.273,
       78.767,
       58.315,
       64.655,
@@ -18993,7 +19422,7 @@
       64.438,
       96.739,
       0.0,
-      0.0,
+      27.308,
       75.23,
       93.242,
       11.916,
@@ -19002,13 +19431,13 @@
       87.294,
       98.743,
       97.108,
-      0.0,
+      52.113,
       98.639,
       48.829,
       22.484,
       61.367,
       84.423,
-      76.42,
+      84.938,
       87.143,
       90.678,
       92.4,
@@ -19036,14 +19465,14 @@
       92.545,
       80.15,
       45.536,
-      88.28,
+      91.682,
       97.231,
       0.0,
       40.23,
       70.963,
       37.744,
       0.0,
-      0.0,
+      88.875,
       74.797,
       56.928,
       0.0,
@@ -19055,10 +19484,10 @@
     ]
   },
   "referential_distribution": {
-    "Non-Referential": 701,
-    "Static Referential": 404,
-    "Dynamic Referential": 291,
-    "Both": 432
+    "Non-Referential": 758,
+    "Static Referential": 432,
+    "Dynamic Referential": 296,
+    "Both": 441
   },
   "unmapped_commentary": {
     "Ambiguous": 19,
@@ -19067,6 +19496,32 @@
   },
   "length_by_class": {
     "Non-Referential": [
+      10,
+      2,
+      7,
+      9,
+      6,
+      21,
+      7,
+      5,
+      7,
+      8,
+      5,
+      6,
+      10,
+      11,
+      8,
+      6,
+      13,
+      6,
+      10,
+      6,
+      5,
+      8,
+      8,
+      3,
+      6,
+      10,
       3,
       8,
       5,
@@ -19267,6 +19722,34 @@
       2
     ],
     "Static Referential": [
+      11,
+      23,
+      35,
+      33,
+      14,
+      13,
+      15,
+      38,
+      59,
+      72,
+      68,
+      13,
+      14,
+      42,
+      18,
+      9,
+      15,
+      8,
+      26,
+      18,
+      15,
+      48,
+      7,
+      42,
+      10,
+      8,
+      7,
+      6,
       5,
       5,
       12,
@@ -19671,6 +20154,11 @@
       10
     ],
     "Dynamic Referential": [
+      14,
+      7,
+      18,
+      16,
+      12,
       12,
       9,
       31,
@@ -19963,6 +20451,15 @@
       4
     ],
     "Both": [
+      64,
+      13,
+      18,
+      38,
+      41,
+      38,
+      27,
+      25,
+      21,
       13,
       16,
       18,
@@ -20397,19 +20894,1895 @@
     ]
   },
   "per_clip_counts": {
-    "0": 227,
-    "1": 313,
-    "2": 280,
-    "3": 163,
-    "4": 55,
-    "5": 27,
-    "6": 12,
-    "7": 3,
-    "8": 3,
-    "9": 1,
-    "10": 1
+    "0": 202,
+    "1": 311,
+    "2": 282,
+    "3": 173,
+    "4": 67,
+    "5": 28,
+    "6": 14,
+    "7": 2,
+    "8": 4,
+    "10": 2
   },
   "scene_timelines": {
+    "2021.06.14.16.48.02_veh-12_03091_03461": {
+      "total_sec": 184.4,
+      "bars": [
+        {
+          "start": 44.8,
+          "end": 73.0,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 115.2,
+          "end": 131.0,
+          "user": "giovanni",
+          "label": "Merge one lane to the right side. "
+        }
+      ]
+    },
+    "2021.06.09.17.37.09_veh-12_04489_04816": {
+      "total_sec": 163.0,
+      "bars": [
+        {
+          "start": 39.6,
+          "end": 70.5,
+          "user": "Jeevan",
+          "label": "After this light, switch to the right lane, and keep straight"
+        }
+      ]
+    },
+    "2021.06.09.14.50.36_veh-26_03310_03392": {
+      "total_sec": 40.4,
+      "bars": [
+        {
+          "start": 7.9,
+          "end": 29.6,
+          "user": "Marcus",
+          "label": "wait for the people to cross the crosswalk"
+        },
+        {
+          "start": 12.2,
+          "end": 30.5,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 16.8,
+          "end": 33.6,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.14.17.26.26_veh-38_05760_05896": {
+      "total_sec": 67.4,
+      "bars": [
+        {
+          "start": 1.8,
+          "end": 65.9,
+          "user": "Jeevan",
+          "label": "keep straight. after the light, move over one lane to the right and keep straigh..."
+        },
+        {
+          "start": 4.4,
+          "end": 46.5,
+          "user": "Jeevan",
+          "label": "keep going straight after this light. continue going straight after this light b..."
+        },
+        {
+          "start": 21.4,
+          "end": 63.0,
+          "user": "giovanni",
+          "label": "Megre into the right lane behind the yellow vehice. Make a stop for the red traf..."
+        },
+        {
+          "start": 49.7,
+          "end": 65.8,
+          "user": "giovanni",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.09.17.37.09_veh-12_01465_01790": {
+      "total_sec": 162.0,
+      "bars": [
+        {
+          "start": 79.6,
+          "end": 131.3,
+          "user": "giovanni",
+          "label": "Merge one lane to the right. Merge into the right turning lane and turn right at..."
+        },
+        {
+          "start": 110.1,
+          "end": 157.1,
+          "user": "Jeevan",
+          "label": "move to the most right lane. move to the right lane coming up to take a right tu..."
+        }
+      ]
+    },
+    "2021.06.23.20.00.35_veh-35_04162_04257": {
+      "total_sec": 46.9,
+      "bars": [
+        {
+          "start": 2.8,
+          "end": 35.2,
+          "user": "parthib",
+          "label": "stop before the intersection to allow the pedestrians to cross the crosswalk"
+        },
+        {
+          "start": 5.5,
+          "end": 31.7,
+          "user": "parthib",
+          "label": "stop at the intersection to make a right turn but let the pedestrians first cros..."
+        },
+        {
+          "start": 14.4,
+          "end": 36.8,
+          "user": "Jeevan",
+          "label": "turn right here. STOP. yield until you can safely turn."
+        },
+        {
+          "start": 21.4,
+          "end": 41.5,
+          "user": "parthib",
+          "label": "stop at the intersection to let the pedestrians walk through the crosswalk. make..."
+        }
+      ]
+    },
+    "2021.08.17.18.54.02_veh-45_02202_02416": {
+      "total_sec": 106.5,
+      "bars": [
+        {
+          "start": 27.7,
+          "end": 83.2,
+          "user": "Jeevan",
+          "label": "turn left on this upcoming intersection. keep on straight and give some room for..."
+        }
+      ]
+    },
+    "2021.08.17.15.02.08_veh-45_02111_02303": {
+      "total_sec": 95.5,
+      "bars": [
+        {
+          "start": 0.7,
+          "end": 95.4,
+          "user": "Jeevan",
+          "label": "turn right at this light. turn left at this intersection. turn right at this int..."
+        },
+        {
+          "start": 5.9,
+          "end": 85.4,
+          "user": "parthib",
+          "label": "make a left turn at the first intersection. when you appraoch the stopsign make ..."
+        },
+        {
+          "start": 22.4,
+          "end": 92.6,
+          "user": "giovanni",
+          "label": " Briefly stop at the curb and look for oncoming traffic. Stop at the stop sign a..."
+        },
+        {
+          "start": 47.2,
+          "end": 92.3,
+          "user": "ytandon",
+          "label": "Take a right to head towards South Shore Riverfront Park, then take the left int..."
+        }
+      ]
+    },
+    "2021.06.14.11.44.56_veh-35_02399_02672": {
+      "total_sec": 135.9,
+      "bars": [
+        {
+          "start": 16.3,
+          "end": 134.9,
+          "user": "Jeevan",
+          "label": "turn right"
+        },
+        {
+          "start": 109.7,
+          "end": 134.3,
+          "user": "giovanni",
+          "label": "Stop behind the bus during the red light. "
+        },
+        {
+          "start": 113.4,
+          "end": 131.7,
+          "user": "giovanni",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.09.14.03.17_veh-12_02112_02202": {
+      "total_sec": 44.4,
+      "bars": [
+        {
+          "start": 7.8,
+          "end": 41.0,
+          "user": "giovanni",
+          "label": "Turn right at the intersection. Merge one lane to the right side. Stop at the up..."
+        },
+        {
+          "start": 10.6,
+          "end": 30.3,
+          "user": "giovanni",
+          "label": "Turn left at the traffic lights. Merge into the right lane. "
+        },
+        {
+          "start": 11.8,
+          "end": 38.8,
+          "user": "parthib",
+          "label": "make a left turn at the intersection and switch into the right lane."
+        },
+        {
+          "start": 15.1,
+          "end": 43.2,
+          "user": "Jeevan",
+          "label": "move over one lane to the right"
+        }
+      ]
+    },
+    "2021.07.09.17.06.37_veh-35_00928_02567": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 130.9,
+          "end": 185.3,
+          "user": "giovanni",
+          "label": "Make a stop at the stop sign. Look for oncoming vehicles before making a right t..."
+        },
+        {
+          "start": 140.0,
+          "end": 220.4,
+          "user": "Jeevan",
+          "label": "yield for the pedestrians. take a left and turn left at the light. "
+        }
+      ]
+    },
+    "2021.06.14.13.27.42_veh-35_01160_01331": {
+      "total_sec": 85.0,
+      "bars": [
+        {
+          "start": 0.1,
+          "end": 85.0,
+          "user": "Jeevan",
+          "label": "move one lane to the right. "
+        },
+        {
+          "start": 4.4,
+          "end": 48.3,
+          "user": "giovanni",
+          "label": "Turn left at the intersection. Follow the white vehicle. "
+        },
+        {
+          "start": 13.2,
+          "end": 84.1,
+          "user": "Jeevan",
+          "label": "move to the right one lane and keep straight"
+        },
+        {
+          "start": 43.6,
+          "end": 64.6,
+          "user": "parthib",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.16.23.22.27_veh-14_01631_03833": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 26.4,
+          "end": 136.0,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 212.3,
+          "end": 253.0,
+          "user": "ytandon",
+          "label": "Exit the drop-off loop"
+        }
+      ]
+    },
+    "2021.06.09.18.23.43_veh-35_03967_05057": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 49.4,
+          "end": 93.7,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 128.6,
+          "end": 210.0,
+          "user": "parthib",
+          "label": "go into the right turning lane and make the right turn. go to the front entrance..."
+        },
+        {
+          "start": 182.8,
+          "end": 252.2,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.16.23.22.27_veh-14_04496_06203": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 34.9,
+          "end": 196.6,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 185.9,
+          "end": 212.6,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.09.01.37.16_veh-26_01726_01793": {
+      "total_sec": 33.0,
+      "bars": [
+        {
+          "start": 1.0,
+          "end": 26.7,
+          "user": "giovanni",
+          "label": "Look for oncoming traffic before procceding. Stop behind a black vehicle. Turn r..."
+        },
+        {
+          "start": 1.1,
+          "end": 25.3,
+          "user": "giovanni",
+          "label": "Turn right at the next inersection and merge to the right lane. "
+        },
+        {
+          "start": 2.7,
+          "end": 28.5,
+          "user": "Jeevan",
+          "label": "after the crowded pedestrians street take a right. move to the far right lane. "
+        },
+        {
+          "start": 10.3,
+          "end": 25.4,
+          "user": "giovanni",
+          "label": "Follow the black vehicle, at the crosswalk make a right turn. Merge one lane to ..."
+        }
+      ]
+    },
+    "2021.06.09.14.03.17_veh-12_00711_00839": {
+      "total_sec": 63.5,
+      "bars": [
+        {
+          "start": 8.1,
+          "end": 54.7,
+          "user": "Jeevan",
+          "label": "take a right. turn right at the light. move one lane to the left. "
+        },
+        {
+          "start": 28.8,
+          "end": 59.1,
+          "user": "giovanni",
+          "label": "Merge into the right turning lane, and turn right at the intersection. Merge to ..."
+        }
+      ]
+    },
+    "2021.06.09.18.23.43_veh-35_01702_01928": {
+      "total_sec": 112.5,
+      "bars": [
+        {
+          "start": 11.0,
+          "end": 111.6,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.14.11.44.56_veh-35_01869_01972": {
+      "total_sec": 51.0,
+      "bars": [
+        {
+          "start": 7.0,
+          "end": 42.3,
+          "user": "Jeevan",
+          "label": "move one lane to the right."
+        }
+      ]
+    },
+    "2021.06.09.17.37.09_veh-12_03219_03372": {
+      "total_sec": 76.0,
+      "bars": [
+        {
+          "start": 9.4,
+          "end": 62.2,
+          "user": "giovanni",
+          "label": "Turn right at the upcoming crosswalk, then pull into a taxi lane, stop, and look..."
+        },
+        {
+          "start": 18.1,
+          "end": 73.0,
+          "user": "Jeevan",
+          "label": "\nturn left. pull up to the entrance next to the sign. continue straight."
+        }
+      ]
+    },
+    "2021.06.14.18.33.41_veh-35_03575_03668": {
+      "total_sec": 46.0,
+      "bars": [
+        {
+          "start": 10.5,
+          "end": 40.2,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 16.8,
+          "end": 42.3,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.14.11.44.56_veh-35_04178_05084": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 63.0,
+          "end": 79.9,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 66.5,
+          "end": 206.9,
+          "user": "Jeevan",
+          "label": "move over one lane to the left. move over one lane to the right. move over one l..."
+        },
+        {
+          "start": 93.8,
+          "end": 143.5,
+          "user": "Jeevan",
+          "label": "move one lane to the right."
+        },
+        {
+          "start": 100.9,
+          "end": 239.2,
+          "user": "giovanni",
+          "label": "Turn left at the intersection. Merge one lane to the right side. Make a sstop at..."
+        }
+      ]
+    },
+    "2021.06.23.17.31.36_veh-16_00634_01421": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 15.0,
+          "end": 250.4,
+          "user": "Jeevan",
+          "label": "move to the left lane avoiding the car ahead. move to the left lane."
+        },
+        {
+          "start": 23.9,
+          "end": 69.7,
+          "user": "giovanni",
+          "label": "Turn and merge into the left lane. Make a stop at the red light. "
+        },
+        {
+          "start": 31.8,
+          "end": 169.9,
+          "user": "parthib",
+          "label": "make a left turn at the interseciton and go straight"
+        },
+        {
+          "start": 88.1,
+          "end": 195.5,
+          "user": "giovanni",
+          "label": "Turn left at the intersection. Follow the grey vehicle. Stop for the red light."
+        },
+        {
+          "start": 147.1,
+          "end": 192.3,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 168.1,
+          "end": 237.9,
+          "user": "giovanni",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.14.13.27.42_veh-35_00005_00123": {
+      "total_sec": 58.4,
+      "bars": [
+        {
+          "start": 3.0,
+          "end": 42.6,
+          "user": "Jeevan",
+          "label": "take a right at the sign. pull up to the entrance. now leave the entrance."
+        },
+        {
+          "start": 4.0,
+          "end": 35.0,
+          "user": "parthib",
+          "label": "make a left turn when no cars are on the right. then enter into luxor las vegas"
+        },
+        {
+          "start": 30.0,
+          "end": 55.3,
+          "user": "giovanni",
+          "label": "Look for oncoming vehicles befoere leaving the drop off zone. Make a stop at the..."
+        }
+      ]
+    },
+    "2021.06.09.17.23.18_veh-38_02526_03027": {
+      "total_sec": 250.0,
+      "bars": [
+        {
+          "start": 14.9,
+          "end": 237.6,
+          "user": "Jeevan",
+          "label": "move over one lane to the right. move over one lane to the right. move to the fa..."
+        },
+        {
+          "start": 218.6,
+          "end": 239.0,
+          "user": "giovanni",
+          "label": "Yield to oncoming vehicle and then turn left into the building."
+        }
+      ]
+    },
+    "2021.06.23.14.06.20_veh-26_02505_02775": {
+      "total_sec": 134.5,
+      "bars": [
+        {
+          "start": 0.2,
+          "end": 134.4,
+          "user": "parthib",
+          "label": "make the righ tutrn into aria resort and casino"
+        },
+        {
+          "start": 14.9,
+          "end": 122.7,
+          "user": "giovanni",
+          "label": "Merge one lane to the right, and once more into the right turning lane."
+        },
+        {
+          "start": 33.8,
+          "end": 95.1,
+          "user": "giovanni",
+          "label": "At the green light procced forward. Stop behind orange vehicle. Procced at the g..."
+        },
+        {
+          "start": 41.4,
+          "end": 81.3,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 62.6,
+          "end": 94.7,
+          "user": "giovanni",
+          "label": "Follow the orange vehicle. "
+        },
+        {
+          "start": 96.9,
+          "end": 120.6,
+          "user": "giovanni",
+          "label": "Merge into the most right lane. Turn into the right turning section and turn rig..."
+        }
+      ]
+    },
+    "2021.07.16.16.08.35_veh-35_02551_02640": {
+      "total_sec": 44.0,
+      "bars": [
+        {
+          "start": 2.7,
+          "end": 18.9,
+          "user": "Jeevan",
+          "label": "move over one lane to the right. "
+        }
+      ]
+    },
+    "2021.06.14.20.14.09_veh-26_01121_01211": {
+      "total_sec": 44.5,
+      "bars": [
+        {
+          "start": 0.7,
+          "end": 44.0,
+          "user": "parthib",
+          "label": "go into the right lane and make the righ turn. then go into the very left lane. ..."
+        },
+        {
+          "start": 5.4,
+          "end": 21.7,
+          "user": "Jeevan",
+          "label": "move to the left lane."
+        }
+      ]
+    },
+    "2021.06.14.13.27.42_veh-35_03142_03404": {
+      "total_sec": 130.5,
+      "bars": [
+        {
+          "start": 5.2,
+          "end": 68.0,
+          "user": "giovanni",
+          "label": "Merge one lane to the left. Follow the white vehicle ahead. Stop at the upcoming..."
+        },
+        {
+          "start": 32.1,
+          "end": 61.7,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.16.18.19.22_veh-35_00440_00858": {
+      "total_sec": 208.5,
+      "bars": [
+        {
+          "start": 3.7,
+          "end": 189.9,
+          "user": "Jeevan",
+          "label": "move to the right lane and keep straight. stay behind the crosswalk until there ..."
+        },
+        {
+          "start": 95.1,
+          "end": 194.9,
+          "user": "parthib",
+          "label": "switch into the right lane and make the right turn into paris las vegas"
+        }
+      ]
+    },
+    "2021.06.09.17.23.18_veh-38_03095_03280": {
+      "total_sec": 91.9,
+      "bars": [
+        {
+          "start": 23.4,
+          "end": 56.9,
+          "user": "Jeevan",
+          "label": "move over one lane to the right. "
+        },
+        {
+          "start": 57.4,
+          "end": 81.6,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 65.0,
+          "end": 84.7,
+          "user": "giovanni",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.09.15.53.28_veh-38_00184_02293": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 20.1,
+          "end": 217.5,
+          "user": "Jeevan",
+          "label": "move over one lane to the right. move over one lane to the right. take a right a..."
+        },
+        {
+          "start": 36.7,
+          "end": 126.6,
+          "user": "giovanni",
+          "label": "Merge one lane to the right side. Merge one lane to the right side again. Merge ..."
+        }
+      ]
+    },
+    "2021.06.09.17.23.18_veh-38_04782_05228": {
+      "total_sec": 222.4,
+      "bars": [
+        {
+          "start": 11.5,
+          "end": 216.8,
+          "user": "Jeevan",
+          "label": "move over to the right lane. move over one lane to the right. take a right at th..."
+        }
+      ]
+    },
+    "2021.10.11.08.31.07_veh-50_00791_00954": {
+      "total_sec": 80.9,
+      "bars": [
+        {
+          "start": 1.7,
+          "end": 73.6,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.09.17.06.37_veh-35_00049_00237": {
+      "total_sec": 93.4,
+      "bars": [
+        {
+          "start": 1.2,
+          "end": 62.4,
+          "user": "giovanni",
+          "label": "Stop behind the black vehicle. Turn left at the intersection. Merge one lane to ..."
+        },
+        {
+          "start": 3.7,
+          "end": 78.8,
+          "user": "parthib",
+          "label": "follow the path of the car in front of you"
+        },
+        {
+          "start": 9.6,
+          "end": 87.2,
+          "user": "Jeevan",
+          "label": "take a left at the sign. stop at the entrance door. continue straight."
+        }
+      ]
+    },
+    "2021.10.11.05.34.05_veh-50_00697_00766": {
+      "total_sec": 33.9,
+      "bars": [
+        {
+          "start": 0.5,
+          "end": 32.5,
+          "user": "giovanni",
+          "label": "Take a slight right to avoid the vehicles and follow the arrows on the floor. Lo..."
+        },
+        {
+          "start": 0.9,
+          "end": 17.0,
+          "user": "Vrishan",
+          "label": "nan"
+        },
+        {
+          "start": 1.2,
+          "end": 33.3,
+          "user": "grod",
+          "label": "Drop me off in front of this building.  "
+        },
+        {
+          "start": 5.1,
+          "end": 29.6,
+          "user": "grod",
+          "label": "Drop me off at the last building. "
+        },
+        {
+          "start": 9.4,
+          "end": 27.7,
+          "user": "giovanni",
+          "label": "Follow the arrows on the ground, and look for oncoming traffic before making a l..."
+        },
+        {
+          "start": 10.0,
+          "end": 31.8,
+          "user": "Jeevan",
+          "label": "take a left. stay at the right lane. "
+        },
+        {
+          "start": 14.2,
+          "end": 30.3,
+          "user": "Vrishan",
+          "label": "nan"
+        },
+        {
+          "start": 15.7,
+          "end": 33.4,
+          "user": "Vrishan",
+          "label": "nan"
+        },
+        {
+          "start": 18.5,
+          "end": 33.7,
+          "user": "giovanni",
+          "label": "Look for oncoming traffice, and turn left. Turn left at the intersection."
+        },
+        {
+          "start": 18.8,
+          "end": 33.8,
+          "user": "Vrishan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.14.11.44.56_veh-35_00938_01134": {
+      "total_sec": 97.5,
+      "bars": [
+        {
+          "start": 20.5,
+          "end": 93.7,
+          "user": "giovanni",
+          "label": "Merge one lane into the right. Merge one more lane to the right turning lane and..."
+        },
+        {
+          "start": 26.8,
+          "end": 72.7,
+          "user": "giovanni",
+          "label": "Merge one lane to the right side. Once more merge again to the right side and tu..."
+        },
+        {
+          "start": 40.5,
+          "end": 71.0,
+          "user": "Jeevan",
+          "label": "take a right at the light. yield at the crosswalk for incoming pedestrians. move..."
+        }
+      ]
+    },
+    "2021.08.17.17.55.18_veh-43_00358_00673": {
+      "total_sec": 156.9,
+      "bars": [
+        {
+          "start": 5.6,
+          "end": 144.1,
+          "user": "Jeevan",
+          "label": "move to the left lane behind the bus. move to the left lane and take a left at t..."
+        }
+      ]
+    },
+    "2021.06.23.17.31.36_veh-16_00398_00623": {
+      "total_sec": 111.9,
+      "bars": [
+        {
+          "start": 3.7,
+          "end": 44.1,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.14.18.33.41_veh-35_03367_03508": {
+      "total_sec": 70.0,
+      "bars": [
+        {
+          "start": 3.4,
+          "end": 60.8,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 50.7,
+          "end": 68.3,
+          "user": "giovanni",
+          "label": "Wait for the people to finish crossing and make a right turn. "
+        }
+      ]
+    },
+    "2021.06.14.13.27.42_veh-35_00691_00798": {
+      "total_sec": 53.0,
+      "bars": [
+        {
+          "start": 5.5,
+          "end": 23.1,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.09.20.26.06_veh-35_03898_05974": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 30.6,
+          "end": 224.2,
+          "user": "giovanni",
+          "label": "Stop behind the white vehicle. Merge one lane to the right. Stop for the upcomin..."
+        },
+        {
+          "start": 38.9,
+          "end": 182.3,
+          "user": "Jeevan",
+          "label": "move to the right lane. "
+        },
+        {
+          "start": 120.5,
+          "end": 168.6,
+          "user": "giovanni",
+          "label": "Wait for the traffic light to turn green and procced forward. "
+        },
+        {
+          "start": 130.9,
+          "end": 250.6,
+          "user": "giovanni",
+          "label": "Stop behind the black vehicle. Wait for the people crossing before making a righ..."
+        }
+      ]
+    },
+    "2021.06.14.18.42.45_veh-12_03340_03403": {
+      "total_sec": 31.0,
+      "bars": [
+        {
+          "start": 6.7,
+          "end": 23.5,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 7.2,
+          "end": 27.2,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.09.14.58.55_veh-35_04695_05321": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 5.6,
+          "end": 248.9,
+          "user": "parthib",
+          "label": "make a right turn at the intersection and go to the left lane. go to the left la..."
+        },
+        {
+          "start": 55.4,
+          "end": 209.1,
+          "user": "Jeevan",
+          "label": "pull up right behind the sign. move to the middle lane and continue straight. mo..."
+        },
+        {
+          "start": 74.3,
+          "end": 193.8,
+          "user": "giovanni",
+          "label": "Look for oncoming vehicles to leave the drop off zone. Make a stop at the stop s..."
+        },
+        {
+          "start": 78.9,
+          "end": 147.3,
+          "user": "parthib",
+          "label": "exit luxor las vegas by making a right turn at the stop sign."
+        }
+      ]
+    },
+    "2021.08.17.18.44.32_veh-08_00016_00564": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 39.0,
+          "end": 108.5,
+          "user": "Jeevan",
+          "label": "take a left at the light. take a left at the stop sign. move to the left lane. "
+        }
+      ]
+    },
+    "2021.08.17.17.17.01_veh-45_00123_00191": {
+      "total_sec": 33.5,
+      "bars": [
+        {
+          "start": 2.1,
+          "end": 27.4,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 3.2,
+          "end": 32.2,
+          "user": "parthib",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.09.18.23.43_veh-35_00555_00726": {
+      "total_sec": 85.0,
+      "bars": [
+        {
+          "start": 5.9,
+          "end": 68.6,
+          "user": "Jeevan",
+          "label": "move to the right most lane."
+        },
+        {
+          "start": 9.6,
+          "end": 76.5,
+          "user": "parthib",
+          "label": "switch into the right lane after passing the second intersection"
+        },
+        {
+          "start": 29.1,
+          "end": 74.4,
+          "user": "Jeevan",
+          "label": "after the light, move to the rightmost lane. "
+        },
+        {
+          "start": 50.9,
+          "end": 81.9,
+          "user": "giovanni",
+          "label": "Stop at the red light. At the intersection prepare to turn right."
+        }
+      ]
+    },
+    "2021.07.16.00.51.05_veh-17_03264_05261": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 6.0,
+          "end": 245.3,
+          "user": "Jeevan",
+          "label": "move one lane to the right. after the light move to the rightmost lane. after th..."
+        },
+        {
+          "start": 127.0,
+          "end": 148.3,
+          "user": "parthib",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.14.19.22.11_veh-38_01134_01389": {
+      "total_sec": 126.9,
+      "bars": [
+        {
+          "start": 65.8,
+          "end": 107.2,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 71.1,
+          "end": 97.3,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 75.5,
+          "end": 114.3,
+          "user": "parthib",
+          "label": "make a left turn when the light goes green"
+        },
+        {
+          "start": 100.7,
+          "end": 116.7,
+          "user": "giovanni",
+          "label": "Turn left at the intersection. "
+        }
+      ]
+    },
+    "2021.06.09.14.03.17_veh-12_01225_01437": {
+      "total_sec": 105.4,
+      "bars": [
+        {
+          "start": 60.3,
+          "end": 80.0,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 63.6,
+          "end": 95.4,
+          "user": "Jeevan",
+          "label": "yield for pedestrians at this right turn."
+        }
+      ]
+    },
+    "2021.06.14.18.33.41_veh-35_01363_01636": {
+      "total_sec": 135.9,
+      "bars": [
+        {
+          "start": 85.5,
+          "end": 110.0,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 102.6,
+          "end": 124.2,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 114.0,
+          "end": 135.1,
+          "user": "giovanni",
+          "label": "Turn left at the intersection. Make a stop at the next intersection during the r..."
+        }
+      ]
+    },
+    "2021.07.09.16.12.19_veh-26_06964_07035": {
+      "total_sec": 35.0,
+      "bars": [
+        {
+          "start": 5.3,
+          "end": 27.0,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 6.5,
+          "end": 23.9,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 19.3,
+          "end": 34.8,
+          "user": "giovanni",
+          "label": "Stop behind a black  vehicle."
+        }
+      ]
+    },
+    "2021.10.11.07.47.13_veh-50_00736_00843": {
+      "total_sec": 52.9,
+      "bars": [
+        {
+          "start": 1.4,
+          "end": 48.1,
+          "user": "grod",
+          "label": "Turn left at the next light and then turn left again right away. "
+        },
+        {
+          "start": 8.9,
+          "end": 35.5,
+          "user": "giovanni",
+          "label": "Merge into the left turning lane. Turn left. Look for oncoming traffic at the in..."
+        },
+        {
+          "start": 15.1,
+          "end": 49.9,
+          "user": "Jeevan",
+          "label": "take a left. take another left at this light."
+        },
+        {
+          "start": 15.5,
+          "end": 44.5,
+          "user": "grod",
+          "label": "Make a left at this left and then another left. "
+        },
+        {
+          "start": 20.6,
+          "end": 41.0,
+          "user": "giovanni",
+          "label": "Look for oncoming traffic and turn left. At the next intersectio turn left. "
+        }
+      ]
+    },
+    "2021.08.17.13.10.50_veh-08_01060_01340": {
+      "total_sec": 139.5,
+      "bars": [
+        {
+          "start": 2.0,
+          "end": 124.0,
+          "user": "parthib",
+          "label": "at the stopsign make a left turn and then at the next intersection make a right ..."
+        },
+        {
+          "start": 32.7,
+          "end": 84.1,
+          "user": "Jeevan",
+          "label": "pull up behind the white truck for a left turn. "
+        },
+        {
+          "start": 103.8,
+          "end": 126.8,
+          "user": "parthib",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.16.22.40.23_veh-38_00818_03032": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 19.8,
+          "end": 129.0,
+          "user": "Jeevan",
+          "label": "move to the left lane. move one lane to the right. "
+        }
+      ]
+    },
+    "2021.06.14.18.42.45_veh-12_05000_05079": {
+      "total_sec": 39.0,
+      "bars": [
+        {
+          "start": 2.8,
+          "end": 19.3,
+          "user": "giovanni",
+          "label": "Make a stop for the red light. "
+        },
+        {
+          "start": 7.6,
+          "end": 26.1,
+          "user": "Jeevan",
+          "label": "after the light, move to the right lane.  "
+        },
+        {
+          "start": 8.0,
+          "end": 27.0,
+          "user": "giovanni",
+          "label": "Stop at the red traffic light. Merge one lane into the right side."
+        }
+      ]
+    },
+    "2021.06.14.18.42.45_veh-12_03445_03902": {
+      "total_sec": 227.9,
+      "bars": [
+        {
+          "start": 53.4,
+          "end": 194.2,
+          "user": "giovanni",
+          "label": "Merge one lane to the right. Follow the white truck. At the next crosswalk turn ..."
+        },
+        {
+          "start": 103.8,
+          "end": 151.4,
+          "user": "Jeevan",
+          "label": "keep straight. before the light, turn right on that street. take a left at the d..."
+        }
+      ]
+    },
+    "2021.06.09.14.58.55_veh-35_01785_01883": {
+      "total_sec": 48.5,
+      "bars": [
+        {
+          "start": 1.9,
+          "end": 47.2,
+          "user": "Jeevan",
+          "label": "pull up behind the grey car and move forward to get as close to the entrance as ..."
+        },
+        {
+          "start": 8.9,
+          "end": 28.0,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 17.5,
+          "end": 42.9,
+          "user": "giovanni",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.09.17.23.18_veh-38_05239_05412": {
+      "total_sec": 86.0,
+      "bars": [
+        {
+          "start": 9.8,
+          "end": 78.0,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 14.4,
+          "end": 72.4,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 38.7,
+          "end": 77.5,
+          "user": "giovanni",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.23.15.18.10_veh-26_00016_00143": {
+      "total_sec": 63.0,
+      "bars": [
+        {
+          "start": 4.6,
+          "end": 60.5,
+          "user": "giovanni",
+          "label": "Turn left."
+        },
+        {
+          "start": 33.2,
+          "end": 60.4,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 45.1,
+          "end": 62.2,
+          "user": "giovanni",
+          "label": "Turn left at the intersection."
+        },
+        {
+          "start": 46.6,
+          "end": 62.4,
+          "user": "giovanni",
+          "label": "Turn left at the intersection. "
+        }
+      ]
+    },
+    "2021.07.16.20.45.29_veh-35_02509_02649": {
+      "total_sec": 69.5,
+      "bars": [
+        {
+          "start": 20.1,
+          "end": 56.0,
+          "user": "Jeevan",
+          "label": "take a right. turn to the left lane. "
+        }
+      ]
+    },
+    "2021.08.17.16.48.45_veh-43_02070_02652": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 6.6,
+          "end": 42.3,
+          "user": "giovanni",
+          "label": "Turn left at the intersection. "
+        },
+        {
+          "start": 28.0,
+          "end": 133.6,
+          "user": "Jeevan",
+          "label": "take a left at the stop sign. take a right at the stop sign. move to the left la..."
+        },
+        {
+          "start": 44.8,
+          "end": 66.0,
+          "user": "giovanni",
+          "label": "Stop at the stop sign. Turn left. At the next stop sign make another stop. Turn ..."
+        },
+        {
+          "start": 56.1,
+          "end": 104.4,
+          "user": "Vrishan",
+          "label": "nan"
+        },
+        {
+          "start": 114.3,
+          "end": 198.3,
+          "user": "jboaz",
+          "label": "turn left at the light and turn left at the next light then drive straight acros..."
+        },
+        {
+          "start": 131.7,
+          "end": 252.5,
+          "user": "jboaz",
+          "label": "turn left at the light and turn left again at the next intersection"
+        },
+        {
+          "start": 178.3,
+          "end": 251.7,
+          "user": "Vrishan",
+          "label": "nan"
+        },
+        {
+          "start": 231.3,
+          "end": 248.7,
+          "user": "Vrishan",
+          "label": "After passing the crosswalk, stop at the cone"
+        }
+      ]
+    },
+    "2021.06.14.18.13.35_veh-26_01537_01717": {
+      "total_sec": 89.6,
+      "bars": [
+        {
+          "start": 2.4,
+          "end": 78.9,
+          "user": "Jeevan",
+          "label": "follow the white car in front of you until it turns right."
+        },
+        {
+          "start": 44.3,
+          "end": 63.2,
+          "user": "Jeevan",
+          "label": "follow the white car in front of you. yield for pedestrians before making the ri..."
+        }
+      ]
+    },
+    "2021.07.16.18.49.56_veh-26_00015_00235": {
+      "total_sec": 109.4,
+      "bars": [
+        {
+          "start": 31.5,
+          "end": 95.9,
+          "user": "Jeevan",
+          "label": "take a right at the stop sign. move to the left lane. move one lane to the right..."
+        }
+      ]
+    },
+    "2021.07.16.21.17.55_veh-26_03860_03930": {
+      "total_sec": 34.4,
+      "bars": [
+        {
+          "start": 7.8,
+          "end": 31.7,
+          "user": "Jeevan",
+          "label": "move one lane to the right."
+        },
+        {
+          "start": 16.7,
+          "end": 33.8,
+          "user": "ytandon",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.09.19.40.26_veh-12_01241_01510": {
+      "total_sec": 133.9,
+      "bars": [
+        {
+          "start": 58.5,
+          "end": 83.1,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.16.16.01.30_veh-38_00016_00333": {
+      "total_sec": 157.9,
+      "bars": [
+        {
+          "start": 6.2,
+          "end": 112.4,
+          "user": "giovanni",
+          "label": "Make a stop at the stop sign and look for oncoming traffic before making a right..."
+        },
+        {
+          "start": 23.4,
+          "end": 141.2,
+          "user": "Jeevan",
+          "label": "take a right at the stop sign. move one lane to the left. keep straight."
+        },
+        {
+          "start": 65.8,
+          "end": 116.4,
+          "user": "giovanni",
+          "label": "Turn left at the intersection. Stop at the next intersection. "
+        }
+      ]
+    },
+    "2021.08.17.13.10.50_veh-08_00726_01027": {
+      "total_sec": 149.9,
+      "bars": [
+        {
+          "start": 64.9,
+          "end": 142.4,
+          "user": "Jeevan",
+          "label": "take a right. take a right at the light. take a right at the light. park near th..."
+        }
+      ]
+    },
+    "2021.06.09.14.03.17_veh-12_03798_04118": {
+      "total_sec": 159.5,
+      "bars": [
+        {
+          "start": 0.6,
+          "end": 127.1,
+          "user": "giovanni",
+          "label": "Turn left at the intersection, and stop for the upcoming red light. Make another..."
+        },
+        {
+          "start": 44.4,
+          "end": 119.5,
+          "user": "giovanni",
+          "label": "Turn left. Stop the red traffic light. Stop behind the white vehicle during the ..."
+        },
+        {
+          "start": 76.3,
+          "end": 153.3,
+          "user": "Jeevan",
+          "label": "move one lane to the right. move to the right lane most lane.  "
+        }
+      ]
+    },
+    "2021.06.23.14.54.32_veh-16_00862_01000": {
+      "total_sec": 68.5,
+      "bars": [
+        {
+          "start": 2.3,
+          "end": 38.3,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.08.17.14.32.33_veh-08_01262_01528": {
+      "total_sec": 132.5,
+      "bars": [
+        {
+          "start": 9.0,
+          "end": 41.2,
+          "user": "ytandon",
+          "label": "Keep heading straight before making a couple of left turns to be on the other si..."
+        },
+        {
+          "start": 23.3,
+          "end": 72.9,
+          "user": "giovanni",
+          "label": "Turn left at the intersection with the pedestrians crossing sign. "
+        },
+        {
+          "start": 44.3,
+          "end": 113.1,
+          "user": "giovanni",
+          "label": "Make a stop at the stop sign. Turn left. Make another stop at the upcoming stop ..."
+        },
+        {
+          "start": 83.5,
+          "end": 125.2,
+          "user": "Jeevan",
+          "label": "at the stop sign, take a left. "
+        }
+      ]
+    },
+    "2021.06.09.18.23.43_veh-35_02086_02333": {
+      "total_sec": 123.0,
+      "bars": [
+        {
+          "start": 22.8,
+          "end": 111.6,
+          "user": "Jeevan",
+          "label": "take a right at the stop light. pull into the left entrance and stop by the walk..."
+        }
+      ]
+    },
+    "2021.07.09.01.37.16_veh-26_02856_02932": {
+      "total_sec": 37.5,
+      "bars": [
+        {
+          "start": 2.6,
+          "end": 29.2,
+          "user": "parthib",
+          "label": "make the left turn when the light turns green"
+        },
+        {
+          "start": 12.0,
+          "end": 27.9,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 18.7,
+          "end": 34.5,
+          "user": "Jeevan",
+          "label": "wait for all pedestrians to pass before taking your left. "
+        }
+      ]
+    },
+    "2021.07.16.01.22.41_veh-14_02003_02615": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 38.7,
+          "end": 108.9,
+          "user": "Jeevan",
+          "label": "turn left where the diamond sign is. pull up behind the black car and follow it...."
+        }
+      ]
+    },
+    "2021.06.14.18.42.45_veh-12_02233_02300": {
+      "total_sec": 32.9,
+      "bars": [
+        {
+          "start": 8.9,
+          "end": 26.3,
+          "user": "Jeevan",
+          "label": "move one lane to the right. "
+        }
+      ]
+    },
+    "2021.06.14.18.42.45_veh-12_03913_04017": {
+      "total_sec": 51.5,
+      "bars": [
+        {
+          "start": 3.5,
+          "end": 29.9,
+          "user": "giovanni",
+          "label": "Slow down and then merge one lane to the right side. "
+        },
+        {
+          "start": 10.6,
+          "end": 45.1,
+          "user": "Jeevan",
+          "label": "after the police car, move one lane to the right. "
+        },
+        {
+          "start": 30.2,
+          "end": 48.1,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 35.7,
+          "end": 51.2,
+          "user": "giovanni",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.23.15.56.12_veh-16_00066_00818": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 7.8,
+          "end": 109.6,
+          "user": "parthib",
+          "label": "when the light turns green make a left turn"
+        },
+        {
+          "start": 91.3,
+          "end": 222.2,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 111.2,
+          "end": 227.5,
+          "user": "giovanni",
+          "label": "Stop for the red traffic lights. Stop for the upcoming red traffic lights. Stop ..."
+        },
+        {
+          "start": 122.3,
+          "end": 217.3,
+          "user": "parthib",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.14.19.22.11_veh-38_01480_01860": {
+      "total_sec": 189.4,
+      "bars": [
+        {
+          "start": 10.9,
+          "end": 182.1,
+          "user": "Jeevan",
+          "label": "keep straight. move to the right one lane. follow the white car until it turns r..."
+        }
+      ]
+    },
+    "2021.06.14.18.33.41_veh-35_00654_00887": {
+      "total_sec": 115.9,
+      "bars": [
+        {
+          "start": 46.6,
+          "end": 76.2,
+          "user": "Jeevan",
+          "label": "turn to the left lane. "
+        },
+        {
+          "start": 47.1,
+          "end": 105.8,
+          "user": "giovanni",
+          "label": "Turn right at the crosswalk, and merge one lane to the left. Merge one lane to t..."
+        }
+      ]
+    },
+    "2021.06.09.14.50.36_veh-26_03061_03152": {
+      "total_sec": 44.9,
+      "bars": [
+        {
+          "start": 0.0,
+          "end": 44.0,
+          "user": "Jeevan",
+          "label": "keep straight. move one lane to the right. "
+        },
+        {
+          "start": 4.6,
+          "end": 30.8,
+          "user": "parthib",
+          "label": "after passing the second intersection, make a right lane switch"
+        },
+        {
+          "start": 18.4,
+          "end": 34.8,
+          "user": "giovanni",
+          "label": "Merge one over into the right lane. "
+        }
+      ]
+    },
+    "2021.06.09.17.37.09_veh-12_02445_02566": {
+      "total_sec": 60.0,
+      "bars": [
+        {
+          "start": 11.4,
+          "end": 29.5,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 12.2,
+          "end": 48.7,
+          "user": "Jeevan",
+          "label": "keep straight. move one lane to the right. "
+        },
+        {
+          "start": 36.2,
+          "end": 58.0,
+          "user": "giovanni",
+          "label": "Merge one lane into the right side. "
+        }
+      ]
+    },
+    "2021.06.09.14.50.36_veh-26_03874_04112": {
+      "total_sec": 118.5,
+      "bars": [
+        {
+          "start": 12.3,
+          "end": 46.8,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.09.02.42.50_veh-35_02651_02770": {
+      "total_sec": 58.9,
+      "bars": [
+        {
+          "start": 15.7,
+          "end": 46.3,
+          "user": "parthib",
+          "label": "after passing the speedbump, go into the left turning lake to make the left turn..."
+        },
+        {
+          "start": 18.0,
+          "end": 37.3,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 27.4,
+          "end": 55.8,
+          "user": "giovanni",
+          "label": "Wait for oncoming traffic and procced to turn left into a building. Enter the dr..."
+        }
+      ]
+    },
+    "2021.06.14.16.48.02_veh-12_01732_01853": {
+      "total_sec": 59.9,
+      "bars": [
+        {
+          "start": 8.1,
+          "end": 58.7,
+          "user": "Jeevan",
+          "label": "follow the white car until it turns right. turn left where the diamond sign is. ..."
+        },
+        {
+          "start": 18.1,
+          "end": 50.8,
+          "user": "parthib",
+          "label": "follow the white vehicle in front of you"
+        }
+      ]
+    },
+    "2021.10.11.02.57.41_veh-50_00145_00308": {
+      "total_sec": 81.0,
+      "bars": [
+        {
+          "start": 4.4,
+          "end": 27.4,
+          "user": "Jeevan",
+          "label": "make a right."
+        },
+        {
+          "start": 11.3,
+          "end": 29.1,
+          "user": "Vrishan",
+          "label": "Wait until biker from the left side passes, as well as the two cars coming form ..."
+        },
+        {
+          "start": 13.5,
+          "end": 71.4,
+          "user": "Vrishan",
+          "label": "change to right lane after white car passes"
+        },
+        {
+          "start": 28.4,
+          "end": 52.8,
+          "user": "Vrishan",
+          "label": "Change to right lane after white car passes "
+        },
+        {
+          "start": 56.4,
+          "end": 73.2,
+          "user": "Vrishan",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.09.14.58.55_veh-35_03312_03379": {
+      "total_sec": 33.0,
+      "bars": [
+        {
+          "start": 0.3,
+          "end": 29.7,
+          "user": "parthib",
+          "label": "wait to make the right turn at the second stoplight until all pedestrians have c..."
+        },
+        {
+          "start": 2.1,
+          "end": 30.8,
+          "user": "Jeevan",
+          "label": "turn right, right before the upcoming light."
+        },
+        {
+          "start": 11.2,
+          "end": 32.2,
+          "user": "giovanni",
+          "label": "Wait for the pedestrians to finish crossing and turn right.  "
+        }
+      ]
+    },
+    "2021.06.23.18.23.38_veh-26_01438_01758": {
+      "total_sec": 159.4,
+      "bars": [
+        {
+          "start": 0.9,
+          "end": 68.7,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 41.4,
+          "end": 143.9,
+          "user": "parthib",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.14.19.22.11_veh-38_02466_02675": {
+      "total_sec": 103.9,
+      "bars": [
+        {
+          "start": 9.0,
+          "end": 103.2,
+          "user": "parthib",
+          "label": "make the left turn and switch into the right lane and keep going straight"
+        },
+        {
+          "start": 23.0,
+          "end": 66.7,
+          "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 29.7,
+          "end": 94.3,
+          "user": "parthib",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.09.17.06.37_veh-35_00769_00907": {
+      "total_sec": 68.5,
+      "bars": [
+        {
+          "start": 11.4,
+          "end": 59.8,
+          "user": "Jeevan",
+          "label": "keep straight. move one lane to the right. keep straight."
+        },
+        {
+          "start": 33.1,
+          "end": 64.8,
+          "user": "parthib",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.06.14.19.22.11_veh-38_02686_02846": {
+      "total_sec": 79.5,
+      "bars": [
+        {
+          "start": 52.9,
+          "end": 71.4,
+          "user": "Jeevan",
+          "label": "turn left at the diamond sign."
+        }
+      ]
+    },
+    "2021.06.09.17.37.09_veh-12_03830_04329": {
+      "total_sec": 248.9,
+      "bars": [
+        {
+          "start": 172.9,
+          "end": 235.1,
+          "user": "Jeevan",
+          "label": "nan"
+        }
+      ]
+    },
     "2021.05.12.23.36.44_veh-35_00152_00504": {
       "total_sec": 175.5,
       "bars": [
@@ -20465,17 +22838,6 @@
           "end": 104.1,
           "user": "giovanni",
           "label": "nan"
-        }
-      ]
-    },
-    "2021.06.09.14.50.36_veh-26_03310_03392": {
-      "total_sec": 40.4,
-      "bars": [
-        {
-          "start": 7.9,
-          "end": 29.6,
-          "user": "Marcus",
-          "label": "wait for the people to cross the crosswalk"
         }
       ]
     },
@@ -21854,17 +24216,6 @@
         }
       ]
     },
-    "2021.07.16.23.22.27_veh-14_01631_03833": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 212.3,
-          "end": 253.0,
-          "user": "ytandon",
-          "label": "Exit the drop-off loop"
-        }
-      ]
-    },
     "2021.09.15.13.16.40_veh-28_00088_00157": {
       "total_sec": 34.0,
       "bars": [
@@ -21976,17 +24327,6 @@
           "end": 25.2,
           "user": "ytandon",
           "label": "Exit out of the dead-end and keep straight until the stop sign"
-        }
-      ]
-    },
-    "2021.07.16.21.17.55_veh-26_03860_03930": {
-      "total_sec": 34.4,
-      "bars": [
-        {
-          "start": 16.7,
-          "end": 33.8,
-          "user": "ytandon",
-          "label": "nan"
         }
       ]
     },
@@ -22138,29 +24478,6 @@
         }
       ]
     },
-    "2021.08.17.15.02.08_veh-45_02111_02303": {
-      "total_sec": 95.5,
-      "bars": [
-        {
-          "start": 5.9,
-          "end": 85.4,
-          "user": "parthib",
-          "label": "make a left turn at the first intersection. when you appraoch the stopsign make ..."
-        },
-        {
-          "start": 22.4,
-          "end": 92.6,
-          "user": "giovanni",
-          "label": " Briefly stop at the curb and look for oncoming traffic. Stop at the stop sign a..."
-        },
-        {
-          "start": 47.2,
-          "end": 92.3,
-          "user": "ytandon",
-          "label": "Take a right to head towards South Shore Riverfront Park, then take the left int..."
-        }
-      ]
-    },
     "2021.08.17.18.54.02_veh-45_00511_00579": {
       "total_sec": 33.4,
       "bars": [
@@ -22187,29 +24504,6 @@
           "end": 32.4,
           "user": "ytandon",
           "label": "Take the next left"
-        }
-      ]
-    },
-    "2021.08.17.14.32.33_veh-08_01262_01528": {
-      "total_sec": 132.5,
-      "bars": [
-        {
-          "start": 9.0,
-          "end": 41.2,
-          "user": "ytandon",
-          "label": "Keep heading straight before making a couple of left turns to be on the other si..."
-        },
-        {
-          "start": 23.3,
-          "end": 72.9,
-          "user": "giovanni",
-          "label": "Turn left at the intersection with the pedestrians crossing sign. "
-        },
-        {
-          "start": 44.3,
-          "end": 113.1,
-          "user": "giovanni",
-          "label": "Make a stop at the stop sign. Turn left. Make another stop at the upcoming stop ..."
         }
       ]
     },
@@ -22361,17 +24655,6 @@
         }
       ]
     },
-    "2021.06.14.20.14.09_veh-26_01121_01211": {
-      "total_sec": 44.5,
-      "bars": [
-        {
-          "start": 0.7,
-          "end": 44.0,
-          "user": "parthib",
-          "label": "go into the right lane and make the righ turn. then go into the very left lane. ..."
-        }
-      ]
-    },
     "2021.06.14.14.03.45_veh-38_03180_03766": {
       "total_sec": 254.5,
       "bars": [
@@ -22494,29 +24777,6 @@
           "end": 82.3,
           "user": "jeremykemmerer",
           "label": "Turn right at the parking garage"
-        }
-      ]
-    },
-    "2021.06.23.20.00.35_veh-35_04162_04257": {
-      "total_sec": 46.9,
-      "bars": [
-        {
-          "start": 2.8,
-          "end": 35.2,
-          "user": "parthib",
-          "label": "stop before the intersection to allow the pedestrians to cross the crosswalk"
-        },
-        {
-          "start": 5.5,
-          "end": 31.7,
-          "user": "parthib",
-          "label": "stop at the intersection to make a right turn but let the pedestrians first cros..."
-        },
-        {
-          "start": 21.4,
-          "end": 41.5,
-          "user": "parthib",
-          "label": "stop at the intersection to let the pedestrians walk through the crosswalk. make..."
         }
       ]
     },
@@ -23476,17 +25736,6 @@
         }
       ]
     },
-    "2021.06.14.18.42.45_veh-12_03340_03403": {
-      "total_sec": 31.0,
-      "bars": [
-        {
-          "start": 6.7,
-          "end": 23.5,
-          "user": "parthib",
-          "label": "nan"
-        }
-      ]
-    },
     "2021.06.09.11.54.15_veh-12_05108_05331": {
       "total_sec": 110.9,
       "bars": [
@@ -23524,29 +25773,6 @@
           "end": 45.2,
           "user": "parthib",
           "label": "go toward the exit slowly, as you let pedestrians walk through the road"
-        }
-      ]
-    },
-    "2021.06.23.15.56.12_veh-16_00066_00818": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 7.8,
-          "end": 109.6,
-          "user": "parthib",
-          "label": "when the light turns green make a left turn"
-        },
-        {
-          "start": 111.2,
-          "end": 227.5,
-          "user": "giovanni",
-          "label": "Stop for the red traffic lights. Stop for the upcoming red traffic lights. Stop ..."
-        },
-        {
-          "start": 122.3,
-          "end": 217.3,
-          "user": "parthib",
-          "label": "nan"
         }
       ]
     },
@@ -23650,17 +25876,6 @@
           "end": 31.0,
           "user": "giovanni",
           "label": "Stop for the red light. "
-        }
-      ]
-    },
-    "2021.06.14.18.33.41_veh-35_03575_03668": {
-      "total_sec": 46.0,
-      "bars": [
-        {
-          "start": 10.5,
-          "end": 40.2,
-          "user": "parthib",
-          "label": "nan"
         }
       ]
     },
@@ -23930,29 +26145,6 @@
           "end": 250.1,
           "user": "giovanni",
           "label": "nan"
-        }
-      ]
-    },
-    "2021.06.09.14.58.55_veh-35_04695_05321": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 5.6,
-          "end": 248.9,
-          "user": "parthib",
-          "label": "make a right turn at the intersection and go to the left lane. go to the left la..."
-        },
-        {
-          "start": 74.3,
-          "end": 193.8,
-          "user": "giovanni",
-          "label": "Look for oncoming vehicles to leave the drop off zone. Make a stop at the stop s..."
-        },
-        {
-          "start": 78.9,
-          "end": 147.3,
-          "user": "parthib",
-          "label": "exit luxor las vegas by making a right turn at the stop sign."
         }
       ]
     },
@@ -24818,40 +27010,6 @@
         }
       ]
     },
-    "2021.07.09.02.42.50_veh-35_02651_02770": {
-      "total_sec": 58.9,
-      "bars": [
-        {
-          "start": 15.7,
-          "end": 46.3,
-          "user": "parthib",
-          "label": "after passing the speedbump, go into the left turning lake to make the left turn..."
-        },
-        {
-          "start": 27.4,
-          "end": 55.8,
-          "user": "giovanni",
-          "label": "Wait for oncoming traffic and procced to turn left into a building. Enter the dr..."
-        }
-      ]
-    },
-    "2021.06.14.19.22.11_veh-38_02466_02675": {
-      "total_sec": 103.9,
-      "bars": [
-        {
-          "start": 9.0,
-          "end": 103.2,
-          "user": "parthib",
-          "label": "make the left turn and switch into the right lane and keep going straight"
-        },
-        {
-          "start": 29.7,
-          "end": 94.3,
-          "user": "parthib",
-          "label": "nan"
-        }
-      ]
-    },
     "2021.06.09.12.06.35_veh-35_00149_00262": {
       "total_sec": 56.0,
       "bars": [
@@ -24987,23 +27145,6 @@
           "end": 29.1,
           "user": "giovanni",
           "label": "nan"
-        }
-      ]
-    },
-    "2021.06.09.14.58.55_veh-35_03312_03379": {
-      "total_sec": 33.0,
-      "bars": [
-        {
-          "start": 0.3,
-          "end": 29.7,
-          "user": "parthib",
-          "label": "wait to make the right turn at the second stoplight until all pedestrians have c..."
-        },
-        {
-          "start": 11.2,
-          "end": 32.2,
-          "user": "giovanni",
-          "label": "Wait for the pedestrians to finish crossing and turn right.  "
         }
       ]
     },
@@ -25146,46 +27287,6 @@
           "end": 68.6,
           "user": "giovanni",
           "label": "Wait for the pedestrians to finish crossing, and make a right turn. Enter the se..."
-        }
-      ]
-    },
-    "2021.07.16.18.19.22_veh-35_00440_00858": {
-      "total_sec": 208.5,
-      "bars": [
-        {
-          "start": 95.1,
-          "end": 194.9,
-          "user": "parthib",
-          "label": "switch into the right lane and make the right turn into paris las vegas"
-        }
-      ]
-    },
-    "2021.06.23.17.31.36_veh-16_00634_01421": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 23.9,
-          "end": 69.7,
-          "user": "giovanni",
-          "label": "Turn and merge into the left lane. Make a stop at the red light. "
-        },
-        {
-          "start": 31.8,
-          "end": 169.9,
-          "user": "parthib",
-          "label": "make a left turn at the interseciton and go straight"
-        },
-        {
-          "start": 88.1,
-          "end": 195.5,
-          "user": "giovanni",
-          "label": "Turn left at the intersection. Follow the grey vehicle. Stop for the red light."
-        },
-        {
-          "start": 168.1,
-          "end": 237.9,
-          "user": "giovanni",
-          "label": "nan"
         }
       ]
     },
@@ -25599,23 +27700,6 @@
         }
       ]
     },
-    "2021.06.09.14.50.36_veh-26_03061_03152": {
-      "total_sec": 44.9,
-      "bars": [
-        {
-          "start": 4.6,
-          "end": 30.8,
-          "user": "parthib",
-          "label": "after passing the second intersection, make a right lane switch"
-        },
-        {
-          "start": 18.4,
-          "end": 34.8,
-          "user": "giovanni",
-          "label": "Merge one over into the right lane. "
-        }
-      ]
-    },
     "2021.08.17.18.43.12_veh-43_01611_01812": {
       "total_sec": 100.0,
       "bars": [
@@ -25720,17 +27804,6 @@
           "end": 79.2,
           "user": "Vrishan",
           "label": "Change to right line before the white van on the left(has both blinking lights a..."
-        }
-      ]
-    },
-    "2021.06.14.16.48.02_veh-12_01732_01853": {
-      "total_sec": 59.9,
-      "bars": [
-        {
-          "start": 18.1,
-          "end": 50.8,
-          "user": "parthib",
-          "label": "follow the white vehicle in front of you"
         }
       ]
     },
@@ -25889,29 +27962,6 @@
         }
       ]
     },
-    "2021.06.09.14.03.17_veh-12_02112_02202": {
-      "total_sec": 44.4,
-      "bars": [
-        {
-          "start": 7.8,
-          "end": 41.0,
-          "user": "giovanni",
-          "label": "Turn right at the intersection. Merge one lane to the right side. Stop at the up..."
-        },
-        {
-          "start": 10.6,
-          "end": 30.3,
-          "user": "giovanni",
-          "label": "Turn left at the traffic lights. Merge into the right lane. "
-        },
-        {
-          "start": 11.8,
-          "end": 38.8,
-          "user": "parthib",
-          "label": "make a left turn at the intersection and switch into the right lane."
-        }
-      ]
-    },
     "2021.10.11.02.57.41_veh-50_01343_01501": {
       "total_sec": 78.4,
       "bars": [
@@ -26026,23 +28076,6 @@
         }
       ]
     },
-    "2021.06.14.13.27.42_veh-35_00005_00123": {
-      "total_sec": 58.4,
-      "bars": [
-        {
-          "start": 4.0,
-          "end": 35.0,
-          "user": "parthib",
-          "label": "make a left turn when no cars are on the right. then enter into luxor las vegas"
-        },
-        {
-          "start": 30.0,
-          "end": 55.3,
-          "user": "giovanni",
-          "label": "Look for oncoming vehicles befoere leaving the drop off zone. Make a stop at the..."
-        }
-      ]
-    },
     "2021.10.06.13.21.47_veh-28_01127_01187": {
       "total_sec": 29.5,
       "bars": [
@@ -26057,17 +28090,6 @@
           "end": 24.5,
           "user": "giovanni",
           "label": "Stop at the stop sign and let pedestrian and oncoming traffic pass to prepare fo..."
-        }
-      ]
-    },
-    "2021.08.17.17.17.01_veh-45_00123_00191": {
-      "total_sec": 33.5,
-      "bars": [
-        {
-          "start": 3.2,
-          "end": 32.2,
-          "user": "parthib",
-          "label": "nan"
         }
       ]
     },
@@ -26213,17 +28235,6 @@
         }
       ]
     },
-    "2021.07.09.17.06.37_veh-35_00769_00907": {
-      "total_sec": 68.5,
-      "bars": [
-        {
-          "start": 33.1,
-          "end": 64.8,
-          "user": "parthib",
-          "label": "nan"
-        }
-      ]
-    },
     "2021.06.14.13.28.41_veh-12_01138_01284": {
       "total_sec": 72.5,
       "bars": [
@@ -26316,94 +28327,6 @@
           "start": 22.6,
           "end": 55.3,
           "user": "giovanni",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.10.11.02.57.41_veh-50_00145_00308": {
-      "total_sec": 81.0,
-      "bars": [
-        {
-          "start": 11.3,
-          "end": 29.1,
-          "user": "Vrishan",
-          "label": "Wait until biker from the left side passes, as well as the two cars coming form ..."
-        },
-        {
-          "start": 13.5,
-          "end": 71.4,
-          "user": "Vrishan",
-          "label": "change to right lane after white car passes"
-        },
-        {
-          "start": 28.4,
-          "end": 52.8,
-          "user": "Vrishan",
-          "label": "Change to right lane after white car passes "
-        },
-        {
-          "start": 56.4,
-          "end": 73.2,
-          "user": "Vrishan",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.10.11.05.34.05_veh-50_00697_00766": {
-      "total_sec": 33.9,
-      "bars": [
-        {
-          "start": 0.5,
-          "end": 32.5,
-          "user": "giovanni",
-          "label": "Take a slight right to avoid the vehicles and follow the arrows on the floor. Lo..."
-        },
-        {
-          "start": 0.9,
-          "end": 17.0,
-          "user": "Vrishan",
-          "label": "nan"
-        },
-        {
-          "start": 1.2,
-          "end": 33.3,
-          "user": "grod",
-          "label": "Drop me off in front of this building.  "
-        },
-        {
-          "start": 5.1,
-          "end": 29.6,
-          "user": "grod",
-          "label": "Drop me off at the last building. "
-        },
-        {
-          "start": 9.4,
-          "end": 27.7,
-          "user": "giovanni",
-          "label": "Follow the arrows on the ground, and look for oncoming traffic before making a l..."
-        },
-        {
-          "start": 14.2,
-          "end": 30.3,
-          "user": "Vrishan",
-          "label": "nan"
-        },
-        {
-          "start": 15.7,
-          "end": 33.4,
-          "user": "Vrishan",
-          "label": "nan"
-        },
-        {
-          "start": 18.5,
-          "end": 33.7,
-          "user": "giovanni",
-          "label": "Look for oncoming traffice, and turn left. Turn left at the intersection."
-        },
-        {
-          "start": 18.8,
-          "end": 33.8,
-          "user": "Vrishan",
           "label": "nan"
         }
       ]
@@ -26661,53 +28584,6 @@
           "end": 29.0,
           "user": "Vrishan",
           "label": "nan"
-        }
-      ]
-    },
-    "2021.08.17.16.48.45_veh-43_02070_02652": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 6.6,
-          "end": 42.3,
-          "user": "giovanni",
-          "label": "Turn left at the intersection. "
-        },
-        {
-          "start": 44.8,
-          "end": 66.0,
-          "user": "giovanni",
-          "label": "Stop at the stop sign. Turn left. At the next stop sign make another stop. Turn ..."
-        },
-        {
-          "start": 56.1,
-          "end": 104.4,
-          "user": "Vrishan",
-          "label": "nan"
-        },
-        {
-          "start": 114.3,
-          "end": 198.3,
-          "user": "jboaz",
-          "label": "turn left at the light and turn left at the next light then drive straight acros..."
-        },
-        {
-          "start": 131.7,
-          "end": 252.5,
-          "user": "jboaz",
-          "label": "turn left at the light and turn left again at the next intersection"
-        },
-        {
-          "start": 178.3,
-          "end": 251.7,
-          "user": "Vrishan",
-          "label": "nan"
-        },
-        {
-          "start": 231.3,
-          "end": 248.7,
-          "user": "Vrishan",
-          "label": "After passing the crosswalk, stop at the cone"
         }
       ]
     },
@@ -27314,23 +29190,6 @@
         }
       ]
     },
-    "2021.08.17.13.10.50_veh-08_01060_01340": {
-      "total_sec": 139.5,
-      "bars": [
-        {
-          "start": 2.0,
-          "end": 124.0,
-          "user": "parthib",
-          "label": "at the stopsign make a left turn and then at the next intersection make a right ..."
-        },
-        {
-          "start": 103.8,
-          "end": 126.8,
-          "user": "parthib",
-          "label": "nan"
-        }
-      ]
-    },
     "2021.05.12.22.00.38_veh-35_00215_00995": {
       "total_sec": 254.5,
       "bars": [
@@ -27512,23 +29371,6 @@
         }
       ]
     },
-    "2021.06.09.18.23.43_veh-35_00555_00726": {
-      "total_sec": 85.0,
-      "bars": [
-        {
-          "start": 9.6,
-          "end": 76.5,
-          "user": "parthib",
-          "label": "switch into the right lane after passing the second intersection"
-        },
-        {
-          "start": 50.9,
-          "end": 81.9,
-          "user": "giovanni",
-          "label": "Stop at the red light. At the intersection prepare to turn right."
-        }
-      ]
-    },
     "2021.06.09.14.58.55_veh-35_03390_03537": {
       "total_sec": 72.9,
       "bars": [
@@ -27627,23 +29469,6 @@
           "start": 115.4,
           "end": 130.4,
           "user": "giovanni",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.06.14.13.27.42_veh-35_01160_01331": {
-      "total_sec": 85.0,
-      "bars": [
-        {
-          "start": 4.4,
-          "end": 48.3,
-          "user": "giovanni",
-          "label": "Turn left at the intersection. Follow the white vehicle. "
-        },
-        {
-          "start": 43.6,
-          "end": 64.6,
-          "user": "parthib",
           "label": "nan"
         }
       ]
@@ -27774,23 +29599,6 @@
           "end": 94.5,
           "user": "parthib",
           "label": "after passing the inerseciton switch into the right lane when there are no cars ..."
-        }
-      ]
-    },
-    "2021.06.09.18.23.43_veh-35_03967_05057": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 49.4,
-          "end": 93.7,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 128.6,
-          "end": 210.0,
-          "user": "parthib",
-          "label": "go into the right turning lane and make the right turn. go to the front entrance..."
         }
       ]
     },
@@ -28156,23 +29964,6 @@
         }
       ]
     },
-    "2021.07.09.01.37.16_veh-26_02856_02932": {
-      "total_sec": 37.5,
-      "bars": [
-        {
-          "start": 2.6,
-          "end": 29.2,
-          "user": "parthib",
-          "label": "make the left turn when the light turns green"
-        },
-        {
-          "start": 12.0,
-          "end": 27.9,
-          "user": "parthib",
-          "label": "nan"
-        }
-      ]
-    },
     "2021.06.23.16.54.19_veh-35_01277_01592": {
       "total_sec": 157.0,
       "bars": [
@@ -28238,23 +30029,6 @@
           "end": 65.9,
           "user": "giovanni",
           "label": "Merge to the right lane. Merge onto the turning lane, and turn right. "
-        }
-      ]
-    },
-    "2021.07.09.17.06.37_veh-35_00049_00237": {
-      "total_sec": 93.4,
-      "bars": [
-        {
-          "start": 1.2,
-          "end": 62.4,
-          "user": "giovanni",
-          "label": "Stop behind the black vehicle. Turn left at the intersection. Merge one lane to ..."
-        },
-        {
-          "start": 3.7,
-          "end": 78.8,
-          "user": "parthib",
-          "label": "follow the path of the car in front of you"
         }
       ]
     },
@@ -28401,29 +30175,6 @@
         }
       ]
     },
-    "2021.06.14.19.22.11_veh-38_01134_01389": {
-      "total_sec": 126.9,
-      "bars": [
-        {
-          "start": 71.1,
-          "end": 97.3,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 75.5,
-          "end": 114.3,
-          "user": "parthib",
-          "label": "make a left turn when the light goes green"
-        },
-        {
-          "start": 100.7,
-          "end": 116.7,
-          "user": "giovanni",
-          "label": "Turn left at the intersection. "
-        }
-      ]
-    },
     "2021.08.17.16.48.45_veh-43_00114_00415": {
       "total_sec": 149.9,
       "bars": [
@@ -28511,17 +30262,6 @@
           "start": 187.6,
           "end": 233.8,
           "user": "giovanni",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.07.16.23.22.27_veh-14_04496_06203": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 34.9,
-          "end": 196.6,
-          "user": "parthib",
           "label": "nan"
         }
       ]
@@ -29277,41 +31017,6 @@
         }
       ]
     },
-    "2021.06.23.14.06.20_veh-26_02505_02775": {
-      "total_sec": 134.5,
-      "bars": [
-        {
-          "start": 0.2,
-          "end": 134.4,
-          "user": "parthib",
-          "label": "make the righ tutrn into aria resort and casino"
-        },
-        {
-          "start": 14.9,
-          "end": 122.7,
-          "user": "giovanni",
-          "label": "Merge one lane to the right, and once more into the right turning lane."
-        },
-        {
-          "start": 33.8,
-          "end": 95.1,
-          "user": "giovanni",
-          "label": "At the green light procced forward. Stop behind orange vehicle. Procced at the g..."
-        },
-        {
-          "start": 62.6,
-          "end": 94.7,
-          "user": "giovanni",
-          "label": "Follow the orange vehicle. "
-        },
-        {
-          "start": 96.9,
-          "end": 120.6,
-          "user": "giovanni",
-          "label": "Merge into the most right lane. Turn into the right turning section and turn rig..."
-        }
-      ]
-    },
     "2021.10.01.17.52.06_veh-28_00327_00427": {
       "total_sec": 49.5,
       "bars": [
@@ -29440,28 +31145,6 @@
           "end": 53.7,
           "user": "parthib",
           "label": "after passing the intersection switch into the right lane"
-        }
-      ]
-    },
-    "2021.07.16.00.51.05_veh-17_03264_05261": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 127.0,
-          "end": 148.3,
-          "user": "parthib",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.06.23.18.23.38_veh-26_01438_01758": {
-      "total_sec": 159.4,
-      "bars": [
-        {
-          "start": 41.4,
-          "end": 143.9,
-          "user": "parthib",
-          "label": "nan"
         }
       ]
     },
@@ -30354,35 +32037,6 @@
         }
       ]
     },
-    "2021.10.11.07.47.13_veh-50_00736_00843": {
-      "total_sec": 52.9,
-      "bars": [
-        {
-          "start": 1.4,
-          "end": 48.1,
-          "user": "grod",
-          "label": "Turn left at the next light and then turn left again right away. "
-        },
-        {
-          "start": 8.9,
-          "end": 35.5,
-          "user": "giovanni",
-          "label": "Merge into the left turning lane. Turn left. Look for oncoming traffic at the in..."
-        },
-        {
-          "start": 15.5,
-          "end": 44.5,
-          "user": "grod",
-          "label": "Make a left at this left and then another left. "
-        },
-        {
-          "start": 20.6,
-          "end": 41.0,
-          "user": "giovanni",
-          "label": "Look for oncoming traffic and turn left. At the next intersectio turn left. "
-        }
-      ]
-    },
     "2021.10.11.07.12.18_veh-50_00541_00832": {
       "total_sec": 145.0,
       "bars": [
@@ -30819,17 +32473,6 @@
         }
       ]
     },
-    "2021.06.09.17.37.09_veh-12_03219_03372": {
-      "total_sec": 76.0,
-      "bars": [
-        {
-          "start": 9.4,
-          "end": 62.2,
-          "user": "giovanni",
-          "label": "Turn right at the upcoming crosswalk, then pull into a taxi lane, stop, and look..."
-        }
-      ]
-    },
     "2021.06.09.17.23.18_veh-38_02450_02515": {
       "total_sec": 31.9,
       "bars": [
@@ -30912,29 +32555,6 @@
           "end": 104.9,
           "user": "giovanni",
           "label": "Wait for the vehicle on the left before turning left and proceeding to exit. At ..."
-        }
-      ]
-    },
-    "2021.07.09.20.26.06_veh-35_03898_05974": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 30.6,
-          "end": 224.2,
-          "user": "giovanni",
-          "label": "Stop behind the white vehicle. Merge one lane to the right. Stop for the upcomin..."
-        },
-        {
-          "start": 120.5,
-          "end": 168.6,
-          "user": "giovanni",
-          "label": "Wait for the traffic light to turn green and procced forward. "
-        },
-        {
-          "start": 130.9,
-          "end": 250.6,
-          "user": "giovanni",
-          "label": "Stop behind the black vehicle. Wait for the people crossing before making a righ..."
         }
       ]
     },
@@ -31026,23 +32646,6 @@
           "end": 230.3,
           "user": "giovanni",
           "label": "Pass the green traffic light and merge into the right lane. Stop, then merge fur..."
-        }
-      ]
-    },
-    "2021.06.09.14.58.55_veh-35_01785_01883": {
-      "total_sec": 48.5,
-      "bars": [
-        {
-          "start": 8.9,
-          "end": 28.0,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 17.5,
-          "end": 42.9,
-          "user": "giovanni",
-          "label": "nan"
         }
       ]
     },
@@ -31861,29 +33464,6 @@
         }
       ]
     },
-    "2021.07.09.01.37.16_veh-26_01726_01793": {
-      "total_sec": 33.0,
-      "bars": [
-        {
-          "start": 1.0,
-          "end": 26.7,
-          "user": "giovanni",
-          "label": "Look for oncoming traffic before procceding. Stop behind a black vehicle. Turn r..."
-        },
-        {
-          "start": 1.1,
-          "end": 25.3,
-          "user": "giovanni",
-          "label": "Turn right at the next inersection and merge to the right lane. "
-        },
-        {
-          "start": 10.3,
-          "end": 25.4,
-          "user": "giovanni",
-          "label": "Follow the black vehicle, at the crosswalk make a right turn. Merge one lane to ..."
-        }
-      ]
-    },
     "2021.06.14.11.44.56_veh-35_00453_00731": {
       "total_sec": 138.5,
       "bars": [
@@ -32501,29 +34081,6 @@
         }
       ]
     },
-    "2021.06.23.15.18.10_veh-26_00016_00143": {
-      "total_sec": 63.0,
-      "bars": [
-        {
-          "start": 4.6,
-          "end": 60.5,
-          "user": "giovanni",
-          "label": "Turn left."
-        },
-        {
-          "start": 45.1,
-          "end": 62.2,
-          "user": "giovanni",
-          "label": "Turn left at the intersection."
-        },
-        {
-          "start": 46.6,
-          "end": 62.4,
-          "user": "giovanni",
-          "label": "Turn left at the intersection. "
-        }
-      ]
-    },
     "2021.06.09.14.50.36_veh-26_05055_05138": {
       "total_sec": 41.0,
       "bars": [
@@ -32853,23 +34410,6 @@
         }
       ]
     },
-    "2021.06.14.17.26.26_veh-38_05760_05896": {
-      "total_sec": 67.4,
-      "bars": [
-        {
-          "start": 21.4,
-          "end": 63.0,
-          "user": "giovanni",
-          "label": "Megre into the right lane behind the yellow vehice. Make a stop for the red traf..."
-        },
-        {
-          "start": 49.7,
-          "end": 65.8,
-          "user": "giovanni",
-          "label": "nan"
-        }
-      ]
-    },
     "2021.07.16.00.51.05_veh-17_01352_01901": {
       "total_sec": 254.5,
       "bars": [
@@ -32980,23 +34520,6 @@
           "end": 34.5,
           "user": "giovanni",
           "label": "Follow the grey vehicle. "
-        }
-      ]
-    },
-    "2021.06.14.18.33.41_veh-35_01363_01636": {
-      "total_sec": 135.9,
-      "bars": [
-        {
-          "start": 102.6,
-          "end": 124.2,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 114.0,
-          "end": 135.1,
-          "user": "giovanni",
-          "label": "Turn left at the intersection. Make a stop at the next intersection during the r..."
         }
       ]
     },
@@ -33153,17 +34676,6 @@
         }
       ]
     },
-    "2021.07.09.17.06.37_veh-35_00928_02567": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 130.9,
-          "end": 185.3,
-          "user": "giovanni",
-          "label": "Make a stop at the stop sign. Look for oncoming vehicles before making a right t..."
-        }
-      ]
-    },
     "2021.06.14.13.27.42_veh-35_04001_04236": {
       "total_sec": 116.9,
       "bars": [
@@ -33288,23 +34800,6 @@
         }
       ]
     },
-    "2021.06.14.18.42.45_veh-12_05000_05079": {
-      "total_sec": 39.0,
-      "bars": [
-        {
-          "start": 2.8,
-          "end": 19.3,
-          "user": "giovanni",
-          "label": "Make a stop for the red light. "
-        },
-        {
-          "start": 8.0,
-          "end": 27.0,
-          "user": "giovanni",
-          "label": "Stop at the red traffic light. Merge one lane into the right side."
-        }
-      ]
-    },
     "2021.06.14.13.28.41_veh-12_03457_03543": {
       "total_sec": 42.5,
       "bars": [
@@ -33346,23 +34841,6 @@
           "end": 237.9,
           "user": "giovanni",
           "label": "Merge one lane to the right. Turn into the right turning lane. Look for oncoming..."
-        }
-      ]
-    },
-    "2021.06.09.14.03.17_veh-12_03798_04118": {
-      "total_sec": 159.5,
-      "bars": [
-        {
-          "start": 0.6,
-          "end": 127.1,
-          "user": "giovanni",
-          "label": "Turn left at the intersection, and stop for the upcoming red light. Make another..."
-        },
-        {
-          "start": 44.4,
-          "end": 119.5,
-          "user": "giovanni",
-          "label": "Turn left. Stop the red traffic light. Stop behind the white vehicle during the ..."
         }
       ]
     },
@@ -33596,23 +35074,6 @@
         }
       ]
     },
-    "2021.06.14.11.44.56_veh-35_02399_02672": {
-      "total_sec": 135.9,
-      "bars": [
-        {
-          "start": 109.7,
-          "end": 134.3,
-          "user": "giovanni",
-          "label": "Stop behind the bus during the red light. "
-        },
-        {
-          "start": 113.4,
-          "end": 131.7,
-          "user": "giovanni",
-          "label": "nan"
-        }
-      ]
-    },
     "2021.06.09.14.03.17_veh-12_01603_01708": {
       "total_sec": 51.9,
       "bars": [
@@ -33643,28 +35104,6 @@
           "end": 20.7,
           "user": "giovanni",
           "label": "nan"
-        }
-      ]
-    },
-    "2021.06.14.18.42.45_veh-12_03445_03902": {
-      "total_sec": 227.9,
-      "bars": [
-        {
-          "start": 53.4,
-          "end": 194.2,
-          "user": "giovanni",
-          "label": "Merge one lane to the right. Follow the white truck. At the next crosswalk turn ..."
-        }
-      ]
-    },
-    "2021.06.14.13.27.42_veh-35_03142_03404": {
-      "total_sec": 130.5,
-      "bars": [
-        {
-          "start": 5.2,
-          "end": 68.0,
-          "user": "giovanni",
-          "label": "Merge one lane to the left. Follow the white vehicle ahead. Stop at the upcoming..."
         }
       ]
     },
@@ -33865,23 +35304,6 @@
         }
       ]
     },
-    "2021.07.09.16.12.19_veh-26_06964_07035": {
-      "total_sec": 35.0,
-      "bars": [
-        {
-          "start": 5.3,
-          "end": 27.0,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 19.3,
-          "end": 34.8,
-          "user": "giovanni",
-          "label": "Stop behind a black  vehicle."
-        }
-      ]
-    },
     "2021.08.17.16.48.45_veh-43_01676_01764": {
       "total_sec": 43.4,
       "bars": [
@@ -33901,40 +35323,6 @@
           "end": 29.5,
           "user": "giovanni",
           "label": "Stop for the pedestrians and red light at the intersection. "
-        }
-      ]
-    },
-    "2021.06.09.17.23.18_veh-38_05239_05412": {
-      "total_sec": 86.0,
-      "bars": [
-        {
-          "start": 14.4,
-          "end": 72.4,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 38.7,
-          "end": 77.5,
-          "user": "giovanni",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.06.09.17.23.18_veh-38_03095_03280": {
-      "total_sec": 91.9,
-      "bars": [
-        {
-          "start": 57.4,
-          "end": 81.6,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 65.0,
-          "end": 84.7,
-          "user": "giovanni",
-          "label": "nan"
         }
       ]
     },
@@ -33991,23 +35379,6 @@
           "end": 35.6,
           "user": "giovanni",
           "label": "Stop at the intersection with a red light. Make another stop at the at the upcom..."
-        }
-      ]
-    },
-    "2021.07.16.16.01.30_veh-38_00016_00333": {
-      "total_sec": 157.9,
-      "bars": [
-        {
-          "start": 6.2,
-          "end": 112.4,
-          "user": "giovanni",
-          "label": "Make a stop at the stop sign and look for oncoming traffic before making a right..."
-        },
-        {
-          "start": 65.8,
-          "end": 116.4,
-          "user": "giovanni",
-          "label": "Turn left at the intersection. Stop at the next intersection. "
         }
       ]
     },
@@ -34106,23 +35477,6 @@
         }
       ]
     },
-    "2021.06.14.11.44.56_veh-35_00938_01134": {
-      "total_sec": 97.5,
-      "bars": [
-        {
-          "start": 20.5,
-          "end": 93.7,
-          "user": "giovanni",
-          "label": "Merge one lane into the right. Merge one more lane to the right turning lane and..."
-        },
-        {
-          "start": 26.8,
-          "end": 72.7,
-          "user": "giovanni",
-          "label": "Merge one lane to the right side. Once more merge again to the right side and tu..."
-        }
-      ]
-    },
     "2021.06.09.14.50.36_veh-26_01124_01198": {
       "total_sec": 36.4,
       "bars": [
@@ -34143,17 +35497,6 @@
           "end": 36.1,
           "user": "giovanni",
           "label": "Enter the diamond seven services and enter the drop off zone."
-        }
-      ]
-    },
-    "2021.06.09.17.37.09_veh-12_01465_01790": {
-      "total_sec": 162.0,
-      "bars": [
-        {
-          "start": 79.6,
-          "end": 131.3,
-          "user": "giovanni",
-          "label": "Merge one lane to the right. Merge into the right turning lane and turn right at..."
         }
       ]
     },
@@ -34323,17 +35666,6 @@
           "end": 79.7,
           "user": "giovanni",
           "label": "Wait for the pedestrians to finish crossing and then turn right. "
-        }
-      ]
-    },
-    "2021.06.14.11.44.56_veh-35_04178_05084": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 100.9,
-          "end": 239.2,
-          "user": "giovanni",
-          "label": "Turn left at the intersection. Merge one lane to the right side. Make a sstop at..."
         }
       ]
     },
@@ -34740,17 +36072,6 @@
         }
       ]
     },
-    "2021.07.09.15.53.28_veh-38_00184_02293": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 36.7,
-          "end": 126.6,
-          "user": "giovanni",
-          "label": "Merge one lane to the right side. Merge one lane to the right side again. Merge ..."
-        }
-      ]
-    },
     "2021.06.14.16.32.09_veh-35_02618_02873": {
       "total_sec": 127.0,
       "bars": [
@@ -34893,45 +36214,6 @@
           "end": 59.4,
           "user": "giovanni",
           "label": "nan"
-        }
-      ]
-    },
-    "2021.06.09.17.37.09_veh-12_02445_02566": {
-      "total_sec": 60.0,
-      "bars": [
-        {
-          "start": 11.4,
-          "end": 29.5,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 36.2,
-          "end": 58.0,
-          "user": "giovanni",
-          "label": "Merge one lane into the right side. "
-        }
-      ]
-    },
-    "2021.06.09.14.03.17_veh-12_01225_01437": {
-      "total_sec": 105.4,
-      "bars": [
-        {
-          "start": 60.3,
-          "end": 80.0,
-          "user": "giovanni",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.06.14.18.33.41_veh-35_00654_00887": {
-      "total_sec": 115.9,
-      "bars": [
-        {
-          "start": 47.1,
-          "end": 105.8,
-          "user": "giovanni",
-          "label": "Turn right at the crosswalk, and merge one lane to the left. Merge one lane to t..."
         }
       ]
     },
@@ -35108,29 +36390,6 @@
         {
           "start": 71.0,
           "end": 86.1,
-          "user": "giovanni",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.06.14.18.42.45_veh-12_03913_04017": {
-      "total_sec": 51.5,
-      "bars": [
-        {
-          "start": 3.5,
-          "end": 29.9,
-          "user": "giovanni",
-          "label": "Slow down and then merge one lane to the right side. "
-        },
-        {
-          "start": 30.2,
-          "end": 48.1,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 35.7,
-          "end": 51.2,
           "user": "giovanni",
           "label": "nan"
         }
@@ -35354,17 +36613,6 @@
         }
       ]
     },
-    "2021.06.09.14.03.17_veh-12_00711_00839": {
-      "total_sec": 63.5,
-      "bars": [
-        {
-          "start": 28.8,
-          "end": 59.1,
-          "user": "giovanni",
-          "label": "Merge into the right turning lane, and turn right at the intersection. Merge to ..."
-        }
-      ]
-    },
     "2021.06.14.13.27.42_veh-35_02283_02603": {
       "total_sec": 159.4,
       "bars": [
@@ -35467,17 +36715,6 @@
           "end": 65.5,
           "user": "giovanni",
           "label": "nan"
-        }
-      ]
-    },
-    "2021.06.09.17.23.18_veh-38_02526_03027": {
-      "total_sec": 250.0,
-      "bars": [
-        {
-          "start": 218.6,
-          "end": 239.0,
-          "user": "giovanni",
-          "label": "Yield to oncoming vehicle and then turn left into the building."
         }
       ]
     },
@@ -35603,17 +36840,6 @@
         }
       ]
     },
-    "2021.06.14.16.48.02_veh-12_03091_03461": {
-      "total_sec": 184.4,
-      "bars": [
-        {
-          "start": 115.2,
-          "end": 131.0,
-          "user": "giovanni",
-          "label": "Merge one lane to the right side. "
-        }
-      ]
-    },
     "2021.06.14.18.42.45_veh-12_02318_02407": {
       "total_sec": 43.9,
       "bars": [
@@ -35622,17 +36848,6 @@
           "end": 42.4,
           "user": "giovanni",
           "label": "nan"
-        }
-      ]
-    },
-    "2021.06.14.18.33.41_veh-35_03367_03508": {
-      "total_sec": 70.0,
-      "bars": [
-        {
-          "start": 50.7,
-          "end": 68.3,
-          "user": "giovanni",
-          "label": "Wait for the people to finish crossing and make a right turn. "
         }
       ]
     },
