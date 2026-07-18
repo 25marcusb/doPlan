@@ -890,6 +890,173 @@ turn left. pull up to the entrance next to the sign. continue straight.",Static 
 2021.10.06.14.31.13_veh-28_00014_00079,34,205,Turn right at the stop sign,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,17.1
 2021.10.06.19.27.33_veh-28_00805_01736,747,2247,"Turn right at the light, then get into the left lane",Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,150.0
 2021.09.15.12.32.43_veh-28_02111_02342,641,960,Stop by the pedestrians,Dynamic Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,31.9
+2021.10.06.17.08.46_veh-28_00016_00116,64,460,change to left lane to avoid the truck and continue straight,Both,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,39.6
+2021.09.15.14.50.05_veh-28_00182_00253,103,349,allow pedestrians pass then continue,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,24.6
+2021.09.15.12.32.43_veh-28_00202_00323,27,401,"turn right at intersection, then make a left at the next.",Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,37.4
+2021.10.06.14.31.13_veh-28_00014_00079,78,262,turn right at intersection,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,18.4
+2021.09.15.14.50.05_veh-28_00182_00253,79,296,allow pedestrians to cross.,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,21.7
+2021.09.15.16.17.26_veh-28_00586_00712,5,574,"turn right at stop sign, then turn left at the intersection. ",Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,56.9
+2021.10.06.14.31.13_veh-28_00589_00665,42,293,"turn left at the light, then turn right",Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,25.1
+2021.09.15.14.27.22_veh-39_00868_01125,223,807,Go around the fire truck. Change lanes to give the bicyclist space.,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,58.4
+2021.10.06.17.43.07_veh-28_01118_01302,189,553,turn left ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,36.4
+2021.09.15.15.34.53_veh-28_00512_01084,83,532,turn left at the light,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,44.9
+2021.10.01.15.32.11_veh-28_00475_00930,1569,1816,change into the turning lane and turn left,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,24.7
+2021.09.15.16.51.15_veh-28_01698_01775,185,361,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,17.6
+2021.10.06.14.31.13_veh-28_01277_01377,5,437,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,43.2
+2021.10.06.19.27.33_veh-28_00302_00794,541,1929,"go around parked car.  go around cars. turn right at the light, then turn right again. ",Both,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,138.8
+2021.09.15.12.32.43_veh-28_00973_01056,73,406,turn right. turn left,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,33.3
+2021.10.01.17.52.06_veh-28_00675_00737,47,278,turn right. ,Non-Referential,,./staging/labels - Isaiah Ramirez.csv,23.1
+2021.09.15.16.17.26_veh-28_01581_01740,100,602,go around workers then turn left at the light. slow down to go around workers,Both,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,50.2
+2021.09.15.12.32.43_veh-28_00202_00323,67,565,turn right at the stop sign then turn left.,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,49.8
+2021.09.15.16.17.26_veh-28_01085_01182,74,379,turn left. make another left at the light. change to the right lane,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,30.5
+2021.09.15.14.00.15_veh-28_00288_00408,73,588,turn right. turn left at the light.,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,51.5
+2021.10.01.19.16.42_veh-28_02447_02517,29,183,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,15.4
+2021.10.06.17.43.07_veh-28_00302_00486,275,685,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,41.0
+2021.10.06.13.21.47_veh-28_01002_01116,19,543,change to the right lane. change to the left lane. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,52.4
+2021.09.15.14.50.05_veh-28_02133_02222,25,326,"turn right,  then turn left. ",Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,30.1
+2021.10.01.14.20.36_veh-28_00243_00388,449,693,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,24.4
+2021.10.01.19.16.42_veh-28_00094_00216,379,530,turn right,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,15.1
+2021.09.15.15.02.19_veh-39_01107_01666,72,1822,turn left at the light. turn left. change to right lane. turn right at the light. turn left. change to the right lane.  turn right. turn right. change to the left lane. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,175.0
+2021.09.15.11.49.23_veh-28_00767_00955,0,884,turn right at the light. change to the left lane. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,88.4
+2021.10.01.14.20.36_veh-28_00825_00919,24,452,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,42.8
+2021.09.15.16.17.26_veh-28_01450_01544,14,446,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,43.2
+2021.09.15.13.12.49_veh-39_00135_00467,217,1595,slow down for crossing pedestrians. change to right lane. go around truck. turn left. ,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,137.8
+2021.09.15.14.00.15_veh-28_00288_00408,74,298,"turn right, then turn left. ",Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,22.4
+2021.09.15.13.12.49_veh-39_01049_01301,21,389,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,36.8
+2021.10.06.17.08.46_veh-28_00127_00428,535,880,take first exit at the trafic circle.,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,34.5
+2021.09.15.11.49.23_veh-28_00520_00669,128,648,turn right. turn left,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,52.0
+2021.10.06.14.31.13_veh-28_00981_01226,65,436,turn right at the light. turn right.,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,37.1
+2021.10.06.19.27.33_veh-28_00302_00794,1554,1728,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,17.4
+2021.10.01.15.32.11_veh-28_01178_01392,324,1040,"take first exit of the traffic circle. stop to let pedestiran cross. turn right, then left. turn left. ",Both,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,71.6
+2021.10.01.13.28.54_veh-28_01098_01337,754,959,turn right. go around truck.,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,20.5
+2021.10.01.19.16.42_veh-28_02011_02410,1502,1972,turn right. change to left lane. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,47.0
+2021.10.01.14.20.36_veh-28_00038_00128,38,391,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,35.3
+2021.10.06.19.27.33_veh-28_00121_00289,5,823,"turn right, then right again. turn right at the light. turn left. ",Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,81.8
+2021.10.06.14.31.13_veh-28_00223_00350,103,420,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,31.7
+2021.09.15.12.32.43_veh-28_00417_00527,179,340,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,16.1
+2021.09.15.16.51.15_veh-28_00005_00160,213,641,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,42.8
+2021.09.15.12.32.43_veh-28_00973_01056,211,362,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,15.1
+2021.09.15.14.50.05_veh-28_01740_01833,270,425,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,15.5
+2021.09.15.13.16.40_veh-28_02072_02166,155,375,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,22.0
+2021.09.15.14.50.05_veh-28_01392_01458,29,259,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,23.0
+2021.10.01.15.32.11_veh-28_00120_00248,151,604,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,45.3
+2021.10.06.14.31.13_veh-28_00014_00079,56,304,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,24.8
+2021.10.06.13.21.47_veh-28_01648_01722,35,249,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,21.4
+2021.10.01.18.26.05_veh-28_00005_00413,1178,2012,turn right at the light. . turn left,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,83.4
+2021.09.15.13.16.40_veh-28_00642_01267,1634,1989,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,35.5
+2021.10.06.13.21.47_veh-28_01755_01829,150,315,turn left.,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,16.5
+2021.10.01.14.20.36_veh-28_00475_00646,5,845,turn right. slow to allow pedestrians to cross. ,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,84.0
+2021.09.15.16.17.26_veh-28_01085_01182,163,447,turn left. change to right lane,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,28.4
+2021.09.15.16.51.15_veh-28_00005_00160,21,720,do a u turn.,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,69.9
+2021.10.06.13.21.47_veh-28_01648_01722,19,358,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,33.9
+2021.09.15.12.32.43_veh-28_00417_00527,145,462,"turn right, then right again. ",Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,31.7
+2021.09.15.14.50.05_veh-28_01511_01690,8,761,turn left at the light,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,75.3
+2021.10.01.14.20.36_veh-28_01415_01480,57,224,change to left lane to avoid car with hazards on. ,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,16.7
+2021.10.01.17.52.06_veh-28_01622_01687,17,306,"turn right. turn left, then right. ",Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,28.9
+2021.09.15.14.00.15_veh-28_01611_01874,955,1194,turn left,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,23.9
+2021.09.15.13.16.40_veh-28_00088_00157,22,310,take first exit of the roundabout. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,28.8
+2021.10.01.14.20.36_veh-28_01491_01630,148,323,turn right.,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,17.5
+2021.09.15.14.00.15_veh-28_00895_00981,4,421,take the first exit of the roundabout. turn left. turn right. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,41.7
+2021.09.15.13.52.55_veh-39_00016_00122,240,415,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,17.5
+2021.09.15.15.02.19_veh-39_00105_00203,213,398,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,18.5
+2021.09.15.13.52.55_veh-39_00643_00807,90,335,turn left at the light.,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,24.5
+2021.09.15.16.51.15_veh-28_01468_01533,3,315,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,31.2
+2021.10.01.18.26.05_veh-28_00949_01041,15,441,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,42.6
+2021.10.01.17.52.06_veh-28_00327_00427,20,382,turn left. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,36.2
+2021.10.01.14.20.36_veh-28_00825_00919,182,367,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,18.5
+2021.09.15.14.50.05_veh-28_01187_01281,42,456,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,41.4
+2021.10.06.18.52.07_veh-28_01474_01908,593,1190,"turn right, then right again. turn right at the light.",Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,59.7
+2021.10.06.18.52.07_veh-28_01297_01462,0,807,stop to let pedestrians pass. change to the right lane. ,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,80.7
+2021.09.15.15.34.53_veh-28_01820_02314,355,2405,turn left at the light. turn right. change to right lane. turn right. turn right. change to the left lane. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,205.0
+2021.09.15.14.50.05_veh-28_00389_00508,132,412,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,28.0
+2021.09.15.11.49.23_veh-28_01869_02000,15,198,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,18.3
+2021.09.15.14.27.22_veh-39_01281_01346,75,237,turn left. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,16.2
+2021.10.06.19.27.33_veh-28_00016_00079,72,235,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,16.3
+2021.10.06.17.08.46_veh-28_00016_00116,175,358,change to the left lane. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,18.3
+2021.10.01.15.32.11_veh-28_01000_01136,45,473,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,42.8
+2021.09.15.16.17.26_veh-28_01370_01439,21,295,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,27.4
+2021.09.15.13.16.40_veh-28_00180_00257,86,366,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,28.0
+2021.09.15.16.17.26_veh-28_00772_00880,127,514,change to the right lane. change to the left lane. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,38.7
+2021.10.01.15.32.11_veh-28_00025_00097,6,201,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,19.5
+2021.09.15.13.12.49_veh-39_00135_00467,82,1649,take first the exit on the roundabout. slow for the passing pedestrians. turn right at the light. turn left. turn right. ,Both,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,156.7
+2021.09.15.11.49.23_veh-28_02192_02253,7,284,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,27.7
+2021.09.15.15.34.53_veh-28_01820_02314,720,1420,turn left at the light.,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,70.0
+2021.09.15.11.49.23_veh-28_00520_00669,7,560,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,55.3
+2021.09.15.14.27.22_veh-39_00038_00414,499,1468,turn right. turn left at the light. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,96.9
+2021.09.15.14.50.05_veh-28_01392_01458,124,277,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,15.3
+2021.09.15.12.32.43_veh-28_01238_01314,67,334,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,26.7
+2021.10.01.15.32.11_veh-28_01178_01392,137,819,"take first exit on the roundabout. stop for pedestiran. turn right, then turn left. ",Both,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,68.2
+2021.09.15.11.49.23_veh-28_00081_00237,162,327,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,16.5
+2021.09.15.16.17.26_veh-28_01370_01439,18,221,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,20.3
+2021.10.01.15.32.11_veh-28_00291_00464,6,812,turn left at the light. turn left. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,80.6
+2021.10.01.17.52.06_veh-28_00748_00952,70,308,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,23.8
+2021.09.15.16.17.26_veh-28_01085_01182,190,452,turn left. change to right lane. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,26.2
+2021.09.15.14.27.22_veh-39_00473_00568,79,302,turn right. turn right at the light. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,22.3
+2021.09.15.14.27.22_veh-39_00473_00568,19,453,turn right. turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,43.4
+2021.09.15.14.00.15_veh-28_00420_00578,232,778,turn left at the light. turn right. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,54.6
+2021.10.01.15.32.11_veh-28_00120_00248,5,631,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,62.6
+2021.09.15.12.32.43_veh-28_00417_00527,102,472,"turn right, then another right. ",Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,37.0
+2021.10.01.19.16.42_veh-28_02447_02517,10,259,let pedestrian pass. ,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,24.9
+2021.10.06.13.21.47_veh-28_00692_00815,153,605,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,45.2
+2021.10.01.18.26.05_veh-28_01689_01890,744,933,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,18.9
+2021.10.06.17.43.07_veh-28_01354_01536,19,464,go around truck. ,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,44.5
+2021.09.15.14.50.05_veh-28_02133_02222,139,394,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,25.5
+2021.09.15.15.34.53_veh-28_01303_01395,2,232,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,23.0
+2021.10.01.14.20.36_veh-28_00243_00388,34,668,turn left.  turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,63.4
+2021.09.15.12.32.43_veh-28_01513_01697,24,854,turn right at the light. turn right. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,83.0
+2021.09.15.13.12.49_veh-39_00645_00802,417,644,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,22.7
+2021.10.01.13.28.54_veh-28_01421_01615,244,827,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,58.3
+2021.10.01.15.32.11_veh-28_01000_01136,73,232,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,15.9
+2021.10.01.14.20.36_veh-28_00825_00919,260,416,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,15.6
+2021.09.15.13.52.55_veh-39_00643_00807,136,289,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,15.3
+2021.09.15.14.00.15_veh-28_01611_01874,770,1287,slow to allow pedestrians to cross. ,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,51.7
+2021.10.01.14.20.36_veh-28_00931_01128,49,665,allow pedestrian to cross. turn left at the light. ,Both,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,61.6
+2021.10.01.19.16.42_veh-28_00274_00380,85,340,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,25.5
+2021.10.01.19.16.42_veh-28_00917_01499,1081,1552,"turn right, allow pedestrians to cross first. ",Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,47.1
+2021.10.06.18.52.07_veh-28_01474_01908,1584,1876,turn right. stop to let car turn left. ,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,29.2
+2021.10.01.19.16.42_veh-28_03215_03296,53,361,turn left,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,30.8
+2021.10.01.19.16.42_veh-28_00917_01499,730,1323,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,59.3
+2021.10.01.17.52.06_veh-28_00450_00599,308,726,turn left.,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,41.8
+2021.09.15.14.00.15_veh-28_01611_01874,52,1105,slow to allow pedestrians to cross.,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,105.3
+2021.09.15.16.17.26_veh-28_01450_01544,226,380,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,15.4
+2021.10.01.14.20.36_veh-28_01491_01630,56,535,"turn right, then let the pedestrian pass, then turn left ",Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,47.9
+2021.10.06.19.27.33_veh-28_00302_00794,87,2451,turn left. turn right at the light. go around the car. turn right. turn right at the light. turn right at the light.,Both,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,236.4
+2021.10.06.17.08.46_veh-28_01626_01702,159,321,turn left. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,16.2
+2021.10.01.13.28.54_veh-28_00405_00547,154,403,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,24.9
+2021.10.01.13.28.54_veh-28_01098_01337,323,1064,turn left at the light. turn left. turn right. turn right. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,74.1
+2021.10.06.13.21.47_veh-28_00016_00086,47,204,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,15.7
+2021.10.06.18.52.07_veh-28_01474_01908,37,1908,"turn right. turn left at the light, then turn right. turn right. turn right and let the pedestrian pass. change to left lane. turn left at the light. turn right. ",Both,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,187.1
+2021.09.15.14.27.22_veh-39_01491_01763,149,1353,turn left. turn left. turn right. turn right. turn left at the light. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,120.4
+2021.10.06.13.21.47_veh-28_00016_00086,17,335,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,31.8
+2021.09.15.14.00.15_veh-28_01274_01543,130,1043,"turn right at the light, then turn left at the next one. ",Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,91.3
+2021.09.15.13.12.49_veh-39_01329_01520,240,881,change to the left lane. take the second exit on  the roundabout. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,64.1
+2021.09.15.13.52.55_veh-39_00818_01335,11,2276,"turn left. turn right at the light. turn right, waiting for the pedestrians to pass. turn left at the light, then make another left. make a right. turn right again. ",Both,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,226.5
+2021.10.01.17.52.06_veh-28_00327_00427,15,470,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,45.5
+2021.09.15.14.00.15_veh-28_00770_00852,114,384,turn left. make another left. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,27.0
+2021.10.01.19.16.42_veh-28_00917_01499,532,1856,"turn right, watching for pedestrians. change to the left lane.",Both,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,132.4
+2021.10.06.17.08.46_veh-28_00498_00621,158,391,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,23.3
+2021.10.06.13.21.47_veh-28_00441_00515,58,271,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,21.3
+2021.09.15.13.16.40_veh-28_01343_01432,50,425,change to the left lane. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,37.5
+2021.10.01.17.52.06_veh-28_00748_00952,386,659,turn left,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,27.3
+2021.10.06.19.27.33_veh-28_00302_00794,122,1050,turn right. go around the parked car. ,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,92.8
+2021.10.01.17.52.06_veh-28_00098_00211,152,399,,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,24.7
+2021.10.01.19.16.42_veh-28_00917_01499,1,2545,"turn right at the light, letting pedestrians pass first. ",Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,254.4
+2021.10.01.17.52.06_veh-28_00748_00952,45,828,turn left at the light. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,78.3
+2021.10.01.19.16.42_veh-28_01511_01624,49,442,turn left. turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,39.3
+2021.09.15.13.52.55_veh-39_00818_01335,816,1018,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,20.2
+2021.10.01.13.28.54_veh-28_00607_00973,84,851,"turn left at the light, then turn left. turn right. ",Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,76.7
+2021.10.01.17.52.06_veh-28_01034_01107,44,278,change to the left lane. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,23.4
+2021.10.06.17.43.07_veh-28_01354_01536,362,717,turn right. turn left. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,35.5
+2021.10.06.18.52.07_veh-28_00123_00431,73,920,turn right. turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,84.7
+2021.10.06.13.21.47_veh-28_00139_00216,72,286,turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,21.4
+2021.10.06.17.08.46_veh-28_00016_00116,111,408,change to the left lane. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,29.7
+2021.10.01.19.16.42_veh-28_02568_02833,188,1218,"turn right. turn right again, then turn left. turn right. ",Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,103.0
+2021.09.15.15.34.53_veh-28_01133_01234,67,480,follow that truck. ,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,41.3
+2021.10.06.14.31.13_veh-28_00362_00475,59,539,turn left and go around parked cars. turn left. turn right. ,Dynamic Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,48.0
+2021.10.01.17.52.06_veh-28_00327_00427,80,457,turn left at the light. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,37.7
+2021.10.01.19.16.42_veh-28_00094_00216,86,538,turn left. turn right. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,45.2
+2021.09.15.14.50.05_veh-28_00182_00253,29,335,take the first exit on the roundabout. ,Non-Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,30.6
+2021.09.15.15.34.53_veh-28_01820_02314,136,2343,turn left at the light. turn right. turn right. turn right again. ,Static Referential,Isaiah Ramirez,./staging/labels - Isaiah Ramirez.csv,220.7
 2021.06.14.13.27.42_veh-35_00353_00531,567,853,slow down as the vehicle infront has came to a stop and continue forward,Dynamic Referential,giovanni,./staging/labels - Jose Tapia.csv,28.6
 2021.07.09.01.37.16_veh-26_04675_04767,210,407,Switch to the left lane and come to a stop for the pedestrians at the cross walk and continue aftward and stop once again for the red traffic light,Both,giovanni,./staging/labels - Jose Tapia.csv,19.7
 2021.10.11.02.57.41_veh-50_00704_00776,74,335,,Non-Referential,giovanni,./staging/labels - Jose Tapia.csv,26.1
