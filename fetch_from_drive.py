@@ -32,12 +32,36 @@ GOOGLE_APPLICATION_CREDENTIALS at it before calling this script.
 
 import argparse
 import os
+import random
+import time
 
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaIoBaseDownload
 
 SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
+
+# Transient/server-side errors worth retrying (Google's own guidance: back off
+# and retry on these). Anything else (403 permissions, 404 not found, etc.) is
+# a real problem and should fail immediately rather than retry.
+RETRYABLE_STATUSES = {429, 500, 502, 503, 504}
+
+
+def with_retries(fn, max_attempts=5, base_delay=2.0):
+    """Calls fn() with exponential backoff + jitter on transient Google API errors.
+    Re-raises immediately on non-retryable errors, or after the last attempt."""
+    for attempt in range(1, max_attempts + 1):
+        try:
+            return fn()
+        except HttpError as e:
+            status = getattr(e.resp, "status", None)
+            if status not in RETRYABLE_STATUSES or attempt == max_attempts:
+                raise
+            delay = base_delay * (2 ** (attempt - 1)) + random.uniform(0, 1)
+            print(f"  transient error (HTTP {status}), retrying in {delay:.1f}s "
+                  f"(attempt {attempt}/{max_attempts})...", flush=True)
+            time.sleep(delay)
 
 
 def get_service():
@@ -51,11 +75,11 @@ def list_csvs_recursive(service, folder_id, path_prefix=""):
     query = f"'{folder_id}' in parents and trashed = false"
     page_token = None
     while True:
-        resp = service.files().list(
+        resp = with_retries(lambda: service.files().list(
             q=query,
             fields="nextPageToken, files(id, name, mimeType)",
             pageToken=page_token,
-        ).execute()
+        ).execute())
 
         for f in resp.get("files", []):
             name = f["name"]
@@ -76,7 +100,7 @@ def download_file(service, file_id, dest_path):
         downloader = MediaIoBaseDownload(f, request)
         done = False
         while not done:
-            _, done = downloader.next_chunk()
+            _, done = with_retries(downloader.next_chunk)
 
 
 def main():
@@ -91,9 +115,9 @@ def main():
         dest = os.path.join(args.out, rel_path)
         download_file(service, file_id, dest)
         count += 1
-        print(f"downloaded {rel_path}")
+        print(f"downloaded {rel_path}", flush=True)
 
-    print(f"\nDownloaded {count} CSV file(s) to {args.out}")
+    print(f"\nDownloaded {count} CSV file(s) to {args.out}", flush=True)
 
 
 if __name__ == "__main__":
