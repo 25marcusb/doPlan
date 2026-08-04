@@ -128,6 +128,10 @@ Submit your `labels.csv` file by these dates:
 
 Submit here: <https://docs.google.com/forms/d/e/1FAIpQLSddH6G8gL1wS_DZ8cp8TkQc0B8SFDQ8NIpmmLWs--a4Rmca4Q/viewform>
 
+## Dashboard
+
+Live annotation stats (updates every 6 hours): <https://25marcusb.github.io/doPlan/dashboard.html>
+
 ## Issues?
 
 - **"settings.txt not found"**: Run from the doPlan folder
