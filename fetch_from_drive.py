@@ -111,11 +111,22 @@ def main():
 
     service = get_service()
     count = 0
+    # Drive allows multiple files with the same name in the same folder (e.g. an
+    # annotator re-exporting the labeling tool's default "labels - Name.csv" more
+    # than once). Without disambiguation, later downloads silently overwrite
+    # earlier ones at the same local path and whole submissions vanish before
+    # build_dashboard.py ever sees them. Suffix every name collision after the
+    # first with the Drive file ID so each file lands at a distinct path.
+    seen_paths = set()
     for file_id, rel_path in list_csvs_recursive(service, args.folder_id):
         dest = os.path.join(args.out, rel_path)
+        if dest in seen_paths:
+            base, ext = os.path.splitext(dest)
+            dest = f"{base}__{file_id}{ext}"
+        seen_paths.add(dest)
         download_file(service, file_id, dest)
         count += 1
-        print(f"downloaded {rel_path}", flush=True)
+        print(f"downloaded {rel_path} -> {dest}", flush=True)
 
     print(f"\nDownloaded {count} CSV file(s) to {args.out}", flush=True)
 
