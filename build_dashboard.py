@@ -276,16 +276,24 @@ def compute_stats(df: pd.DataFrame, manifest: pd.DataFrame = None) -> dict:
     # ---- Fig 1: annotations per annotator ----
     per_annotator_counts = df.groupby("username").size().sort_values(ascending=False).to_dict()
 
+    # A "scene" is a physical (folder, start_frame, end_frame) interval, not a
+    # row -- the same scene commonly carries several rows that differ only in
+    # label text (multiple valid instructions for one segment, see merge_all).
+    # Duration stats describe the scene, not the instruction, so they must be
+    # computed once per unique scene or a heavily-paraphrased scene's length
+    # gets counted once per paraphrase and skews the mean/median.
+    unique_scenes = df.drop_duplicates(subset=["folder", "start_frame", "end_frame"])
+
     # ---- Table I: Dataset Scale and Coverage Summary ----
     table1 = {
         "number_of_annotations": int(len(df)),
         "number_of_unique_source_clips": int(df["folder"].nunique()),
         "number_of_annotators": int(df["username"].nunique()),
         "total_annotated_driving_time_hrs": float(df["duration_sec"].sum() / 3600),
-        "mean_segment_duration_sec": float(df["duration_sec"].mean()),
-        "median_segment_duration_sec": float(df["duration_sec"].median()),
-        "min_segment_duration_sec": float(df["duration_sec"].min()),
-        "max_segment_duration_sec": float(df["duration_sec"].max()),
+        "mean_segment_duration_sec": float(unique_scenes["duration_sec"].mean()),
+        "median_segment_duration_sec": float(unique_scenes["duration_sec"].median()),
+        "min_segment_duration_sec": float(unique_scenes["duration_sec"].min()),
+        "max_segment_duration_sec": float(unique_scenes["duration_sec"].max()),
     }
 
     # ---- Fig 4 / referential class distribution ----
@@ -519,7 +527,10 @@ def _base_layout(title, height=360):
 
 
 def chart_duration_distribution(df, stats):
-    fig = go.Figure(go.Histogram(x=df["duration_sec"], nbinsx=30, marker_color=TEAL, name="Segments"))
+    # One bar-contribution per physical scene, not per paraphrase -- matches
+    # how mean/median_segment_duration_sec are computed in compute_stats().
+    unique_scenes = df.drop_duplicates(subset=["folder", "start_frame", "end_frame"])
+    fig = go.Figure(go.Histogram(x=unique_scenes["duration_sec"], nbinsx=30, marker_color=TEAL, name="Scenes"))
     mean_v = stats["table1"]["mean_segment_duration_sec"]
     median_v = stats["table1"]["median_segment_duration_sec"]
     fig.add_vline(
