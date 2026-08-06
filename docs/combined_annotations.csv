@@ -1818,6 +1818,259 @@ folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
 2021.07.09.16.12.19_veh-26_02985_03053,33,206,,Non-Referential,parthib,./staging/parthib_submissions2 - Parthib Roy.csv,17.3
 2021.09.15.14.27.22_veh-39_01491_01763,119,1347,"make a left turn at the stoplight. make another left turn at the next stoplight. switch into the right lane, and make a right turn when the stoplight turns green. go around the parked white vehicle and then at the stoplight make a righ tutrn when there are no cars on the left. when you get to the nextstoplight make a left turn.",Static Referential,parthib,./staging/parthib_submissions2 - Parthib Roy.csv,122.8
 2021.10.01.17.52.06_veh-28_01364_01428,30,289,just keep going straight,Non-Referential,parthib,./staging/parthib_submissions2 - Parthib Roy.csv,25.9
+2021.06.14.17.26.26_veh-38_05281_05444,227,789,"follow the white vehicle, suv, that is in front of you.",Dynamic Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,56.2
+2021.06.23.14.58.13_veh-35_00765_01108,52,1545,youre going to make a right turn into the xs nightclub. you have to pass the palazzo intersection to get there.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,149.3
+2021.06.23.18.23.38_veh-26_00663_01217,507,2381,make a left lane switch when you see the double level bus and the traffic cones. after passing the intersection go back on the right lane,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,187.4
+2021.06.23.20.43.31_veh-16_03607_04007,386,1141,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,75.5
+2021.06.23.21.56.29_veh-35_02412_03161,38,2405,"when you pass the intersection, switch to the left lane. i want you to keep going straight, but make the right lane switch and right turn into wynn las vegas before you approach. go into the roundabout and back at the exit",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,236.7
+2021.06.09.20.26.11_veh-35_00825_00942,204,529,when the light turns green make a left turn and go straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,32.5
+2021.06.09.14.50.36_veh-26_02376_02484,54,524,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,47.0
+2021.10.06.18.52.07_veh-28_01474_01908,115,2038,"when the light turns green make a right turn once the pedestrians have crossed the road. at the stoplight make a left turn then a right turn. when you get to the stopsign make a right turn. you will make a right turn two stoplights ahead, switch to the left lane and left-turning lane and make the left turn once the cars are clear at the next stoplight make a right turn, at this point you should be heading toward graphic arts building",Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,192.3
+2021.07.16.16.01.30_veh-38_00016_00333,517,720,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,20.3
+2021.10.06.18.52.07_veh-28_00839_00968,120,369,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,24.9
+2021.06.09.12.39.51_veh-26_00492_00587,64,454,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,39.0
+2021.06.23.17.31.36_veh-16_00016_00377,267,1132,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,86.5
+2021.10.01.18.26.05_veh-28_01081_01159,98,373,make a left turn at the second stoplight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,27.5
+2021.08.17.13.15.12_veh-45_00691_00794,11,247,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,23.6
+2021.06.23.22.05.48_veh-16_00015_00276,197,455,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,25.8
+2021.09.15.14.50.05_veh-28_01392_01458,0,180,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,18.0
+2021.06.14.18.33.41_veh-35_04905_05090,58,522,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,46.4
+2021.10.06.17.43.07_veh-28_00302_00486,52,888,make a left turn at the second stoplight. make a left and then a right turn at the next two stoplights,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,83.6
+2021.07.09.23.23.48_veh-26_02228_04624,9,2457,"after you pass the intersection after the statue of liberty, switch into the right lane. at the next intersection (the one with arco), make a right turn. make the first left turn after the stopsign. head toward the exit and make a right. get into the second left turning lane and make the turn when the light turns green",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,244.8
+2021.08.17.16.48.45_veh-43_00936_01035,30,329,make a right and then a left turn at the next two stopsigns,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,29.9
+2021.07.09.02.42.50_veh-35_00038_02629,174,2485,"after passing the stoplight go into the left turning lane when it appears. at the stoplight make a left turn. before you come to the crosswalk, stop to let the person walk through, then slowly continue. please make the first left thats after the stopsign, and go into the entrance. stop at the far corner",Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,231.1
+2021.06.14.16.32.09_veh-35_01219_01415,106,751,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,64.5
+2021.06.14.18.13.35_veh-26_03130_03197,12,242,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,23.0
+2021.09.15.15.34.53_veh-28_01133_01234,118,489,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,37.1
+2021.10.06.13.21.47_veh-28_00262_00334,61,342,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,28.1
+2021.06.14.18.42.45_veh-12_00968_01052,1,412,"after passing the first intersection switch to the right lane. at the intersection that has arco in it, make a right turn",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,41.1
+2021.06.23.18.23.38_veh-26_01238_01416,244,583,stop at the intersection before making the right turn to let the people cross the road.,Dynamic Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,33.9
+2021.06.09.14.58.55_veh-35_03927_04034,149,310,switch to the left lane,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,16.1
+2021.06.14.16.32.09_veh-35_04516_04698,116,592,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,47.6
+2021.05.12.23.36.44_veh-35_00712_00774,27,246,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,21.9
+2021.08.17.13.15.12_veh-45_02025_02103,39,262,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,22.3
+2021.06.14.18.42.45_veh-12_01065_01152,63,415,make a left turn and temporarily stop at the center of the entrance,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,35.2
+2021.06.14.19.22.11_veh-38_00572_00648,46,356,merge to the left lane behind the orange suv and head toward the exit,Dynamic Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,31.0
+2021.09.15.11.49.23_veh-28_01108_01493,78,1919,"switch to the right lane. when the light is green make the right turn. at the next stoplight make a right turn toward iron street park. and make a left turn at that very intersection. when you approach the flashing stopights, make a right turn, then at the very next intersection make a left turn",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,184.1
+2021.06.14.18.13.35_veh-26_01728_01918,118,526,head toward the exit,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,40.8
+2021.09.15.13.12.49_veh-39_00541_00634,36,419,make the left turn when there are no oncoming cars. when you pass the next stoplight switch to the right lane.,Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,38.3
+2021.07.09.20.59.12_veh-38_03292_04331,919,2207,make the right turn when its clear. go into the roundabout and back toward the exit in the far left lane. make the left turn when the light turns green,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,128.8
+2021.05.12.22.28.35_veh-35_00025_00115,52,343,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,29.1
+2021.08.17.18.13.38_veh-45_00016_00127,100,272,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,17.2
+2021.06.14.18.42.45_veh-12_03200_03329,100,549,switch to the right lane,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,44.9
+2021.06.14.14.25.15_veh-26_03592_03664,6,299,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,29.3
+2021.06.14.18.33.41_veh-35_03901_04264,1114,1420,let the people cross the road then move forward. youll take the right turn at the green light,Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,30.6
+2021.06.14.14.25.15_veh-26_04542_04617,97,358,after passing the stoplight switch to the right lane,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,26.1
+2021.06.14.16.32.09_veh-35_02537_02597,37,257,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,22.0
+2021.07.16.00.51.05_veh-17_03264_05261,109,1645,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,153.6
+2021.09.15.12.32.43_veh-28_00202_00323,267,463,make a left turn and go straight,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,19.6
+2021.06.09.17.37.09_veh-12_01801_01925,15,507,make the left turn after the pedestrian crosses the road and once the white suv passes from the oncoming side,Dynamic Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,49.2
+2021.10.06.17.43.07_veh-28_00016_00291,307,1236,make a right turn at the stoplight. you will make the right turn that head toward the envoy hotel and then a right turn at the next stoplight.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,92.9
+2021.07.09.20.59.12_veh-38_00773_01187,549,2032,"after the person crosses the road, go to the main road and head toward the exit. make the far left turn when the light turns green. after you pass two stoplights switch to the right lane",Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,148.3
+2021.07.16.18.49.56_veh-26_00833_03384,1834,2102,head toward the exit and make a right turn,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,26.8
+2021.07.16.18.19.22_veh-35_00255_00418,72,740,"head toward the exit, making a right. be on the second to left turning lane",Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,66.8
+2021.06.14.18.33.41_veh-35_03798_03867,40,338,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,29.8
+2021.06.14.16.48.02_veh-12_04783_04967,126,612,"make a left turn into the entrance, then exit by making a right turn at the stopsign. switch to the left lane and allow the pedestrians to cross the crosswalk under the bridge",Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,48.6
+2021.07.16.23.22.27_veh-14_01631_03833,165,818,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,65.3
+2021.06.09.11.54.15_veh-12_02288_02529,504,943,go into the far right turning lane when it appears. make the right turn when the light turns green.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,43.9
+2021.10.06.18.52.07_veh-28_00592_00655,94,298,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,20.4
+2021.05.12.23.36.44_veh-35_02035_02387,519,1651,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,113.2
+2021.06.23.21.56.29_veh-35_00220_00936,480,1730,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,125.0
+2021.06.09.14.50.36_veh-26_01782_02044,198,1244,make the left turn when the light turns green and make a right lane switch after completing the turn. switch again to the right lane after passing veer towers west.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,104.6
+2021.07.16.01.22.41_veh-14_04315_07102,3,2544,head toward the exit and be in the far left turning lane at the stoplight. when the light turns green make a left turn. when you pass the next stoplight switch to teh right lane. do the same after passing the next stoplight. make the right turn at the intersection before luxor las vegas.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,254.1
+2021.10.11.02.57.41_veh-50_00704_00776,5,336,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,33.1
+2021.06.14.18.33.41_veh-35_04275_04435,100,657,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,55.7
+2021.06.09.14.58.55_veh-35_01095_01484,276,1744,"after passing two stoplights, switch to the right lane. i want you to make the right turn into paris las vegas and go toward the entrance. then head toward the exit in the far left lane",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,146.8
+2021.06.14.18.42.45_veh-12_01762_02072,0,1541,complete the left turn. i want you to make the right turn at the intersection thats after passing the statue of liberty intersection,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,154.1
+2021.07.16.02.53.40_veh-17_00016_01588,1729,2385,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,65.6
+2021.10.01.14.20.36_veh-28_01491_01630,34,368,at the stopsign make a right turn. at the next stop sign make a left turn after the pedestrian crosses the road,Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,33.4
+2021.09.15.14.27.22_veh-39_00473_00568,21,345,when the light turns green make a right turn. at the next stopsign make another right turn and go straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,32.4
+2021.07.16.16.08.35_veh-35_00805_01292,3,1266,make the left turn when possible into luxor las vegas then head toward the exit and make a right on the stopsign. prepare to make a left turn at the intersection. after compelting the turn switch to the right lane.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,126.3
+2021.07.09.16.12.19_veh-26_06964_07035,2,346,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,34.4
+2021.06.23.16.52.00_veh-26_00038_00602,528,1402,complete the left turn and just go straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,87.4
+2021.10.01.14.20.36_veh-28_01415_01480,47,282,switch to the left lane when you approach the vehicle with emergancy lights on your lane,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,23.5
+2021.06.09.17.23.18_veh-38_05423_05550,34,499,switch to the right lane after passing the stoplight and go straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,46.5
+2021.08.17.18.13.38_veh-45_00946_01854,313,1667,at the third intersection make a left turn. make a left turn at the stoplight and go straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,135.4
+2021.06.23.15.56.12_veh-16_01308_04289,1585,2193,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,60.8
+2021.08.17.18.44.32_veh-08_00873_01540,146,1146,make a left turn at the stoplight when no cars are oncoming and just follow the road straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,100.0
+2021.06.14.11.44.56_veh-35_01595_01804,345,928,after the taxi passes you go into the main road and head toward the exit,Dynamic Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,58.3
+2021.07.16.16.01.30_veh-38_02497_03871,38,2540,make a right turn at the section stoplight. make a left turn into luxor las vegas. then exit out and head back toward where you started,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,250.2
+2021.06.09.18.23.43_veh-35_00349_00544,9,951,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,94.2
+2021.09.15.14.50.05_veh-28_00083_00152,24,323,at the intersection make a left  turn. then at the second intersection do another left turn.,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,29.9
+2021.07.16.22.40.23_veh-38_00818_03032,22,2440,head toward the exit. make a left turn at the stoplight and go straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,241.8
+2021.07.16.23.22.27_veh-14_06214_06318,94,498,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,40.4
+2021.06.14.20.14.09_veh-26_00488_00601,22,527,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,50.5
+2021.07.16.18.49.56_veh-26_03407_03538,258,614,make the left turn into entrance of luxor las vegas,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,35.6
+2021.09.15.12.32.43_veh-28_00202_00323,68,443,make a right turn then a left turn at the next two itnersections.,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,37.5
+2021.10.11.07.12.18_veh-50_00345_00498,13,759,make a right turn at the stoplight toward the preschool. enter in the entrance of the building on the left and head back the opposite direction. at the stopsign make a right turn and go straight,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,74.6
+2021.06.14.13.28.41_veh-12_01138_01284,85,677,make a left turn at the stoplight then switch lanes to the right,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,59.2
+2021.06.09.14.03.17_veh-12_03344_03461,20,521,when the light turns green make a left turn,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,50.1
+2021.06.14.14.03.45_veh-38_01927_01996,21,312,follow the same path as the white vehicle ahead of you,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,29.1
+2021.06.14.16.48.02_veh-12_03091_03461,47,1820,head toward the exit and at the stoplight make a left turn when the lights green,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,177.3
+2021.07.16.21.17.55_veh-26_00715_00781,0,308,merge back onto the main road toward the exit,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,30.8
+2021.05.12.22.28.35_veh-35_01175_02127,386,2255,youre going to make the right turn into wynn las vegas entrance,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,186.9
+2021.06.09.17.37.09_veh-12_03219_03372,6,713,"make the same right turn as the prius. go into the entrance of paris las vegas and temporarily stop behind the white parked van. after the car behind the orange vehicle passes you, head back on the main road toward the exit.",Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,70.7
+2021.08.17.18.44.32_veh-08_00873_01540,358,2108,make a left turn when the light turns green and when its clear. at the far end of the road when you approach the stopsign to make a right do so. temporarily park at the curb where the white vehicle is leaving. let one car pass before heading back on the road. at the stopsign make a left turn. at the next two intersections you will make a right turn and then left turn respectively.,Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,175.0
+2021.06.14.18.13.35_veh-26_00027_00215,46,904,"when the light turns green make the left turn, then switch lanes to the right.",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,85.8
+2021.06.14.18.42.45_veh-12_04620_04742,16,591,when you pass veer towers east switch to the right lane.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,57.5
+2021.09.15.12.32.43_veh-28_00015_00093,26,383,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,35.7
+2021.06.09.17.37.09_veh-12_01465_01790,468,743,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,27.5
+2021.06.09.12.06.35_veh-35_00149_00262,50,359,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,30.9
+2021.06.09.12.51.31_veh-35_05024_05275,735,1216,"when you pass the first intersection, switch one lane to the right then go straight.",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,48.1
+2021.09.15.13.16.40_veh-28_00088_00157,131,288,just go straight,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,15.7
+2021.05.12.19.36.12_veh-35_00416_00557,118,435,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,31.7
+2021.10.11.02.57.41_veh-50_00029_00134,29,417,once you complete the left turn just go straight,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,38.8
+2021.05.12.19.36.12_veh-35_01400_01643,79,508,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,42.9
+2021.06.14.18.42.45_veh-12_01345_01523,147,876,after passing the intersection of veer towers east switch to the right lane.,Dynamic Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,72.9
+2021.10.01.15.32.11_veh-28_00120_00248,22,263,at the second stopsign make a right turn.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,24.1
+2021.06.14.17.26.26_veh-38_01078_01166,29,399,"after passing the statue of liberty intersection, switch to the right lane.",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,37.0
+2021.06.09.19.40.26_veh-12_01241_01510,657,1115,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,45.8
+2021.06.14.18.42.45_veh-12_04838_04927,91,438,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,34.7
+2021.07.09.17.06.37_veh-35_02609_05015,202,858,after you pass waldorf astoria las vegas switch to the right lane,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,65.6
+2021.06.14.18.33.41_veh-35_02521_03356,18,1305,"when the light turns green, complete the left turn. once you pass the second stoplight switch to the right lane.",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,128.7
+2021.06.14.18.33.41_veh-35_00016_00213,242,618,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,37.6
+2021.09.15.14.00.15_veh-28_01953_02255,19,1481,"make the first right turn after the intersection. follow the road and when you approach a left or right decision, make a right turn.  follow the road straight, when you approach the end, make a u-turn and head back the direction you came from. youre going to make a left turn at the first intersection you approach and then again when you come to an end of the road.",Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,146.2
+2021.07.16.20.45.29_veh-35_00016_00589,132,1986,"make the left turn toward luxor las vegas. you will make the left turn after the stopsign to enter into the hotel, then exit. you will make a right turn at that stopsign, and at the intersection get into the second left turning lane.",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,185.4
+2021.06.14.17.26.26_veh-38_01293_01488,55,920,go straight at the stopsign once the pedestrians cross. make the turn into luxor las vegas. head toward the exit and make a right turn back onto the road. prepare to make a left turn,Ambiguous,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,86.5
+2021.10.01.18.26.05_veh-28_01211_01323,228,422,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,19.4
+2021.06.09.12.51.31_veh-35_02677_02842,33,667,switch to the right lane when you pass park mgm tram station,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,63.4
+2021.07.09.15.53.28_veh-38_03528_04262,1105,2475,make the right turn into paris las vegas. make the left turn into entrance when you see self parking sign. dont go toward the self parking. go through the roundaboud and head toward the exit.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,137.0
+2021.09.15.15.02.19_veh-39_00105_00203,210,463,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,25.3
+2021.09.15.14.27.22_veh-39_00665_00745,195,350,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,15.5
+2021.07.09.01.37.16_veh-26_03306_03373,15,330,get into the second left turning lane when its safe.,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,31.5
+2021.06.14.14.25.15_veh-26_00597_00827,1,1123,switch to the right lane after passing the first intersection. i want you to make the right turn at the intersection thats sandwiched between luxor las vegas and excolibur hotel & casino. you will make the turn into luxor las vegas entrance,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,112.2
+2021.10.01.13.28.54_veh-28_00607_00973,1358,1715,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,35.7
+2021.07.16.22.40.23_veh-38_00016_00182,97,722,go into entrance of luxor las vegas then exit out back on the main road,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,62.5
+2021.06.14.13.27.42_veh-35_03142_03404,360,965,youre going to follow the white suv,Dynamic Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,60.5
+2021.06.09.17.23.18_veh-38_01151_01532,22,291,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,26.9
+2021.06.14.18.13.35_veh-26_01331_01526,68,831,switch to right lane after passing veer toward east on the left,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,76.3
+2021.10.06.13.21.47_veh-28_00139_00216,22,290,just follow the road. at the stopsign make a right turn and again follow the road.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,26.8
+2021.07.16.16.01.30_veh-38_05766_06843,379,2385,when the light turns green make a left turn. then switch into right lane,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,200.6
+2021.07.09.17.06.37_veh-35_00769_00907,283,539,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,25.6
+2021.06.09.14.58.55_veh-35_03811_03916,65,270,before approaching the stopsign go into far left lane.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,20.5
+2021.06.14.18.13.35_veh-26_04412_04536,43,438,"pass statue of liberty landmark, after passing the intersection after it, switch to right lane.",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,39.5
+2021.10.11.02.57.41_veh-50_00145_00308,103,786,"when its safe to do so, make the right turn. you will make another right turn that heads toward koi pong",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,68.3
+2021.08.17.13.10.50_veh-08_00313_00564,538,884,make a left turn then right turn respectively,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,34.6
+2021.10.01.15.32.11_veh-28_01178_01392,161,781,when you approach the intersection that has dry dock plaza park make a right turn at the stopsign. after that you will make a left turn toward pier 10 park,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,62.0
+2021.06.14.18.33.41_veh-35_02521_03356,1012,2162,drive into the entrance of luxor las vegas. exit back onto the road once youre in front of the building.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,115.0
+2021.06.09.18.23.43_veh-35_01416_01573,76,332,head back onto the main road toward the exit,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,25.6
+2021.06.14.18.42.45_veh-12_00364_00501,68,679,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,61.1
+2021.07.09.16.12.19_veh-26_02509_02592,13,409,make the right turn at the intersection. make the first left after the stopsign into luxor las vegas,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,39.6
+2021.06.14.18.42.45_veh-12_02233_02300,0,242,complete the left turn then switch into the right lane,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,24.2
+2021.06.09.17.37.09_veh-12_01386_01454,46,266,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,22.0
+2021.06.14.18.33.41_veh-35_00355_00477,210,591,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,38.1
+2021.06.09.17.37.09_veh-12_02445_02566,298,585,once you pass arte museum las vegas switch into the right lane and keep going straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,28.7
+2021.06.23.17.31.36_veh-16_01904_02129,497,971,go around the roundabout and head toward the exit. be on the second left turning lane.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,47.4
+2021.06.09.18.23.43_veh-35_01028_01221,82,676,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,59.4
+2021.06.09.14.58.55_veh-35_02580_02649,88,317,make the left turn when the light turns green and go straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,22.9
+2021.06.14.16.48.02_veh-12_00009_00127,189,398,make the left turn into luxor las vegas,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,20.9
+2021.08.17.17.55.18_veh-43_01240_01704,458,1791,"at the intersection that has goodwill, make a right turn and head toward tunnel park. you will make a right turn when you see cheesecake factory",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,133.3
+2021.10.01.15.32.11_veh-28_00120_00248,1,635,at the second stopsign make a right turn and just go straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,63.4
+2021.06.23.17.31.36_veh-16_01904_02129,49,832,when the light turns green switch into the right lane. make the right turn into veer toward east and go around the roundabout,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,78.3
+2021.08.17.13.15.12_veh-45_01517_01668,89,595,"make a right turn. at the stopsign make a left turn. then park at the curb to let the  truck behind you to pass, the go back on the main road. at the sotpsign make a left turn.",Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,50.6
+2021.06.09.11.54.15_veh-12_00015_00259,403,850,make a right turn at the stopsign you approach and go straight. you will want to be in the second left turning lane when you approach the stoplight at the end of the road.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,44.7
+2021.07.16.16.08.35_veh-35_03711_04709,1004,2314,complete the left turn when no cars are oncoming. exit out and head toward the big apple coaster building,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,131.0
+2021.06.09.14.50.36_veh-26_02826_02955,165,346,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,18.1
+2021.06.14.18.13.35_veh-26_05422_05488,5,264,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,25.9
+2021.07.16.00.51.05_veh-17_01938_03243,101,1855,"you will make the right turn into veer toward east, go around the roundabout. at the light make a left turn to head back the direction you came from.",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,175.4
+2021.06.14.18.33.41_veh-35_02140_02328,127,689,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,56.2
+2021.09.15.16.17.26_veh-28_01581_01740,156,376,at the stoplight make a left turn.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,22.0
+2021.07.09.20.59.12_veh-38_05697_06861,396,2520,go around the roundabout. you will make a left turn at the light when it turns green. you will head to luxor las vegas and go into the entrance there,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,212.4
+2021.06.09.14.50.36_veh-26_03507_03584,51,326,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,27.5
+2021.10.11.08.31.07_veh-50_00282_00680,1194,1656,make a right turn at the next two green lights,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,46.2
+2021.06.14.19.22.11_veh-38_01480_01860,38,1668,head toward paris las vegas entrance,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,163.0
+2021.10.01.14.20.36_veh-28_01491_01630,47,651,"make a right turn and then a left turn at the next stop stopsigns. when you approach the end of the road, make the last left turn possible where you see the stopsign.",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,60.4
+2021.10.11.05.34.05_veh-50_00442_00556,10,554,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,54.4
+2021.06.14.14.25.15_veh-26_02009_02099,186,410,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,22.4
+2021.07.16.21.17.55_veh-26_01014_01075,20,274,prepare to make the right turn at the intersection but let the pedestrians cross first.,Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,25.4
+2021.09.15.12.32.43_veh-28_02111_02342,495,657,make the left turn at the very end,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,16.2
+2021.06.14.14.25.15_veh-26_02841_02921,145,380,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,23.5
+2021.09.15.15.34.53_veh-28_00030_00128,132,431,make a right turn at the next two stopsigns,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,29.9
+2021.10.06.14.31.13_veh-28_00981_01226,513,846,"make a right turn, then a left turn at the next two intersections",Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,33.3
+2021.07.16.01.22.41_veh-14_02003_02615,0,2471,"drive into paris las vegas, but then head toward the exit and head toward luxor las vegas. youll be making the right turn at the intersection before luxor las vegas",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,247.1
+2021.06.09.18.23.43_veh-35_03190_03392,238,986,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,74.8
+2021.10.01.17.52.06_veh-28_01034_01107,84,341,go into the far left turning lane,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,25.7
+2021.06.09.12.51.31_veh-35_03371_03476,27,318,complete the left turn,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,29.1
+2021.06.14.14.03.45_veh-38_01547_01613,93,316,go into the roundabout of paris las vegas,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,22.3
+2021.07.16.18.49.56_veh-26_00256_00822,307,1348,switch to the right lane once you pass veer towers east,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,104.1
+2021.06.14.18.33.41_veh-35_02054_02129,113,338,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,22.5
+2021.06.14.11.44.56_veh-35_04178_05084,1256,2396,switch to the right lane once you pass veer towers east,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,114.0
+2021.06.14.16.32.09_veh-35_03803_04103,46,357,complete the right turn once its clear and then go around the roundabout,Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,31.1
+2021.07.16.00.51.05_veh-17_00023_01331,95,2226,go into the entrance of wynn las vegas. youre going to go around the roundabout and make a left turn at the stoplight.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,213.1
+2021.06.14.16.48.02_veh-12_00585_00672,30,411,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,38.1
+2021.06.14.16.32.09_veh-35_01620_01699,204,378,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,17.4
+2021.07.16.23.22.27_veh-14_01383_01479,152,385,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,23.3
+2021.06.14.14.03.45_veh-38_01369_01458,85,338,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,25.3
+2021.06.14.18.42.45_veh-12_04233_04472,177,448,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,27.1
+2021.06.14.18.42.45_veh-12_04534_04609,94,307,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,21.3
+2021.06.14.16.48.02_veh-12_02517_02590,159,341,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,18.2
+2021.09.15.16.17.26_veh-28_01085_01182,24,461,make the left turn at the next two stoplights.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,43.7
+2021.07.16.01.22.41_veh-14_00015_00547,300,2031,"make a left turn at the stoplight, go into luxor las vegas. exit it and then  head toward the direction of the statue of liberty landmark",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,173.1
+2021.08.17.13.15.12_veh-45_00168_00302,310,593,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,28.3
+2021.06.09.20.26.11_veh-35_00026_00236,136,948,when the light turns green make a left turn,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,81.2
+2021.06.14.18.33.41_veh-35_00224_00344,1,572,go into paris las vegas roundabout,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,57.1
+2021.09.15.14.50.05_veh-28_02133_02222,137,298,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,16.1
+2021.06.09.12.06.35_veh-35_00422_01112,674,2207,make the left turn into veer towers west. youll go around the roundabout,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,153.3
+2021.06.09.11.54.15_veh-12_03917_04069,220,702,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,48.2
+2021.06.14.16.48.02_veh-12_03472_03779,98,1375,"take the left into luxor las vegas, then head back the direction you came from",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,127.7
+2021.06.09.17.23.18_veh-38_01151_01532,524,1477,"go into paris las vegas, go around the roundabout",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,95.3
+2021.06.09.12.39.51_veh-26_01179_01338,117,742,youll make a right lane switch when you pass waldorf astoria las vega,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,62.5
+2021.07.16.21.17.55_veh-26_00872_00937,35,310,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,27.5
+2021.06.14.11.44.56_veh-35_00453_00731,663,1172,make the right turn into paris las vegas. go around the roundabout,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,50.9
+2021.06.14.19.22.11_veh-38_00040_00464,1104,1583,youll make a right lane switch after passing veer towers west,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,47.9
+2021.07.09.20.59.12_veh-38_01208_01692,51,1877,"make the left turn into luxor las vegas, which is the first left after the stopsign. then exit and be on the second to left turning lane at the intersection",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,182.6
+2021.07.09.15.53.28_veh-38_04273_04767,582,2418,find your way toward the cosmopoliton of las vegas,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,183.6
+2021.07.09.01.37.16_veh-26_04815_04878,83,289,complete the left turn when the light turns green,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,20.6
+2021.07.09.01.37.16_veh-26_01726_01793,106,262,make the right turn at the stoplight,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,15.6
+2021.06.09.14.50.36_veh-26_03208_03299,95,381,go around the rounda-a-bout,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,28.6
+2021.08.17.17.55.18_veh-43_01240_01704,338,644,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,30.6
+2021.06.23.14.54.32_veh-16_00301_00410,280,499,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,21.9
+2021.06.09.12.06.35_veh-35_00284_00410,21,250,switch to the left lane when you see the silver car,Dynamic Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,22.9
+2021.06.23.18.23.38_veh-26_00663_01217,108,1774,switch to left lane because you will make a left turn at the stoplight. you will just go straight afterward,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,166.6
+2021.09.15.15.34.53_veh-28_00365_00501,496,651,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,15.5
+2021.10.11.07.47.13_veh-50_00202_00310,217,416,make the left turn at the intersection,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,19.9
+2021.07.16.00.24.14_veh-38_00367_01154,109,2362,follow the same path as the white suv in front of you,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,225.3
+2021.06.14.13.28.41_veh-12_02845_03153,339,773,head toward the stoplight to make a left turn,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,43.4
+2021.06.23.16.54.19_veh-35_00808_01256,49,1567,make a left turn when the light turns green and proceed straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,151.8
+2021.06.09.14.03.17_veh-12_03678_03787,64,484,make the right turn into paris las vegas and go around the roundabout,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,42.0
+2021.10.01.19.16.42_veh-28_02447_02517,70,329,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,25.9
+2021.06.14.17.26.26_veh-38_03238_03403,1,800,"head toward the exit, when the light turns green you will make a left turn",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,79.9
+2021.06.09.14.58.55_veh-35_03390_03537,178,565,head toward the exit,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,38.7
+2021.10.06.17.43.07_veh-28_00302_00486,167,360,make a left turn at the stoplight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,19.3
+2021.06.14.17.26.26_veh-38_04285_04392,38,413,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,37.5
+2021.06.23.14.06.20_veh-26_00020_01142,1719,2195,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,47.6
+2021.06.09.14.03.17_veh-12_01225_01437,306,838,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,53.2
+2021.06.23.14.58.13_veh-35_01130_01820,248,2511,follow the white suv in front of you. ,Dynamic Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,226.3
+2021.06.23.16.52.00_veh-26_03120_03293,505,776,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,27.1
+2021.06.09.17.23.18_veh-38_03302_03414,339,505,after you pass the stoplight switch to the right lane and go straight,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,16.6
+2021.08.17.14.45.12_veh-42_01119_01535,286,1978,make a left turn at the third stopsign. make a right turn at the stoplight. you will make the next left turn at the stoplight. make the last left for tunnel park.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,169.2
+2021.06.14.13.27.42_veh-35_02028_02106,37,255,get into the second to left turning lane,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,21.8
+2021.08.17.18.54.02_veh-45_00511_00579,5,250,make a left turn at the second intersection,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,24.5
+2021.06.14.13.28.41_veh-12_02845_03153,761,1423,complete the left turn when the light turns green,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,66.2
+2021.05.12.23.36.44_veh-35_02035_02387,317,1317,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,100.0
+2021.06.09.12.39.51_veh-26_01943_02303,394,755,go into luxor las vegas,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,36.1
+2021.07.16.16.27.22_veh-26_02282_03814,1737,2127,make the right turn and go around the roundabout,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,39.0
+2021.08.17.13.15.12_veh-45_01049_01467,529,871,make the left turn thats parallel to south shore riverfront park,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,34.2
+2021.06.09.11.54.15_veh-12_01902_02277,20,1861,"youre going to make the right turn into paris las vegas, and then come back to the place you started safely",Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,184.1
+2021.10.11.07.12.18_veh-50_00541_00832,110,777,at the third intersection make a left turn. you will make a left turn at the place where you see a sign with green text on the left and yellowish text on the right. then head back on the main road,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,66.7
+2021.05.12.22.00.38_veh-35_01008_01518,654,1774,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,112.0
+2021.06.14.19.22.11_veh-38_02686_02846,118,306,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,18.8
+2021.06.14.11.44.56_veh-35_01869_01972,3,508,after you pass the stoplight switch to the right lane,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,50.5
+2021.10.01.18.26.05_veh-28_00481_00656,27,848,let the firetruck move away before continuing straight. you will want to make a uturn toward the firetruck because the white truck in front in blocking the road,Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,82.1
+2021.07.16.23.22.27_veh-14_04496_06203,1899,2508,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,60.9
+2021.06.14.16.48.02_veh-12_04057_04438,623,1677,head into the entrance of paris las vegas,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,105.4
+2021.10.01.17.52.06_veh-28_01141_01264,119,444,at the stopsign complete the left turn once the truck has made its turn. you will make a right turn at the next intersection,Both,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,32.5
+2021.06.14.18.13.35_veh-26_00713_00818,3,375,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,37.2
+2021.06.14.18.13.35_veh-26_02324_02430,307,468,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,16.1
+2021.09.15.16.51.15_veh-28_00005_00160,291,617,just go straight,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,32.6
+2021.06.23.20.00.35_veh-35_00016_00119,169,442,go into the roundabout of wynn las vegas,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,27.3
+2021.06.14.11.44.56_veh-35_01983_02053,80,344,make the right turn at the intersection that arco falls on.,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,26.4
+2021.06.14.11.44.56_veh-35_00938_01134,62,920,make the right turn at the intersection with arco. make the left turn into luxor las vegas,Static Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,85.8
+2021.09.15.16.17.26_veh-28_00586_00712,64,508,just follow the road forward,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,44.4
+2021.08.17.16.48.45_veh-43_01676_01764,1,224,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,22.3
+2021.06.14.16.48.02_veh-12_04057_04438,1540,1862,head toward the exit,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,32.2
+2021.06.23.14.58.13_veh-35_02037_04783,22,2462,just follow the white suv in front of you the entire time.,Dynamic Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,244.0
+2021.08.17.14.32.33_veh-08_01072_01231,340,634,,Non-Referential,parthib,./staging/parthib_submissions5 - Parthib Roy.csv,29.4
 2021.06.09.14.03.17_veh-12_00375_00566,24,571,,Non-Referential,proy3,./staging/parthib_submissions1 - Parthib Roy.csv,54.7
 2021.09.15.15.02.19_veh-39_00214_00558,633,1248,"make a right turn at the light and continue going straight, at the next stoplight make another right turn and keep going straight.",Non-Referential,parthib,./staging/parthib_submissions1 - Parthib Roy.csv,61.5
 2021.10.11.05.34.05_veh-50_00568_00631,24,280,,Non-Referential,parthib,./staging/parthib_submissions1 - Parthib Roy.csv,25.6
@@ -4780,3 +5033,122 @@ turn left. pull up to the entrance next to the sign. continue straight.",Static 
 2021.07.09.20.26.06_veh-35_02793_03289,2109,2319,,Non-Referential,Vrishan,./staging/labels - Vrishan Inukollu.csv,21.0
 2021.07.09.20.59.12_veh-38_00690_00762,35,301,,Non-Referential,Vrishan,./staging/labels - Vrishan Inukollu.csv,26.6
 2021.07.09.20.26.06_veh-35_02793_03289,1618,1842,,Non-Referential,Vrishan,./staging/labels - Vrishan Inukollu.csv,22.4
+2021.09.15.11.49.23_veh-28_00081_00237,508,734,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,22.6
+2021.09.15.11.49.23_veh-28_01869_02000,29,635,"turn left and keep left, then turn left at the stop sign, then turn right, then turn left, then turn left",Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,60.6
+2021.09.15.11.49.23_veh-28_02192_02253,67,290,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,22.3
+2021.09.15.12.32.43_veh-28_00417_00527,133,330,take a right at the stop sign,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,19.7
+2021.09.15.11.49.23_veh-28_00767_00955,81,931,take a right at the traffic light,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,85.0
+2021.09.15.12.32.43_veh-28_00202_00323,75,555,"turn right at the stop sign, then left at the stop sign",Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,48.0
+2021.09.15.12.32.43_veh-28_00973_01056,26,208,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,18.2
+2021.09.15.12.32.43_veh-28_00015_00093,42,321,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,27.9
+2021.09.15.11.49.23_veh-28_00767_00955,390,635,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,24.5
+2021.09.15.12.32.43_veh-28_00202_00323,124,534,turn right at the stop sign then left at the stop sign,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,41.0
+2021.09.15.12.32.43_veh-28_00708_00866,6,238,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,23.2
+2021.09.15.11.49.23_veh-28_00081_00237,6,763,turn right after passing the parked truck then make a U-turn at the end of the street,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,75.7
+2021.09.15.12.32.43_veh-28_00708_00866,13,752,"turn right after the person crosses, then turn left at the traffic light",Both,noorrauf,./staging/labels - Noor Rauf.csv,73.9
+2021.09.15.12.32.43_veh-28_00202_00323,49,497,turn right at the stop sign then left at the stop sign,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,44.8
+2021.09.15.11.49.23_veh-28_00767_00955,446,801,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,35.5
+2021.09.15.11.49.23_veh-28_00081_00237,69,609,turn right after the parked truck then make a U-turn at the end of the street,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,54.0
+2021.09.15.12.32.43_veh-28_00417_00527,46,208,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,16.2
+2021.09.15.12.32.43_veh-28_00708_00866,267,705,turn right after the person crosses,Dynamic Referential,noorrauf,./staging/labels - Noor Rauf.csv,43.8
+2021.09.15.11.49.23_veh-28_02024_02091,38,297,turn left at the roundabout then make the first left then turn right,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,25.9
+2021.09.15.11.49.23_veh-28_01108_01493,750,1673,turn left at the traffic light then turn right at the traffic light,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,92.3
+2021.09.15.11.49.23_veh-28_00520_00669,103,573,"follow the white car and then keep going straight, then turn left at the stop sign",Both,noorrauf,./staging/labels - Noor Rauf.csv,47.0
+2021.09.15.11.49.23_veh-28_02192_02253,6,222,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,21.6
+2021.09.15.12.32.43_veh-28_00015_00093,2,303,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,30.1
+2021.09.15.11.49.23_veh-28_02192_02253,13,256,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,24.3
+2021.09.15.11.49.23_veh-28_00081_00237,111,664,make a U-turn at the end of the road,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,55.3
+2021.09.15.11.49.23_veh-28_00081_00237,299,736,make a U-turn at the end of the road,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,43.7
+2021.09.15.12.32.43_veh-28_00625_00697,0,296,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,29.6
+2021.09.15.12.32.43_veh-28_00015_00093,40,327,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,28.7
+2021.09.15.12.32.43_veh-28_00202_00323,223,474,turn left,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,25.1
+2021.09.15.12.32.43_veh-28_00202_00323,72,436,turn right at the stop sign then turn left at the next stop sign,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,36.4
+2021.09.15.12.32.43_veh-28_00417_00527,15,496,turn right at the stop sign then right again,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,48.1
+2021.09.15.11.49.23_veh-28_01869_02000,107,637,go toward the glass building,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,53.0
+2021.09.15.11.49.23_veh-28_01108_01493,895,1483,turn left then at the blinking lights turn right,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,58.8
+2021.09.15.12.32.43_veh-28_00973_01056,97,261,turn right,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,16.4
+2021.09.15.11.49.23_veh-28_02192_02253,32,274,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,24.2
+2021.09.15.12.32.43_veh-28_00015_00093,158,343,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,18.5
+2021.09.15.12.32.43_veh-28_00015_00093,84,383,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,29.9
+2021.09.15.12.32.43_veh-28_00015_00093,15,331,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,31.6
+2021.09.15.12.32.43_veh-28_00625_00697,50,286,keep to the right of the roundabout,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,23.6
+2021.09.15.12.32.43_veh-28_00417_00527,1,524,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,52.3
+2021.09.15.12.32.43_veh-28_00708_00866,239,711,turn right,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,47.2
+2021.09.15.12.32.43_veh-28_00973_01056,35,379,Continue past the Hood Milk Bottle,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,34.4
+2021.09.15.12.32.43_veh-28_00015_00093,59,377,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,31.8
+2021.09.15.11.49.23_veh-28_02192_02253,55,266,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,21.1
+2021.09.15.12.32.43_veh-28_00625_00697,50,308,go toward Eastport Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,25.8
+2021.09.15.11.49.23_veh-28_02024_02091,38,302,"turn left, then make the next left, then turn right",Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,26.4
+2021.09.15.11.49.23_veh-28_00081_00237,10,734,turn right then make a U-turn at the end of the road,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,72.4
+2021.09.15.11.49.23_veh-28_01869_02000,32,518,head toward Dry Dock Plaza Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,48.6
+2021.09.15.12.32.43_veh-28_00015_00093,1,370,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,36.9
+2021.09.15.11.49.23_veh-28_00081_00237,212,687,make a U turn at the end of the road,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,47.5
+2021.09.15.12.32.43_veh-28_00625_00697,42,238,head toward the Renaissance Boston Seaport District,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,19.6
+2021.09.15.12.32.43_veh-28_00973_01056,45,308,turn right,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,26.3
+2021.09.15.11.49.23_veh-28_00280_00506,195,767,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,57.2
+2021.09.15.11.49.23_veh-28_01108_01493,1055,1875,"turn right at the traffic light, then make the next left",Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,82.0
+2021.09.15.12.32.43_veh-28_00417_00527,112,296,turn right,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,18.4
+2021.09.15.11.49.23_veh-28_00081_00237,77,700,make a U turn at the end of the street,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,62.3
+2021.09.15.11.49.23_veh-28_02192_02253,99,251,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,15.2
+2021.09.15.11.49.23_veh-28_00280_00506,37,384,head toward the Renaissance Boston,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,34.7
+2021.09.15.11.49.23_veh-28_00767_00955,108,902,Go past the Evelyn F. Mookley Bridge Plaque,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,79.4
+2021.09.15.11.49.23_veh-28_00520_00669,230,673,turn right then make the next left and continue,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,44.3
+2021.09.15.11.49.23_veh-28_00520_00669,134,450,head toward the Institute of Contemporary Art,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,31.6
+2021.09.15.12.32.43_veh-28_00417_00527,109,533,Head toward Dry Dock Plaza Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,42.4
+2021.09.15.11.49.23_veh-28_00767_00955,16,745,head past the Evelyn F. Mookley Bridge Plaque,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,72.9
+2021.09.15.11.49.23_veh-28_02024_02091,95,248,turn left,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,15.3
+2021.09.15.11.49.23_veh-28_00767_00955,270,890,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,62.0
+2021.09.15.12.32.43_veh-28_00417_00527,15,498,head toward Dry Dock Plaza Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,48.3
+2021.09.15.11.49.23_veh-28_02024_02091,71,241,turn left,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,17.0
+2021.09.15.12.32.43_veh-28_00708_00866,55,579,head toward the Institute of Contemporary Art,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,52.4
+2021.09.15.11.49.23_veh-28_02192_02253,24,266,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,24.2
+2021.09.15.11.49.23_veh-28_01869_02000,364,582,head toward Dry Dock Plaza Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,21.8
+2021.09.15.11.49.23_veh-28_01869_02000,17,573,head toward Dry Dock Plaza Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,55.6
+2021.09.15.12.32.43_veh-28_00015_00093,221,383,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,16.2
+2021.09.15.12.32.43_veh-28_00708_00866,87,307,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,22.0
+2021.09.15.11.49.23_veh-28_00767_00955,303,481,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,17.8
+2021.09.15.11.49.23_veh-28_00520_00669,189,722,head toward the Institute of Contemporary Art then turn left,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,53.3
+2021.09.15.12.32.43_veh-28_00625_00697,3,304,head toward Eastport Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,30.1
+2021.09.15.12.32.43_veh-28_00708_00866,142,537,turn right,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,39.5
+2021.09.15.12.32.43_veh-28_00417_00527,199,436,head toward Dry Dock Plaza Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,23.7
+2021.09.15.11.49.23_veh-28_00280_00506,269,743,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,47.4
+2021.09.15.11.49.23_veh-28_00520_00669,14,360,head toward the Institute of Contemporary Art,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,34.6
+2021.09.15.11.49.23_veh-28_02024_02091,73,236,turn left,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,16.3
+2021.09.15.11.49.23_veh-28_02192_02253,6,285,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,27.9
+2021.09.15.12.32.43_veh-28_00625_00697,80,239,head toward the Renaissance Boston Seaport District,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,15.9
+2021.09.15.11.49.23_veh-28_02024_02091,60,213,turn left at the roundabout then left again,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,15.3
+2021.09.15.11.49.23_veh-28_01869_02000,108,488,head toward Dry Dock Plaza Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,38.0
+2021.09.15.11.49.23_veh-28_00280_00506,31,930,head toward Harbour Plaza,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,89.9
+2021.09.15.12.32.43_veh-28_00202_00323,10,587,"head toward pier 10 park, then turn right",Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,57.7
+2021.09.15.11.49.23_veh-28_02192_02253,4,257,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,25.3
+2021.09.15.11.49.23_veh-28_01108_01493,560,791,turn right,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,23.1
+2021.09.15.12.32.43_veh-28_00625_00697,5,322,head toward eastport park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,31.7
+2021.09.15.12.32.43_veh-28_00973_01056,24,399,go past the Hood Milk Bottle ,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,37.5
+2021.09.15.11.49.23_veh-28_00520_00669,42,631,head toward the Institute of Contemporary Art then turn left,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,58.9
+2021.09.15.12.32.43_veh-28_00625_00697,58,341,turn left,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,28.3
+2021.09.15.11.49.23_veh-28_01108_01493,41,1802,"head toward Iron Street Park, then turn left, then turn right, then left",Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,176.1
+2021.09.15.12.32.43_veh-28_00417_00527,8,417,turn right at the stop sign then head toward Dry Dock Plaza Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,40.9
+2021.09.15.12.32.43_veh-28_00708_00866,189,745,turn right then turn left,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,55.6
+2021.09.15.11.49.23_veh-28_02192_02253,110,260,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,15.0
+2021.09.15.11.49.23_veh-28_01869_02000,78,299,keep left,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,22.1
+2021.09.15.12.32.43_veh-28_00417_00527,44,278,turn right,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,23.4
+2021.09.15.11.49.23_veh-28_00081_00237,99,769,turn right then make a U turn at the end of the street,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,67.0
+2021.09.15.11.49.23_veh-28_01869_02000,243,462,head toward Dry Dock Plaza Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,21.9
+2021.09.15.11.49.23_veh-28_02192_02253,45,212,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,16.7
+2021.09.15.11.49.23_veh-28_00081_00237,100,466,turn right then make a U turn at the end of the street,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,36.6
+2021.09.15.11.49.23_veh-28_00081_00237,10,552,make a U turn at the end of the street,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,54.2
+2021.09.15.11.49.23_veh-28_00520_00669,26,631,head toward the Institute of Contemporary Art then turn left,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,60.5
+2021.09.15.11.49.23_veh-28_00520_00669,109,299,turn right,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,19.0
+2021.09.15.12.32.43_veh-28_00417_00527,1,524,go toward Dry Dock Plaza Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,52.3
+2021.09.15.12.32.43_veh-28_00417_00527,168,429,turn right and right toward Dry Dock Plaza Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,26.1
+2021.09.15.11.49.23_veh-28_00767_00955,80,425,Head toward Evelyn F. Moakley Bridge,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,34.5
+2021.09.15.12.32.43_veh-28_00202_00323,34,476,head toward Pier 10 Park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,44.2
+2021.09.15.12.32.43_veh-28_00202_00323,94,454,head toward pier 10 park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,36.0
+2021.09.15.12.32.43_veh-28_00015_00093,15,378,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,36.3
+2021.09.15.12.32.43_veh-28_00973_01056,115,352,head toward the Beaver,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,23.7
+2021.09.15.12.32.43_veh-28_00417_00527,154,464,head toward the dry dock plaza park,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,31.0
+2021.09.15.11.49.23_veh-28_00081_00237,269,754,make a U turn at the end of the street,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,48.5
+2021.09.15.11.49.23_veh-28_02024_02091,57,289,turn left then right,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,23.2
+2021.09.15.12.32.43_veh-28_00973_01056,39,358,head toward the Beaver,Static Referential,noorrauf,./staging/labels - Noor Rauf.csv,31.9
+2021.09.15.11.49.23_veh-28_00081_00237,78,396,turn right,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,31.8
+2021.09.15.12.32.43_veh-28_00625_00697,88,266,,Non-Referential,noorrauf,./staging/labels - Noor Rauf.csv,17.8
