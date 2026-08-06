@@ -475,10 +475,17 @@ def compute_stats(df: pd.DataFrame, manifest: pd.DataFrame = None) -> dict:
     for user, group in df.groupby("username"):
         user = str(user)
         per_annotator_raw_sec[user] = float(group["duration_sec"].sum())
-        n_scenes = int(group["folder"].nunique())
-        # mean seconds of annotation laid down per distinct scene the annotator touched
+        # "scene" here means a distinct (folder, start_frame, end_frame) segment,
+        # not a clip folder -- a folder can hold several scenes, and a scene can
+        # carry several rows that differ only in label text (paraphrased
+        # instructions, see merge_all). Averaging the row-level raw sum over
+        # folder count double-counted paraphrases in the numerator *and*
+        # undercounted the denominator, e.g. grod's 1,007 rows / 118 folders
+        # gave ~575s/scene when his actual mean scene length is ~56s.
+        group_scenes = group.drop_duplicates(subset=["folder", "start_frame", "end_frame"])
+        n_scenes = int(len(group_scenes))
         per_annotator_avg_seg_per_scene[user] = (
-            float(group["duration_sec"].sum() / n_scenes) if n_scenes else 0.0
+            float(group_scenes["duration_sec"].sum() / n_scenes) if n_scenes else 0.0
         )
         per_annotator_figures[user] = figure_payload(group, manifest_durations)
 
