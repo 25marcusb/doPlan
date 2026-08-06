@@ -135,7 +135,15 @@ def merge_all(root_dir: str):
 
     merged = pd.concat(frames, ignore_index=True)
     before = len(merged)
-    merged = merged.drop_duplicates(subset=["username", "folder", "start_frame", "end_frame"])
+    # Annotators routinely give multiple distinct instructions for the same
+    # (folder, start_frame, end_frame) segment -- that's the point of the
+    # dataset, not a re-export artifact. Keying dedup on the frame range alone
+    # collapsed those into one, which is what made Gabriel Rodriguez's ~1,000
+    # real annotations show up as ~130 on the dashboard. Including the label
+    # text keeps true duplicates (identical rows re-appearing across snapshot
+    # exports of the same growing sheet) collapsed while preserving distinct
+    # instructions.
+    merged = merged.drop_duplicates(subset=["username", "folder", "start_frame", "end_frame", "label"])
     dupes_dropped = before - len(merged)
     merged["duration_sec"] = (merged["end_frame"] - merged["start_frame"]) / FPS
     return merged, dupes_dropped, skipped
