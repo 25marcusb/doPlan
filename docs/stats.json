@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-06T02:51:24",
+  "generated_at": "2026-08-06T04:41:30",
   "table1": {
     "number_of_annotations": 4779,
     "number_of_unique_source_clips": 1050,
     "number_of_annotators": 14,
     "total_annotated_driving_time_hrs": 68.19480555555555,
-    "mean_segment_duration_sec": 51.37085164260305,
-    "median_segment_duration_sec": 34.1,
+    "mean_segment_duration_sec": 47.4440319670018,
+    "median_segment_duration_sec": 31.5,
     "min_segment_duration_sec": 15.0,
     "max_segment_duration_sec": 254.4,
     "unique_annotated_driving_hrs": 24.180444444444454,
