@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T04:41:30",
+  "generated_at": "2026-08-06T04:48:51",
   "table1": {
     "number_of_annotations": 4779,
     "number_of_unique_source_clips": 1050,
@@ -9881,19 +9881,19 @@
   },
   "per_annotator_avg_seg_per_scene": {
     " giovanni": 21.5,
-    "Isaiah Ramirez": 71.4295652173913,
-    "Jeevan": 68.56263736263736,
-    "Marcus": 49.55263157894737,
-    "Vrishan": 88.91,
+    "Isaiah Ramirez": 49.484337349397585,
+    "Jeevan": 63.02222222222222,
+    "Marcus": 35.177083333333336,
+    "Vrishan": 37.04583333333333,
     "giovann_2": 35.85,
-    "giovanni": 92.87058823529411,
+    "giovanni": 42.12285997031172,
     "giovanniA": 37.5,
-    "grod": 575.3745762711866,
-    "jboaz": 171.37352941176474,
-    "jeremykemmerer": 61.25149253731344,
-    "parthib": 78.69483695652173,
+    "grod": 56.36842105263158,
+    "jboaz": 71.05731707317074,
+    "jeremykemmerer": 34.17272727272727,
+    "parthib": 58.03390170511535,
     "proy3": 54.7,
-    "ytandon": 38.98723404255319
+    "ytandon": 36.647999999999996
   },
   "per_annotator_figures": {
     " giovanni": {
