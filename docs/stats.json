@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:30:26",
+  "generated_at": "2026-08-09T01:18:28",
   "table1": {
     "number_of_annotations": 5151,
     "number_of_unique_source_clips": 1061,
@@ -22044,37 +22044,6 @@
       157.0,
       84.0,
       41.0,
-      28.8,
-      26.4,
-      24.4,
-      23.7,
-      17.6,
-      17.6,
-      60.0,
-      60.0,
-      21.6,
-      21.1,
-      15.5,
-      35.2,
-      30.0,
-      63.2,
-      46.8,
-      17.0,
-      111.2,
-      15.0,
-      15.0,
-      24.7,
-      30.7,
-      51.4,
-      72.1,
-      17.8,
-      29.5,
-      19.3,
-      28.2,
-      20.2,
-      15.9,
-      28.8,
-      17.7,
       46.6,
       46.6,
       46.6,
@@ -23032,6 +23001,37 @@
       22.9,
       93.7,
       93.7,
+      28.8,
+      26.4,
+      24.4,
+      23.7,
+      17.6,
+      17.6,
+      60.0,
+      60.0,
+      21.6,
+      21.1,
+      15.5,
+      35.2,
+      30.0,
+      63.2,
+      46.8,
+      17.0,
+      111.2,
+      15.0,
+      15.0,
+      24.7,
+      30.7,
+      51.4,
+      72.1,
+      17.8,
+      29.5,
+      19.3,
+      28.2,
+      20.2,
+      15.9,
+      28.8,
+      17.7,
       171.3,
       171.3,
       18.7,
@@ -27028,8 +27028,6 @@
         2,
         4,
         13,
-        2,
-        5,
         8,
         15,
         13,
@@ -27166,6 +27164,8 @@
         5,
         5,
         3,
+        2,
+        5,
         3,
         8,
         5,
@@ -27766,25 +27766,6 @@
         10,
         18,
         8,
-        6,
-        7,
-        8,
-        6,
-        4,
-        5,
-        6,
-        6,
-        4,
-        11,
-        7,
-        6,
-        6,
-        14,
-        5,
-        5,
-        8,
-        4,
-        5,
         7,
         8,
         8,
@@ -28568,6 +28549,25 @@
         7,
         6,
         6,
+        6,
+        7,
+        8,
+        6,
+        4,
+        5,
+        6,
+        6,
+        4,
+        11,
+        7,
+        6,
+        6,
+        14,
+        5,
+        5,
+        8,
+        4,
+        5,
         5,
         5,
         12,
@@ -29813,9 +29813,6 @@
         7,
         4,
         4,
-        11,
-        5,
-        4,
         9,
         9,
         11,
@@ -29829,6 +29826,9 @@
         10,
         11,
         10,
+        11,
+        5,
+        4,
         12,
         9,
         14,
@@ -32185,8 +32185,6 @@
       2,
       4,
       13,
-      2,
-      5,
       8,
       15,
       13,
@@ -32323,6 +32321,8 @@
       5,
       5,
       3,
+      2,
+      5,
       3,
       8,
       5,
@@ -32923,25 +32923,6 @@
       10,
       18,
       8,
-      6,
-      7,
-      8,
-      6,
-      4,
-      5,
-      6,
-      6,
-      4,
-      11,
-      7,
-      6,
-      6,
-      14,
-      5,
-      5,
-      8,
-      4,
-      5,
       7,
       8,
       8,
@@ -33725,6 +33706,25 @@
       7,
       6,
       6,
+      6,
+      7,
+      8,
+      6,
+      4,
+      5,
+      6,
+      6,
+      4,
+      11,
+      7,
+      6,
+      6,
+      14,
+      5,
+      5,
+      8,
+      4,
+      5,
       5,
       5,
       12,
@@ -34970,9 +34970,6 @@
       7,
       4,
       4,
-      11,
-      5,
-      4,
       9,
       9,
       11,
@@ -34986,6 +34983,9 @@
       10,
       11,
       10,
+      11,
+      5,
+      4,
       12,
       9,
       14,
@@ -39486,1467 +39486,6 @@
         }
       ]
     },
-    "2021.10.01.17.52.06_veh-28_00098_00211": {
-      "total_sec": 56.0,
-      "bars": [
-        {
-          "start": 1.2,
-          "end": 46.6,
-          "user": "giovanni",
-          "label": "Follow the trailer. Yield to the oncoming trailer, and exit the roundabout on th..."
-        },
-        {
-          "start": 6.1,
-          "end": 24.4,
-          "user": "giovanni",
-          "label": "Stop at the yield sign and continue once the oncoming vehicles passed. Merge int..."
-        },
-        {
-          "start": 14.1,
-          "end": 53.4,
-          "user": "parthib",
-          "label": "follow the same path the truck in front of you takes"
-        },
-        {
-          "start": 15.2,
-          "end": 39.9,
-          "user": "Isaiah Ramirez",
-          "label": "nan"
-        },
-        {
-          "start": 21.3,
-          "end": 44.3,
-          "user": "giovanni",
-          "label": "Merge into the right lane to avoid the vehicle turning left and continue."
-        },
-        {
-          "start": 24.4,
-          "end": 43.0,
-          "user": "parthib",
-          "label": "when you see the stopped white vehicle ahead of you switch to the right lane"
-        },
-        {
-          "start": 26.6,
-          "end": 55.4,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 32.9,
-          "end": 48.5,
-          "user": "jeremykemmerer",
-          "label": "Go around the white car"
-        },
-        {
-          "start": 38.4,
-          "end": 53.6,
-          "user": "jeremykemmerer",
-          "label": "Move to the right lane to go around the car"
-        }
-      ]
-    },
-    "2021.10.01.18.26.05_veh-28_00949_01041": {
-      "total_sec": 45.4,
-      "bars": [
-        {
-          "start": 0.4,
-          "end": 45.2,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 0.5,
-          "end": 30.5,
-          "user": "giovanni",
-          "label": "Stop for the red traffic light."
-        },
-        {
-          "start": 1.5,
-          "end": 44.1,
-          "user": "Isaiah Ramirez",
-          "label": "nan"
-        },
-        {
-          "start": 4.1,
-          "end": 30.5,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 5.7,
-          "end": 38.1,
-          "user": "giovanni",
-          "label": "Follow the white trailer. Stop for the red traffic light. "
-        },
-        {
-          "start": 7.9,
-          "end": 41.6,
-          "user": "parthib",
-          "label": "follow the path of the white truck in front of you"
-        },
-        {
-          "start": 10.1,
-          "end": 42.8,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 13.2,
-          "end": 33.4,
-          "user": "jeremykemmerer",
-          "label": "Follow the white truck"
-        }
-      ]
-    },
-    "2021.09.15.12.32.43_veh-28_01513_01697": {
-      "total_sec": 91.4,
-      "bars": [
-        {
-          "start": 2.4,
-          "end": 85.4,
-          "user": "Isaiah Ramirez",
-          "label": "turn right at the light. turn right. "
-        },
-        {
-          "start": 64.6,
-          "end": 89.0,
-          "user": "jeremykemmerer",
-          "label": "Turn left at the flashing lights"
-        }
-      ]
-    },
-    "2021.10.01.18.26.05_veh-28_01211_01323": {
-      "total_sec": 55.4,
-      "bars": [
-        {
-          "start": 7.0,
-          "end": 29.0,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 8.7,
-          "end": 32.4,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 9.8,
-          "end": 28.8,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 16.5,
-          "end": 37.9,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 22.6,
-          "end": 55.0,
-          "user": "giovanni",
-          "label": "Slow down to let the white vehicle enter the lane. In the intersection make a le..."
-        },
-        {
-          "start": 22.8,
-          "end": 42.2,
-          "user": "parthib",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.10.01.19.16.42_veh-28_01511_01624": {
-      "total_sec": 55.9,
-      "bars": [
-        {
-          "start": 4.9,
-          "end": 44.2,
-          "user": "Isaiah Ramirez",
-          "label": "turn left. turn right. "
-        },
-        {
-          "start": 5.6,
-          "end": 43.3,
-          "user": "parthib",
-          "label": "make a left turn and then a right turn at the next two stopsigns"
-        },
-        {
-          "start": 7.9,
-          "end": 25.5,
-          "user": "jeremykemmerer",
-          "label": "Turn left"
-        },
-        {
-          "start": 7.9,
-          "end": 25.5,
-          "user": "jeremykemmerer",
-          "label": "Turn left at dry dock plaza park"
-        },
-        {
-          "start": 18.4,
-          "end": 45.2,
-          "user": "parthib",
-          "label": "make the elft turn and at the next stopsign make a right turn"
-        },
-        {
-          "start": 29.4,
-          "end": 53.1,
-          "user": "ytandon",
-          "label": "Take a right and drive straight towards the dead-end"
-        },
-        {
-          "start": 33.9,
-          "end": 49.0,
-          "user": "jeremykemmerer",
-          "label": "Turn right"
-        },
-        {
-          "start": 40.7,
-          "end": 55.8,
-          "user": "giovanni",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.09.15.13.12.49_veh-39_00135_00467": {
-      "total_sec": 165.4,
-      "bars": [
-        {
-          "start": 6.6,
-          "end": 120.5,
-          "user": "parthib",
-          "label": "go straight at the roundabout and only turn right when its toward the institute ..."
-        },
-        {
-          "start": 8.2,
-          "end": 164.9,
-          "user": "Isaiah Ramirez",
-          "label": "take first the exit on the roundabout. slow for the passing pedestrians. turn ri..."
-        },
-        {
-          "start": 13.1,
-          "end": 74.4,
-          "user": "grod",
-          "label": "Take me to Seaport Common. "
-        },
-        {
-          "start": 21.7,
-          "end": 159.5,
-          "user": "Isaiah Ramirez",
-          "label": "slow down for crossing pedestrians. change to right lane. go around truck. turn ..."
-        },
-        {
-          "start": 26.1,
-          "end": 55.9,
-          "user": "giovanni",
-          "label": "Slow down for the pedestrian crossing in the middle of the road."
-        },
-        {
-          "start": 27.5,
-          "end": 120.2,
-          "user": "giovanni",
-          "label": "Continue straight. Let the construction worker cross the road. Continue straight..."
-        },
-        {
-          "start": 36.7,
-          "end": 104.5,
-          "user": "jeremykemmerer",
-          "label": "Drive around the truck and turn right"
-        },
-        {
-          "start": 58.2,
-          "end": 142.0,
-          "user": "parthib",
-          "label": "follow the vehicle ahead of you. make the right turn and move into the far right..."
-        },
-        {
-          "start": 77.6,
-          "end": 131.1,
-          "user": "Marcus",
-          "label": "Go to the institute of contemporary art"
-        },
-        {
-          "start": 85.3,
-          "end": 158.3,
-          "user": "giovanni",
-          "label": "Turn right at the intersection. Merge into the middle lane. Stop at the stop sig..."
-        },
-        {
-          "start": 93.4,
-          "end": 153.4,
-          "user": "jeremykemmerer",
-          "label": "Turn around at the institute of contemporary art"
-        },
-        {
-          "start": 93.4,
-          "end": 153.4,
-          "user": "jeremykemmerer",
-          "label": "Turn left at the stop sign"
-        },
-        {
-          "start": 137.2,
-          "end": 154.5,
-          "user": "giovanni",
-          "label": "Shift slightly to the left to avoid the stationary vehicle. Make a stop at the s..."
-        }
-      ]
-    },
-    "2021.10.01.14.20.36_veh-28_00243_00388": {
-      "total_sec": 71.9,
-      "bars": [
-        {
-          "start": 3.4,
-          "end": 66.8,
-          "user": "Isaiah Ramirez",
-          "label": "turn left.  turn right. "
-        },
-        {
-          "start": 44.9,
-          "end": 69.3,
-          "user": "Isaiah Ramirez",
-          "label": "nan"
-        },
-        {
-          "start": 48.1,
-          "end": 69.7,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 54.6,
-          "end": 71.7,
-          "user": "Marcus",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.09.15.13.52.55_veh-39_01385_01446": {
-      "total_sec": 30.0,
-      "bars": [
-        {
-          "start": 0.8,
-          "end": 24.3,
-          "user": "grod",
-          "label": "nan"
-        },
-        {
-          "start": 3.6,
-          "end": 29.9,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 5.1,
-          "end": 26.2,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 6.2,
-          "end": 28.3,
-          "user": "giovanni",
-          "label": "Continue sraight. "
-        },
-        {
-          "start": 6.4,
-          "end": 29.1,
-          "user": "jeremykemmerer",
-          "label": "Speed up "
-        },
-        {
-          "start": 6.6,
-          "end": 28.0,
-          "user": "giovanni",
-          "label": "Continue straight at the intersection. "
-        },
-        {
-          "start": 8.3,
-          "end": 23.6,
-          "user": "ytandon",
-          "label": "nan"
-        },
-        {
-          "start": 8.5,
-          "end": 29.5,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 9.1,
-          "end": 25.3,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 11.5,
-          "end": 28.6,
-          "user": "Marcus",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.10.01.17.52.06_veh-28_00675_00737": {
-      "total_sec": 30.5,
-      "bars": [
-        {
-          "start": 3.6,
-          "end": 20.5,
-          "user": "parthib",
-          "label": "make a right turn when the light turns green"
-        },
-        {
-          "start": 4.5,
-          "end": 21.0,
-          "user": "giovanni",
-          "label": "Turn right at the traffic light."
-        },
-        {
-          "start": 4.7,
-          "end": 27.8,
-          "user": "nan",
-          "label": "turn right. "
-        },
-        {
-          "start": 9.2,
-          "end": 29.9,
-          "user": "Marcus",
-          "label": "take a right"
-        },
-        {
-          "start": 12.8,
-          "end": 28.3,
-          "user": "jeremykemmerer",
-          "label": "Go past the park"
-        },
-        {
-          "start": 14.1,
-          "end": 30.2,
-          "user": "jeremykemmerer",
-          "label": "Turn right just past the park"
-        },
-        {
-          "start": 14.8,
-          "end": 30.3,
-          "user": "giovanni",
-          "label": "Stop for the red traffic lights. "
-        }
-      ]
-    },
-    "2021.09.15.14.00.15_veh-28_01611_01874": {
-      "total_sec": 131.0,
-      "bars": [
-        {
-          "start": 5.2,
-          "end": 110.5,
-          "user": "Isaiah Ramirez",
-          "label": "slow to allow pedestrians to cross."
-        },
-        {
-          "start": 21.0,
-          "end": 105.1,
-          "user": "giovanni",
-          "label": "Make a stop at the red traffic light. At the next traffic lights make another st..."
-        },
-        {
-          "start": 35.5,
-          "end": 101.7,
-          "user": "giovanni",
-          "label": "Stop at the intersection for the red light. Stop at the upcoming intersection wi..."
-        },
-        {
-          "start": 52.3,
-          "end": 87.5,
-          "user": "jeremykemmerer",
-          "label": "Go towards the harbor plaza"
-        },
-        {
-          "start": 77.0,
-          "end": 128.7,
-          "user": "Isaiah Ramirez",
-          "label": "slow to allow pedestrians to cross. "
-        },
-        {
-          "start": 95.5,
-          "end": 119.4,
-          "user": "Isaiah Ramirez",
-          "label": "turn left"
-        },
-        {
-          "start": 105.3,
-          "end": 122.8,
-          "user": "giovanni",
-          "label": "Go straight when the light turns green. "
-        },
-        {
-          "start": 113.8,
-          "end": 130.8,
-          "user": "jeremykemmerer",
-          "label": "Continue to the roundabout"
-        }
-      ]
-    },
-    "2021.09.15.15.02.19_veh-39_00856_01095": {
-      "total_sec": 119.0,
-      "bars": [
-        {
-          "start": 4.5,
-          "end": 53.3,
-          "user": "jeremykemmerer",
-          "label": "Turn left, then right"
-        },
-        {
-          "start": 39.5,
-          "end": 112.1,
-          "user": "parthib",
-          "label": "at the sotpsign make a right turn and go straight"
-        },
-        {
-          "start": 42.5,
-          "end": 90.6,
-          "user": "parthib",
-          "label": "make a right turn at the stopsign and go straight. make a left at the end of the..."
-        },
-        {
-          "start": 44.4,
-          "end": 65.3,
-          "user": "jeremykemmerer",
-          "label": "Turn right at the stop sign"
-        },
-        {
-          "start": 72.7,
-          "end": 102.7,
-          "user": "jeremykemmerer",
-          "label": "Go to the channel center park"
-        }
-      ]
-    },
-    "2021.10.06.19.27.33_veh-28_00121_00289": {
-      "total_sec": 83.4,
-      "bars": [
-        {
-          "start": 0.5,
-          "end": 82.3,
-          "user": "Isaiah Ramirez",
-          "label": "turn right, then right again. turn right at the light. turn left. "
-        },
-        {
-          "start": 0.8,
-          "end": 40.9,
-          "user": "parthib",
-          "label": "at the next intersection make a right and follow the truck but get on the right ..."
-        },
-        {
-          "start": 3.7,
-          "end": 35.6,
-          "user": "jeremykemmerer",
-          "label": "Turn right twice by the hotel"
-        },
-        {
-          "start": 8.1,
-          "end": 73.9,
-          "user": "parthib",
-          "label": "make the right turn. at the next itnersection make another right turn and into t..."
-        },
-        {
-          "start": 12.5,
-          "end": 75.7,
-          "user": "jeremykemmerer",
-          "label": "Take the next two rights"
-        },
-        {
-          "start": 21.7,
-          "end": 50.6,
-          "user": "jeremykemmerer",
-          "label": "Turn right at the parking garage"
-        },
-        {
-          "start": 24.4,
-          "end": 79.3,
-          "user": "grod",
-          "label": "Turn right at this light, then make another right at the next light."
-        },
-        {
-          "start": 24.4,
-          "end": 79.3,
-          "user": "grod",
-          "label": "Turn right here and make another right at the next light. "
-        },
-        {
-          "start": 24.4,
-          "end": 79.3,
-          "user": "grod",
-          "label": "Take a right here, then turn right again at the next traffic light."
-        },
-        {
-          "start": 24.4,
-          "end": 79.3,
-          "user": "grod",
-          "label": "At this light, turn right and make another right at the next signal."
-        },
-        {
-          "start": 37.1,
-          "end": 71.2,
-          "user": "giovanni",
-          "label": "Make a stop for the red traffic light. Turn right."
-        }
-      ]
-    },
-    "2021.09.15.11.49.23_veh-28_01869_02000": {
-      "total_sec": 65.0,
-      "bars": [
-        {
-          "start": 0.2,
-          "end": 27.3,
-          "user": "parthib",
-          "label": "make the left turn once the van from oncoming side passes and go straight"
-        },
-        {
-          "start": 1.5,
-          "end": 19.8,
-          "user": "Isaiah Ramirez",
-          "label": "nan"
-        },
-        {
-          "start": 1.7,
-          "end": 57.3,
-          "user": "noorrauf",
-          "label": "head toward Dry Dock Plaza Park"
-        },
-        {
-          "start": 2.9,
-          "end": 63.5,
-          "user": "noorrauf",
-          "label": "turn left and keep left, then turn left at the stop sign, then turn right, then ..."
-        },
-        {
-          "start": 3.2,
-          "end": 51.8,
-          "user": "noorrauf",
-          "label": "head toward Dry Dock Plaza Park"
-        },
-        {
-          "start": 3.5,
-          "end": 44.6,
-          "user": "Marcus",
-          "label": "Take 2 lefts and a right to turn around"
-        },
-        {
-          "start": 5.7,
-          "end": 54.2,
-          "user": "parthib",
-          "label": "make a left turn. at the next stopsign make a left turn and then a right turn at..."
-        },
-        {
-          "start": 7.8,
-          "end": 29.9,
-          "user": "noorrauf",
-          "label": "keep left"
-        },
-        {
-          "start": 10.7,
-          "end": 63.7,
-          "user": "noorrauf",
-          "label": "go toward the glass building"
-        },
-        {
-          "start": 10.8,
-          "end": 48.8,
-          "user": "noorrauf",
-          "label": "head toward Dry Dock Plaza Park"
-        },
-        {
-          "start": 11.7,
-          "end": 58.5,
-          "user": "jeremykemmerer",
-          "label": "Go to dry dock plaza park"
-        },
-        {
-          "start": 24.3,
-          "end": 46.2,
-          "user": "noorrauf",
-          "label": "head toward Dry Dock Plaza Park"
-        },
-        {
-          "start": 25.6,
-          "end": 48.1,
-          "user": "Marcus",
-          "label": "Take a left then a right"
-        },
-        {
-          "start": 33.1,
-          "end": 64.8,
-          "user": "jeremykemmerer",
-          "label": "Follow the green van until you get to the park, then turn left"
-        },
-        {
-          "start": 33.1,
-          "end": 64.8,
-          "user": "jeremykemmerer",
-          "label": "Turn right at the parking garage"
-        },
-        {
-          "start": 34.6,
-          "end": 56.3,
-          "user": "ytandon",
-          "label": "Take a right"
-        },
-        {
-          "start": 36.4,
-          "end": 58.2,
-          "user": "noorrauf",
-          "label": "head toward Dry Dock Plaza Park"
-        },
-        {
-          "start": 42.9,
-          "end": 58.7,
-          "user": "Marcus",
-          "label": "take a left at the three way intersection"
-        },
-        {
-          "start": 46.0,
-          "end": 61.6,
-          "user": "giovanni",
-          "label": "Make a stop for the stop sign, and turn left. At the next intersection make anot..."
-        },
-        {
-          "start": 46.7,
-          "end": 63.9,
-          "user": "jeremykemmerer",
-          "label": "Take the next two lefts"
-        }
-      ]
-    },
-    "2021.09.15.13.16.40_veh-28_02072_02166": {
-      "total_sec": 46.5,
-      "bars": [
-        {
-          "start": 13.7,
-          "end": 31.3,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 15.5,
-          "end": 37.5,
-          "user": "Isaiah Ramirez",
-          "label": "nan"
-        },
-        {
-          "start": 25.6,
-          "end": 42.6,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 25.6,
-          "end": 41.0,
-          "user": "jeremykemmerer",
-          "label": "Cross summer street bridge"
-        },
-        {
-          "start": 26.2,
-          "end": 43.2,
-          "user": "jeremykemmerer",
-          "label": "Go across the bridge"
-        }
-      ]
-    },
-    "2021.10.01.19.16.42_veh-28_03307_03808": {
-      "total_sec": 250.0,
-      "bars": [
-        {
-          "start": 3.8,
-          "end": 239.0,
-          "user": "parthib",
-          "label": "make a right turn when the light turns green. after passing the intersection aft..."
-        },
-        {
-          "start": 29.4,
-          "end": 80.8,
-          "user": "ytandon",
-          "label": "Keep straight towards Graphic Arts Building"
-        },
-        {
-          "start": 95.4,
-          "end": 193.0,
-          "user": "giovanni",
-          "label": "Turn right at the intersection when the traffic light turns green. Briefly stop ..."
-        },
-        {
-          "start": 114.0,
-          "end": 225.2,
-          "user": "jeremykemmerer",
-          "label": "Stay in the right lane, then turn right onto the bridge"
-        },
-        {
-          "start": 119.2,
-          "end": 141.2,
-          "user": "giovanni",
-          "label": "Turn right at the intersection, "
-        },
-        {
-          "start": 197.8,
-          "end": 240.6,
-          "user": "giovanni",
-          "label": "Make a stop at the upcoming red traffic light. Look for oncoming traffic and mer..."
-        }
-      ]
-    },
-    "2021.09.15.14.50.05_veh-28_00083_00152": {
-      "total_sec": 34.0,
-      "bars": [
-        {
-          "start": 1.0,
-          "end": 20.2,
-          "user": "giovanni",
-          "label": "Make a stop and look for oncoming traffic before making a left turn and procced ..."
-        },
-        {
-          "start": 2.2,
-          "end": 27.9,
-          "user": "giovanni",
-          "label": "Make a Stop at the stop sign,  look for oncoming traffic and procced to take a l..."
-        },
-        {
-          "start": 2.4,
-          "end": 32.3,
-          "user": "parthib",
-          "label": "at the intersection make a left  turn. then at the second intersection do anothe..."
-        },
-        {
-          "start": 4.5,
-          "end": 24.7,
-          "user": "giovanni",
-          "label": "Stop for the upcoming stop sign, turn left at the intersection. "
-        },
-        {
-          "start": 13.1,
-          "end": 28.1,
-          "user": "ytandon",
-          "label": "nan"
-        },
-        {
-          "start": 14.7,
-          "end": 31.7,
-          "user": "jeremykemmerer",
-          "label": "Turn left at the stop sign"
-        },
-        {
-          "start": 17.2,
-          "end": 32.2,
-          "user": "jeremykemmerer",
-          "label": "Turn left at the next stop sign"
-        },
-        {
-          "start": 17.2,
-          "end": 32.2,
-          "user": "jeremykemmerer",
-          "label": "Turn onto the road where the white van came out of"
-        }
-      ]
-    },
-    "2021.10.06.14.31.13_veh-28_00014_00079": {
-      "total_sec": 32.0,
-      "bars": [
-        {
-          "start": 1.7,
-          "end": 30.4,
-          "user": "giovanni",
-          "label": "Make a stop at the upcoming stop sign and turn right. Stay in the middle to avoi..."
-        },
-        {
-          "start": 2.8,
-          "end": 26.8,
-          "user": "parthib",
-          "label": "make a right turn at the stopsign and go straight"
-        },
-        {
-          "start": 3.0,
-          "end": 22.4,
-          "user": "giovanni",
-          "label": "Stop for the stop sign. Turn right. "
-        },
-        {
-          "start": 3.4,
-          "end": 20.5,
-          "user": "jeremykemmerer",
-          "label": "Turn right at the stop sign"
-        },
-        {
-          "start": 3.4,
-          "end": 20.5,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 4.3,
-          "end": 29.0,
-          "user": "jeremykemmerer",
-          "label": "Turn right at the stop sign"
-        },
-        {
-          "start": 5.6,
-          "end": 30.4,
-          "user": "Isaiah Ramirez",
-          "label": "turn right. "
-        },
-        {
-          "start": 6.8,
-          "end": 26.6,
-          "user": "giovanni",
-          "label": "At the intersection turn right. "
-        },
-        {
-          "start": 7.8,
-          "end": 26.2,
-          "user": "Isaiah Ramirez",
-          "label": "turn right at intersection"
-        }
-      ]
-    },
-    "2021.09.15.16.17.26_veh-28_00937_01074": {
-      "total_sec": 67.9,
-      "bars": [
-        {
-          "start": 10.0,
-          "end": 46.0,
-          "user": "parthib",
-          "label": "at the third stoplight make a left turn"
-        },
-        {
-          "start": 12.2,
-          "end": 65.8,
-          "user": "giovanni",
-          "label": "Make a quick stop to avoid a collision with the white vehicle making a turn. Pro..."
-        },
-        {
-          "start": 13.7,
-          "end": 39.0,
-          "user": "giovanni",
-          "label": "STOP and let the white vehicle pass before procceding. Make a stop for the upcom..."
-        },
-        {
-          "start": 15.8,
-          "end": 65.7,
-          "user": "parthib",
-          "label": "make a left turn at the third stoplight when it is clear"
-        },
-        {
-          "start": 35.7,
-          "end": 66.4,
-          "user": "jeremykemmerer",
-          "label": "Turn left just before the bridge"
-        },
-        {
-          "start": 40.3,
-          "end": 55.4,
-          "user": "jeremykemmerer",
-          "label": "Turn left at the light"
-        }
-      ]
-    },
-    "2021.10.06.18.52.07_veh-28_01474_01908": {
-      "total_sec": 216.5,
-      "bars": [
-        {
-          "start": 3.7,
-          "end": 190.8,
-          "user": "Isaiah Ramirez",
-          "label": "turn right. turn left at the light, then turn right. turn right. turn right and ..."
-        },
-        {
-          "start": 11.5,
-          "end": 203.8,
-          "user": "parthib",
-          "label": "when the light turns green make a right turn once the pedestrians have crossed t..."
-        },
-        {
-          "start": 59.3,
-          "end": 119.0,
-          "user": "Isaiah Ramirez",
-          "label": "turn right, then right again. turn right at the light."
-        },
-        {
-          "start": 71.2,
-          "end": 112.8,
-          "user": "giovann_2",
-          "label": "Make a stop for the upcoming red traffic light. Continue straight. At the next i..."
-        },
-        {
-          "start": 154.0,
-          "end": 205.4,
-          "user": "jeremykemmerer",
-          "label": "Keep following the school bus"
-        },
-        {
-          "start": 158.4,
-          "end": 187.6,
-          "user": "Isaiah Ramirez",
-          "label": "turn right. stop to let car turn left. "
-        },
-        {
-          "start": 198.1,
-          "end": 213.8,
-          "user": "giovanni",
-          "label": "Follow the school bus. "
-        }
-      ]
-    },
-    "2021.09.15.13.52.55_veh-39_00818_01335": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 1.1,
-          "end": 227.6,
-          "user": "Isaiah Ramirez",
-          "label": "turn left. turn right at the light. turn right, waiting for the pedestrians to p..."
-        },
-        {
-          "start": 9.3,
-          "end": 147.7,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 81.6,
-          "end": 101.8,
-          "user": "Isaiah Ramirez",
-          "label": "turn right. "
-        },
-        {
-          "start": 89.1,
-          "end": 209.8,
-          "user": "giovanni",
-          "label": "Wait for the people to finish crossing, then make a right turn. Make a stop for ..."
-        },
-        {
-          "start": 144.4,
-          "end": 216.5,
-          "user": "jeremykemmerer",
-          "label": "Go to the other side of seaport common, then turn right before marina park"
-        }
-      ]
-    },
-    "2021.09.15.12.32.43_veh-28_01070_01157": {
-      "total_sec": 43.0,
-      "bars": [
-        {
-          "start": 0.6,
-          "end": 29.5,
-          "user": "parthib",
-          "label": "make the left turn when the light turns green and just go straight"
-        },
-        {
-          "start": 5.4,
-          "end": 41.8,
-          "user": "jeremykemmerer",
-          "label": "Turn onto the bridge"
-        },
-        {
-          "start": 7.1,
-          "end": 33.4,
-          "user": "giovanni",
-          "label": "Turn left at the intersection. Stop for the upcoming red traffic light. "
-        },
-        {
-          "start": 7.6,
-          "end": 42.0,
-          "user": "parthib",
-          "label": "make a left turn at the intersection and go straight"
-        },
-        {
-          "start": 8.1,
-          "end": 42.8,
-          "user": "giovanni",
-          "label": "Turn left at the intersection. Come to a stop for the next intersection for the ..."
-        },
-        {
-          "start": 22.2,
-          "end": 40.0,
-          "user": "jeremykemmerer",
-          "label": "Continue straight off the bridge"
-        }
-      ]
-    },
-    "2021.09.15.12.32.43_veh-28_01238_01314": {
-      "total_sec": 37.5,
-      "bars": [
-        {
-          "start": 2.5,
-          "end": 27.2,
-          "user": "giovanni",
-          "label": "Stop for the upcoming red traffic lights. Make a right turn at the intersection...."
-        },
-        {
-          "start": 5.7,
-          "end": 35.2,
-          "user": "jeremykemmerer",
-          "label": "Turn right at the light"
-        },
-        {
-          "start": 6.7,
-          "end": 33.4,
-          "user": "Isaiah Ramirez",
-          "label": "turn right. "
-        },
-        {
-          "start": 18.7,
-          "end": 36.1,
-          "user": "jeremykemmerer",
-          "label": "Turn right at the light"
-        }
-      ]
-    },
-    "2021.09.15.13.12.49_veh-39_01532_01687": {
-      "total_sec": 77.0,
-      "bars": [
-        {
-          "start": 2.3,
-          "end": 74.8,
-          "user": "parthib",
-          "label": "make a right turn then at the end of the road make a left turn. make the left tu..."
-        },
-        {
-          "start": 7.4,
-          "end": 60.9,
-          "user": "jeremykemmerer",
-          "label": "Turn left at the end of the road"
-        },
-        {
-          "start": 9.9,
-          "end": 29.2,
-          "user": "jeremykemmerer",
-          "label": "Turn left at the end of the road"
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "Turn left at the stop sign. "
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "Make a left at the stop sign."
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "Take a left at the stop sign."
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "At the stop sign, turn left."
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "Turn left when you reach the stop sign."
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "Make your left at the stop sign."
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "Go left at the stop sign."
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "At the upcoming stop sign, make a left."
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "Take the left at the next stop sign."
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "When you get to the stop sign, take a left."
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "Turn left at the intersection."
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "Make a left at this intersection. "
-        },
-        {
-          "start": 22.2,
-          "end": 64.8,
-          "user": "grod",
-          "label": "When you get to the intersection, make a left. "
-        },
-        {
-          "start": 43.6,
-          "end": 68.2,
-          "user": "giovanni",
-          "label": "Follow the vehicle in front. "
-        },
-        {
-          "start": 58.5,
-          "end": 74.0,
-          "user": "giovanni",
-          "label": "Follow the trailer. Turn left at the SEMIS docking bay. "
-        }
-      ]
-    },
-    "2021.09.15.13.12.49_veh-39_00645_00802": {
-      "total_sec": 77.9,
-      "bars": [
-        {
-          "start": 2.5,
-          "end": 76.2,
-          "user": "parthib",
-          "label": "make the same left-lane change that the white vehicle in front of you does then ..."
-        },
-        {
-          "start": 12.3,
-          "end": 35.1,
-          "user": "giovanni",
-          "label": "Briefly stop and continue to move when the vehicles infront start moving. Wait f..."
-        },
-        {
-          "start": 12.7,
-          "end": 40.9,
-          "user": "jeremykemmerer",
-          "label": "Go around the stopped car but stay in the right lane"
-        },
-        {
-          "start": 15.6,
-          "end": 67.2,
-          "user": "parthib",
-          "label": "switch lanes and go back to avoid the front arked vehicle ahead of you"
-        },
-        {
-          "start": 30.1,
-          "end": 63.6,
-          "user": "jeremykemmerer",
-          "label": "Go around the stopped cars"
-        },
-        {
-          "start": 41.7,
-          "end": 64.4,
-          "user": "Isaiah Ramirez",
-          "label": "nan"
-        },
-        {
-          "start": 52.5,
-          "end": 68.3,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.09.15.14.00.15_veh-28_00288_00408": {
-      "total_sec": 59.5,
-      "bars": [
-        {
-          "start": 0.2,
-          "end": 50.5,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 1.3,
-          "end": 37.7,
-          "user": "giovanni",
-          "label": "At the intersection make a right turn. At the next intersection slow down and wa..."
-        },
-        {
-          "start": 2.4,
-          "end": 18.3,
-          "user": "jeremykemmerer",
-          "label": "Go towards the park"
-        },
-        {
-          "start": 3.8,
-          "end": 57.1,
-          "user": "giovanni",
-          "label": "Turn right at the intersection. At the next intersection turn left. Stop for the..."
-        },
-        {
-          "start": 5.9,
-          "end": 35.4,
-          "user": "giovanni",
-          "label": "Turn right at the intersection. Slow down and let the bicyclist pass before maki..."
-        },
-        {
-          "start": 6.9,
-          "end": 31.3,
-          "user": "Marcus",
-          "label": "take a right then a left while watching out for the cyclist"
-        },
-        {
-          "start": 7.3,
-          "end": 58.8,
-          "user": "Isaiah Ramirez",
-          "label": "turn right. turn left at the light."
-        },
-        {
-          "start": 7.4,
-          "end": 29.8,
-          "user": "Isaiah Ramirez",
-          "label": "turn right, then turn left. "
-        },
-        {
-          "start": 13.8,
-          "end": 40.0,
-          "user": "giovanni",
-          "label": "Turn left at the intersection. Stop for the upcoming red traffic light."
-        },
-        {
-          "start": 20.1,
-          "end": 37.2,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 23.1,
-          "end": 44.3,
-          "user": "giovanni",
-          "label": "Stop for the red traffic lights. "
-        },
-        {
-          "start": 27.0,
-          "end": 46.7,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.09.15.14.50.05_veh-28_01187_01281": {
-      "total_sec": 46.5,
-      "bars": [
-        {
-          "start": 0.2,
-          "end": 18.2,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 2.7,
-          "end": 27.4,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 4.2,
-          "end": 45.6,
-          "user": "Isaiah Ramirez",
-          "label": "nan"
-        },
-        {
-          "start": 8.9,
-          "end": 37.7,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 10.7,
-          "end": 42.8,
-          "user": "parthib",
-          "label": "just go straight when the stoplight turns green"
-        },
-        {
-          "start": 13.7,
-          "end": 45.0,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 14.2,
-          "end": 32.9,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 19.7,
-          "end": 42.6,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 20.5,
-          "end": 36.3,
-          "user": "giovanni",
-          "label": "Continue striaght when the traffic light turns green."
-        },
-        {
-          "start": 27.0,
-          "end": 45.0,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.09.15.14.27.22_veh-39_00868_01125": {
-      "total_sec": 127.9,
-      "bars": [
-        {
-          "start": 1.2,
-          "end": 126.1,
-          "user": "parthib",
-          "label": "make the right turn when you approach a stopsign. then make a left turn at the n..."
-        },
-        {
-          "start": 22.3,
-          "end": 80.7,
-          "user": "Isaiah Ramirez",
-          "label": "Go around the fire truck. Change lanes to give the bicyclist space."
-        },
-        {
-          "start": 23.7,
-          "end": 56.0,
-          "user": "jeremykemmerer",
-          "label": "Go around the fire truck"
-        },
-        {
-          "start": 31.6,
-          "end": 108.4,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 46.3,
-          "end": 74.7,
-          "user": "giovanni",
-          "label": "Turn right. Merge to the left lane. "
-        },
-        {
-          "start": 48.6,
-          "end": 66.0,
-          "user": "giovanni",
-          "label": "Turn right at the intersection. "
-        },
-        {
-          "start": 77.6,
-          "end": 95.3,
-          "user": "jeremykemmerer",
-          "label": "Turn right by the flag"
-        }
-      ]
-    },
     "2021.10.11.07.12.18_veh-50_00345_00498": {
       "total_sec": 76.0,
       "bars": [
@@ -41653,6 +40192,89 @@
           "end": 251.7,
           "user": "giovanni",
           "label": "Merge one lane to the left. Wait for the vehicle to pass before crossing the int..."
+        }
+      ]
+    },
+    "2021.09.15.13.12.49_veh-39_00135_00467": {
+      "total_sec": 165.4,
+      "bars": [
+        {
+          "start": 6.6,
+          "end": 120.5,
+          "user": "parthib",
+          "label": "go straight at the roundabout and only turn right when its toward the institute ..."
+        },
+        {
+          "start": 8.2,
+          "end": 164.9,
+          "user": "Isaiah Ramirez",
+          "label": "take first the exit on the roundabout. slow for the passing pedestrians. turn ri..."
+        },
+        {
+          "start": 13.1,
+          "end": 74.4,
+          "user": "grod",
+          "label": "Take me to Seaport Common. "
+        },
+        {
+          "start": 21.7,
+          "end": 159.5,
+          "user": "Isaiah Ramirez",
+          "label": "slow down for crossing pedestrians. change to right lane. go around truck. turn ..."
+        },
+        {
+          "start": 26.1,
+          "end": 55.9,
+          "user": "giovanni",
+          "label": "Slow down for the pedestrian crossing in the middle of the road."
+        },
+        {
+          "start": 27.5,
+          "end": 120.2,
+          "user": "giovanni",
+          "label": "Continue straight. Let the construction worker cross the road. Continue straight..."
+        },
+        {
+          "start": 36.7,
+          "end": 104.5,
+          "user": "jeremykemmerer",
+          "label": "Drive around the truck and turn right"
+        },
+        {
+          "start": 58.2,
+          "end": 142.0,
+          "user": "parthib",
+          "label": "follow the vehicle ahead of you. make the right turn and move into the far right..."
+        },
+        {
+          "start": 77.6,
+          "end": 131.1,
+          "user": "Marcus",
+          "label": "Go to the institute of contemporary art"
+        },
+        {
+          "start": 85.3,
+          "end": 158.3,
+          "user": "giovanni",
+          "label": "Turn right at the intersection. Merge into the middle lane. Stop at the stop sig..."
+        },
+        {
+          "start": 93.4,
+          "end": 153.4,
+          "user": "jeremykemmerer",
+          "label": "Turn around at the institute of contemporary art"
+        },
+        {
+          "start": 93.4,
+          "end": 153.4,
+          "user": "jeremykemmerer",
+          "label": "Turn left at the stop sign"
+        },
+        {
+          "start": 137.2,
+          "end": 154.5,
+          "user": "giovanni",
+          "label": "Shift slightly to the left to avoid the stationary vehicle. Make a stop at the s..."
         }
       ]
     },
@@ -42660,6 +41282,119 @@
         }
       ]
     },
+    "2021.09.15.13.12.49_veh-39_01532_01687": {
+      "total_sec": 77.0,
+      "bars": [
+        {
+          "start": 2.3,
+          "end": 74.8,
+          "user": "parthib",
+          "label": "make a right turn then at the end of the road make a left turn. make the left tu..."
+        },
+        {
+          "start": 7.4,
+          "end": 60.9,
+          "user": "jeremykemmerer",
+          "label": "Turn left at the end of the road"
+        },
+        {
+          "start": 9.9,
+          "end": 29.2,
+          "user": "jeremykemmerer",
+          "label": "Turn left at the end of the road"
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "Turn left at the stop sign. "
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "Make a left at the stop sign."
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "Take a left at the stop sign."
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "At the stop sign, turn left."
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "Turn left when you reach the stop sign."
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "Make your left at the stop sign."
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "Go left at the stop sign."
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "At the upcoming stop sign, make a left."
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "Take the left at the next stop sign."
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "When you get to the stop sign, take a left."
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "Turn left at the intersection."
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "Make a left at this intersection. "
+        },
+        {
+          "start": 22.2,
+          "end": 64.8,
+          "user": "grod",
+          "label": "When you get to the intersection, make a left. "
+        },
+        {
+          "start": 43.6,
+          "end": 68.2,
+          "user": "giovanni",
+          "label": "Follow the vehicle in front. "
+        },
+        {
+          "start": 58.5,
+          "end": 74.0,
+          "user": "giovanni",
+          "label": "Follow the trailer. Turn left at the SEMIS docking bay. "
+        }
+      ]
+    },
     "2021.09.15.14.50.05_veh-28_00578_00896": {
       "total_sec": 158.5,
       "bars": [
@@ -43314,6 +42049,71 @@
         }
       ]
     },
+    "2021.09.15.13.52.55_veh-39_01385_01446": {
+      "total_sec": 30.0,
+      "bars": [
+        {
+          "start": 0.8,
+          "end": 24.3,
+          "user": "grod",
+          "label": "nan"
+        },
+        {
+          "start": 3.6,
+          "end": 29.9,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 5.1,
+          "end": 26.2,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 6.2,
+          "end": 28.3,
+          "user": "giovanni",
+          "label": "Continue sraight. "
+        },
+        {
+          "start": 6.4,
+          "end": 29.1,
+          "user": "jeremykemmerer",
+          "label": "Speed up "
+        },
+        {
+          "start": 6.6,
+          "end": 28.0,
+          "user": "giovanni",
+          "label": "Continue straight at the intersection. "
+        },
+        {
+          "start": 8.3,
+          "end": 23.6,
+          "user": "ytandon",
+          "label": "nan"
+        },
+        {
+          "start": 8.5,
+          "end": 29.5,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 9.1,
+          "end": 25.3,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 11.5,
+          "end": 28.6,
+          "user": "Marcus",
+          "label": "nan"
+        }
+      ]
+    },
     "2021.10.01.17.52.06_veh-28_00327_00427": {
       "total_sec": 49.5,
       "bars": [
@@ -43697,6 +42497,77 @@
           "end": 127.4,
           "user": "giovanni",
           "label": "Make a stop for the stop sign, and turn right. "
+        }
+      ]
+    },
+    "2021.10.06.19.27.33_veh-28_00121_00289": {
+      "total_sec": 83.4,
+      "bars": [
+        {
+          "start": 0.5,
+          "end": 82.3,
+          "user": "Isaiah Ramirez",
+          "label": "turn right, then right again. turn right at the light. turn left. "
+        },
+        {
+          "start": 0.8,
+          "end": 40.9,
+          "user": "parthib",
+          "label": "at the next intersection make a right and follow the truck but get on the right ..."
+        },
+        {
+          "start": 3.7,
+          "end": 35.6,
+          "user": "jeremykemmerer",
+          "label": "Turn right twice by the hotel"
+        },
+        {
+          "start": 8.1,
+          "end": 73.9,
+          "user": "parthib",
+          "label": "make the right turn. at the next itnersection make another right turn and into t..."
+        },
+        {
+          "start": 12.5,
+          "end": 75.7,
+          "user": "jeremykemmerer",
+          "label": "Take the next two rights"
+        },
+        {
+          "start": 21.7,
+          "end": 50.6,
+          "user": "jeremykemmerer",
+          "label": "Turn right at the parking garage"
+        },
+        {
+          "start": 24.4,
+          "end": 79.3,
+          "user": "grod",
+          "label": "Turn right at this light, then make another right at the next light."
+        },
+        {
+          "start": 24.4,
+          "end": 79.3,
+          "user": "grod",
+          "label": "Turn right here and make another right at the next light. "
+        },
+        {
+          "start": 24.4,
+          "end": 79.3,
+          "user": "grod",
+          "label": "Take a right here, then turn right again at the next traffic light."
+        },
+        {
+          "start": 24.4,
+          "end": 79.3,
+          "user": "grod",
+          "label": "At this light, turn right and make another right at the next signal."
+        },
+        {
+          "start": 37.1,
+          "end": 71.2,
+          "user": "giovanni",
+          "label": "Make a stop for the red traffic light. Turn right."
         }
       ]
     },
@@ -48445,6 +47316,1135 @@
           "end": 170.7,
           "user": "parthib",
           "label": "nan"
+        }
+      ]
+    },
+    "2021.10.01.17.52.06_veh-28_00098_00211": {
+      "total_sec": 56.0,
+      "bars": [
+        {
+          "start": 1.2,
+          "end": 46.6,
+          "user": "giovanni",
+          "label": "Follow the trailer. Yield to the oncoming trailer, and exit the roundabout on th..."
+        },
+        {
+          "start": 6.1,
+          "end": 24.4,
+          "user": "giovanni",
+          "label": "Stop at the yield sign and continue once the oncoming vehicles passed. Merge int..."
+        },
+        {
+          "start": 14.1,
+          "end": 53.4,
+          "user": "parthib",
+          "label": "follow the same path the truck in front of you takes"
+        },
+        {
+          "start": 15.2,
+          "end": 39.9,
+          "user": "Isaiah Ramirez",
+          "label": "nan"
+        },
+        {
+          "start": 21.3,
+          "end": 44.3,
+          "user": "giovanni",
+          "label": "Merge into the right lane to avoid the vehicle turning left and continue."
+        },
+        {
+          "start": 24.4,
+          "end": 43.0,
+          "user": "parthib",
+          "label": "when you see the stopped white vehicle ahead of you switch to the right lane"
+        },
+        {
+          "start": 26.6,
+          "end": 55.4,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 32.9,
+          "end": 48.5,
+          "user": "jeremykemmerer",
+          "label": "Go around the white car"
+        },
+        {
+          "start": 38.4,
+          "end": 53.6,
+          "user": "jeremykemmerer",
+          "label": "Move to the right lane to go around the car"
+        }
+      ]
+    },
+    "2021.10.01.18.26.05_veh-28_00949_01041": {
+      "total_sec": 45.4,
+      "bars": [
+        {
+          "start": 0.4,
+          "end": 45.2,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 0.5,
+          "end": 30.5,
+          "user": "giovanni",
+          "label": "Stop for the red traffic light."
+        },
+        {
+          "start": 1.5,
+          "end": 44.1,
+          "user": "Isaiah Ramirez",
+          "label": "nan"
+        },
+        {
+          "start": 4.1,
+          "end": 30.5,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 5.7,
+          "end": 38.1,
+          "user": "giovanni",
+          "label": "Follow the white trailer. Stop for the red traffic light. "
+        },
+        {
+          "start": 7.9,
+          "end": 41.6,
+          "user": "parthib",
+          "label": "follow the path of the white truck in front of you"
+        },
+        {
+          "start": 10.1,
+          "end": 42.8,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 13.2,
+          "end": 33.4,
+          "user": "jeremykemmerer",
+          "label": "Follow the white truck"
+        }
+      ]
+    },
+    "2021.09.15.12.32.43_veh-28_01513_01697": {
+      "total_sec": 91.4,
+      "bars": [
+        {
+          "start": 2.4,
+          "end": 85.4,
+          "user": "Isaiah Ramirez",
+          "label": "turn right at the light. turn right. "
+        },
+        {
+          "start": 64.6,
+          "end": 89.0,
+          "user": "jeremykemmerer",
+          "label": "Turn left at the flashing lights"
+        }
+      ]
+    },
+    "2021.10.01.18.26.05_veh-28_01211_01323": {
+      "total_sec": 55.4,
+      "bars": [
+        {
+          "start": 7.0,
+          "end": 29.0,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 8.7,
+          "end": 32.4,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 9.8,
+          "end": 28.8,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 16.5,
+          "end": 37.9,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 22.6,
+          "end": 55.0,
+          "user": "giovanni",
+          "label": "Slow down to let the white vehicle enter the lane. In the intersection make a le..."
+        },
+        {
+          "start": 22.8,
+          "end": 42.2,
+          "user": "parthib",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.10.01.19.16.42_veh-28_01511_01624": {
+      "total_sec": 55.9,
+      "bars": [
+        {
+          "start": 4.9,
+          "end": 44.2,
+          "user": "Isaiah Ramirez",
+          "label": "turn left. turn right. "
+        },
+        {
+          "start": 5.6,
+          "end": 43.3,
+          "user": "parthib",
+          "label": "make a left turn and then a right turn at the next two stopsigns"
+        },
+        {
+          "start": 7.9,
+          "end": 25.5,
+          "user": "jeremykemmerer",
+          "label": "Turn left"
+        },
+        {
+          "start": 7.9,
+          "end": 25.5,
+          "user": "jeremykemmerer",
+          "label": "Turn left at dry dock plaza park"
+        },
+        {
+          "start": 18.4,
+          "end": 45.2,
+          "user": "parthib",
+          "label": "make the elft turn and at the next stopsign make a right turn"
+        },
+        {
+          "start": 29.4,
+          "end": 53.1,
+          "user": "ytandon",
+          "label": "Take a right and drive straight towards the dead-end"
+        },
+        {
+          "start": 33.9,
+          "end": 49.0,
+          "user": "jeremykemmerer",
+          "label": "Turn right"
+        },
+        {
+          "start": 40.7,
+          "end": 55.8,
+          "user": "giovanni",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.10.01.14.20.36_veh-28_00243_00388": {
+      "total_sec": 71.9,
+      "bars": [
+        {
+          "start": 3.4,
+          "end": 66.8,
+          "user": "Isaiah Ramirez",
+          "label": "turn left.  turn right. "
+        },
+        {
+          "start": 44.9,
+          "end": 69.3,
+          "user": "Isaiah Ramirez",
+          "label": "nan"
+        },
+        {
+          "start": 48.1,
+          "end": 69.7,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 54.6,
+          "end": 71.7,
+          "user": "Marcus",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.10.01.17.52.06_veh-28_00675_00737": {
+      "total_sec": 30.5,
+      "bars": [
+        {
+          "start": 3.6,
+          "end": 20.5,
+          "user": "parthib",
+          "label": "make a right turn when the light turns green"
+        },
+        {
+          "start": 4.5,
+          "end": 21.0,
+          "user": "giovanni",
+          "label": "Turn right at the traffic light."
+        },
+        {
+          "start": 4.7,
+          "end": 27.8,
+          "user": "nan",
+          "label": "turn right. "
+        },
+        {
+          "start": 9.2,
+          "end": 29.9,
+          "user": "Marcus",
+          "label": "take a right"
+        },
+        {
+          "start": 12.8,
+          "end": 28.3,
+          "user": "jeremykemmerer",
+          "label": "Go past the park"
+        },
+        {
+          "start": 14.1,
+          "end": 30.2,
+          "user": "jeremykemmerer",
+          "label": "Turn right just past the park"
+        },
+        {
+          "start": 14.8,
+          "end": 30.3,
+          "user": "giovanni",
+          "label": "Stop for the red traffic lights. "
+        }
+      ]
+    },
+    "2021.09.15.14.00.15_veh-28_01611_01874": {
+      "total_sec": 131.0,
+      "bars": [
+        {
+          "start": 5.2,
+          "end": 110.5,
+          "user": "Isaiah Ramirez",
+          "label": "slow to allow pedestrians to cross."
+        },
+        {
+          "start": 21.0,
+          "end": 105.1,
+          "user": "giovanni",
+          "label": "Make a stop at the red traffic light. At the next traffic lights make another st..."
+        },
+        {
+          "start": 35.5,
+          "end": 101.7,
+          "user": "giovanni",
+          "label": "Stop at the intersection for the red light. Stop at the upcoming intersection wi..."
+        },
+        {
+          "start": 52.3,
+          "end": 87.5,
+          "user": "jeremykemmerer",
+          "label": "Go towards the harbor plaza"
+        },
+        {
+          "start": 77.0,
+          "end": 128.7,
+          "user": "Isaiah Ramirez",
+          "label": "slow to allow pedestrians to cross. "
+        },
+        {
+          "start": 95.5,
+          "end": 119.4,
+          "user": "Isaiah Ramirez",
+          "label": "turn left"
+        },
+        {
+          "start": 105.3,
+          "end": 122.8,
+          "user": "giovanni",
+          "label": "Go straight when the light turns green. "
+        },
+        {
+          "start": 113.8,
+          "end": 130.8,
+          "user": "jeremykemmerer",
+          "label": "Continue to the roundabout"
+        }
+      ]
+    },
+    "2021.09.15.15.02.19_veh-39_00856_01095": {
+      "total_sec": 119.0,
+      "bars": [
+        {
+          "start": 4.5,
+          "end": 53.3,
+          "user": "jeremykemmerer",
+          "label": "Turn left, then right"
+        },
+        {
+          "start": 39.5,
+          "end": 112.1,
+          "user": "parthib",
+          "label": "at the sotpsign make a right turn and go straight"
+        },
+        {
+          "start": 42.5,
+          "end": 90.6,
+          "user": "parthib",
+          "label": "make a right turn at the stopsign and go straight. make a left at the end of the..."
+        },
+        {
+          "start": 44.4,
+          "end": 65.3,
+          "user": "jeremykemmerer",
+          "label": "Turn right at the stop sign"
+        },
+        {
+          "start": 72.7,
+          "end": 102.7,
+          "user": "jeremykemmerer",
+          "label": "Go to the channel center park"
+        }
+      ]
+    },
+    "2021.09.15.11.49.23_veh-28_01869_02000": {
+      "total_sec": 65.0,
+      "bars": [
+        {
+          "start": 0.2,
+          "end": 27.3,
+          "user": "parthib",
+          "label": "make the left turn once the van from oncoming side passes and go straight"
+        },
+        {
+          "start": 1.5,
+          "end": 19.8,
+          "user": "Isaiah Ramirez",
+          "label": "nan"
+        },
+        {
+          "start": 1.7,
+          "end": 57.3,
+          "user": "noorrauf",
+          "label": "head toward Dry Dock Plaza Park"
+        },
+        {
+          "start": 2.9,
+          "end": 63.5,
+          "user": "noorrauf",
+          "label": "turn left and keep left, then turn left at the stop sign, then turn right, then ..."
+        },
+        {
+          "start": 3.2,
+          "end": 51.8,
+          "user": "noorrauf",
+          "label": "head toward Dry Dock Plaza Park"
+        },
+        {
+          "start": 3.5,
+          "end": 44.6,
+          "user": "Marcus",
+          "label": "Take 2 lefts and a right to turn around"
+        },
+        {
+          "start": 5.7,
+          "end": 54.2,
+          "user": "parthib",
+          "label": "make a left turn. at the next stopsign make a left turn and then a right turn at..."
+        },
+        {
+          "start": 7.8,
+          "end": 29.9,
+          "user": "noorrauf",
+          "label": "keep left"
+        },
+        {
+          "start": 10.7,
+          "end": 63.7,
+          "user": "noorrauf",
+          "label": "go toward the glass building"
+        },
+        {
+          "start": 10.8,
+          "end": 48.8,
+          "user": "noorrauf",
+          "label": "head toward Dry Dock Plaza Park"
+        },
+        {
+          "start": 11.7,
+          "end": 58.5,
+          "user": "jeremykemmerer",
+          "label": "Go to dry dock plaza park"
+        },
+        {
+          "start": 24.3,
+          "end": 46.2,
+          "user": "noorrauf",
+          "label": "head toward Dry Dock Plaza Park"
+        },
+        {
+          "start": 25.6,
+          "end": 48.1,
+          "user": "Marcus",
+          "label": "Take a left then a right"
+        },
+        {
+          "start": 33.1,
+          "end": 64.8,
+          "user": "jeremykemmerer",
+          "label": "Follow the green van until you get to the park, then turn left"
+        },
+        {
+          "start": 33.1,
+          "end": 64.8,
+          "user": "jeremykemmerer",
+          "label": "Turn right at the parking garage"
+        },
+        {
+          "start": 34.6,
+          "end": 56.3,
+          "user": "ytandon",
+          "label": "Take a right"
+        },
+        {
+          "start": 36.4,
+          "end": 58.2,
+          "user": "noorrauf",
+          "label": "head toward Dry Dock Plaza Park"
+        },
+        {
+          "start": 42.9,
+          "end": 58.7,
+          "user": "Marcus",
+          "label": "take a left at the three way intersection"
+        },
+        {
+          "start": 46.0,
+          "end": 61.6,
+          "user": "giovanni",
+          "label": "Make a stop for the stop sign, and turn left. At the next intersection make anot..."
+        },
+        {
+          "start": 46.7,
+          "end": 63.9,
+          "user": "jeremykemmerer",
+          "label": "Take the next two lefts"
+        }
+      ]
+    },
+    "2021.09.15.13.16.40_veh-28_02072_02166": {
+      "total_sec": 46.5,
+      "bars": [
+        {
+          "start": 13.7,
+          "end": 31.3,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 15.5,
+          "end": 37.5,
+          "user": "Isaiah Ramirez",
+          "label": "nan"
+        },
+        {
+          "start": 25.6,
+          "end": 42.6,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 25.6,
+          "end": 41.0,
+          "user": "jeremykemmerer",
+          "label": "Cross summer street bridge"
+        },
+        {
+          "start": 26.2,
+          "end": 43.2,
+          "user": "jeremykemmerer",
+          "label": "Go across the bridge"
+        }
+      ]
+    },
+    "2021.10.01.19.16.42_veh-28_03307_03808": {
+      "total_sec": 250.0,
+      "bars": [
+        {
+          "start": 3.8,
+          "end": 239.0,
+          "user": "parthib",
+          "label": "make a right turn when the light turns green. after passing the intersection aft..."
+        },
+        {
+          "start": 29.4,
+          "end": 80.8,
+          "user": "ytandon",
+          "label": "Keep straight towards Graphic Arts Building"
+        },
+        {
+          "start": 95.4,
+          "end": 193.0,
+          "user": "giovanni",
+          "label": "Turn right at the intersection when the traffic light turns green. Briefly stop ..."
+        },
+        {
+          "start": 114.0,
+          "end": 225.2,
+          "user": "jeremykemmerer",
+          "label": "Stay in the right lane, then turn right onto the bridge"
+        },
+        {
+          "start": 119.2,
+          "end": 141.2,
+          "user": "giovanni",
+          "label": "Turn right at the intersection, "
+        },
+        {
+          "start": 197.8,
+          "end": 240.6,
+          "user": "giovanni",
+          "label": "Make a stop at the upcoming red traffic light. Look for oncoming traffic and mer..."
+        }
+      ]
+    },
+    "2021.09.15.14.50.05_veh-28_00083_00152": {
+      "total_sec": 34.0,
+      "bars": [
+        {
+          "start": 1.0,
+          "end": 20.2,
+          "user": "giovanni",
+          "label": "Make a stop and look for oncoming traffic before making a left turn and procced ..."
+        },
+        {
+          "start": 2.2,
+          "end": 27.9,
+          "user": "giovanni",
+          "label": "Make a Stop at the stop sign,  look for oncoming traffic and procced to take a l..."
+        },
+        {
+          "start": 2.4,
+          "end": 32.3,
+          "user": "parthib",
+          "label": "at the intersection make a left  turn. then at the second intersection do anothe..."
+        },
+        {
+          "start": 4.5,
+          "end": 24.7,
+          "user": "giovanni",
+          "label": "Stop for the upcoming stop sign, turn left at the intersection. "
+        },
+        {
+          "start": 13.1,
+          "end": 28.1,
+          "user": "ytandon",
+          "label": "nan"
+        },
+        {
+          "start": 14.7,
+          "end": 31.7,
+          "user": "jeremykemmerer",
+          "label": "Turn left at the stop sign"
+        },
+        {
+          "start": 17.2,
+          "end": 32.2,
+          "user": "jeremykemmerer",
+          "label": "Turn left at the next stop sign"
+        },
+        {
+          "start": 17.2,
+          "end": 32.2,
+          "user": "jeremykemmerer",
+          "label": "Turn onto the road where the white van came out of"
+        }
+      ]
+    },
+    "2021.10.06.14.31.13_veh-28_00014_00079": {
+      "total_sec": 32.0,
+      "bars": [
+        {
+          "start": 1.7,
+          "end": 30.4,
+          "user": "giovanni",
+          "label": "Make a stop at the upcoming stop sign and turn right. Stay in the middle to avoi..."
+        },
+        {
+          "start": 2.8,
+          "end": 26.8,
+          "user": "parthib",
+          "label": "make a right turn at the stopsign and go straight"
+        },
+        {
+          "start": 3.0,
+          "end": 22.4,
+          "user": "giovanni",
+          "label": "Stop for the stop sign. Turn right. "
+        },
+        {
+          "start": 3.4,
+          "end": 20.5,
+          "user": "jeremykemmerer",
+          "label": "Turn right at the stop sign"
+        },
+        {
+          "start": 3.4,
+          "end": 20.5,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 4.3,
+          "end": 29.0,
+          "user": "jeremykemmerer",
+          "label": "Turn right at the stop sign"
+        },
+        {
+          "start": 5.6,
+          "end": 30.4,
+          "user": "Isaiah Ramirez",
+          "label": "turn right. "
+        },
+        {
+          "start": 6.8,
+          "end": 26.6,
+          "user": "giovanni",
+          "label": "At the intersection turn right. "
+        },
+        {
+          "start": 7.8,
+          "end": 26.2,
+          "user": "Isaiah Ramirez",
+          "label": "turn right at intersection"
+        }
+      ]
+    },
+    "2021.09.15.16.17.26_veh-28_00937_01074": {
+      "total_sec": 67.9,
+      "bars": [
+        {
+          "start": 10.0,
+          "end": 46.0,
+          "user": "parthib",
+          "label": "at the third stoplight make a left turn"
+        },
+        {
+          "start": 12.2,
+          "end": 65.8,
+          "user": "giovanni",
+          "label": "Make a quick stop to avoid a collision with the white vehicle making a turn. Pro..."
+        },
+        {
+          "start": 13.7,
+          "end": 39.0,
+          "user": "giovanni",
+          "label": "STOP and let the white vehicle pass before procceding. Make a stop for the upcom..."
+        },
+        {
+          "start": 15.8,
+          "end": 65.7,
+          "user": "parthib",
+          "label": "make a left turn at the third stoplight when it is clear"
+        },
+        {
+          "start": 35.7,
+          "end": 66.4,
+          "user": "jeremykemmerer",
+          "label": "Turn left just before the bridge"
+        },
+        {
+          "start": 40.3,
+          "end": 55.4,
+          "user": "jeremykemmerer",
+          "label": "Turn left at the light"
+        }
+      ]
+    },
+    "2021.10.06.18.52.07_veh-28_01474_01908": {
+      "total_sec": 216.5,
+      "bars": [
+        {
+          "start": 3.7,
+          "end": 190.8,
+          "user": "Isaiah Ramirez",
+          "label": "turn right. turn left at the light, then turn right. turn right. turn right and ..."
+        },
+        {
+          "start": 11.5,
+          "end": 203.8,
+          "user": "parthib",
+          "label": "when the light turns green make a right turn once the pedestrians have crossed t..."
+        },
+        {
+          "start": 59.3,
+          "end": 119.0,
+          "user": "Isaiah Ramirez",
+          "label": "turn right, then right again. turn right at the light."
+        },
+        {
+          "start": 71.2,
+          "end": 112.8,
+          "user": "giovann_2",
+          "label": "Make a stop for the upcoming red traffic light. Continue straight. At the next i..."
+        },
+        {
+          "start": 154.0,
+          "end": 205.4,
+          "user": "jeremykemmerer",
+          "label": "Keep following the school bus"
+        },
+        {
+          "start": 158.4,
+          "end": 187.6,
+          "user": "Isaiah Ramirez",
+          "label": "turn right. stop to let car turn left. "
+        },
+        {
+          "start": 198.1,
+          "end": 213.8,
+          "user": "giovanni",
+          "label": "Follow the school bus. "
+        }
+      ]
+    },
+    "2021.09.15.13.52.55_veh-39_00818_01335": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 1.1,
+          "end": 227.6,
+          "user": "Isaiah Ramirez",
+          "label": "turn left. turn right at the light. turn right, waiting for the pedestrians to p..."
+        },
+        {
+          "start": 9.3,
+          "end": 147.7,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 81.6,
+          "end": 101.8,
+          "user": "Isaiah Ramirez",
+          "label": "turn right. "
+        },
+        {
+          "start": 89.1,
+          "end": 209.8,
+          "user": "giovanni",
+          "label": "Wait for the people to finish crossing, then make a right turn. Make a stop for ..."
+        },
+        {
+          "start": 144.4,
+          "end": 216.5,
+          "user": "jeremykemmerer",
+          "label": "Go to the other side of seaport common, then turn right before marina park"
+        }
+      ]
+    },
+    "2021.09.15.12.32.43_veh-28_01070_01157": {
+      "total_sec": 43.0,
+      "bars": [
+        {
+          "start": 0.6,
+          "end": 29.5,
+          "user": "parthib",
+          "label": "make the left turn when the light turns green and just go straight"
+        },
+        {
+          "start": 5.4,
+          "end": 41.8,
+          "user": "jeremykemmerer",
+          "label": "Turn onto the bridge"
+        },
+        {
+          "start": 7.1,
+          "end": 33.4,
+          "user": "giovanni",
+          "label": "Turn left at the intersection. Stop for the upcoming red traffic light. "
+        },
+        {
+          "start": 7.6,
+          "end": 42.0,
+          "user": "parthib",
+          "label": "make a left turn at the intersection and go straight"
+        },
+        {
+          "start": 8.1,
+          "end": 42.8,
+          "user": "giovanni",
+          "label": "Turn left at the intersection. Come to a stop for the next intersection for the ..."
+        },
+        {
+          "start": 22.2,
+          "end": 40.0,
+          "user": "jeremykemmerer",
+          "label": "Continue straight off the bridge"
+        }
+      ]
+    },
+    "2021.09.15.12.32.43_veh-28_01238_01314": {
+      "total_sec": 37.5,
+      "bars": [
+        {
+          "start": 2.5,
+          "end": 27.2,
+          "user": "giovanni",
+          "label": "Stop for the upcoming red traffic lights. Make a right turn at the intersection...."
+        },
+        {
+          "start": 5.7,
+          "end": 35.2,
+          "user": "jeremykemmerer",
+          "label": "Turn right at the light"
+        },
+        {
+          "start": 6.7,
+          "end": 33.4,
+          "user": "Isaiah Ramirez",
+          "label": "turn right. "
+        },
+        {
+          "start": 18.7,
+          "end": 36.1,
+          "user": "jeremykemmerer",
+          "label": "Turn right at the light"
+        }
+      ]
+    },
+    "2021.09.15.13.12.49_veh-39_00645_00802": {
+      "total_sec": 77.9,
+      "bars": [
+        {
+          "start": 2.5,
+          "end": 76.2,
+          "user": "parthib",
+          "label": "make the same left-lane change that the white vehicle in front of you does then ..."
+        },
+        {
+          "start": 12.3,
+          "end": 35.1,
+          "user": "giovanni",
+          "label": "Briefly stop and continue to move when the vehicles infront start moving. Wait f..."
+        },
+        {
+          "start": 12.7,
+          "end": 40.9,
+          "user": "jeremykemmerer",
+          "label": "Go around the stopped car but stay in the right lane"
+        },
+        {
+          "start": 15.6,
+          "end": 67.2,
+          "user": "parthib",
+          "label": "switch lanes and go back to avoid the front arked vehicle ahead of you"
+        },
+        {
+          "start": 30.1,
+          "end": 63.6,
+          "user": "jeremykemmerer",
+          "label": "Go around the stopped cars"
+        },
+        {
+          "start": 41.7,
+          "end": 64.4,
+          "user": "Isaiah Ramirez",
+          "label": "nan"
+        },
+        {
+          "start": 52.5,
+          "end": 68.3,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.09.15.14.00.15_veh-28_00288_00408": {
+      "total_sec": 59.5,
+      "bars": [
+        {
+          "start": 0.2,
+          "end": 50.5,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 1.3,
+          "end": 37.7,
+          "user": "giovanni",
+          "label": "At the intersection make a right turn. At the next intersection slow down and wa..."
+        },
+        {
+          "start": 2.4,
+          "end": 18.3,
+          "user": "jeremykemmerer",
+          "label": "Go towards the park"
+        },
+        {
+          "start": 3.8,
+          "end": 57.1,
+          "user": "giovanni",
+          "label": "Turn right at the intersection. At the next intersection turn left. Stop for the..."
+        },
+        {
+          "start": 5.9,
+          "end": 35.4,
+          "user": "giovanni",
+          "label": "Turn right at the intersection. Slow down and let the bicyclist pass before maki..."
+        },
+        {
+          "start": 6.9,
+          "end": 31.3,
+          "user": "Marcus",
+          "label": "take a right then a left while watching out for the cyclist"
+        },
+        {
+          "start": 7.3,
+          "end": 58.8,
+          "user": "Isaiah Ramirez",
+          "label": "turn right. turn left at the light."
+        },
+        {
+          "start": 7.4,
+          "end": 29.8,
+          "user": "Isaiah Ramirez",
+          "label": "turn right, then turn left. "
+        },
+        {
+          "start": 13.8,
+          "end": 40.0,
+          "user": "giovanni",
+          "label": "Turn left at the intersection. Stop for the upcoming red traffic light."
+        },
+        {
+          "start": 20.1,
+          "end": 37.2,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 23.1,
+          "end": 44.3,
+          "user": "giovanni",
+          "label": "Stop for the red traffic lights. "
+        },
+        {
+          "start": 27.0,
+          "end": 46.7,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.09.15.14.50.05_veh-28_01187_01281": {
+      "total_sec": 46.5,
+      "bars": [
+        {
+          "start": 0.2,
+          "end": 18.2,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 2.7,
+          "end": 27.4,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 4.2,
+          "end": 45.6,
+          "user": "Isaiah Ramirez",
+          "label": "nan"
+        },
+        {
+          "start": 8.9,
+          "end": 37.7,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 10.7,
+          "end": 42.8,
+          "user": "parthib",
+          "label": "just go straight when the stoplight turns green"
+        },
+        {
+          "start": 13.7,
+          "end": 45.0,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 14.2,
+          "end": 32.9,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 19.7,
+          "end": 42.6,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 20.5,
+          "end": 36.3,
+          "user": "giovanni",
+          "label": "Continue striaght when the traffic light turns green."
+        },
+        {
+          "start": 27.0,
+          "end": 45.0,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.09.15.14.27.22_veh-39_00868_01125": {
+      "total_sec": 127.9,
+      "bars": [
+        {
+          "start": 1.2,
+          "end": 126.1,
+          "user": "parthib",
+          "label": "make the right turn when you approach a stopsign. then make a left turn at the n..."
+        },
+        {
+          "start": 22.3,
+          "end": 80.7,
+          "user": "Isaiah Ramirez",
+          "label": "Go around the fire truck. Change lanes to give the bicyclist space."
+        },
+        {
+          "start": 23.7,
+          "end": 56.0,
+          "user": "jeremykemmerer",
+          "label": "Go around the fire truck"
+        },
+        {
+          "start": 31.6,
+          "end": 108.4,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 46.3,
+          "end": 74.7,
+          "user": "giovanni",
+          "label": "Turn right. Merge to the left lane. "
+        },
+        {
+          "start": 48.6,
+          "end": 66.0,
+          "user": "giovanni",
+          "label": "Turn right at the intersection. "
+        },
+        {
+          "start": 77.6,
+          "end": 95.3,
+          "user": "jeremykemmerer",
+          "label": "Turn right by the flag"
         }
       ]
     },
