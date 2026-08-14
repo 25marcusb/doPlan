@@ -49,6 +49,37 @@ folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
 2021.10.11.05.34.05_veh-50_00697_00766,51,296,Drop me off in front of the building on the end. ,Static Referential,grod,./staging/labels - Gabriel Rodriguez__1u_vk65Gzq_QD1oBSISHhV7P1BXWbYlGz.csv,24.5
 2021.10.11.05.34.05_veh-50_00697_00766,51,296,Stop in front of the building at the end of the street. ,Static Referential,grod,./staging/labels - Gabriel Rodriguez__1u_vk65Gzq_QD1oBSISHhV7P1BXWbYlGz.csv,24.5
 2021.10.11.05.34.05_veh-50_00568_00631,107,260,Head towards the cul de sac at the end of this street. ,Static Referential,grod,./staging/labels - Gabriel Rodriguez__1u_vk65Gzq_QD1oBSISHhV7P1BXWbYlGz.csv,15.3
+2021.10.01.17.52.06_veh-28_00098_00211,266,554,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,28.8
+2021.10.01.18.26.05_veh-28_00949_01041,41,305,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,26.4
+2021.09.15.12.32.43_veh-28_01513_01697,646,890,Turn left at the flashing lights,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,24.4
+2021.10.01.18.26.05_veh-28_01211_01323,87,324,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,23.7
+2021.10.01.19.16.42_veh-28_01511_01624,79,255,Turn left,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,17.6
+2021.10.01.19.16.42_veh-28_01511_01624,79,255,Turn left at dry dock plaza park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,17.6
+2021.09.15.13.12.49_veh-39_00135_00467,934,1534,Turn around at the institute of contemporary art,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,60.0
+2021.09.15.13.12.49_veh-39_00135_00467,934,1534,Turn left at the stop sign,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,60.0
+2021.10.01.14.20.36_veh-28_00243_00388,481,697,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,21.6
+2021.09.15.13.52.55_veh-39_01385_01446,51,262,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,21.1
+2021.10.01.17.52.06_veh-28_00675_00737,128,283,Go past the park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,15.5
+2021.09.15.14.00.15_veh-28_01611_01874,523,875,Go towards the harbor plaza,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,35.2
+2021.09.15.15.02.19_veh-39_00856_01095,727,1027,Go to the channel center park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,30.0
+2021.10.06.19.27.33_veh-28_00121_00289,125,757,Take the next two rights,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,63.2
+2021.09.15.11.49.23_veh-28_01869_02000,117,585,Go to dry dock plaza park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,46.8
+2021.09.15.13.16.40_veh-28_02072_02166,262,432,Go across the bridge,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,17.0
+2021.10.01.19.16.42_veh-28_03307_03808,1140,2252,"Stay in the right lane, then turn right onto the bridge",Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,111.2
+2021.09.15.14.50.05_veh-28_00083_00152,172,322,Turn left at the next stop sign,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,15.0
+2021.09.15.14.50.05_veh-28_00083_00152,172,322,Turn onto the road where the white van came out of,Dynamic Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,15.0
+2021.10.06.14.31.13_veh-28_00014_00079,43,290,Turn right at the stop sign,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,24.7
+2021.09.15.16.17.26_veh-28_00937_01074,357,664,Turn left just before the bridge,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,30.7
+2021.10.06.18.52.07_veh-28_01474_01908,1540,2054,Keep following the school bus,Dynamic Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,51.4
+2021.09.15.13.52.55_veh-39_00818_01335,1444,2165,"Go to the other side of seaport common, then turn right before marina park",Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,72.1
+2021.09.15.12.32.43_veh-28_01070_01157,222,400,Continue straight off the bridge,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,17.8
+2021.09.15.12.32.43_veh-28_01238_01314,57,352,Turn right at the light,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,29.5
+2021.09.15.13.12.49_veh-39_01532_01687,99,292,Turn left at the end of the road,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,19.3
+2021.09.15.13.12.49_veh-39_00645_00802,127,409,Go around the stopped car but stay in the right lane,Both,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,28.2
+2021.10.01.18.26.05_veh-28_00949_01041,132,334,Follow the white truck,Dynamic Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,20.2
+2021.09.15.14.00.15_veh-28_00288_00408,24,183,Go towards the park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,15.9
+2021.09.15.14.50.05_veh-28_01187_01281,89,377,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,28.8
+2021.09.15.14.27.22_veh-39_00868_01125,776,953,Turn right by the flag,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1ByueHPGrIgswvmLNAjTs4hN2Vxq1nyVm.csv,17.7
 2021.10.11.02.57.41_veh-50_00145_00308,135,714,change to right lane after white car passes,Static Referential,Vrishan,./staging/labels - Vrishan Inukollu__1GoqFSkqYjYvspzZYlJRAEsnSVwfRNFsB.csv,57.9
 2021.10.11.02.57.41_veh-50_00145_00308,564,732,,Non-Referential,Vrishan,./staging/labels - Vrishan Inukollu__1GoqFSkqYjYvspzZYlJRAEsnSVwfRNFsB.csv,16.8
 2021.10.11.05.34.05_veh-50_00697_00766,188,338,,Non-Referential,Vrishan,./staging/labels - Vrishan Inukollu__1GoqFSkqYjYvspzZYlJRAEsnSVwfRNFsB.csv,15.0
@@ -1141,37 +1172,62 @@ folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
 2021.06.14.18.42.45_veh-12_02318_02407,172,401,,Non-Referential,grod,./staging/labels - Gabriel Rodriguez__1nI2G-9dc6jSl14FZbiLqFDfeuyymEKNG.csv,22.9
 2021.06.23.18.23.38_veh-26_00069_00642,66,1003,Take a left at this light. ,Static Referential,grod,./staging/labels - Gabriel Rodriguez__1nI2G-9dc6jSl14FZbiLqFDfeuyymEKNG.csv,93.7
 2021.06.23.18.23.38_veh-26_00069_00642,66,1003,Exit the hotel to the left. ,Static Referential,grod,./staging/labels - Gabriel Rodriguez__1nI2G-9dc6jSl14FZbiLqFDfeuyymEKNG.csv,93.7
-2021.10.01.17.52.06_veh-28_00098_00211,266,554,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,28.8
-2021.10.01.18.26.05_veh-28_00949_01041,41,305,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,26.4
-2021.09.15.12.32.43_veh-28_01513_01697,646,890,Turn left at the flashing lights,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,24.4
-2021.10.01.18.26.05_veh-28_01211_01323,87,324,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,23.7
-2021.10.01.19.16.42_veh-28_01511_01624,79,255,Turn left,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,17.6
-2021.10.01.19.16.42_veh-28_01511_01624,79,255,Turn left at dry dock plaza park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,17.6
-2021.09.15.13.12.49_veh-39_00135_00467,934,1534,Turn around at the institute of contemporary art,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,60.0
-2021.09.15.13.12.49_veh-39_00135_00467,934,1534,Turn left at the stop sign,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,60.0
-2021.10.01.14.20.36_veh-28_00243_00388,481,697,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,21.6
-2021.09.15.13.52.55_veh-39_01385_01446,51,262,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,21.1
-2021.10.01.17.52.06_veh-28_00675_00737,128,283,Go past the park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,15.5
-2021.09.15.14.00.15_veh-28_01611_01874,523,875,Go towards the harbor plaza,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,35.2
-2021.09.15.15.02.19_veh-39_00856_01095,727,1027,Go to the channel center park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,30.0
-2021.10.06.19.27.33_veh-28_00121_00289,125,757,Take the next two rights,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,63.2
-2021.09.15.11.49.23_veh-28_01869_02000,117,585,Go to dry dock plaza park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,46.8
-2021.09.15.13.16.40_veh-28_02072_02166,262,432,Go across the bridge,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,17.0
-2021.10.01.19.16.42_veh-28_03307_03808,1140,2252,"Stay in the right lane, then turn right onto the bridge",Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,111.2
-2021.09.15.14.50.05_veh-28_00083_00152,172,322,Turn left at the next stop sign,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,15.0
-2021.09.15.14.50.05_veh-28_00083_00152,172,322,Turn onto the road where the white van came out of,Dynamic Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,15.0
-2021.10.06.14.31.13_veh-28_00014_00079,43,290,Turn right at the stop sign,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,24.7
-2021.09.15.16.17.26_veh-28_00937_01074,357,664,Turn left just before the bridge,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,30.7
-2021.10.06.18.52.07_veh-28_01474_01908,1540,2054,Keep following the school bus,Dynamic Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,51.4
-2021.09.15.13.52.55_veh-39_00818_01335,1444,2165,"Go to the other side of seaport common, then turn right before marina park",Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,72.1
-2021.09.15.12.32.43_veh-28_01070_01157,222,400,Continue straight off the bridge,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,17.8
-2021.09.15.12.32.43_veh-28_01238_01314,57,352,Turn right at the light,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,29.5
-2021.09.15.13.12.49_veh-39_01532_01687,99,292,Turn left at the end of the road,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,19.3
-2021.09.15.13.12.49_veh-39_00645_00802,127,409,Go around the stopped car but stay in the right lane,Both,jeremykemmerer,./staging/labels - Jeremy K.csv,28.2
-2021.10.01.18.26.05_veh-28_00949_01041,132,334,Follow the white truck,Dynamic Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,20.2
-2021.09.15.14.00.15_veh-28_00288_00408,24,183,Go towards the park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,15.9
-2021.09.15.14.50.05_veh-28_01187_01281,89,377,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,28.8
-2021.09.15.14.27.22_veh-39_00868_01125,776,953,Turn right by the flag,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,17.7
+2021.10.06.17.08.46_veh-28_00127_00428,1153,1341,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,18.8
+2021.09.15.15.34.53_veh-28_01533_01596,53,304,Continue past the park,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,25.1
+2021.09.15.14.00.15_veh-28_00288_00408,372,578,Switch to the right lane,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,20.6
+2021.10.01.13.28.54_veh-28_00405_00547,219,463,Turn right at the stop sign,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,24.4
+2021.10.01.15.32.11_veh-28_01000_01136,492,672,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,18.0
+2021.09.15.12.32.43_veh-28_01513_01697,232,808,"Turn right at the light, then go straight for awhile",Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,57.6
+2021.09.15.15.34.53_veh-28_01303_01395,44,298,Turn right at the stop sign,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,25.4
+2021.09.15.16.51.15_veh-28_00005_00160,546,754,Drive along the water,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,20.8
+2021.09.15.14.50.05_veh-28_01392_01458,25,311,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,28.6
+2021.09.15.14.27.22_veh-39_01166_01252,126,276,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,15.0
+2021.09.15.14.00.15_veh-28_01611_01874,712,910,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,19.8
+2021.10.06.13.21.47_veh-28_00139_00216,1,212,Drive out of the parking lot and turn right onto the main road,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,21.1
+2021.10.06.13.21.47_veh-28_01002_01116,341,560,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,21.9
+2021.09.15.12.32.43_veh-28_00015_00093,171,375,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,20.4
+2021.10.01.19.16.42_veh-28_00392_00906,1026,2536,"Go through this light once the pedestrians are gone, then turn right at the next light",Both,jeremykemmerer,./staging/labels - Jeremy K.csv,151.0
+2021.10.06.19.27.33_veh-28_00016_00079,130,300,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,17.0
+2021.10.01.15.32.11_veh-28_01178_01392,248,606,Take the second exit of the roundabout to keep going straight,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,35.8
+2021.09.15.11.49.23_veh-28_02192_02253,38,290,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,25.2
+2021.09.15.16.51.15_veh-28_01468_01533,10,241,Turn right at the next stop sign,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,23.1
+2021.10.01.19.16.42_veh-28_02011_02410,774,1081,turn left at the second stoplight ahead,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,30.7
+2021.09.15.14.27.22_veh-39_01420_01480,120,274,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,15.4
+2021.10.06.14.31.13_veh-28_01277_01377,114,447,"Go onto the bridge, then switch to the right lane",Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,33.3
+2021.10.01.17.52.06_veh-28_00748_00952,34,396,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,36.2
+2021.10.01.19.16.42_veh-28_02447_02517,79,330,Go straight until the roundabout,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,25.1
+2021.09.15.16.17.26_veh-28_01450_01544,8,219,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,21.1
+2021.09.15.16.17.26_veh-28_00772_00880,272,529,"Keep going straight, but switch into the left lane soon",Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,25.7
+2021.10.06.17.43.07_veh-28_01354_01536,692,880,Take a sharp right at the intersection,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,18.8
+2021.09.15.12.32.43_veh-28_00015_00093,161,353,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,19.2
+2021.10.01.19.16.42_veh-28_02011_02410,404,573,Turn left at the light,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,16.9
+2021.10.06.13.21.47_veh-28_01755_01829,76,242,Turn all the way left at this intersection,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,16.6
+2021.09.15.16.17.26_veh-28_01581_01740,0,521,Go towards the summer street bridge,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,52.1
+2021.10.06.18.52.07_veh-28_00123_00431,1072,1343,Turn left at the end of the road,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,27.1
+2021.09.15.11.49.23_veh-28_00081_00237,440,726,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,28.6
+2021.09.15.11.49.23_veh-28_02024_02091,94,268,Turn left at the first intersection after the roundabout,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,17.4
+2021.10.01.13.28.54_veh-28_00405_00547,222,537,"Turn right, then go straight down this road for awhile",Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,31.5
+2021.10.06.17.43.07_veh-28_00016_00291,180,334,"Cross the bridge, then get in the right lane once it forms",Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,15.4
+2021.10.06.17.43.07_veh-28_01587_01694,147,365,Turn left towards the pier 10 park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,21.8
+2021.09.15.15.34.53_veh-28_00512_01084,240,1294,Get to the other side of the water,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,105.4
+2021.09.15.15.34.53_veh-28_00512_01084,240,1294,Get onto the bridge,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,105.4
+2021.09.15.12.32.43_veh-28_00708_00866,45,749,Go to the other side of seaport common,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,70.4
+2021.10.01.15.32.11_veh-28_01000_01136,314,554,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,24.0
+2021.10.01.14.20.36_veh-28_00825_00919,165,356,Get into the right lane by the park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,19.1
+2021.10.01.15.32.11_veh-28_01178_01392,96,954,"Speed up to pass some of these cars, and go to pier 10 park",Both,jeremykemmerer,./staging/labels - Jeremy K.csv,85.8
+2021.09.15.16.17.26_veh-28_01370_01439,179,331,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,15.2
+2021.09.15.16.51.15_veh-28_01468_01533,95,289,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,19.4
+2021.09.15.16.51.15_veh-28_01468_01533,132,315,Go around the trucks,Dynamic Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,18.3
+2021.10.01.19.16.42_veh-28_00274_00380,203,487,Go straight until the roundabout,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,28.4
+2021.10.01.15.32.11_veh-28_00475_00930,175,686,Turn right,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,51.1
+2021.10.01.19.16.42_veh-28_02447_02517,124,308,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,18.4
+2021.10.01.15.32.11_veh-28_00475_00930,521,841,Get ready to turn right onto the bridge,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,32.0
+2021.09.15.13.16.40_veh-28_02198_02321,307,565,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,25.8
+2021.09.15.14.50.05_veh-28_01511_01690,525,769,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,24.4
+2021.09.15.14.50.05_veh-28_00578_00896,730,1263,Turn around and go back across the water,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,53.3
+2021.09.15.14.50.05_veh-28_00578_00896,730,1263,Turn right twice onto the bridge,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,53.3
+2021.10.06.19.27.33_veh-28_00121_00289,392,771,Turn right at the light,Static Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,37.9
+2021.10.06.13.21.47_veh-28_01648_01722,196,351,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K.csv,15.5
 2021.05.12.23.36.44_veh-35_00152_00504,638,2351,Pass the Aria,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,171.3
 2021.05.12.23.36.44_veh-35_00152_00504,638,2351,,Non-Referential,Marcus,./staging/labels - Marcus Blennemann.csv,171.3
 2021.06.09.17.23.18_veh-38_02094_02305,854,1041,wait at the red light,Static Referential,Marcus,./staging/labels - Marcus Blennemann.csv,18.7
