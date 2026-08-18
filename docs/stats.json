@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-18T00:56:46",
+  "generated_at": "2026-08-18T06:34:48",
   "table1": {
-    "number_of_annotations": 5553,
+    "number_of_annotations": 5565,
     "number_of_unique_source_clips": 1061,
     "number_of_annotators": 11,
-    "total_annotated_driving_time_hrs": 78.4366388888889,
-    "mean_segment_duration_sec": 48.189939591078065,
+    "total_annotated_driving_time_hrs": 78.99466666666667,
+    "mean_segment_duration_sec": 48.3249013692272,
     "median_segment_duration_sec": 31.9,
     "min_segment_duration_sec": 15.0,
     "max_segment_duration_sec": 254.4,
-    "unique_annotated_driving_hrs": 25.55355555555558,
-    "equivalent_doscene_annotations": 14481
+    "unique_annotated_driving_hrs": 25.56169444444447,
+    "equivalent_doscene_annotations": 14584
   },
   "table2": {
-    "number_of_instructions": 4431,
-    "mean_instruction_length_words": 16.075829383886255,
+    "number_of_instructions": 4443,
+    "mean_instruction_length_words": 16.09070447895566,
     "median_instruction_length_words": 12.0,
     "min_instruction_length_words": 2,
     "max_instruction_length_words": 157,
-    "vocabulary_size": 898,
-    "type_token_ratio": 0.012599264809046776,
-    "multi_sentence_pct": 37.32791694877003
+    "vocabulary_size": 901,
+    "type_token_ratio": 0.012595585254358128,
+    "multi_sentence_pct": 37.31712806662165
   },
   "table3": {
-    "mean_annotations_per_clip": 5.233741753063148,
+    "mean_annotations_per_clip": 5.245051837888784,
     "median_annotations_per_clip": 4.0,
     "max_annotations_single_clip": 58,
-    "clips_with_multiple_annotations_pct": 91.80018850141376,
-    "overlapping_annotation_pairs": 23181,
-    "mean_temporal_overlap_ratio": 0.6600117562889084,
-    "mean_instruction_similarity_for_overlaps": 0.3066153687273507
+    "clips_with_multiple_annotations_pct": 91.89443920829406,
+    "overlapping_annotation_pairs": 23219,
+    "mean_temporal_overlap_ratio": 0.6599103515466191,
+    "mean_instruction_similarity_for_overlaps": 0.3063184731266447
   },
   "coverage": {
     "total_clips_in_manifest": 1085,
@@ -7238,7 +7238,7 @@
         "total_sec": 254.5,
         "covered_sec": 208.39999999999998,
         "coverage_pct": 81.88605108055009,
-        "num_annotations": 1
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.07.16.18.06.21_veh-38_02197_03220",
@@ -7316,17 +7316,17 @@
         "clip_id": "2021.07.16.18.19.22_veh-35_00440_00858",
         "city": "las_vegas_8",
         "total_sec": 208.5,
-        "covered_sec": 191.20000000000002,
-        "coverage_pct": 91.70263788968825,
-        "num_annotations": 2
+        "covered_sec": 200.10000000000002,
+        "coverage_pct": 95.97122302158274,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.07.16.18.19.22_veh-35_00869_03454",
         "city": "las_vegas_8",
         "total_sec": 254.5,
-        "covered_sec": 222.1,
-        "coverage_pct": 87.26915520628683,
-        "num_annotations": 3
+        "covered_sec": 242.5,
+        "coverage_pct": 95.28487229862476,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.07.16.18.49.56_veh-26_00015_00235",
@@ -7550,7 +7550,7 @@
         "total_sec": 254.5,
         "covered_sec": 252.8,
         "coverage_pct": 99.3320235756385,
-        "num_annotations": 4
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_03844_04474",
@@ -7558,7 +7558,7 @@
         "total_sec": 254.5,
         "covered_sec": 249.3,
         "coverage_pct": 97.95677799607073,
-        "num_annotations": 2
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_04496_06203",
@@ -9631,8 +9631,8 @@
       83.78746594005449,
       22.116301239275497,
       88.25710754017304,
-      91.70263788968825,
-      87.26915520628683,
+      95.97122302158274,
+      95.28487229862476,
       75.41133455210237,
       43.96856581532417,
       78.19339434938321,
@@ -9839,7 +9839,7 @@
   "per_annotator_counts": {
     "giovanni": 2373,
     "parthib": 1252,
-    "grod": 1007,
+    "grod": 1019,
     "jeremykemmerer": 297,
     "Isaiah Ramirez": 166,
     "noorrauf": 119,
@@ -9855,7 +9855,7 @@
     "Marcus": 1883.0,
     "Vrishan": 1778.1999999999998,
     "giovanni": 98671.40000000001,
-    "grod": 67894.20000000001,
+    "grod": 69903.1,
     "jboaz": 5826.700000000001,
     "jeremykemmerer": 10053.3,
     "noorrauf": 4625.0,
@@ -9868,7 +9868,7 @@
     "Marcus": 35.177083333333336,
     "Vrishan": 37.04583333333333,
     "giovanni": 42.1041975308642,
-    "grod": 56.36842105263158,
+    "grod": 60.28623188405797,
     "jboaz": 71.05731707317074,
     "jeremykemmerer": 33.59452554744526,
     "noorrauf": 38.751694915254234,
@@ -17110,11 +17110,23 @@
         107.0,
         22.9,
         93.7,
-        93.7
+        93.7,
+        49.4,
+        49.4,
+        231.3,
+        231.3,
+        177.9,
+        177.9,
+        198.1,
+        198.1,
+        198.1,
+        165.8,
+        165.8,
+        165.8
       ],
       "referential": {
         "Non-Referential": 169,
-        "Static Referential": 825,
+        "Static Referential": 837,
         "Dynamic Referential": 13,
         "Both": 0
       },
@@ -18084,7 +18096,19 @@
           9,
           7,
           6,
-          6
+          6,
+          33,
+          5,
+          32,
+          6,
+          44,
+          6,
+          80,
+          4,
+          7,
+          6,
+          29,
+          7
         ],
         "Dynamic Referential": [
           9,
@@ -18105,8 +18129,8 @@
       },
       "per_clip": {
         "1": 31,
-        "2": 9,
-        "3": 7,
+        "2": 12,
+        "3": 9,
         "4": 5,
         "5": 3,
         "6": 3,
@@ -18176,6 +18200,11 @@
         36.817,
         92.692,
         82.323,
+        19.411,
+        85.324,
+        77.839,
+        90.884,
+        65.147,
         96.238,
         57.6,
         33.333,
@@ -25615,6 +25644,18 @@
       22.9,
       93.7,
       93.7,
+      49.4,
+      49.4,
+      231.3,
+      231.3,
+      177.9,
+      177.9,
+      198.1,
+      198.1,
+      198.1,
+      165.8,
+      165.8,
+      165.8,
       21.9,
       122.0,
       240.6,
@@ -28098,7 +28139,7 @@
     ],
     "referential": {
       "Non-Referential": 1778,
-      "Static Referential": 2247,
+      "Static Referential": 2259,
       "Dynamic Referential": 590,
       "Both": 892
     },
@@ -30083,6 +30124,18 @@
         7,
         6,
         6,
+        33,
+        5,
+        32,
+        6,
+        44,
+        6,
+        80,
+        4,
+        7,
+        6,
+        29,
+        7,
         7,
         28,
         22,
@@ -32498,12 +32551,12 @@
       ]
     },
     "per_clip": {
-      "1": 87,
-      "2": 178,
+      "1": 86,
+      "2": 176,
       "3": 187,
       "4": 160,
-      "5": 126,
-      "6": 98,
+      "5": 127,
+      "6": 100,
       "7": 56,
       "8": 38,
       "9": 28,
@@ -33441,8 +33494,8 @@
       83.787,
       22.116,
       88.257,
-      91.703,
-      87.269,
+      95.971,
+      95.285,
       75.411,
       43.969,
       78.193,
@@ -33621,7 +33674,7 @@
   },
   "referential_distribution": {
     "Non-Referential": 1778,
-    "Static Referential": 2247,
+    "Static Referential": 2259,
     "Dynamic Referential": 590,
     "Both": 892
   },
@@ -35612,6 +35665,18 @@
       7,
       6,
       6,
+      33,
+      5,
+      32,
+      6,
+      44,
+      6,
+      80,
+      4,
+      7,
+      6,
+      29,
+      7,
       7,
       28,
       22,
@@ -38028,12 +38093,12 @@
   },
   "per_clip_counts": {
     "0": 24,
-    "1": 87,
-    "2": 178,
+    "1": 86,
+    "2": 176,
     "3": 187,
     "4": 160,
-    "5": 126,
-    "6": 98,
+    "5": 127,
+    "6": 100,
     "7": 56,
     "8": 38,
     "9": 28,
@@ -42287,6 +42352,24 @@
           "label": "after passing the intersection thats after the palazzo building switch to the ri..."
         },
         {
+          "start": 83.0,
+          "end": 248.8,
+          "user": "grod",
+          "label": "Drop me off at the Wynn. "
+        },
+        {
+          "start": 83.0,
+          "end": 248.8,
+          "user": "grod",
+          "label": "Continue straight past this light then get in your right lane. At the next light..."
+        },
+        {
+          "start": 83.0,
+          "end": 248.8,
+          "user": "grod",
+          "label": "Pick up my friend at the Wynn. "
+        },
+        {
           "start": 118.2,
           "end": 155.7,
           "user": "parthib",
@@ -46084,6 +46167,18 @@
           "label": "switch to the right lane when you pass the tour center. make the right turn into..."
         },
         {
+          "start": 0.6,
+          "end": 231.9,
+          "user": "grod",
+          "label": "Head straight until you pass the light next to the Palazzo, then get in your rig..."
+        },
+        {
+          "start": 0.6,
+          "end": 231.9,
+          "user": "grod",
+          "label": "Drop me off at the Wynn. "
+        },
+        {
           "start": 16.5,
           "end": 81.8,
           "user": "parthib",
@@ -47827,6 +47922,24 @@
       "total_sec": 254.5,
       "bars": [
         {
+          "start": 11.0,
+          "end": 209.1,
+          "user": "grod",
+          "label": "Turn left at this light, merge three lanes to the right when it is safe, then wh..."
+        },
+        {
+          "start": 11.0,
+          "end": 209.1,
+          "user": "grod",
+          "label": "Go to the Luxor. "
+        },
+        {
+          "start": 11.0,
+          "end": 209.1,
+          "user": "grod",
+          "label": "Make a drop off at the Luxor. "
+        },
+        {
           "start": 31.4,
           "end": 48.8,
           "user": "parthib",
@@ -49539,6 +49652,18 @@
           "end": 245.6,
           "user": "parthib",
           "label": "make the left turn when the light turns green. after passing the following stopl..."
+        },
+        {
+          "start": 176.8,
+          "end": 226.2,
+          "user": "grod",
+          "label": "Get in your left lane then merge to the left lane again. Go past this stop sign ..."
+        },
+        {
+          "start": 176.8,
+          "end": 226.2,
+          "user": "grod",
+          "label": "Take me to the Luxor. "
         }
       ]
     },
@@ -72907,6 +73032,18 @@
           "end": 189.9,
           "user": "Jeevan",
           "label": "move to the right lane and keep straight. stay behind the crosswalk until there ..."
+        },
+        {
+          "start": 25.9,
+          "end": 203.8,
+          "user": "grod",
+          "label": "Head straight in this lane until right before you reach the intersection next to..."
+        },
+        {
+          "start": 25.9,
+          "end": 203.8,
+          "user": "grod",
+          "label": "Take me to Paris Las Vegas. "
         },
         {
           "start": 95.1,
