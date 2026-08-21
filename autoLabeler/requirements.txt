@@ -1,0 +1,10 @@
+# autoLabeler — Qwen3-VL auto-labeling of doPlan driving segments
+# The nuplan conda env already satisfies torch/transformers/opencv; these are
+# the direct deps this project uses. Versions are lower bounds known to work.
+transformers>=4.57.0   # provides Qwen3VLForConditionalGeneration
+accelerate>=0.34.0     # device_map="auto" model loading
+torch>=2.4.0
+opencv-python>=4.5.0
+Pillow>=9.0.0
+pandas>=1.5.0
+PyYAML>=6.0
