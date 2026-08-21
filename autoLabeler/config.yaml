@@ -1,0 +1,39 @@
+# autoLabeler configuration. Paths are absolute so this runs from anywhere.
+
+model:
+  name: "Qwen/Qwen3-VL-8B-Instruct"   # HF id; downloaded to ~/.cache/huggingface on first run
+  dtype: "bfloat16"                    # fits the 24GB RTX 3090 Ti (~17GB weights)
+  max_new_tokens: 256
+  do_sample: false                     # deterministic decoding for reproducible labels
+
+# Where the raw multi-view clips live. `video_root` holds {city}/{clip}/{cam}.mp4
+# (production naming); `sample_root` is the small offline copy for dev.
+data:
+  video_root: "/media/cvrr/0A6AF7D76AF7BE0F/CompetitionData/dataset/newVideos"
+  sample_root: "/home/cvrr/Desktop/VLM Competition/doPlan/scripts/autoLabeler/SampleData"
+  human_labels_csv: "/home/cvrr/Desktop/VLM Competition/doPlan/docs/combined_annotations.csv"
+  fps: 10.0
+
+# How each segment is turned into model input.
+frames:
+  # Cameras montaged per timestamp, laid out like the human labeling UI.
+  cameras: ["L0", "L1", "L2", "F0", "B0", "R0", "R1", "R2"]
+  num_timestamps: 6        # evenly spaced montages sampled across [start_frame, end_frame]
+  tile_width: 320          # side/rear view tile size in the montage
+  tile_height: 180
+  front_scale: 2           # F0 rendered this many tiles wide/tall (larger, like the UI)
+  draw_camera_labels: true
+  include_map: true        # feed the GPS map + compass view too, matching what human annotators see
+  map_size: 512            # pixel size of the square map image
+
+output:
+  dir: "/home/cvrr/Desktop/VLM Competition/doPlan/autoLabeler/outputs"
+  username: "qwen3vl-8b"   # written into the `username` column so it slots into the same schema
+
+# Phase-1 smoke test: one clip, one segment, end-to-end.
+smoke_test:
+  # Leave clip null to auto-pick the first clip found under video_root (or sample_root
+  # if the drive is not mounted). Otherwise give "{city}/{clip}" or an absolute folder.
+  clip: null
+  segment: null            # [start_frame, end_frame]; null => a middle chunk of the clip
+  save_montages: true      # also write the montage PNGs to outputs/ for inspection
