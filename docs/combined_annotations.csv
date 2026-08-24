@@ -2714,106 +2714,179 @@ folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
 2021.09.15.13.12.49_veh-39_00645_00802,301,636,Go around the stopped cars,Dynamic Referential,jeremykemmerer,./staging/labels - Jeremy K__1rzJVfQkmdZgyU6-OpM-xqLIMgZtkh3O8.csv,33.5
 2021.09.15.12.32.43_veh-28_02111_02342,149,937,Turn onto the pier and go to the parking area,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1rzJVfQkmdZgyU6-OpM-xqLIMgZtkh3O8.csv,78.8
 2021.10.06.13.21.47_veh-28_00441_00515,112,350,,Non-Referential,jeremykemmerer,./staging/labels - Jeremy K__1rzJVfQkmdZgyU6-OpM-xqLIMgZtkh3O8.csv,23.8
-2021.05.12.23.36.44_veh-35_00152_00504,638,2351,Pass the Aria,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,171.3
-2021.05.12.23.36.44_veh-35_00152_00504,638,2351,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,171.3
-2021.06.09.17.23.18_veh-38_02094_02305,854,1041,wait at the red light,Static Referential,Marcus,./staging/labels - Yash Tandon.csv,18.7
-2021.06.09.14.50.36_veh-26_03310_03392,79,296,wait for the people to cross the crosswalk,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,21.7
-2021.06.09.17.23.18_veh-38_02094_02305,715,922,shift to the right lane,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,20.7
-2021.10.01.17.52.06_veh-28_00675_00737,92,299,take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,20.7
-2021.10.01.17.52.06_veh-28_01141_01264,265,562,take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,29.7
-2021.10.01.14.20.36_veh-28_00243_00388,546,717,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,17.1
-2021.10.01.18.26.05_veh-28_01081_01159,55,367,Wait for the stopped vehicle,Static Referential,Marcus,./staging/labels - Yash Tandon.csv,31.2
-2021.09.15.14.00.15_veh-28_00288_00408,69,313,take a right then a left while watching out for the cyclist,Dynamic Referential,Marcus,./staging/labels - Yash Tandon.csv,24.4
-2021.09.15.11.49.23_veh-28_01869_02000,429,587,take a left at the three way intersection,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.8
-2021.09.15.11.49.23_veh-28_01869_02000,35,446,Take 2 lefts and a right to turn around,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,41.1
-2021.10.06.13.21.47_veh-28_00441_00515,119,339,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,22.0
-2021.10.06.17.08.46_veh-28_00016_00116,333,488,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.5
-2021.09.15.11.49.23_veh-28_01869_02000,256,481,Take a left then a right,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,22.5
-2021.09.15.13.52.55_veh-39_01385_01446,115,286,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,17.1
-2021.10.01.13.28.54_veh-28_01098_01337,227,497,Prepare to turn left,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,27.0
-2021.10.01.19.16.42_veh-28_00094_00216,320,526,Take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,20.6
-2021.09.15.13.12.49_veh-39_00022_00104,127,359,Watch out for the pedestrian,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,23.2
-2021.09.15.13.12.49_veh-39_00022_00104,127,359,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,23.2
-2021.10.06.18.52.07_veh-28_01297_01462,432,688,Wait for the hazards to clear then go forward,Dynamic Referential,Marcus,./staging/labels - Yash Tandon.csv,25.6
-2021.09.15.13.16.40_veh-28_02198_02321,302,458,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.6
-2021.10.01.18.26.05_veh-28_00005_00413,37,1645,Make a big loop by turning right and go on both bridges,Static Referential,Marcus,./staging/labels - Yash Tandon.csv,160.8
-2021.10.01.19.16.42_veh-28_01731_01935,7,720,Take me to eastport Park,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,71.3
-2021.09.15.14.27.22_veh-39_01491_01763,926,1263,Take a left at iron street park,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,33.7
-2021.10.06.14.31.13_veh-28_00223_00350,439,595,Go into the dead end,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.6
-2021.10.06.17.08.46_veh-28_01626_01702,39,209,Go toward summer street bridge,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,17.0
-2021.09.15.11.49.23_veh-28_00280_00506,524,883,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,35.9
-2021.09.15.15.34.53_veh-28_01820_02314,768,2308,Make a big circle around the river starting at the hood milk bottle,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,154.0
-2021.09.15.16.51.15_veh-28_01225_01302,0,353,Go towards hampton inn & homewood suites,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,35.3
-2021.09.15.16.51.15_veh-28_01225_01302,7,355,Go to hampton inn and homewood suites,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,34.8
-2021.10.06.18.52.07_veh-28_00442_00578,103,630,Go to the residence inn mariott,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,52.7
-2021.10.01.18.26.05_veh-28_01081_01159,157,351,Do not pass the stalled vehicle. Wait for it to move then go.,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,19.4
-2021.10.01.14.20.36_veh-28_01415_01480,68,233,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,16.5
-2021.09.15.15.34.53_veh-28_01533_01596,69,226,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.7
-2021.09.15.14.27.22_veh-39_00665_00745,190,393,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,20.3
-2021.10.06.13.21.47_veh-28_00441_00515,174,338,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,16.4
-2021.09.15.16.17.26_veh-28_01085_01182,28,464,Take the summer street bridge,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,43.6
-2021.09.15.16.17.26_veh-28_00586_00712,8,215,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,20.7
-2021.09.15.11.49.23_veh-28_01108_01493,1423,1637,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,21.4
-2021.09.15.16.51.15_veh-28_01468_01533,24,222,Take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,19.8
-2021.10.01.19.16.42_veh-28_00392_00906,895,1294,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,39.9
-2021.10.01.14.20.36_veh-28_01491_01630,478,634,Go to the pier,Static Referential,Marcus,./staging/labels - Yash Tandon.csv,15.6
-2021.10.06.14.31.13_veh-28_01388_01849,1501,1932,Take a left then left again,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,43.1
-2021.09.15.13.12.49_veh-39_00022_00104,9,290,Leave the pier and go back to the main road,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,28.1
-2021.09.15.11.49.23_veh-28_00280_00506,819,977,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,15.8
-2021.09.15.11.49.23_veh-28_00520_00669,194,469,Go to the institute of contemporary art,Static Referential,Marcus,./staging/labels - Yash Tandon.csv,27.5
-2021.10.06.13.21.47_veh-28_00441_00515,65,293,,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,22.8
-2021.09.15.13.12.49_veh-39_00135_00467,776,1311,Go to the institute of contemporary art,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,53.5
-2021.09.15.11.49.23_veh-28_00520_00669,261,619,Take a detour to the institute of contemporary art then return to the main road,Non-Referential,Marcus,./staging/labels - Yash Tandon.csv,35.8
-2021.10.01.17.52.06_veh-28_01141_01264,418,592,Keep going straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,17.4
-2021.10.01.19.16.42_veh-28_02903_03140,387,1111,"Take the right from the roundabout and keep straight on the road, going past Boston Fish Pier",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,72.4
-2021.08.17.17.17.01_veh-45_02098_02251,541,723,Take a right from the signal and keep straight towards Citgo gas station,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,18.2
-2021.09.15.14.50.05_veh-28_00389_00508,383,563,Take left from the signal right before The Envoy Hotel,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,18.0
-2021.08.17.13.15.12_veh-45_01049_01467,442,1538,"Drive across Tunnel Park, then make a left in the middle of it. Then navigate to the road with the Goodwill Employment Training Center.",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,109.6
-2021.08.17.18.44.32_veh-08_00586_00848,944,1194,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,25.0
-2021.10.06.18.52.07_veh-28_00839_00968,71,337,Drive towards Pier 10 Park,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,26.6
-2021.10.01.18.26.05_veh-28_00005_00413,1150,1894,"Take a right at the intersection near The Envoy Hotel, then drive towards Residence Inn Marriott",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,74.4
-2021.08.17.15.02.08_veh-45_01756_01966,284,829,"Take a right at the light, then prepare to take a left past the McGowan Institute for Regenerative Medicine",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,54.5
-2021.08.17.13.15.12_veh-45_02124_02293,328,717,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,38.9
-2021.07.16.21.17.55_veh-26_01392_01488,17,289,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,27.2
-2021.10.01.19.16.42_veh-28_00094_00216,372,586,"Go past Dry Dock Plaza Park to take the first right, then drive straight towards the dead end",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,21.4
-2021.07.16.21.17.55_veh-26_05156_05225,2,219,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,21.7
-2021.08.17.14.45.12_veh-42_00542_00803,822,1245,Take a left at the intersection with construction work to go in the direction towards Prince of Peace Roman Catholic Church,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,42.3
-2021.09.15.14.50.05_veh-28_00083_00152,131,281,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,15.0
-2021.10.06.14.31.13_veh-28_00981_01226,238,730,"Take a complete loop of the entire block, then prepare to turn left at the signal",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,49.2
-2021.10.11.05.34.05_veh-50_00442_00556,349,558,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,20.9
-2021.10.01.17.52.06_veh-28_01034_01107,193,357,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,16.4
-2021.10.11.02.57.41_veh-50_00838_01005,8,373,"Take a round of the drop-off loop ahead, and come back",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,36.5
-2021.08.17.18.44.32_veh-08_00586_00848,584,956,"Pull out of the curb, take the second left, then the first right.",Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,37.2
-2021.08.17.17.17.01_veh-45_02098_02251,185,705,"Keep going straight, then take the third right",Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,52.0
-2021.08.17.13.15.12_veh-45_00565_00643,181,364,Take the right to head towards Citgo,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,18.3
-2021.07.16.16.27.22_veh-26_00016_01515,555,1252,Exit Luxor Las Vegas and take the first left to head towards the direction of the Statue of Liberty,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,69.7
-2021.07.16.23.22.27_veh-14_01631_03833,2123,2530,Exit the drop-off loop,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,40.7
-2021.09.15.13.16.40_veh-28_00088_00157,87,270,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,18.3
-2021.08.17.18.44.32_veh-08_00586_00848,805,1275,"Take a left, then the first right, then the first left",Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,47.0
-2021.09.15.14.50.05_veh-28_01511_01690,102,680,Keep straight until a left at the diagonal street towards Boston Wharf Co. Sign,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,57.8
-2021.10.01.19.16.42_veh-28_03307_03808,294,808,Keep straight towards Graphic Arts Building,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,51.4
-2021.09.15.12.32.43_veh-28_00417_00527,191,428,Perform a U-Turn by taking two rights,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,23.7
-2021.10.01.19.16.42_veh-28_01511_01624,294,531,Take a right and drive straight towards the dead-end,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,23.7
-2021.10.01.17.52.06_veh-28_01289_01353,5,252,Exit out of the dead-end and keep straight until the stop sign,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,24.7
-2021.07.16.21.17.55_veh-26_03860_03930,167,338,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,17.1
-2021.08.17.17.55.18_veh-43_00016_00083,96,325,Take a right and head in the direction of Citgo,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,22.9
-2021.09.15.16.17.26_veh-28_01085_01182,208,386,Take a left onto Summer Street Bridge and keep straight,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,17.8
-2021.07.16.23.22.27_veh-14_06339_07673,197,1763,"Keep straight towards The Cromwell Las Vegas, constantly following the white car ahead",Both,ytandon,./staging/labels - Yash Tandon.csv,156.6
-2021.10.06.13.21.47_veh-28_00441_00515,63,247,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,18.4
-2021.07.16.22.40.23_veh-38_00016_00182,253,650,"Stop at the drop-off loop at Luxor Las Vegas, then take a right to exit",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,39.7
-2021.07.16.18.06.21_veh-38_05338_05486,186,711,Go to the Luxor Las Vegas drop-off loop,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,52.5
-2021.10.06.18.52.07_veh-28_00592_00655,125,287,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,16.2
-2021.10.11.07.12.18_veh-50_00345_00498,319,747,"Exit MindChamps PreSchool @ Biopolis by taking a left, then take a right at the signal",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,42.8
-2021.09.15.14.27.22_veh-39_01420_01480,31,246,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,21.5
-2021.08.17.18.11.12_veh-08_00234_00611,1332,1748,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,41.6
-2021.08.17.15.02.08_veh-45_02111_02303,472,923,"Take a right to head towards South Shore Riverfront Park, then take the left into Hot Metal Bridge",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,45.1
-2021.08.17.18.54.02_veh-45_00511_00579,154,324,Take the next left,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,17.0
-2021.09.15.11.49.23_veh-28_01869_02000,346,563,Take a right,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,21.7
-2021.08.17.14.32.33_veh-08_01262_01528,90,412,Keep heading straight before making a couple of left turns to be on the other side of the block and heading towards Hazelwood Green Plaza,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,32.2
-2021.07.16.20.45.29_veh-35_00016_00589,2231,2455,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,22.4
-2021.08.17.17.17.01_veh-45_01443_01678,148,609,"Enter Tunnel Park, stop at the curb before the stop sign for a few seconds, then keep straight",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,46.1
-2021.09.15.13.52.55_veh-39_01385_01446,83,236,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,15.3
-2021.09.15.12.32.43_veh-28_00625_00697,199,353,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,15.4
+2021.06.14.13.27.42_veh-35_04596_04692,18,428,Head in the direction towards Paris Balloon,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,41.0
+2021.06.14.13.27.42_veh-35_04596_04692,88,351,Keep following the white car in front until the crosswalk,Both,ytandon,./staging/labels - Yash Tandon.csv,26.3
+2021.06.14.16.32.09_veh-35_01219_01415,180,878,Keep heading northbound until the signal near Woldorf Astoria,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,69.8
+2021.06.14.16.32.09_veh-35_00016_00087,16,326,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,31.0
+2021.06.14.16.48.02_veh-12_00009_00127,137,576,"Enter the Luxor Las Vegas roundabout, and then exit by taking a right at the stop sign",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,43.9
+2021.06.14.16.32.09_veh-35_03438_03580,29,607,Drive straight towards Coca Cola Store,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,57.8
+2021.07.16.23.22.27_veh-14_01383_01479,57,462,Let the black car merge in and follow it,Dynamic Referential,ytandon,./staging/labels - Yash Tandon.csv,40.5
+2021.06.14.13.28.41_veh-12_02070_02140,60,327,Take a left at the signal and drive north ,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,26.7
+2021.07.16.21.17.55_veh-26_02927_02992,85,286,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,20.1
+2021.07.16.22.40.23_veh-38_00016_00182,25,721,Go to Luxor Las Vegas and wait at the entrance for 20 seconds before exiting and taking a right at the stop sign,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,69.6
+2021.06.14.13.27.42_veh-35_04362_04572,385,654,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,26.9
+2021.06.14.13.28.41_veh-12_01138_01284,270,686,Keep straight towards Leo the Lion,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,41.6
+2021.06.14.16.32.09_veh-35_03438_03580,32,493,Keep straight to go past Leo the Lion,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,46.1
+2021.06.14.14.25.15_veh-26_00597_00827,398,677,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,27.9
+2021.07.16.22.40.23_veh-38_00016_00182,158,370,Enter Luxor Las Vegas,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,21.2
+2021.06.14.16.32.09_veh-35_01781_02379,171,1871,Head towards Luxor Las Vegas,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,170.0
+2021.07.16.16.27.22_veh-26_00016_01515,2068,2228,Merge to the right lane and keep straight.,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,16.0
+2021.06.14.16.32.09_veh-35_04114_04359,895,1053,Wait at the left turn to enter Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,15.8
+2021.06.14.16.48.02_veh-12_00009_00127,30,547,Enter Luxor Las Vegas and immediately exit by taking a right at the stop sign,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,51.7
+2021.07.16.18.06.21_veh-38_00016_00747,154,1780,"Wait at the Luxor Las Vegas entrance for 10 seconds, then head past the Coca Cola Store",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,162.6
+2021.07.16.18.49.56_veh-26_00833_03384,752,1355,Head towards Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,60.3
+2021.07.16.16.08.35_veh-35_02397_02540,3,602,Prepare to take a left to exit Paris Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,59.9
+2021.07.16.18.06.21_veh-38_01526_02150,285,1734,Go to the westbound road next to Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,144.9
+2021.06.14.13.27.42_veh-35_04894_05018,201,459,Merge to the lane on the right and keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,25.8
+2021.07.16.23.22.27_veh-14_00015_01368,559,2433,Take the southbound road of the strip to head in the direction of Flamingo Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,187.4
+2021.07.16.23.22.27_veh-14_00015_01368,317,2529,Take a left at the signal and keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,221.2
+2021.06.14.14.25.15_veh-26_02009_02099,196,417,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,22.1
+2021.06.14.13.28.41_veh-12_04300_04506,139,980,Keep straight till The Cosmopolitan of Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,84.1
+2021.06.14.13.27.42_veh-35_04793_04883,103,266,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,16.3
+2021.06.14.14.25.15_veh-26_03415_03581,191,688,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,49.7
+2021.06.14.14.25.15_veh-26_02659_02759,14,495,"Wait at the Paris Las Vegas entrance for 20 seconds, then prepare to exit using the left lane",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,48.1
+2021.06.14.14.25.15_veh-26_02770_02830,46,280,Take a left at the signal,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,23.4
+2021.07.16.21.17.55_veh-26_00872_00937,124,307,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,18.3
+2021.06.14.14.25.15_veh-26_03415_03581,131,691,Merge to the right lane and keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,56.0
+2021.06.14.16.32.09_veh-35_04114_04359,134,940,"Take a right at the intersection before the arco, then prepare to take a left into Luxor Las Vegas",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,80.6
+2021.06.14.13.28.41_veh-12_03221_03301,24,394,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,37.0
+2021.06.14.16.32.09_veh-35_02537_02597,53,280,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,22.7
+2021.06.14.13.28.41_veh-12_03763_03829,31,286,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,25.5
+2021.06.14.13.28.41_veh-12_00169_00783,253,1848,Go to Paris Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,159.5
+2021.07.16.16.08.35_veh-35_03711_04709,1575,2039,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,46.4
+2021.06.14.14.03.45_veh-38_03180_03766,176,2320,"Wait at the Luxor Entrance for 10 seconds, then exit by taking a right at the stop sign. Keep straight towards Arte Museum Las Vegas",Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,214.4
+2021.07.16.18.06.21_veh-38_04311_04460,258,592,Enter and exit the Luxor Las Vegas drop-off loop,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,33.4
+2021.06.14.14.25.15_veh-26_03201_03386,490,789,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,29.9
+2021.07.16.16.27.22_veh-26_05416_05596,19,882,Go to the Luxor Las Vegas drop-off loop,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,86.3
+2021.06.14.13.28.41_veh-12_03221_03301,8,392,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,38.4
+2021.06.14.16.32.09_veh-35_00016_00087,91,321,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,23.0
+2021.07.16.23.22.27_veh-14_06214_06318,49,374,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,32.5
+2021.06.14.14.25.15_veh-26_00597_00827,74,1119,Go to Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,104.5
+2021.06.14.14.25.15_veh-26_04936_05073,294,602,Take a left at the signal when clear,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,30.8
+2021.07.16.16.08.35_veh-35_02397_02540,134,633,Prepare to exit Paris Las Vegas by taking a left at the signal,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,49.9
+2021.07.16.18.19.22_veh-35_00869_03454,1198,2251,Enter Luxor Las Vegas and immediately exit by taking a right at the stop sign. ,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,105.3
+2021.06.14.13.28.41_veh-12_04530_04609,34,389,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,35.5
+2021.07.16.23.22.27_veh-14_04496_06203,798,2220,"Keep straight, going past Flamingo Las Vegas",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,142.2
+2021.07.16.18.06.21_veh-38_04311_04460,412,626,Exit Luxor Las Vegas,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,21.4
+2021.06.14.16.32.09_veh-35_00016_00087,19,329,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,31.0
+2021.06.14.14.25.15_veh-26_01752_01813,60,299,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,23.9
+2021.06.14.16.32.09_veh-35_01781_02379,410,2186,"Head to Luxor Las Vegas, and prepare to take a left turn into the entrance lobby.",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,177.6
+2021.06.14.16.32.09_veh-35_04370_04488,47,561,Exit Luxor Las Vegas and head east,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,51.4
+2021.06.14.13.28.41_veh-12_03841_04014,25,775,Head towards Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,75.0
+2021.06.14.14.03.45_veh-38_01018_01144,122,548,Exit Luxor Las Vegas and head east,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,42.6
+2021.06.14.13.28.41_veh-12_00906_01063,31,343,Prepare to enter Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,31.2
+2021.06.14.14.25.15_veh-26_03964_04278,241,1198,Go to Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,95.7
+2021.06.14.16.32.09_veh-35_00574_00989,515,2012,Go to Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,149.7
+2021.07.16.18.06.21_veh-38_05338_05486,26,315,Take the right at the intersection next to Arco,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,28.9
+2021.06.14.16.32.09_veh-35_01620_01699,149,342,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,19.3
+2021.06.14.16.32.09_veh-35_00016_00087,148,340,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,19.2
+2021.06.14.14.25.15_veh-26_02770_02830,8,295,Exit Paris Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,28.7
+2021.06.14.14.25.15_veh-26_02841_02921,62,316,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,25.4
+2021.06.14.16.32.09_veh-35_02928_03118,248,417,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,16.9
+2021.07.16.21.17.55_veh-26_01392_01488,163,439,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,27.6
+2021.06.14.13.28.41_veh-12_01138_01284,136,310,Head north,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,17.4
+2021.07.16.16.27.22_veh-26_00016_01515,908,2342,Take a left and then head straight upto Arte Museum Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,143.4
+2021.07.16.18.06.21_veh-38_01526_02150,651,1801,"Keep straight, then take a right at the intersection before the White Sands Motel",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,115.0
+2021.06.14.13.28.41_veh-12_04300_04506,266,663,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,39.7
+2021.06.14.13.28.41_veh-12_01313_01541,139,842,Go to Paris Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,70.3
+2021.07.16.20.45.29_veh-35_01095_01486,178,1658,Go to Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,148.0
+2021.07.16.18.49.56_veh-26_00015_00235,153,713,Exit Luxor Las Vegas by taking a right at the stop sign,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,56.0
+2021.07.16.20.45.29_veh-35_01095_01486,811,1695,"Take a right at the intersection, then take the second left to enter Luxor Las Vegas",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,88.4
+2021.06.14.16.32.09_veh-35_00283_00357,38,352,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,31.4
+2021.06.14.13.28.41_veh-12_03763_03829,45,310,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,26.5
+2021.06.14.13.28.41_veh-12_00005_00158,42,618,Prepare to turn left at the intersection near the Arco,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,57.6
+2021.06.14.14.03.45_veh-38_04398_04488,26,272,Prepare to take a left at the first intersection after the stop sign ahead,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,24.6
+2021.06.14.14.25.15_veh-26_04735_04829,65,307,Wait for the pedestrians to cross then turn right into Paris Las Vegas,Dynamic Referential,ytandon,./staging/labels - Yash Tandon.csv,24.2
+2021.07.16.20.45.29_veh-35_02509_02649,34,526,Turn right at the intersection near the Arco,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,49.2
+2021.06.14.14.25.15_veh-26_04629_04724,1,447,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,44.6
+2021.06.14.13.28.41_veh-12_02414_02601,240,843,Prepare to exit Paris Las Vegas by taking a left,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,60.3
+2021.06.14.14.25.15_veh-26_00597_00827,89,1088,Go to Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,99.9
+2021.07.16.23.22.27_veh-14_01502_01610,231,445,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,21.4
+2021.06.14.14.25.15_veh-26_04289_04406,79,550,Turn left at the intersection and then head straight north,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,47.1
+2021.06.14.14.25.15_veh-26_02179_02316,31,288,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,25.7
+2021.06.14.14.25.15_veh-26_04417_04531,44,313,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,26.9
+2021.07.16.22.40.23_veh-38_00818_03032,1550,1864,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,31.4
+2021.06.14.16.32.09_veh-35_03438_03580,30,704,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,67.4
+2021.07.16.23.22.27_veh-14_00015_01368,966,2490,Take a left and head straight upto Caesars Palace,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,152.4
+2021.06.14.13.28.41_veh-12_02414_02601,61,504,Go to the left lane to exit Paris Las Vegas ,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,44.3
+2021.06.14.14.03.45_veh-38_01018_01144,328,580,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,25.2
+2021.07.16.22.40.23_veh-38_00818_03032,1022,2461,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,143.9
+2021.06.14.14.03.45_veh-38_02112_03169,451,2408,Take a left and keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,195.7
+2021.06.14.14.03.45_veh-38_01155_01358,269,429,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,16.0
+2021.07.16.23.22.27_veh-14_06214_06318,166,388,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,22.2
+2021.06.14.13.28.41_veh-12_02414_02601,3,928,Take the left to exit Paris Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,92.5
+2021.06.14.16.32.09_veh-35_04749_05027,10,1299,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,128.9
+2021.06.14.13.28.41_veh-12_02070_02140,5,319,Take a left at the intersection near the Arco,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,31.4
+2021.06.14.13.28.41_veh-12_02245_02340,67,379,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,31.2
+2021.06.14.16.32.09_veh-35_01489_01563,10,348,Keep straight north,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,33.8
+2021.06.14.14.25.15_veh-26_03871_03953,129,349,Take a left to exit Paris Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,22.0
+2021.06.14.13.28.41_veh-12_04903_05107,6,978,"Keep straight, then take a right at the intersection near the Arco",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,97.2
+2021.07.16.18.49.56_veh-26_00015_00235,194,838,Exit Luxor Las Vegas and enter the Las Vegas strip to head north,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,64.4
+2021.06.14.14.25.15_veh-26_03675_03860,34,846,Enter Paris Las Vegas and immediately go to the left exit lane,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,81.2
+2021.06.14.13.28.41_veh-12_03763_03829,87,269,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,18.2
+2021.06.14.16.32.09_veh-35_00016_00087,9,341,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,33.2
+2021.07.16.18.19.22_veh-35_00023_00234,780,1029,Take a left at the intersection to head towards Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,24.9
+2021.06.14.14.25.15_veh-26_03415_03581,45,779,Keep staight towards Paris Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,73.4
+2021.07.16.18.06.21_veh-38_02197_03220,208,2423,"Go to Paris Las Vegas, and immediately prepare to exit it from the left lane",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,221.5
+2021.06.14.14.25.15_veh-26_04629_04724,184,466,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,28.2
+2021.07.16.18.49.56_veh-26_03407_03538,195,363,Switch to the left lane to prepare to take a left into Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,16.8
+2021.07.16.18.06.21_veh-38_02197_03220,446,2250,"Go to Paris Las Vegas, and prepare to exit immediately using the left lane",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,180.4
+2021.06.14.14.25.15_veh-26_02376_02575,79,594,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,51.5
+2021.06.14.14.25.15_veh-26_01236_01585,155,928,Keep straight with traffic,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,77.3
+2021.06.14.14.03.45_veh-38_04398_04488,71,404,Switch to the left lane and prepare to take a left at the second intersection,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,33.3
+2021.07.16.22.40.23_veh-38_00371_00797,613,2111,Prepare to take the right into the Paris Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,149.8
+2021.06.14.14.25.15_veh-26_04417_04531,10,387,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,37.7
+2021.06.14.14.03.45_veh-38_01155_01358,378,540,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,16.2
+2021.06.14.14.03.45_veh-38_01018_01144,33,489,Exit Luxor Las Vegas and prepare to take a left at the intersection near the Arco,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,45.6
+2021.06.14.13.28.41_veh-12_02070_02140,22,340,Take the left and keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,31.8
+2021.06.14.13.27.42_veh-35_04894_05018,124,612,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,48.8
+2021.06.14.16.48.02_veh-12_00285_00574,442,980,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,53.8
+2021.06.14.14.03.45_veh-38_02007_02072,18,303,Prepare to take a left into Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,28.5
+2021.06.14.16.32.09_veh-35_03231_03426,246,530,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,28.4
+2021.07.16.18.06.21_veh-38_00770_01505,428,1803,"Go to Luxor Las Vegas, and immediately leave by taking a right at the stop sign, and then prepare to take a left at the light near the Arco",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,137.5
+2021.07.16.16.27.22_veh-26_01536_02260,289,1207,"Enter Paris Las Vegas, and prepare to exit immediately using the left lane",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,91.8
+2021.07.16.20.45.29_veh-35_02509_02649,79,499,"Take a right at the next light, and switch to the left lane.",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,42.0
+2021.07.16.16.27.22_veh-26_03836_05047,977,2329,"Take a left, and keep straight, going past Leo the Lion",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,135.2
+2021.07.16.18.06.21_veh-38_03733_04300,740,1257,Enter the left lane to exit Paris Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,51.7
+2021.06.14.16.32.09_veh-35_01219_01415,233,508,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,27.5
+2021.06.14.14.25.15_veh-26_00398_00578,28,878,"Wait at the hotel entrance for 10 seconds, then exit Paris Las Vegas by taking a left.",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,85.0
+2021.06.14.16.32.09_veh-35_04749_05027,377,1219,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,84.2
+2021.06.14.14.25.15_veh-26_04735_04829,185,445,Wait for the sidewalk to clear,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,26.0
+2021.06.14.16.48.02_veh-12_00009_00127,180,571,"Enter Luxor Las Vegas, then immediately exit by taking a right at the stop sign",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,39.1
+2021.06.14.16.32.09_veh-35_01219_01415,542,821,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,27.9
+2021.06.14.16.32.09_veh-35_03231_03426,62,906,"Exit Luxor Las Vegas and enter the Las Vegas Strip, heading North.",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,84.4
+2021.07.16.22.40.23_veh-38_00204_00360,1,655,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,65.4
+2021.06.14.14.03.45_veh-38_01547_01613,3,261,Take a right to enter Paris Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,25.8
+2021.06.14.14.25.15_veh-26_02376_02575,520,826,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,30.6
+2021.06.14.13.28.41_veh-12_05269_05369,209,388,Prepare to take a left at the traffic light,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,17.9
+2021.07.16.16.27.22_veh-26_00016_01515,389,2002,"Get to the Las Vegas Strip, and head north, going past Park MGM.",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,161.3
+2021.07.16.16.27.22_veh-26_02282_03814,1470,2056,Enter Paris Las Vegas drop-off loop,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,58.6
+2021.06.14.14.25.15_veh-26_00398_00578,33,797,Take a left to exit Paris Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,76.4
+2021.06.14.16.32.09_veh-35_03438_03580,152,372,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,22.0
+2021.06.14.14.03.45_veh-38_01369_01458,42,377,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,33.5
+2021.06.14.14.03.45_veh-38_04398_04488,81,367,Switch to the left lane to prepare to enter Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,28.6
+2021.06.14.13.28.41_veh-12_02245_02340,76,256,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,18.0
+2021.06.14.13.27.42_veh-35_04704_04782,169,373,"Stop in front of the Paris Las Vegas main entrance for 10 seconds, and then prepare to exit",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,20.4
+2021.07.16.18.06.21_veh-38_00016_00747,14,2051,"Enter and immediately exit Luxor Las Vegas, and then take the northbound Las Vegas Strip, going past Jockey Club",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,203.7
+2021.07.16.18.06.21_veh-38_02197_03220,99,2148,Go to Paris Las Vegas.,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,204.9
+2021.06.14.14.25.15_veh-26_02659_02759,26,480,Prepare to exit Paris Las Vegas using the left lane,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,45.4
+2021.06.14.14.25.15_veh-26_01236_01585,600,1599,"Wait for the pedestrians to clear at the crosswalk, before turning right into Paris Las Vegas",Dynamic Referential,ytandon,./staging/labels - Yash Tandon.csv,99.9
+2021.07.16.16.08.35_veh-35_02651_03700,72,2426,"Go to Luxor Las Vegas, and then exit immediately and come back on the Las Vegas Strip, driving north",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,235.4
+2021.07.16.20.45.29_veh-35_00016_00589,834,2393,"Enter Luxor Las Vegas, and then immediately exit to head into the Las Vegas Strip northbound",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,155.9
+2021.07.16.21.17.55_veh-26_05156_05225,1,193,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,19.2
+2021.07.16.21.17.55_veh-26_05558_05627,20,319,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,29.9
+2021.07.16.18.49.56_veh-26_03407_03538,202,389,Switch to the left lane,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,18.7
+2021.07.16.18.19.22_veh-35_00255_00418,17,505,"Enter Luxor Las Vegas, then exit by taking a right at the stop sign",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,48.8
+2021.07.16.18.19.22_veh-35_00255_00418,54,792,Exit Luxor Las Vegas by taking a right at the stop sign,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,73.8
+2021.07.16.18.06.21_veh-38_04933_05307,467,805,Prepare to exit Paris Las Vegas using the left lane at the traffic light,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,33.8
+2021.06.14.13.27.42_veh-35_05029_05340,707,1018,Switch to the left lane and prepare to enter Luxor Las Vegas,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,31.1
+2021.07.16.21.17.55_veh-26_05156_05225,107,333,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,22.6
+2021.06.14.16.48.02_veh-12_00009_00127,66,578,Enter and immediately exit Luxor Las Vegas by taking a right at the stop sign,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,51.2
+2021.06.14.16.32.09_veh-35_03803_04103,1,1492,"Enter and immediately exit Paris Las Vegas, heading on the southbound Las Vegas Strip, going past Hilton Vacation Club Polo Towers Las  Vegas",Static Referential,ytandon,./staging/labels - Yash Tandon.csv,149.1
+2021.06.14.14.25.15_veh-26_04629_04724,134,308,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,17.4
+2021.07.16.21.17.55_veh-26_00872_00937,81,300,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,21.9
+2021.07.16.21.17.55_veh-26_03254_03336,109,359,Prepare to exit Paris Las Vegas using the left lane,Static Referential,ytandon,./staging/labels - Yash Tandon.csv,25.0
+2021.06.14.16.32.09_veh-35_03803_04103,808,1050,,Non-Referential,ytandon,./staging/labels - Yash Tandon.csv,24.2
 2021.09.15.16.17.26_veh-28_01370_01439,97,310,,Non-Referential,grod,./staging/labels - Gabriel Rodriguez.csv,21.3
 2021.09.15.14.50.05_veh-28_02133_02222,12,225,Turn right at this intersection then left at the stop sign. ,Static Referential,grod,./staging/labels - Gabriel Rodriguez.csv,21.3
 2021.09.15.14.50.05_veh-28_02133_02222,12,225,"Turn right at this intersection, then make a left at the stop sign.",Static Referential,grod,./staging/labels - Gabriel Rodriguez.csv,21.3
@@ -5219,6 +5292,106 @@ folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
 2021.09.15.14.00.15_veh-28_01953_02255,546,1385,"In the intersection turn left. Make a stop for the upcoming stop sign. In the intersection turn left. Move slightly to the left to avoid the pedestrians and stationary vehicles. Merge back to the rigth lane and stop for the upcoming stop sign. Continue straight. Make a stop for the stop sign. Look for oncoming vehicles, then turn left in the intersection. ",Both,giovanni,./staging/labels - Jose Tapia.csv,83.9
 2021.06.14.13.27.42_veh-35_02853_02953,99,457,"Merge to the right turning lane, and turn right. Slow down and wait for the pedestrians to finish crossing the crosswalk. Merge to the left lane. Slow down and stop for the stop sign.  ",Both,giovanni,./staging/labels - Jose Tapia.csv,35.8
 2021.07.09.16.12.19_veh-26_04434_04498,93,274,"Yield to oncoming vehicles passing, then turn left in the intersection. Enter the bulidings drop off zone and come to a stop. ",Dynamic Referential,giovanni,./staging/labels - Jose Tapia.csv,18.1
+2021.05.12.23.36.44_veh-35_00152_00504,638,2351,Pass the Aria,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,171.3
+2021.05.12.23.36.44_veh-35_00152_00504,638,2351,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,171.3
+2021.06.09.17.23.18_veh-38_02094_02305,854,1041,wait at the red light,Static Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,18.7
+2021.06.09.14.50.36_veh-26_03310_03392,79,296,wait for the people to cross the crosswalk,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,21.7
+2021.06.09.17.23.18_veh-38_02094_02305,715,922,shift to the right lane,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,20.7
+2021.10.01.17.52.06_veh-28_00675_00737,92,299,take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,20.7
+2021.10.01.17.52.06_veh-28_01141_01264,265,562,take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,29.7
+2021.10.01.14.20.36_veh-28_00243_00388,546,717,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,17.1
+2021.10.01.18.26.05_veh-28_01081_01159,55,367,Wait for the stopped vehicle,Static Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,31.2
+2021.09.15.14.00.15_veh-28_00288_00408,69,313,take a right then a left while watching out for the cyclist,Dynamic Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,24.4
+2021.09.15.11.49.23_veh-28_01869_02000,429,587,take a left at the three way intersection,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,15.8
+2021.09.15.11.49.23_veh-28_01869_02000,35,446,Take 2 lefts and a right to turn around,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,41.1
+2021.10.06.13.21.47_veh-28_00441_00515,119,339,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,22.0
+2021.10.06.17.08.46_veh-28_00016_00116,333,488,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,15.5
+2021.09.15.11.49.23_veh-28_01869_02000,256,481,Take a left then a right,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,22.5
+2021.09.15.13.52.55_veh-39_01385_01446,115,286,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,17.1
+2021.10.01.13.28.54_veh-28_01098_01337,227,497,Prepare to turn left,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,27.0
+2021.10.01.19.16.42_veh-28_00094_00216,320,526,Take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,20.6
+2021.09.15.13.12.49_veh-39_00022_00104,127,359,Watch out for the pedestrian,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,23.2
+2021.09.15.13.12.49_veh-39_00022_00104,127,359,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,23.2
+2021.10.06.18.52.07_veh-28_01297_01462,432,688,Wait for the hazards to clear then go forward,Dynamic Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,25.6
+2021.09.15.13.16.40_veh-28_02198_02321,302,458,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,15.6
+2021.10.01.18.26.05_veh-28_00005_00413,37,1645,Make a big loop by turning right and go on both bridges,Static Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,160.8
+2021.10.01.19.16.42_veh-28_01731_01935,7,720,Take me to eastport Park,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,71.3
+2021.09.15.14.27.22_veh-39_01491_01763,926,1263,Take a left at iron street park,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,33.7
+2021.10.06.14.31.13_veh-28_00223_00350,439,595,Go into the dead end,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,15.6
+2021.10.06.17.08.46_veh-28_01626_01702,39,209,Go toward summer street bridge,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,17.0
+2021.09.15.11.49.23_veh-28_00280_00506,524,883,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,35.9
+2021.09.15.15.34.53_veh-28_01820_02314,768,2308,Make a big circle around the river starting at the hood milk bottle,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,154.0
+2021.09.15.16.51.15_veh-28_01225_01302,0,353,Go towards hampton inn & homewood suites,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,35.3
+2021.09.15.16.51.15_veh-28_01225_01302,7,355,Go to hampton inn and homewood suites,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,34.8
+2021.10.06.18.52.07_veh-28_00442_00578,103,630,Go to the residence inn mariott,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,52.7
+2021.10.01.18.26.05_veh-28_01081_01159,157,351,Do not pass the stalled vehicle. Wait for it to move then go.,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,19.4
+2021.10.01.14.20.36_veh-28_01415_01480,68,233,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,16.5
+2021.09.15.15.34.53_veh-28_01533_01596,69,226,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,15.7
+2021.09.15.14.27.22_veh-39_00665_00745,190,393,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,20.3
+2021.10.06.13.21.47_veh-28_00441_00515,174,338,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,16.4
+2021.09.15.16.17.26_veh-28_01085_01182,28,464,Take the summer street bridge,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,43.6
+2021.09.15.16.17.26_veh-28_00586_00712,8,215,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,20.7
+2021.09.15.11.49.23_veh-28_01108_01493,1423,1637,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,21.4
+2021.09.15.16.51.15_veh-28_01468_01533,24,222,Take a right,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,19.8
+2021.10.01.19.16.42_veh-28_00392_00906,895,1294,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,39.9
+2021.10.01.14.20.36_veh-28_01491_01630,478,634,Go to the pier,Static Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,15.6
+2021.10.06.14.31.13_veh-28_01388_01849,1501,1932,Take a left then left again,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,43.1
+2021.09.15.13.12.49_veh-39_00022_00104,9,290,Leave the pier and go back to the main road,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,28.1
+2021.09.15.11.49.23_veh-28_00280_00506,819,977,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,15.8
+2021.09.15.11.49.23_veh-28_00520_00669,194,469,Go to the institute of contemporary art,Static Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,27.5
+2021.10.06.13.21.47_veh-28_00441_00515,65,293,,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,22.8
+2021.09.15.13.12.49_veh-39_00135_00467,776,1311,Go to the institute of contemporary art,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,53.5
+2021.09.15.11.49.23_veh-28_00520_00669,261,619,Take a detour to the institute of contemporary art then return to the main road,Non-Referential,Marcus,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,35.8
+2021.10.01.17.52.06_veh-28_01141_01264,418,592,Keep going straight,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,17.4
+2021.10.01.19.16.42_veh-28_02903_03140,387,1111,"Take the right from the roundabout and keep straight on the road, going past Boston Fish Pier",Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,72.4
+2021.08.17.17.17.01_veh-45_02098_02251,541,723,Take a right from the signal and keep straight towards Citgo gas station,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,18.2
+2021.09.15.14.50.05_veh-28_00389_00508,383,563,Take left from the signal right before The Envoy Hotel,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,18.0
+2021.08.17.13.15.12_veh-45_01049_01467,442,1538,"Drive across Tunnel Park, then make a left in the middle of it. Then navigate to the road with the Goodwill Employment Training Center.",Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,109.6
+2021.08.17.18.44.32_veh-08_00586_00848,944,1194,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,25.0
+2021.10.06.18.52.07_veh-28_00839_00968,71,337,Drive towards Pier 10 Park,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,26.6
+2021.10.01.18.26.05_veh-28_00005_00413,1150,1894,"Take a right at the intersection near The Envoy Hotel, then drive towards Residence Inn Marriott",Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,74.4
+2021.08.17.15.02.08_veh-45_01756_01966,284,829,"Take a right at the light, then prepare to take a left past the McGowan Institute for Regenerative Medicine",Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,54.5
+2021.08.17.13.15.12_veh-45_02124_02293,328,717,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,38.9
+2021.07.16.21.17.55_veh-26_01392_01488,17,289,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,27.2
+2021.10.01.19.16.42_veh-28_00094_00216,372,586,"Go past Dry Dock Plaza Park to take the first right, then drive straight towards the dead end",Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,21.4
+2021.07.16.21.17.55_veh-26_05156_05225,2,219,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,21.7
+2021.08.17.14.45.12_veh-42_00542_00803,822,1245,Take a left at the intersection with construction work to go in the direction towards Prince of Peace Roman Catholic Church,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,42.3
+2021.09.15.14.50.05_veh-28_00083_00152,131,281,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,15.0
+2021.10.06.14.31.13_veh-28_00981_01226,238,730,"Take a complete loop of the entire block, then prepare to turn left at the signal",Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,49.2
+2021.10.11.05.34.05_veh-50_00442_00556,349,558,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,20.9
+2021.10.01.17.52.06_veh-28_01034_01107,193,357,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,16.4
+2021.10.11.02.57.41_veh-50_00838_01005,8,373,"Take a round of the drop-off loop ahead, and come back",Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,36.5
+2021.08.17.18.44.32_veh-08_00586_00848,584,956,"Pull out of the curb, take the second left, then the first right.",Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,37.2
+2021.08.17.17.17.01_veh-45_02098_02251,185,705,"Keep going straight, then take the third right",Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,52.0
+2021.08.17.13.15.12_veh-45_00565_00643,181,364,Take the right to head towards Citgo,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,18.3
+2021.07.16.16.27.22_veh-26_00016_01515,555,1252,Exit Luxor Las Vegas and take the first left to head towards the direction of the Statue of Liberty,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,69.7
+2021.07.16.23.22.27_veh-14_01631_03833,2123,2530,Exit the drop-off loop,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,40.7
+2021.09.15.13.16.40_veh-28_00088_00157,87,270,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,18.3
+2021.08.17.18.44.32_veh-08_00586_00848,805,1275,"Take a left, then the first right, then the first left",Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,47.0
+2021.09.15.14.50.05_veh-28_01511_01690,102,680,Keep straight until a left at the diagonal street towards Boston Wharf Co. Sign,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,57.8
+2021.10.01.19.16.42_veh-28_03307_03808,294,808,Keep straight towards Graphic Arts Building,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,51.4
+2021.09.15.12.32.43_veh-28_00417_00527,191,428,Perform a U-Turn by taking two rights,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,23.7
+2021.10.01.19.16.42_veh-28_01511_01624,294,531,Take a right and drive straight towards the dead-end,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,23.7
+2021.10.01.17.52.06_veh-28_01289_01353,5,252,Exit out of the dead-end and keep straight until the stop sign,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,24.7
+2021.07.16.21.17.55_veh-26_03860_03930,167,338,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,17.1
+2021.08.17.17.55.18_veh-43_00016_00083,96,325,Take a right and head in the direction of Citgo,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,22.9
+2021.09.15.16.17.26_veh-28_01085_01182,208,386,Take a left onto Summer Street Bridge and keep straight,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,17.8
+2021.07.16.23.22.27_veh-14_06339_07673,197,1763,"Keep straight towards The Cromwell Las Vegas, constantly following the white car ahead",Both,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,156.6
+2021.10.06.13.21.47_veh-28_00441_00515,63,247,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,18.4
+2021.07.16.22.40.23_veh-38_00016_00182,253,650,"Stop at the drop-off loop at Luxor Las Vegas, then take a right to exit",Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,39.7
+2021.07.16.18.06.21_veh-38_05338_05486,186,711,Go to the Luxor Las Vegas drop-off loop,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,52.5
+2021.10.06.18.52.07_veh-28_00592_00655,125,287,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,16.2
+2021.10.11.07.12.18_veh-50_00345_00498,319,747,"Exit MindChamps PreSchool @ Biopolis by taking a left, then take a right at the signal",Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,42.8
+2021.09.15.14.27.22_veh-39_01420_01480,31,246,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,21.5
+2021.08.17.18.11.12_veh-08_00234_00611,1332,1748,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,41.6
+2021.08.17.15.02.08_veh-45_02111_02303,472,923,"Take a right to head towards South Shore Riverfront Park, then take the left into Hot Metal Bridge",Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,45.1
+2021.08.17.18.54.02_veh-45_00511_00579,154,324,Take the next left,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,17.0
+2021.09.15.11.49.23_veh-28_01869_02000,346,563,Take a right,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,21.7
+2021.08.17.14.32.33_veh-08_01262_01528,90,412,Keep heading straight before making a couple of left turns to be on the other side of the block and heading towards Hazelwood Green Plaza,Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,32.2
+2021.07.16.20.45.29_veh-35_00016_00589,2231,2455,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,22.4
+2021.08.17.17.17.01_veh-45_01443_01678,148,609,"Enter Tunnel Park, stop at the curb before the stop sign for a few seconds, then keep straight",Static Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,46.1
+2021.09.15.13.52.55_veh-39_01385_01446,83,236,,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,15.3
+2021.09.15.12.32.43_veh-28_00625_00697,199,353,Keep straight,Non-Referential,ytandon,./staging/labels - Yash Tandon__1m_lsF2DI7L7Dr9PP3fwdj0CA9gtMe2OH.csv,15.4
 2021.10.06.17.43.07_veh-28_01354_01536,754,904,Turn right at the crosswalk after the pedestrian crosses,Non-Referential,jeremykemmerer,./staging/labels_submission1 - Jeremy K.csv,15.0
 2021.09.15.14.27.22_veh-39_00756_00838,198,374,,Non-Referential,jeremykemmerer,./staging/labels_submission1 - Jeremy K.csv,17.6
 2021.09.15.15.34.53_veh-28_00365_00501,232,447,Turn left at the flashing lights,Non-Referential,jeremykemmerer,./staging/labels_submission1 - Jeremy K.csv,21.5
