@@ -551,6 +551,106 @@ folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
 2021.06.14.16.48.02_veh-12_01880_02198,247,1555,follow the white vehicle in front of you,Dynamic Referential,parthib,./staging/parthib_submissions3 - Parthib Roy.csv,130.8
 2021.10.11.08.31.07_veh-50_02360_02684,239,1532,"when the light turns green make a left turn. keep going straight but go to the righ tlane when you see the parked vehicle in your lane, then go back. once you pass the thales sign you will pass a bus stop and you will make a right turn there, stop before the toll booth and proceed forward once the arm is raised",Static Referential,parthib,./staging/parthib_submissions3 - Parthib Roy.csv,129.3
 2021.09.15.11.49.23_veh-28_00081_00237,19,621,at the intersectionmake a right turn. when you reach the end of the road make a u-turn back at the same direction,Non-Referential,parthib,./staging/parthib_submissions3 - Parthib Roy.csv,60.2
+2021.06.14.16.48.02_veh-12_03091_03461,448,730,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,28.2
+2021.06.09.17.37.09_veh-12_04489_04816,396,705,"After this light, switch to the right lane, and keep straight",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,30.9
+2021.06.09.14.50.36_veh-26_03310_03392,122,305,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,18.3
+2021.06.14.17.26.26_veh-38_05760_05896,44,465,keep going straight after this light. continue going straight after this light but on this one switch over one lane to the right,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,42.1
+2021.06.09.17.37.09_veh-12_01465_01790,1101,1571,"move to the most right lane. move to the right lane coming up to take a right turn on the coming light. slow down and yield for these pedestrians and bumpers, until there is a clear way and pedestrians stop for you to have the right of way, continue going at normal speed. turn to the left lane. turn to the left most lane.",Both,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,47.0
+2021.06.23.20.00.35_veh-35_04162_04257,144,368,turn right here. STOP. yield until you can safely turn.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,22.4
+2021.08.17.18.54.02_veh-45_02202_02416,277,832,turn left on this upcoming intersection. keep on straight and give some room for the parked cars. turn right on the upcoming road. slow down for the upcoming entrance gate and reverse through the gate.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,55.5
+2021.08.17.15.02.08_veh-45_02111_02303,7,954,turn right at this light. turn left at this intersection. turn right at this intersection. yield and turn left on the incoming intersection then turn right. at this coming light take a left.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,94.7
+2021.06.14.11.44.56_veh-35_02399_02672,163,1349,turn right,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,118.6
+2021.06.09.14.03.17_veh-12_02112_02202,151,432,move over one lane to the right,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,28.1
+2021.07.09.17.06.37_veh-35_00928_02567,1400,2204,yield for the pedestrians. take a left and turn left at the light. ,Both,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,80.4
+2021.06.14.13.27.42_veh-35_01160_01331,132,841,move to the right one lane and keep straight,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,70.9
+2021.07.16.23.22.27_veh-14_01631_03833,264,1360,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,109.6
+2021.06.09.18.23.43_veh-35_03967_05057,1828,2522,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,69.4
+2021.07.16.23.22.27_veh-14_04496_06203,1859,2126,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,26.7
+2021.07.09.01.37.16_veh-26_01726_01793,27,285,after the crowded pedestrians street take a right. move to the far right lane. ,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,25.8
+2021.06.09.14.03.17_veh-12_00711_00839,81,547,take a right. turn right at the light. move one lane to the left. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,46.6
+2021.06.09.18.23.43_veh-35_01702_01928,110,1116,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,100.6
+2021.06.14.11.44.56_veh-35_01869_01972,70,423,move one lane to the right.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,35.3
+2021.06.09.17.37.09_veh-12_03219_03372,181,730,"
+turn left. pull up to the entrance next to the sign. continue straight.",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,54.9
+2021.06.14.18.33.41_veh-35_03575_03668,168,423,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,25.5
+2021.06.14.11.44.56_veh-35_04178_05084,630,799,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,16.9
+2021.06.23.17.31.36_veh-16_00634_01421,1471,1923,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,45.2
+2021.06.14.13.27.42_veh-35_00005_00123,30,426,take a right at the sign. pull up to the entrance. now leave the entrance.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,39.6
+2021.06.14.11.44.56_veh-35_04178_05084,665,2069,move over one lane to the left. move over one lane to the right. move over one lane to the right.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,140.4
+2021.06.09.17.23.18_veh-38_02526_03027,149,2376,move over one lane to the right. move over one lane to the right. move to the far right lane and take a right at the light. move to the left lane. take a left at this sign.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,222.7
+2021.06.23.14.06.20_veh-26_02505_02775,414,813,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,39.9
+2021.07.16.16.08.35_veh-35_02551_02640,27,189,move over one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,16.2
+2021.06.14.20.14.09_veh-26_01121_01211,54,217,move to the left lane.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,16.3
+2021.06.14.13.27.42_veh-35_03142_03404,321,617,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,29.6
+2021.07.16.18.19.22_veh-35_00440_00858,37,1899,move to the right lane and keep straight. stay behind the crosswalk until there is enough space for you to pass the light so you don't block the crosswalk. take the right at the street before the upcoming light. take a left at the sign. pull up behind the white car. move to the left lane and continue straight. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,186.2
+2021.06.09.17.23.18_veh-38_03095_03280,234,569,move over one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,33.5
+2021.07.09.15.53.28_veh-38_00184_02293,201,2175,"move over one lane to the right. move over one lane to the right. take a right at the light. move t the left lane. take a left at the upcoming sign. pull up behind the white car. wait till the right lane frees up, move to the right lane, and continue straight. take a right at the stop sign. move to the left lane. move over one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,197.4
+2021.06.09.17.23.18_veh-38_04782_05228,115,2168,"move over to the right lane. move over one lane to the right. take a right at the light. move to the left lane. take a left at the sign. stop here, move a little bit out of the middle lane. pull back into the middle lane and stop right at the entrance door. continue straight. take a right at the stop sign. move to the left lane. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,205.3
+2021.10.11.08.31.07_veh-50_00791_00954,17,736,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,71.9
+2021.07.09.17.06.37_veh-35_00049_00237,96,872,take a left at the sign. stop at the entrance door. continue straight.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,77.6
+2021.10.11.05.34.05_veh-50_00697_00766,100,318,take a left. stay at the right lane. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,21.8
+2021.06.14.11.44.56_veh-35_00938_01134,405,710,take a right at the light. yield at the crosswalk for incoming pedestrians. move to the left lane. ,Both,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,30.5
+2021.06.23.17.31.36_veh-16_00634_01421,150,2504,move to the left lane avoiding the car ahead. move to the left lane.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,235.4
+2021.08.17.17.55.18_veh-43_00358_00673,56,1441,move to the left lane behind the bus. move to the left lane and take a left at the light. take a right at the stop sign. park behind the blue car. continue straight on the same road. ,Both,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,138.5
+2021.06.23.17.31.36_veh-16_00398_00623,37,441,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,40.4
+2021.06.14.18.33.41_veh-35_03367_03508,34,608,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,57.4
+2021.06.14.13.27.42_veh-35_00691_00798,55,231,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,17.6
+2021.07.09.20.26.06_veh-35_03898_05974,389,1823,move to the right lane. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,143.4
+2021.06.14.18.42.45_veh-12_03340_03403,72,272,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,20.0
+2021.06.09.14.58.55_veh-35_04695_05321,554,2091,pull up right behind the sign. move to the middle lane and continue straight. move to the left lane to avoid the car ahead. take a right at the stop sign. move to the left lane. move one lane to the right.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,153.7
+2021.08.17.18.44.32_veh-08_00016_00564,390,1085,take a left at the light. take a left at the stop sign. move to the left lane. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,69.5
+2021.08.17.17.17.01_veh-45_00123_00191,21,274,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,25.3
+2021.06.09.18.23.43_veh-35_00555_00726,59,686,move to the right most lane.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,62.7
+2021.07.16.00.51.05_veh-17_03264_05261,60,2453,"move one lane to the right. after the light move to the rightmost lane. after the police car, take a right. pull up behind the car in front of you and wait till you can continue going straight on that lane. ",Both,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,239.3
+2021.06.14.19.22.11_veh-38_01134_01389,658,1072,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,41.4
+2021.06.09.14.03.17_veh-12_01225_01437,636,954,yield for pedestrians at this right turn.,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,31.8
+2021.06.14.18.33.41_veh-35_01363_01636,855,1100,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,24.5
+2021.07.09.16.12.19_veh-26_06964_07035,65,239,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,17.4
+2021.10.11.07.47.13_veh-50_00736_00843,151,499,take a left. take another left at this light.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,34.8
+2021.08.17.13.10.50_veh-08_01060_01340,327,841,pull up behind the white truck for a left turn. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,51.4
+2021.06.14.17.26.26_veh-38_05760_05896,18,659,"keep straight. after the light, move over one lane to the right and keep straight.",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,64.1
+2021.07.16.22.40.23_veh-38_00818_03032,198,1290,move to the left lane. move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,109.2
+2021.06.14.18.42.45_veh-12_05000_05079,76,261,"after the light, move to the right lane.  ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,18.5
+2021.06.14.18.42.45_veh-12_03445_03902,1038,1514,"keep straight. before the light, turn right on that street. take a left at the diamond center sign. stop behind the car with the guy at the door. turn to the lane on the left and continue straight. ",Both,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,47.6
+2021.06.09.14.58.55_veh-35_01785_01883,19,472,pull up behind the grey car and move forward to get as close to the entrance as possible. ,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,45.3
+2021.06.09.17.23.18_veh-38_05239_05412,98,780,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,68.2
+2021.06.23.15.18.10_veh-26_00016_00143,332,604,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,27.2
+2021.07.16.20.45.29_veh-35_02509_02649,201,560,take a right. turn to the left lane. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,35.9
+2021.08.17.16.48.45_veh-43_02070_02652,280,1336,take a left at the stop sign. take a right at the stop sign. move to the left lane and take a left at the light.  ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,105.6
+2021.06.14.18.13.35_veh-26_01537_01717,443,632,follow the white car in front of you. yield for pedestrians before making the right turn. ,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,18.9
+2021.06.09.14.50.36_veh-26_03310_03392,168,336,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,16.8
+2021.07.16.18.49.56_veh-26_00015_00235,315,959,take a right at the stop sign. move to the left lane. move one lane to the right. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,64.4
+2021.07.16.21.17.55_veh-26_03860_03930,78,317,move one lane to the right.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,23.9
+2021.06.09.19.40.26_veh-12_01241_01510,585,831,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,24.6
+2021.07.16.16.01.30_veh-38_00016_00333,234,1412,take a right at the stop sign. move one lane to the left. keep straight.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,117.8
+2021.08.17.13.10.50_veh-08_00726_01027,649,1424,"take a right. take a right at the light. take a right at the light. park near the bench. get back on the road and keep straight. after the stop sign, pull up a little bit to the right and reverse back onto the street to continue straight. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,77.5
+2021.06.09.14.03.17_veh-12_03798_04118,763,1533,move one lane to the right. move to the right lane most lane.  ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,77.0
+2021.06.23.14.54.32_veh-16_00862_01000,23,383,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,36.0
+2021.06.14.13.27.42_veh-35_01160_01331,1,850,move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,84.9
+2021.08.17.14.32.33_veh-08_01262_01528,835,1252,"at the stop sign, take a left. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,41.7
+2021.06.09.18.23.43_veh-35_02086_02333,228,1116,"take a right at the stop light. pull into the left entrance and stop by the walk way towards the door. continue straight on the road. before making it to the light, ensure you are on the second to last left lane.",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,88.8
+2021.07.09.01.37.16_veh-26_02856_02932,187,345,wait for all pedestrians to pass before taking your left. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,15.8
+2021.07.16.01.22.41_veh-14_02003_02615,387,1089,turn left where the diamond sign is. pull up behind the black car and follow it. stop following the black car and move to the left lane. ,Both,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,70.2
+2021.06.14.18.42.45_veh-12_02233_02300,89,263,move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,17.4
+2021.06.14.18.42.45_veh-12_03913_04017,106,451,"after the police car, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,34.5
+2021.06.23.15.56.12_veh-16_00066_00818,913,2222,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,130.9
+2021.06.09.18.23.43_veh-35_00555_00726,291,744,"after the light, move to the rightmost lane. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,45.3
+2021.06.14.19.22.11_veh-38_01480_01860,109,1821,keep straight. move to the right one lane. follow the white car until it turns right. keep straight. turn left where the diamond sign is. ,Both,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,171.2
+2021.06.14.18.33.41_veh-35_00654_00887,466,762,turn to the left lane. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,29.6
+2021.06.14.18.13.35_veh-26_01537_01717,24,789,follow the white car in front of you until it turns right.,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,76.5
+2021.06.09.14.50.36_veh-26_03061_03152,0,440,keep straight. move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,44.0
+2021.06.09.17.37.09_veh-12_02445_02566,122,487,keep straight. move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,36.5
+2021.06.09.14.50.36_veh-26_03874_04112,123,468,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,34.5
+2021.07.09.02.42.50_veh-35_02651_02770,180,373,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,19.3
+2021.06.14.16.48.02_veh-12_01732_01853,81,587,follow the white car until it turns right. turn left where the diamond sign is. pull up behind the white car. ,Both,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,50.6
+2021.10.11.02.57.41_veh-50_00145_00308,44,274,make a right.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,23.0
+2021.06.09.14.58.55_veh-35_03312_03379,21,308,"turn right, right before the upcoming light.",Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,28.7
+2021.06.23.18.23.38_veh-26_01438_01758,9,687,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,67.8
+2021.06.14.11.44.56_veh-35_04178_05084,938,1435,move one lane to the right.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,49.7
+2021.06.14.19.22.11_veh-38_02466_02675,230,667,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,43.7
+2021.07.09.17.06.37_veh-35_00769_00907,114,598,keep straight. move one lane to the right. keep straight.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,48.4
+2021.06.14.19.22.11_veh-38_02686_02846,529,714,turn left at the diamond sign.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,18.5
+2021.06.09.17.37.09_veh-12_03830_04329,1729,2351,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson__1wQ4hAnRC8A3JgURDgWdoOrg8dL3ust52.csv,62.2
 2021.06.23.16.54.19_veh-35_03299_03425,0,208,go around the roundabout,Non-Referential,parthib,./staging/parthib_submission4 - Parthib Roy.csv,20.8
 2021.09.15.14.27.22_veh-39_00756_00838,12,396,go stright when the stoplight turns green,Static Referential,parthib,./staging/parthib_submission4 - Parthib Roy.csv,38.4
 2021.06.14.14.25.15_veh-26_01236_01585,773,1639,"stop at the intersection of paris balloon to let the pedestrians on the right cross the crosswalk, then complete the right turn when its clear and go around the roundabout",Both,parthib,./staging/parthib_submission4 - Parthib Roy.csv,86.6
@@ -5901,106 +6001,156 @@ folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
 2021.10.01.17.52.06_veh-28_00675_00737,141,302,Turn right just past the park,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1AJ490RmE1i9EcyE4pcNleVEkArtsSHuC.csv,16.1
 2021.09.15.12.32.43_veh-28_01070_01157,54,418,Turn onto the bridge,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1AJ490RmE1i9EcyE4pcNleVEkArtsSHuC.csv,36.4
 2021.09.15.15.02.19_veh-39_01107_01666,1119,2293,Go back to the other side of the water,Static Referential,jeremykemmerer,./staging/labels - Jeremy K__1AJ490RmE1i9EcyE4pcNleVEkArtsSHuC.csv,117.4
-2021.06.14.16.48.02_veh-12_03091_03461,448,730,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,28.2
-2021.06.09.17.37.09_veh-12_04489_04816,396,705,"After this light, switch to the right lane, and keep straight",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,30.9
-2021.06.09.14.50.36_veh-26_03310_03392,122,305,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,18.3
-2021.06.14.17.26.26_veh-38_05760_05896,44,465,keep going straight after this light. continue going straight after this light but on this one switch over one lane to the right,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,42.1
-2021.06.09.17.37.09_veh-12_01465_01790,1101,1571,"move to the most right lane. move to the right lane coming up to take a right turn on the coming light. slow down and yield for these pedestrians and bumpers, until there is a clear way and pedestrians stop for you to have the right of way, continue going at normal speed. turn to the left lane. turn to the left most lane.",Both,Jeevan,./staging/labels - Jeevan Johnson.csv,47.0
-2021.06.23.20.00.35_veh-35_04162_04257,144,368,turn right here. STOP. yield until you can safely turn.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,22.4
-2021.08.17.18.54.02_veh-45_02202_02416,277,832,turn left on this upcoming intersection. keep on straight and give some room for the parked cars. turn right on the upcoming road. slow down for the upcoming entrance gate and reverse through the gate.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,55.5
-2021.08.17.15.02.08_veh-45_02111_02303,7,954,turn right at this light. turn left at this intersection. turn right at this intersection. yield and turn left on the incoming intersection then turn right. at this coming light take a left.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,94.7
-2021.06.14.11.44.56_veh-35_02399_02672,163,1349,turn right,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,118.6
-2021.06.09.14.03.17_veh-12_02112_02202,151,432,move over one lane to the right,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,28.1
-2021.07.09.17.06.37_veh-35_00928_02567,1400,2204,yield for the pedestrians. take a left and turn left at the light. ,Both,Jeevan,./staging/labels - Jeevan Johnson.csv,80.4
-2021.06.14.13.27.42_veh-35_01160_01331,132,841,move to the right one lane and keep straight,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,70.9
-2021.07.16.23.22.27_veh-14_01631_03833,264,1360,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,109.6
-2021.06.09.18.23.43_veh-35_03967_05057,1828,2522,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,69.4
-2021.07.16.23.22.27_veh-14_04496_06203,1859,2126,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,26.7
-2021.07.09.01.37.16_veh-26_01726_01793,27,285,after the crowded pedestrians street take a right. move to the far right lane. ,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,25.8
-2021.06.09.14.03.17_veh-12_00711_00839,81,547,take a right. turn right at the light. move one lane to the left. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,46.6
-2021.06.09.18.23.43_veh-35_01702_01928,110,1116,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,100.6
-2021.06.14.11.44.56_veh-35_01869_01972,70,423,move one lane to the right.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,35.3
-2021.06.09.17.37.09_veh-12_03219_03372,181,730,"
-turn left. pull up to the entrance next to the sign. continue straight.",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,54.9
-2021.06.14.18.33.41_veh-35_03575_03668,168,423,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,25.5
-2021.06.14.11.44.56_veh-35_04178_05084,630,799,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,16.9
-2021.06.23.17.31.36_veh-16_00634_01421,1471,1923,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,45.2
-2021.06.14.13.27.42_veh-35_00005_00123,30,426,take a right at the sign. pull up to the entrance. now leave the entrance.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,39.6
-2021.06.14.11.44.56_veh-35_04178_05084,665,2069,move over one lane to the left. move over one lane to the right. move over one lane to the right.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,140.4
-2021.06.09.17.23.18_veh-38_02526_03027,149,2376,move over one lane to the right. move over one lane to the right. move to the far right lane and take a right at the light. move to the left lane. take a left at this sign.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,222.7
-2021.06.23.14.06.20_veh-26_02505_02775,414,813,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,39.9
-2021.07.16.16.08.35_veh-35_02551_02640,27,189,move over one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,16.2
-2021.06.14.20.14.09_veh-26_01121_01211,54,217,move to the left lane.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,16.3
-2021.06.14.13.27.42_veh-35_03142_03404,321,617,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,29.6
-2021.07.16.18.19.22_veh-35_00440_00858,37,1899,move to the right lane and keep straight. stay behind the crosswalk until there is enough space for you to pass the light so you don't block the crosswalk. take the right at the street before the upcoming light. take a left at the sign. pull up behind the white car. move to the left lane and continue straight. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,186.2
-2021.06.09.17.23.18_veh-38_03095_03280,234,569,move over one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,33.5
-2021.07.09.15.53.28_veh-38_00184_02293,201,2175,"move over one lane to the right. move over one lane to the right. take a right at the light. move t the left lane. take a left at the upcoming sign. pull up behind the white car. wait till the right lane frees up, move to the right lane, and continue straight. take a right at the stop sign. move to the left lane. move over one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,197.4
-2021.06.09.17.23.18_veh-38_04782_05228,115,2168,"move over to the right lane. move over one lane to the right. take a right at the light. move to the left lane. take a left at the sign. stop here, move a little bit out of the middle lane. pull back into the middle lane and stop right at the entrance door. continue straight. take a right at the stop sign. move to the left lane. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,205.3
-2021.10.11.08.31.07_veh-50_00791_00954,17,736,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,71.9
-2021.07.09.17.06.37_veh-35_00049_00237,96,872,take a left at the sign. stop at the entrance door. continue straight.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,77.6
-2021.10.11.05.34.05_veh-50_00697_00766,100,318,take a left. stay at the right lane. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,21.8
-2021.06.14.11.44.56_veh-35_00938_01134,405,710,take a right at the light. yield at the crosswalk for incoming pedestrians. move to the left lane. ,Both,Jeevan,./staging/labels - Jeevan Johnson.csv,30.5
-2021.06.23.17.31.36_veh-16_00634_01421,150,2504,move to the left lane avoiding the car ahead. move to the left lane.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,235.4
-2021.08.17.17.55.18_veh-43_00358_00673,56,1441,move to the left lane behind the bus. move to the left lane and take a left at the light. take a right at the stop sign. park behind the blue car. continue straight on the same road. ,Both,Jeevan,./staging/labels - Jeevan Johnson.csv,138.5
-2021.06.23.17.31.36_veh-16_00398_00623,37,441,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,40.4
-2021.06.14.18.33.41_veh-35_03367_03508,34,608,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,57.4
-2021.06.14.13.27.42_veh-35_00691_00798,55,231,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,17.6
-2021.07.09.20.26.06_veh-35_03898_05974,389,1823,move to the right lane. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,143.4
-2021.06.14.18.42.45_veh-12_03340_03403,72,272,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,20.0
-2021.06.09.14.58.55_veh-35_04695_05321,554,2091,pull up right behind the sign. move to the middle lane and continue straight. move to the left lane to avoid the car ahead. take a right at the stop sign. move to the left lane. move one lane to the right.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,153.7
-2021.08.17.18.44.32_veh-08_00016_00564,390,1085,take a left at the light. take a left at the stop sign. move to the left lane. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,69.5
-2021.08.17.17.17.01_veh-45_00123_00191,21,274,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,25.3
-2021.06.09.18.23.43_veh-35_00555_00726,59,686,move to the right most lane.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,62.7
-2021.07.16.00.51.05_veh-17_03264_05261,60,2453,"move one lane to the right. after the light move to the rightmost lane. after the police car, take a right. pull up behind the car in front of you and wait till you can continue going straight on that lane. ",Both,Jeevan,./staging/labels - Jeevan Johnson.csv,239.3
-2021.06.14.19.22.11_veh-38_01134_01389,658,1072,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,41.4
-2021.06.09.14.03.17_veh-12_01225_01437,636,954,yield for pedestrians at this right turn.,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,31.8
-2021.06.14.18.33.41_veh-35_01363_01636,855,1100,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,24.5
-2021.07.09.16.12.19_veh-26_06964_07035,65,239,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,17.4
-2021.10.11.07.47.13_veh-50_00736_00843,151,499,take a left. take another left at this light.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,34.8
-2021.08.17.13.10.50_veh-08_01060_01340,327,841,pull up behind the white truck for a left turn. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,51.4
-2021.06.14.17.26.26_veh-38_05760_05896,18,659,"keep straight. after the light, move over one lane to the right and keep straight.",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,64.1
-2021.07.16.22.40.23_veh-38_00818_03032,198,1290,move to the left lane. move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,109.2
-2021.06.14.18.42.45_veh-12_05000_05079,76,261,"after the light, move to the right lane.  ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,18.5
-2021.06.14.18.42.45_veh-12_03445_03902,1038,1514,"keep straight. before the light, turn right on that street. take a left at the diamond center sign. stop behind the car with the guy at the door. turn to the lane on the left and continue straight. ",Both,Jeevan,./staging/labels - Jeevan Johnson.csv,47.6
-2021.06.09.14.58.55_veh-35_01785_01883,19,472,pull up behind the grey car and move forward to get as close to the entrance as possible. ,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,45.3
-2021.06.09.17.23.18_veh-38_05239_05412,98,780,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,68.2
-2021.06.23.15.18.10_veh-26_00016_00143,332,604,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,27.2
-2021.07.16.20.45.29_veh-35_02509_02649,201,560,take a right. turn to the left lane. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,35.9
-2021.08.17.16.48.45_veh-43_02070_02652,280,1336,take a left at the stop sign. take a right at the stop sign. move to the left lane and take a left at the light.  ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,105.6
-2021.06.14.18.13.35_veh-26_01537_01717,443,632,follow the white car in front of you. yield for pedestrians before making the right turn. ,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,18.9
-2021.06.09.14.50.36_veh-26_03310_03392,168,336,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,16.8
-2021.07.16.18.49.56_veh-26_00015_00235,315,959,take a right at the stop sign. move to the left lane. move one lane to the right. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,64.4
-2021.07.16.21.17.55_veh-26_03860_03930,78,317,move one lane to the right.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,23.9
-2021.06.09.19.40.26_veh-12_01241_01510,585,831,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,24.6
-2021.07.16.16.01.30_veh-38_00016_00333,234,1412,take a right at the stop sign. move one lane to the left. keep straight.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,117.8
-2021.08.17.13.10.50_veh-08_00726_01027,649,1424,"take a right. take a right at the light. take a right at the light. park near the bench. get back on the road and keep straight. after the stop sign, pull up a little bit to the right and reverse back onto the street to continue straight. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,77.5
-2021.06.09.14.03.17_veh-12_03798_04118,763,1533,move one lane to the right. move to the right lane most lane.  ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,77.0
-2021.06.23.14.54.32_veh-16_00862_01000,23,383,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,36.0
-2021.06.14.13.27.42_veh-35_01160_01331,1,850,move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,84.9
-2021.08.17.14.32.33_veh-08_01262_01528,835,1252,"at the stop sign, take a left. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,41.7
-2021.06.09.18.23.43_veh-35_02086_02333,228,1116,"take a right at the stop light. pull into the left entrance and stop by the walk way towards the door. continue straight on the road. before making it to the light, ensure you are on the second to last left lane.",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,88.8
-2021.07.09.01.37.16_veh-26_02856_02932,187,345,wait for all pedestrians to pass before taking your left. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,15.8
-2021.07.16.01.22.41_veh-14_02003_02615,387,1089,turn left where the diamond sign is. pull up behind the black car and follow it. stop following the black car and move to the left lane. ,Both,Jeevan,./staging/labels - Jeevan Johnson.csv,70.2
-2021.06.14.18.42.45_veh-12_02233_02300,89,263,move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,17.4
-2021.06.14.18.42.45_veh-12_03913_04017,106,451,"after the police car, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,34.5
-2021.06.23.15.56.12_veh-16_00066_00818,913,2222,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,130.9
-2021.06.09.18.23.43_veh-35_00555_00726,291,744,"after the light, move to the rightmost lane. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,45.3
-2021.06.14.19.22.11_veh-38_01480_01860,109,1821,keep straight. move to the right one lane. follow the white car until it turns right. keep straight. turn left where the diamond sign is. ,Both,Jeevan,./staging/labels - Jeevan Johnson.csv,171.2
-2021.06.14.18.33.41_veh-35_00654_00887,466,762,turn to the left lane. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,29.6
-2021.06.14.18.13.35_veh-26_01537_01717,24,789,follow the white car in front of you until it turns right.,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,76.5
-2021.06.09.14.50.36_veh-26_03061_03152,0,440,keep straight. move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,44.0
-2021.06.09.17.37.09_veh-12_02445_02566,122,487,keep straight. move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,36.5
-2021.06.09.14.50.36_veh-26_03874_04112,123,468,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,34.5
-2021.07.09.02.42.50_veh-35_02651_02770,180,373,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,19.3
-2021.06.14.16.48.02_veh-12_01732_01853,81,587,follow the white car until it turns right. turn left where the diamond sign is. pull up behind the white car. ,Both,Jeevan,./staging/labels - Jeevan Johnson.csv,50.6
-2021.10.11.02.57.41_veh-50_00145_00308,44,274,make a right.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,23.0
-2021.06.09.14.58.55_veh-35_03312_03379,21,308,"turn right, right before the upcoming light.",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,28.7
-2021.06.23.18.23.38_veh-26_01438_01758,9,687,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,67.8
-2021.06.14.11.44.56_veh-35_04178_05084,938,1435,move one lane to the right.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,49.7
-2021.06.14.19.22.11_veh-38_02466_02675,230,667,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,43.7
-2021.07.09.17.06.37_veh-35_00769_00907,114,598,keep straight. move one lane to the right. keep straight.,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,48.4
-2021.06.14.19.22.11_veh-38_02686_02846,529,714,turn left at the diamond sign.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,18.5
-2021.06.09.17.37.09_veh-12_03830_04329,1729,2351,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,62.2
+2021.06.14.18.13.35_veh-26_00522_00702,11,894,continue straight,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,88.3
+2021.07.16.21.17.55_veh-26_00872_00937,20,271,"move right one lane, move one lane to the right",Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,25.1
+2021.06.14.18.33.41_veh-35_04768_04894,29,569,Yield for the car with stickers on the back. ,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,54.0
+2021.06.14.17.26.26_veh-38_04030_04274,355,1037,move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,68.2
+2021.10.11.08.31.07_veh-50_02146_02283,24,631,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,60.7
+2021.06.09.14.58.55_veh-35_05473_05626,210,692,move right one lane,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,48.2
+2021.08.17.16.57.11_veh-08_00354_01167,57,2290,"Yield before taking a left. Take a right at the light. Take a left at the stop sign. Take a right at the stop sign. After the stop sign, pull up to the right behind the white chevrolet. Head back on the road. Turn left at the light. Move to the left lane to take a left at the light. Take a left at the light. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,223.3
+2021.10.11.02.57.41_veh-50_00838_01005,14,359,Take a left. Avoid the cars on the side of the road.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,34.5
+2021.07.16.16.01.30_veh-38_05274_05744,650,1761,move one lane to the right. move one lane to the right. move one lane to the right. move to the far right lane for a right at the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,111.1
+2021.06.23.14.54.32_veh-16_01011_01166,207,547,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,34.0
+2021.07.16.23.22.27_veh-14_03844_04474,70,2322,Move to the far right lane. Turn right at the light. Turn left at the sign. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,225.2
+2021.08.17.17.17.01_veh-45_00123_00191,24,299,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,27.5
+2021.08.17.18.13.38_veh-45_00016_00127,158,351,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,19.3
+2021.08.17.14.32.33_veh-08_01072_01231,31,589,Turn right at the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,55.8
+2021.08.17.17.55.18_veh-43_00122_00325,113,437,Pull up next to the no parking sign. Get back on the road. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,32.4
+2021.06.14.17.26.26_veh-38_01078_01166,82,372,"After the light, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,29.0
+2021.06.23.20.43.31_veh-16_00016_00216,122,641,Park behind the grey car. Go back on the road. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,51.9
+2021.07.09.01.37.16_veh-26_05530_05595,142,300,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,15.8
+2021.06.14.17.26.26_veh-38_04285_04392,3,420,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,41.7
+2021.06.09.14.50.36_veh-26_04123_04185,7,258,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,25.1
+2021.06.14.16.48.02_veh-12_04978_05337,283,1784,Move one lane to the right. Move one lane to the right after the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,150.1
+2021.06.23.20.43.31_veh-16_00588_00792,208,587,move to the right most lane. Take a right at this light. Continue straight on this lane. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,37.9
+2021.06.14.13.27.42_veh-35_01025_01086,80,244,Take a right with the car infront of you. ,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,16.4
+2021.06.23.16.54.19_veh-35_03705_04009,1042,1476,"After this light, move to the right most lane. At this coming light, take a right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,43.4
+2021.07.16.16.08.35_veh-35_00132_00784,1687,2470,Move to the right lane when an opening pops up. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,78.3
+2021.06.09.17.23.18_veh-38_05239_05412,150,380,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,23.0
+2021.07.16.00.24.14_veh-38_00367_01154,481,2066,Follow this white car in front of you. ,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,158.5
+2021.06.14.18.42.45_veh-12_00968_01052,200,382,Move to the right most lane and take a right at the light. Move to the left lane. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,18.2
+2021.07.16.21.17.55_veh-26_05558_05627,112,299,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,18.7
+2021.06.23.14.54.32_veh-16_00301_00410,200,451,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,25.1
+2021.06.14.18.13.35_veh-26_01062_01139,13,291,"After the light, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,27.8
+2021.06.14.13.27.42_veh-35_00005_00123,4,562,"Turn left. Turn right at the ""Uber Rideshare"" sign. Pull up behind this white car. Yield for the grey car. Go back on the road. ",Both,Jeevan,./staging/labels - Jeevan Johnson.csv,55.8
+2021.10.11.07.47.13_veh-50_00080_00159,103,299,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,19.6
+2021.06.14.20.14.09_veh-26_01121_01211,113,437,Take a left at this sign. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,32.4
+2021.06.14.11.44.56_veh-35_01308_01584,838,1129,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,29.1
+2021.06.09.18.23.43_veh-35_03609_03793,0,888,Make a left turn at this light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,88.8
+2021.06.14.18.42.45_veh-12_01065_01152,29,389,Take left at this sign. Pull up next to the enterence. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,36.0
+2021.06.09.14.50.36_veh-26_02826_02955,146,631,"After the light, turn one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,48.5
+2021.07.09.20.26.06_veh-35_03314_03877,10,1299,Move one lane to the right after the light. Take a right at this coming light. Turn to the left lane. Take a left at this sign. Pull up at the enterence. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,128.9
+2021.07.16.21.17.55_veh-26_01014_01075,9,184,Move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,17.5
+2021.07.16.01.22.41_veh-14_04315_07102,812,1106,Move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,29.4
+2021.06.23.16.54.19_veh-35_00808_01256,854,1534,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,68.0
+2021.08.17.18.43.12_veh-43_01906_02722,850,1671,"Move to the left most lane for a left turn at the intersection. At the stop sign, turn left. Move to the left lane for a left turn at the light. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,82.1
+2021.06.09.18.23.43_veh-35_01939_02025,34,359,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,32.5
+2021.06.09.14.50.36_veh-26_02680_02781,123,324,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,20.1
+2021.06.14.18.13.35_veh-26_05600_05660,21,288,Move one lane to the right. Move to the right most lane to take a right at the light. Move to the left lane. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,26.7
+2021.06.09.14.58.55_veh-35_00193_01084,1092,1430,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,33.8
+2021.06.09.17.23.18_veh-38_05423_05550,17,617,"After the light, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,60.0
+2021.06.09.14.50.36_veh-26_03507_03584,139,363,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,22.4
+2021.08.17.18.43.12_veh-43_01611_01812,583,937,Take a left at this intersection. Take a right at the stop sign. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,35.4
+2021.10.11.07.12.18_veh-50_00541_00832,757,1145,Move to the left most lane to take a left turn at the light. Make a left turn. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,38.8
+2021.10.11.07.12.18_veh-50_00866_01534,105,2515,"Take a left. Move to the left most lane to take a left at the light. Make a left turn. Make a left turn. Take a left turn at the stop sign. Take a left at the stop sign. Take a left to take a left at the stop sign. Take a left to take a left at the light. Take a left. Take a left. After the slow sign, take a left. Move to the left most lane to take a left at the light. Take a left. Take a left at the stop sign. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,241.0
+2021.08.17.16.48.45_veh-43_03384_03788,450,1298,Move to the left lane to take a left. Take a left at the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,84.8
+2021.06.09.14.03.17_veh-12_02213_02304,25,337,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,31.2
+2021.07.16.21.17.55_veh-26_01392_01488,81,265,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,18.4
+2021.08.17.15.02.08_veh-45_01756_01966,16,813,Take a left at the intersection. Take a left at this light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,79.7
+2021.06.14.18.13.35_veh-26_02724_02920,118,975,"Take a right before the light. Take a left at the ""Diamond Seven Star Taxi & Limos"" sign. Pull up behind this black car. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,85.7
+2021.06.23.17.31.36_veh-16_00016_00377,510,1321,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,81.1
+2021.10.11.05.34.05_veh-50_02309_02677,992,1418,Take a right. Take a right at the sign. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,42.6
+2021.07.16.18.49.56_veh-26_00015_00235,4,1042,"Take a left at this intersection. Turn right at the brown sign. Pull up near the enterence. Get back on the road. Move one lane to the left. After the light, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,103.8
+2021.08.17.14.32.33_veh-08_01072_01231,152,691,Take a right at the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,53.9
+2021.06.14.18.42.45_veh-12_00016_00185,230,413,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,18.3
+2021.06.14.11.44.56_veh-35_02696_02932,56,1123,Make a right before the light. Make a left at the sign. Pull up next to the white and green car. Get back on the road. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,106.7
+2021.06.14.18.13.35_veh-26_01150_01320,274,835,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,56.1
+2021.06.23.20.00.35_veh-35_00016_00119,70,505,Make a left at the brown sign. Pull up next to the 2nd walkway. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,43.5
+2021.07.16.20.45.29_veh-35_02509_02649,11,693,Make a right at the light. Move one lane to the left. Make a left at the sign. Stop parallel to the black car on your right.  ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,68.2
+2021.07.16.23.22.27_veh-14_01631_03833,899,2515,Move one lane to the right to take a right at the light. Make a left at the brown sign. Pull up behind the black car. Continue straight on the road. Move to the left lane to take a left at the light. ,Both,Jeevan,./staging/labels - Jeevan Johnson.csv,161.6
+2021.06.14.18.13.35_veh-26_04058_04170,117,433,Make a left at the sign. Pull up behind this greyish car. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,31.6
+2021.07.16.23.22.27_veh-14_00015_01368,416,2043,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,162.7
+2021.06.14.18.42.45_veh-12_05000_05079,28,271,"After the light, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,24.3
+2021.06.23.20.00.35_veh-35_00130_00949,1066,2328,"After the ""NewCab"" car, continue straight. Move to the left lane to take a left at the light. ",Both,Jeevan,./staging/labels - Jeevan Johnson.csv,126.2
+2021.07.09.23.23.48_veh-26_02228_04624,507,2279,Move one lane to the right. Take a right at the light. Move to the left lane. Make a left at the sign. Pull up near the enterence. Get back on the road. Move to the left lane. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,177.2
+2021.07.09.20.59.12_veh-38_00113_00669,831,2107,"Move to the left lane. After the light, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,127.6
+2021.10.11.07.47.13_veh-50_00080_00159,35,389,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,35.4
+2021.06.09.17.23.18_veh-38_03425_04047,566,2432,Make a right before the light. Make a left at the sign. Pull up next to the grey car. Get back on the road. Move to the left lane. Move one lane to the right. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,186.6
+2021.06.09.17.23.18_veh-38_03095_03280,305,617,Move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,31.2
+2021.07.09.16.12.19_veh-26_07208_07271,12,310,Take a right at the stop sign. Move one lane to the left. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,29.8
+2021.08.17.14.32.33_veh-08_00390_00468,13,358,Take a right at the light. Move to the left lane.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,34.5
+2021.06.09.14.03.17_veh-12_00711_00839,17,432,Move one lane to the right. Turn right at the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,41.5
+2021.06.14.18.13.35_veh-26_04058_04170,19,535,Take a left at the sign. Pull up behind the grey car. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,51.6
+2021.06.14.16.48.02_veh-12_03091_03461,461,1327,"After the light, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,86.6
+2021.06.09.17.23.18_veh-38_05602_05695,95,391,Take a right before the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,29.6
+2021.06.23.18.23.38_veh-26_00663_01217,1793,2196,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,40.3
+2021.06.23.17.31.36_veh-16_01904_02129,165,667,Move to the far right lane. Take a right at the light. Pull up to the enterence. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,50.2
+2021.07.09.23.23.48_veh-26_01319_01432,19,543,Move to the left lane. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,52.4
+2021.06.09.17.23.18_veh-38_02526_03027,1718,2117,Make a right at the light. Move to the left lane. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,39.9
+2021.08.17.18.54.02_veh-45_00665_01065,582,1096,Take a right at the light.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,51.4
+2021.08.17.19.18.39_veh-08_00407_00595,192,798,Take a right at the intersection. Take a right at the intersection. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,60.6
+2021.06.09.12.51.31_veh-35_05024_05275,15,928,Move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,91.3
+2021.10.11.08.31.07_veh-50_01001_01076,9,282,Take a left at the stop sign. Take a right at the deadend. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,27.3
+2021.08.17.18.13.38_veh-45_00151_00387,294,634,Pull by the coffee shop to the right. Turn left at the intersection. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,34.0
+2021.06.23.16.54.19_veh-35_01277_01592,519,698,Take a left at the brown sign. Pull up next to the first walkway. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,17.9
+2021.07.16.21.17.55_veh-26_05558_05627,114,290,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,17.6
+2021.07.16.21.17.55_veh-26_03772_03842,67,342,Move to the left lane. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,27.5
+2021.06.09.17.23.18_veh-38_02094_02305,31,495,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,46.4
+2021.06.14.18.33.41_veh-35_03798_03867,22,274,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,25.2
+2021.07.16.16.08.35_veh-35_03711_04709,62,278,Move one lane to the right after the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,21.6
+2021.07.09.01.37.16_veh-26_00692_00762,125,275,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,15.0
+2021.07.16.21.17.55_veh-26_01392_01488,19,447,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,42.8
+2021.06.09.14.50.36_veh-26_01698_01771,37,348,Take a right at the stop sign. Move one lane to the left. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,31.1
+2021.06.09.18.23.43_veh-35_00555_00726,321,611,"After the light, move to the right most lane. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,29.0
+2021.07.09.01.37.16_veh-26_04815_04878,21,186,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,16.5
+2021.06.23.20.00.35_veh-35_03660_04140,435,1771,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,133.6
+2021.06.14.13.27.42_veh-35_03463_03587,65,562,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,49.7
+2021.06.09.17.23.18_veh-38_03425_04047,153,1077,Take a right before the light. Take a left at the sign. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,92.4
+2021.06.14.16.48.02_veh-12_00839_00980,0,367,Take a right before the light. Take a left at the sign. Pull up behind the redish car. Get back on the road. ,Both,Jeevan,./staging/labels - Jeevan Johnson.csv,36.7
+2021.06.09.14.03.17_veh-12_02495_02573,16,378,"Before the light, take a right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,36.2
+2021.07.16.23.22.27_veh-14_01502_01610,60,448,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,38.8
+2021.06.14.18.13.35_veh-26_05205_05275,18,312,Take a left at the sign. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,29.4
+2021.06.23.21.56.29_veh-35_00220_00936,374,2386,Move to the right most lane for a right at the light. Pull up next to the white van. Yield for pedestrians and continue going straight. ,Both,Jeevan,./staging/labels - Jeevan Johnson.csv,201.2
+2021.06.14.16.48.02_veh-12_04057_04438,1314,1785,Take a right before the light. Take a left at the sign. Pull up near the enterence. Get back on the road. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,47.1
+2021.06.23.20.00.35_veh-35_00130_00949,614,948,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,33.4
+2021.06.14.18.42.45_veh-12_05170_05261,159,448,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,28.9
+2021.06.09.14.58.55_veh-35_03048_03301,1038,1259,Move one lane to the right after the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,22.1
+2021.06.14.18.13.35_veh-26_00385_00471,92,338,Take a right before the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,24.6
+2021.06.09.14.03.17_veh-12_02584_02970,910,1161,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,25.1
+2021.08.17.17.17.01_veh-45_01796_02069,510,1354,"Take a left at the light. Pull over near the ""HHYATThouse"".",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,84.4
+2021.08.17.18.11.12_veh-08_00083_00200,71,445,Take a right at the stop sign. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,37.4
+2021.06.09.17.23.18_veh-38_02094_02305,32,1048,"After the light, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,101.6
+2021.07.16.22.40.23_veh-38_00371_00797,61,1643,"After the light, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,158.2
+2021.06.09.17.23.18_veh-38_04544_04697,20,747,Take a right before the light. Take a left at the sign. Pull up behind the white car. Get back on the road. Go to the far left lane for a left turn at the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,72.7
+2021.06.09.14.50.36_veh-26_01782_02044,172,1295,"Move one lane to the right. After the light, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,112.3
+2021.06.14.11.44.56_veh-35_02696_02932,196,805,"Take a right before the light. Take a left at the sign. Pull up next to the ""Star Car"" car. Continue straight and turn one lane to the left. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,60.9
+2021.06.09.18.23.43_veh-35_03967_05057,104,1875,"After the light, move one lane to the right. After the light, move to the far right lane to take a right at the light. Pull up next to the airport shuttle pick up. Get back on the road, move one lane to the left. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,177.1
+2021.06.14.18.33.41_veh-35_01363_01636,216,1266,"Before the light, take a right. Take a left at the sign. Pull up behind the grey car. Get back on the road and move to the left lane for a left at the light. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,105.0
+2021.06.14.18.33.41_veh-35_01739_01918,96,492,"After the light, move one lane to the right. Take a right at the light. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,39.6
+2021.08.17.18.13.38_veh-45_00946_01854,162,2046,"Get on the road and continue straight. At the stop sign, take a left. Move to the left lane to take a left at the light. Move to the left lane for a left at the intersection. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,188.4
+2021.06.09.18.23.43_veh-35_02344_02669,1318,1587,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,26.9
+2021.06.09.14.50.36_veh-26_05825_05901,28,252,Take a right at the coming light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,22.4
+2021.06.14.13.27.42_veh-35_01342_01461,202,522,"After the light, move one lane to the right. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,32.0
+2021.08.17.13.15.12_veh-45_01049_01467,28,1585,"Make a right at the intersection. Make a left at the light. Make a left at the light. Make a left at the intersection. Make a right at the stop sign. Pull over by the corner real quick. Continue going straight. At the stop sign, make a left. ",Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,155.7
+2021.06.09.14.58.55_veh-35_05473_05626,51,698,Move over one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,64.7
+2021.06.14.18.42.45_veh-12_00016_00185,4,771,Make a left at the intersection. Make a left at the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,76.7
+2021.07.16.00.24.14_veh-38_01447_01621,369,569,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,20.0
+2021.06.14.17.26.26_veh-38_03162_03227,15,281,Make a left at the sign. Pull up next to the black car.,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,26.6
+2021.07.16.21.17.55_veh-26_00872_00937,13,313,Move one lane to the right. Move one lane to the right. ,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,30.0
+2021.07.09.17.06.37_veh-35_00049_00237,218,482,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,26.4
+2021.06.09.14.50.36_veh-26_05326_05387,28,205,Move one lane to the right after the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,17.7
+2021.10.11.07.12.18_veh-50_00345_00498,131,737,Make a left for a U turn. Take a right at the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,60.6
+2021.06.14.17.26.26_veh-38_04931_05037,65,473,Make a left at the sign. Pull up near the enterence next to the grey car. Get back on the road. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,40.8
+2021.10.11.02.57.41_veh-50_01028_01289,289,493,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,20.4
+2021.08.17.14.45.12_veh-42_01119_01535,43,2055,Make a left at the intersection. Make a left at the stop sign. Pull over in front of the grey car. Get back on the road. Make a left at the stop sign. Make a right at the light. Move to the left most lane. Make a left at the light. Make a left at the light. Pull over by Malzhaus. Get back on the road. Make a right. At the stop sign make a right. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,201.2
+2021.06.14.18.13.35_veh-26_02724_02920,436,763,Take a right before the light. Take a left at the sign. Pull up next to the enterence. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,32.7
+2021.08.17.18.54.02_veh-45_02105_02189,103,305,Take a right at the light. ,Static Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,20.2
+2021.07.09.20.26.06_veh-35_03898_05974,1507,1819,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,31.2
+2021.06.23.20.43.31_veh-16_00588_00792,370,852,Pull up next to the limbo. Continue straight.,Dynamic Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,48.2
+2021.07.16.00.24.14_veh-38_00094_00346,197,460,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,26.3
+2021.06.14.18.13.35_veh-26_01150_01320,33,354,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,32.1
+2021.06.23.22.05.48_veh-16_00602_00800,286,970,"Take a right at the light. Stop behind the black car, wait till you can continue to go straight. Move one lane to the right. ",Both,Jeevan,./staging/labels - Jeevan Johnson.csv,68.4
+2021.06.09.14.03.17_veh-12_00159_00283,4,255,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,25.1
 2021.06.14.18.33.41_veh-35_00898_01182,420,1376,turn left when the light turns green,Static Referential,jboaz,./staging/labels - Jonathan Boaz.csv,95.6
 2021.06.14.18.33.41_veh-35_00898_01182,41,884,yield to pedestrians crossing the street,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,84.3
 2021.06.14.18.33.41_veh-35_00898_01182,1090,1386,follow the black car,Dynamic Referential,jboaz,./staging/labels - Jonathan Boaz.csv,29.6
