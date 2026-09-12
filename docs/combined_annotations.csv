@@ -3002,6 +3002,204 @@ folder,start_frame,end_frame,label,commentary,username,source_file,duration_sec
 2021.06.14.18.13.35_veh-26_01150_01320,33,354,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,32.1
 2021.06.23.22.05.48_veh-16_00602_00800,286,970,"Take a right at the light. Stop behind the black car, wait till you can continue to go straight. Move one lane to the right. ",Both,Jeevan,./staging/labels - Jeevan Johnson.csv,68.4
 2021.06.09.14.03.17_veh-12_00159_00283,4,255,,Non-Referential,Jeevan,./staging/labels - Jeevan Johnson.csv,25.1
+2021.07.16.23.22.27_veh-14_06339_07673,540,2445,Go straight.,Dynamic Referential,anusha,./staging/labels - Anusha.csv,190.5
+2021.07.16.18.06.21_veh-38_04471_04922,139,2218,Take a left at the signal and go straight.,Static Referential,anusha,./staging/labels - Anusha.csv,207.9
+2021.07.16.20.45.29_veh-35_00600_01084,40,2405,"Follow the truck, then switch to the right lane before the first signal. Take a right. Switch into the left lane. Take a right, then at the signal, take a left.",Both,anusha,./staging/labels - Anusha.csv,236.5
+2021.07.16.23.22.27_veh-14_03844_04474,113,1279,Switch lanes.,Static Referential,anusha,./staging/labels - Anusha.csv,116.6
+2021.07.16.18.06.21_veh-38_04311_04460,25,689,"Go straight at the stop sign. Then take a left into the hotel entry road. Go straight through it, then take a right at the stop.",Static Referential,anusha,./staging/labels - Anusha.csv,66.4
+2021.07.16.20.45.29_veh-35_00600_01084,846,2206,"Go straight, then take a right into the hotel driveway. Follow the road, then take a right to exit. Go into the leftmost lane at the signal.",Static Referential,anusha,./staging/labels - Anusha.csv,136.0
+2021.07.16.18.06.21_veh-38_05338_05486,449,711,"Go straight at the stop sign, then take a right into the hotel driveway.",Static Referential,anusha,./staging/labels - Anusha.csv,26.2
+2021.07.16.21.17.55_veh-26_01014_01075,45,195,,Non-Referential,anusha,./staging/labels - Anusha.csv,15.0
+2021.07.16.23.22.27_veh-14_06214_06318,93,496,,Non-Referential,,./staging/labels - Anusha.csv,40.3
+2021.07.16.23.22.27_veh-14_06214_06318,29,402,,Non-Referential,,./staging/labels - Anusha.csv,37.3
+2021.07.16.16.08.35_veh-35_04744_06051,272,611,"Take a right at the signal, then switch into the leftmost lane before aproaching the stop sign. Go straight.",Static Referential,,./staging/labels - Anusha.csv,33.9
+2021.07.16.16.08.35_veh-35_03711_04709,56,1727,"Take a right at the signal. Go into the leftmost lane before approaching the stop sign. Go straight, then at the next stop sign, take a left into the hotel driveway. Take a right at the end of the hotel driveway and go straight. Then take a left at the signal.",Static Referential,,./staging/labels - Anusha.csv,167.1
+2021.07.16.21.17.55_veh-26_02927_02992,6,299,Switch one lane to the right after the first signal.,Static Referential,,./staging/labels - Anusha.csv,29.3
+2021.07.16.22.40.23_veh-38_00016_00182,151,775,"Take a right into the hotel driveway. Wait for the pedestrians to cross, then switch one lane to the left after the white car starts moving. Drive to the end of the driveway and take a right at the stop sign. Go straight and switch one lane to the left after the white car.",Both,,./staging/labels - Anusha.csv,62.4
+2021.07.16.20.45.29_veh-35_01095_01486,409,684,,Non-Referential,,./staging/labels - Anusha.csv,27.5
+2021.07.16.16.27.22_veh-26_02282_03814,78,1981,Take a left at the signal. Go straight then switch one lane to the right after the black car. Take a right into the driveway and follow the white car.,Both,,./staging/labels - Anusha.csv,190.3
+2021.07.16.23.22.27_veh-14_06339_07673,61,883,,Non-Referential,,./staging/labels - Anusha.csv,82.2
+2021.07.16.23.22.27_veh-14_01383_01479,38,392,,Non-Referential,,./staging/labels - Anusha.csv,35.4
+2021.10.01.19.16.42_veh-28_01511_01624,75,506,Take a left at the stop sign. Take a right at the next stop sign.,Static Referential,,./staging/labels - Anusha.csv,43.1
+2021.07.16.22.40.23_veh-38_00818_03032,47,799,"Go straight through the driveway, then take a right to exit. Go into the leftmost lane at the signal.",Static Referential,,./staging/labels - Anusha.csv,75.2
+2021.07.16.20.45.29_veh-35_00016_00589,187,1858,"Go into the leftmost lane before approaching the signal. Take a left, then go into the left most lane before approaching the stop sign. Go straight, then turn left into the hotel driveway. Go around the stopped car, then take a right at the stop sign. Go into the second-most left lane before approaching the signal.",Both,,./staging/labels - Anusha.csv,167.1
+2021.07.16.21.17.55_veh-26_01014_01075,1,245,Go into the rightmost lane before approaching the signal.,Static Referential,,./staging/labels - Anusha.csv,24.4
+2021.07.16.21.17.55_veh-26_03772_03842,1,335,Take a right then go into the second leftmost lane.,Static Referential,anusha,./staging/labels - Anusha.csv,33.4
+2021.07.16.16.27.22_veh-26_05058_05383,115,1470,"Exit the driveway and go into the left most lane before the signal. Take a left, then go straight. Switch one lane to the right.",Both,anusha,./staging/labels - Anusha.csv,135.5
+2021.07.16.22.40.23_veh-38_00371_00797,667,2116,Switch into the right lane.,Static Referential,anusha,./staging/labels - Anusha.csv,144.9
+2021.07.16.18.19.22_veh-35_00440_00858,717,1628,Switch into the right lane. Take a right into the hotel driveway. Go into the roundabout.,Non-Referential,anusha,./staging/labels - Anusha.csv,91.1
+2021.07.16.18.06.21_veh-38_03733_04300,102,2374,Take a right into the hotel driveway. Take a right to exit the driveway and go into the left most lane at the signal. Take a left at the signal. Follow the white car.,Both,anusha,./staging/labels - Anusha.csv,227.2
+2021.07.16.18.19.22_veh-35_00255_00418,64,343,"Drive through the driveway and wait behind the stopped car. Carefully go around it, then take a right at the stop sign.",Both,anusha,./staging/labels - Anusha.csv,27.9
+2021.07.16.23.22.27_veh-14_01502_01610,157,320,,Non-Referential,anusha,./staging/labels - Anusha.csv,16.3
+2021.07.16.21.17.55_veh-26_03860_03930,190,341,,Non-Referential,anusha,./staging/labels - Anusha.csv,15.1
+2021.07.16.20.45.29_veh-35_01095_01486,346,1787,"Switch into the right lane, then take a right at the signal. Go straight and then go to left most lane. Take a left into the hotel driveway.",Static Referential,anusha,./staging/labels - Anusha.csv,144.1
+2021.07.16.23.22.27_veh-14_06339_07673,112,2454,,Non-Referential,anusha,./staging/labels - Anusha.csv,234.2
+2021.07.16.16.08.35_veh-35_02551_02640,0,434,"Take a left, then switch one lane to the right. Switch one more lane to the right after the signal.",Non-Referential,anusha,./staging/labels - Anusha.csv,43.4
+2021.07.16.18.49.56_veh-26_00015_00235,387,714,Take a right at the stop sign. Switch into the left lane before the stop sign.,Static Referential,anusha,./staging/labels - Anusha.csv,32.7
+2021.07.16.16.27.22_veh-26_01536_02260,212,503,,Non-Referential,anusha,./staging/labels - Anusha.csv,29.1
+2021.07.16.18.49.56_veh-26_00833_03384,1089,1877,"Take a right at the signal, then go into the left most lane before the stop sign. Take a left into the hotel driveway.",Non-Referential,anusha,./staging/labels - Anusha.csv,78.8
+2021.07.16.20.45.29_veh-35_01095_01486,494,1655,"Switch into the right lane, then take a right at the signal. Go into the left most lane before the stop sign. Go straight, then take a left into the hotel driveway.",Static Referential,anusha,./staging/labels - Anusha.csv,116.1
+2021.07.16.22.40.23_veh-38_00204_00360,277,647,,Non-Referential,anusha,./staging/labels - Anusha.csv,37.0
+2021.07.16.21.17.55_veh-26_05558_05627,62,332,,Non-Referential,anusha,./staging/labels - Anusha.csv,27.0
+2021.07.16.22.40.23_veh-38_00818_03032,1758,2296,Switch one lane to the right.,Non-Referential,anusha,./staging/labels - Anusha.csv,53.8
+2021.07.16.18.49.56_veh-26_00256_00822,194,2474,Switch one lane to the right. Take a right after the signal into the hotel driveway. Slowly go into the roundabout and take a right to exit. Then go into the leftmost lane before the signal.,Both,anusha,./staging/labels - Anusha.csv,228.0
+2021.07.16.18.06.21_veh-38_00016_00747,282,1916,Take a right onto the main road. Go into the second most left lane before the signal. Take a left. Switch into the right most lane.,Static Referential,anusha,./staging/labels - Anusha.csv,163.4
+2021.07.16.23.22.27_veh-14_01631_03833,226,2394,Switch into the right lane. Take a right at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,216.8
+2021.07.16.20.45.29_veh-35_00600_01084,233,2109,Switch into the right lane. Take a right into the hotel driveway. Go through the driveway and take a right to exit. Go into the left most lane at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,187.6
+2021.07.16.20.45.29_veh-35_02509_02649,26,669,Go into the rightmost lane at the signal. Take a right at the signal. Switch into the leftmost lane before the stop sign. Take a left into the hotel driveway.,Static Referential,anusha,./staging/labels - Anusha.csv,64.3
+2021.07.16.21.17.55_veh-26_03772_03842,36,279,Switch one lane to the left.,Non-Referential,anusha,./staging/labels - Anusha.csv,24.3
+2021.07.16.20.45.29_veh-35_00600_01084,279,1257,Switch into the right most lane. Take a right after the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,97.8
+2021.07.16.18.06.21_veh-38_05338_05486,5,212,,Non-Referential,anusha,./staging/labels - Anusha.csv,20.7
+2021.07.16.23.22.27_veh-14_00015_01368,685,2192,Take a left at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,150.7
+2021.10.01.19.16.42_veh-28_01511_01624,79,279,Take a left at the stop sign.,Static Referential,anusha,./staging/labels - Anusha.csv,20.0
+2021.07.16.22.40.23_veh-38_00818_03032,114,2118,Slowly merge into the left lane. Take a right and go into the leftmost lane before the signal. Take a left at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,200.4
+2021.07.16.16.27.22_veh-26_05416_05596,110,528,Go into the rightmost lane. Take a right at the signal. Switch into the leftmost lane. ,Static Referential,anusha,./staging/labels - Anusha.csv,41.8
+2021.07.16.18.06.21_veh-38_02197_03220,361,1386,Switch one lane to the right. Switch one more lane to the right.,Non-Referential,anusha,./staging/labels - Anusha.csv,102.5
+2021.07.16.20.45.29_veh-35_01095_01486,1231,1418,,Non-Referential,anusha,./staging/labels - Anusha.csv,18.7
+2021.07.16.22.40.23_veh-38_00204_00360,187,703,,Non-Referential,anusha,./staging/labels - Anusha.csv,51.6
+2021.07.16.21.17.55_veh-26_01392_01488,233,388,,Non-Referential,anusha,./staging/labels - Anusha.csv,15.5
+2021.07.16.21.17.55_veh-26_03772_03842,11,327,Take a right at the stop sign. Go one lane to the left. ,Static Referential,anusha,./staging/labels - Anusha.csv,31.6
+2021.07.16.16.08.35_veh-35_04744_06051,480,2017,Take a left into the hotel driveway. Take a right at the end of the driveway and go into the second left most lane. Take a left at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,153.7
+2021.07.16.22.40.23_veh-38_00016_00182,204,516,Go through the driveway and slowly go around the stopped car.,Dynamic Referential,anusha,./staging/labels - Anusha.csv,31.2
+2021.07.16.20.45.29_veh-35_01095_01486,1046,1563,Switch into the right lane before the stop sign. ,Static Referential,anusha,./staging/labels - Anusha.csv,51.7
+2021.07.16.21.17.55_veh-26_00872_00937,136,320,Switch one lane to the right.,Non-Referential,anusha,./staging/labels - Anusha.csv,18.4
+2021.07.16.18.06.21_veh-38_01526_02150,176,1503,take a left at the signal. Switch one lane to the right.Switch one more lane to the right behind the black car.,Both,anusha,./staging/labels - Anusha.csv,132.7
+2021.07.16.21.17.55_veh-26_05558_05627,54,214,,Non-Referential,anusha,./staging/labels - Anusha.csv,16.0
+2021.09.15.12.32.43_veh-28_00015_00093,24,322,,Non-Referential,anusha,./staging/labels - Anusha.csv,29.8
+2021.09.15.12.32.43_veh-28_00015_00093,18,348,,Non-Referential,anusha,./staging/labels - Anusha.csv,33.0
+2021.07.16.18.19.22_veh-35_00440_00858,194,1958,Switch into the rightmost lane. Take a right into the hotel driveway after the signal. Carefully go around the parked cars and take a right to exit the driveway. Go into the leftmost lane before the signal.,Both,anusha,./staging/labels - Anusha.csv,176.4
+2021.09.15.14.27.22_veh-39_00868_01125,11,1279,Slowly go around the stopped car. Switch one lane to the left to avoid the biker. Switch back into the right lane. Take a right at the stop sign.Take a left at the next stop sign. Take a right at the next intersection.,Both,anusha,./staging/labels - Anusha.csv,126.8
+2021.07.16.21.17.55_veh-26_00872_00937,1,317,Switch one lane to the right.,Non-Referential,anusha,./staging/labels - Anusha.csv,31.6
+2021.07.16.16.27.22_veh-26_03836_05047,379,999,Slowly drive around the stopped cars. Exit the driveway by taking the first exit in the roundabout. Go into the leftmost lane at the signal.,Both,anusha,./staging/labels - Anusha.csv,62.0
+2021.09.15.15.02.19_veh-39_01107_01666,337,2368,Take a left at the signal. Take a right at the next signal.Take a left at the signal. Take a right at the next signal. Take another right at the signal. Switch one lane to the left. ,Static Referential,anusha,./staging/labels - Anusha.csv,203.1
+2021.07.16.16.08.35_veh-35_03711_04709,445,2320,"Take a right at the signal. Go into the leftmost lane. Turn into the hotel driveway and slowly go around the stopped card. At the stop sign, take a right. Go into the second most left lane. Take a left at the signal. Switch one lane to the right.",Both,anusha,./staging/labels - Anusha.csv,187.5
+2021.09.15.15.02.19_veh-39_00214_00558,346,1239,Take a right at the signal. Take a right at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,89.3
+2021.09.15.14.27.22_veh-39_01281_01346,44,234,Take a left at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,19.0
+2021.10.01.13.28.54_veh-28_01098_01337,536,943,Take a left at the signal. Take one more left at the next signal. Take a right and slow down to let the car pass. Slowly go around the parked truck.,Both,anusha,./staging/labels - Anusha.csv,40.7
+2021.07.16.20.45.29_veh-35_02509_02649,52,694,Switch into the right lane and take a right at the signal. Switch into the leftmost lane and take a left into the hotel driveway.,Static Referential,anusha,./staging/labels - Anusha.csv,64.2
+2021.07.16.18.06.21_veh-38_04471_04922,1162,1760,Switch one lane to the right.,Non-Referential,anusha,./staging/labels - Anusha.csv,59.8
+2021.07.16.21.17.55_veh-26_03860_03930,43,210,Switch one lane to the right.,Non-Referential,anusha,./staging/labels - Anusha.csv,16.7
+2021.09.15.15.34.53_veh-28_01303_01395,36,285,Take a right at the intersection.,Static Referential,anusha,./staging/labels - Anusha.csv,24.9
+2021.07.16.16.08.35_veh-35_02551_02640,100,320,Switch one lane to the right.,Non-Referential,anusha,./staging/labels - Anusha.csv,22.0
+2021.07.16.16.08.35_veh-35_02651_03700,1547,2403,Take a left at the signal then switch one lane to the right.,Static Referential,anusha,./staging/labels - Anusha.csv,85.6
+2021.07.16.21.17.55_veh-26_03254_03336,8,294,Carefully drive throught the driveway past the stopped cars.,Dynamic Referential,anusha,./staging/labels - Anusha.csv,28.6
+2021.07.16.16.27.22_veh-26_05416_05596,48,702,Take a right at the signal. Switch into the left most lane. ,Static Referential,anusha,./staging/labels - Anusha.csv,65.4
+2021.09.15.11.49.23_veh-28_00081_00237,33,717,Take a right at the intersection. Take a u-turn at the dead end.,Static Referential,anusha,./staging/labels - Anusha.csv,68.4
+2021.07.16.18.19.22_veh-35_00440_00858,65,2016,Take a right into the hotel driveway. Slowly drive through around the stopped cars. Take the first exit in the roundabout and go in the left most lane at the signal.,Both,anusha,./staging/labels - Anusha.csv,195.1
+2021.09.15.13.16.40_veh-28_02072_02166,100,406,,Non-Referential,anusha,./staging/labels - Anusha.csv,30.6
+2021.09.15.11.49.23_veh-28_01869_02000,16,635,"Take a left, then take a right at the intersection. Take a left, then take another left.",Static Referential,anusha,./staging/labels - Anusha.csv,61.9
+2021.09.15.16.17.26_veh-28_01581_01740,410,731,Take a right at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,32.1
+2021.09.15.11.49.23_veh-28_00767_00955,162,781,Take a right at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,61.9
+2021.07.16.18.49.56_veh-26_00256_00822,564,2468,Take a right after the signal into the hotel driveway. Carefully go through the roundabout and follow the white van out. Take the first exit at the roundabout and go in the left most lane.,Both,anusha,./staging/labels - Anusha.csv,190.4
+2021.10.06.17.08.46_veh-28_00127_00428,278,1449,"Take a right, then take another right. Take the second exit at the traffic circle.",Static Referential,anusha,./staging/labels - Anusha.csv,117.1
+2021.07.16.23.22.27_veh-14_01502_01610,8,525,,Non-Referential,anusha,./staging/labels - Anusha.csv,51.7
+2021.10.06.19.27.33_veh-28_00302_00794,210,974,Take a right at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,76.4
+2021.10.01.19.16.42_veh-28_01731_01935,520,865,Switch into the right lane.,Non-Referential,anusha,./staging/labels - Anusha.csv,34.5
+2021.10.01.19.16.42_veh-28_02568_02833,157,736,Take a right.,Static Referential,anusha,./staging/labels - Anusha.csv,57.9
+2021.07.16.16.27.22_veh-26_03836_05047,445,2459,Carefully drive through the roundabout. Take the first exit and go into the left lane at the signal. Take a left at the signal. Go into the right most lane. Take a right at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,201.4
+2021.07.16.18.06.21_veh-38_03733_04300,201,2344,Take a right into the hotel driveway. Slowly drive through the roundabout and take the first exit. Go into the left most lane and take a left at the signal.,Non-Referential,anusha,./staging/labels - Anusha.csv,214.3
+2021.10.01.13.28.54_veh-28_01421_01615,539,877,,Non-Referential,anusha,./staging/labels - Anusha.csv,33.8
+2021.07.16.23.22.27_veh-14_01631_03833,835,1432,,Non-Referential,,./staging/labels - Anusha.csv,59.7
+2021.09.15.13.16.40_veh-28_00180_00257,27,210,,Non-Referential,anusha,./staging/labels - Anusha.csv,18.3
+2021.09.15.13.52.55_veh-39_00818_01335,1444,2029,Take a left tat the signal hen another left then a right.,Non-Referential,anusha,./staging/labels - Anusha.csv,58.5
+2021.10.01.19.16.42_veh-28_02903_03140,850,1134,,Non-Referential,anusha,./staging/labels - Anusha.csv,28.4
+2021.10.01.19.16.42_veh-28_01731_01935,90,486,Slowly go straight as the truck turns. Take the first exit at the traffic circle.,Dynamic Referential,,./staging/labels - Anusha.csv,39.6
+2021.09.15.13.16.40_veh-28_01343_01432,155,339,,Non-Referential,anusha,./staging/labels - Anusha.csv,18.4
+2021.07.16.16.27.22_veh-26_05058_05383,448,1303,Take a left at the signal then switch one lane to the right. Switch one more lane to the right.,Static Referential,anusha,./staging/labels - Anusha.csv,85.5
+2021.09.15.12.32.43_veh-28_00202_00323,163,594,"Take a right at the intersection, then take a left at the stop. ",Static Referential,anusha,./staging/labels - Anusha.csv,43.1
+2021.07.16.18.19.22_veh-35_00255_00418,79,759,Slowly drive through the driveway and take a right at the stop sign. Go into the second left most lane at the signal. ,Static Referential,anusha,./staging/labels - Anusha.csv,68.0
+2021.09.15.16.51.15_veh-28_01225_01302,60,361,Take a right at the itnersection then a left at the signal. ,Static Referential,anusha,./staging/labels - Anusha.csv,30.1
+2021.10.01.18.26.05_veh-28_00481_00656,326,539,,Non-Referential,anusha,./staging/labels - Anusha.csv,21.3
+2021.10.01.19.16.42_veh-28_00094_00216,35,442,Take a right. Take a left after the stop sign. Take a right at the stop sign.,Static Referential,anusha,./staging/labels - Anusha.csv,40.7
+2021.10.01.17.52.06_veh-28_01289_01353,19,198,,Non-Referential,anusha,./staging/labels - Anusha.csv,17.9
+2021.10.06.14.31.13_veh-28_01277_01377,128,459,,Non-Referential,anusha,./staging/labels - Anusha.csv,33.1
+2021.10.01.17.52.06_veh-28_00748_00952,81,989,Take a left at the signal. Take a right at the next signal.,Static Referential,anusha,./staging/labels - Anusha.csv,90.8
+2021.10.06.19.27.33_veh-28_00805_01736,839,1735,Take a right at the signal. ,Static Referential,anusha,./staging/labels - Anusha.csv,89.6
+2021.09.15.13.12.49_veh-39_00022_00104,49,399,,Non-Referential,anusha,./staging/labels - Anusha.csv,35.0
+2021.10.01.15.32.11_veh-28_01178_01392,66,782,"Take the second exit at the roundabout.Take a right at the intersection, then take a left at the stop sign.",Static Referential,anusha,./staging/labels - Anusha.csv,71.6
+2021.09.15.14.27.22_veh-39_00580_00654,159,320,Take a left at the stop sign. ,Static Referential,anusha,./staging/labels - Anusha.csv,16.1
+2021.10.01.14.20.36_veh-28_00475_00646,120,317,,Non-Referential,anusha,./staging/labels - Anusha.csv,19.7
+2021.10.06.13.21.47_veh-28_00441_00515,108,354,,Non-Referential,anusha,./staging/labels - Anusha.csv,24.6
+2021.07.16.16.27.22_veh-26_05058_05383,160,1499,Carefully drive through the roundabout and go into the left most lane before the signal. Take a left at the signal. Then switch one lane to the right after the white car. Switch one more lane to the right after the white car. ,Both,anusha,./staging/labels - Anusha.csv,133.9
+2021.09.15.11.49.23_veh-28_02024_02091,87,268,Take a left at the intersection.,Static Referential,anusha,./staging/labels - Anusha.csv,18.1
+2021.10.06.17.43.07_veh-28_01354_01536,209,607,"Pass the stopped truck. At the stop sign, take a right.",Both,anusha,./staging/labels - Anusha.csv,39.8
+2021.10.01.19.16.42_veh-28_02447_02517,93,257,,Non-Referential,anusha,./staging/labels - Anusha.csv,16.4
+2021.10.06.14.31.13_veh-28_01388_01849,1093,2089,"Take a right at the intersection. Go into the left turn lane, then take a left at the signal. Take a left at the intersection, then take a right at the next one.",Static Referential,anusha,./staging/labels - Anusha.csv,99.6
+2021.09.15.13.52.55_veh-39_01385_01446,12,208,,Non-Referential,anusha,./staging/labels - Anusha.csv,19.6
+2021.09.15.11.49.23_veh-28_00081_00237,274,761,Take a u-turn at the dead end.,Static Referential,anusha,./staging/labels - Anusha.csv,48.7
+2021.09.15.14.27.22_veh-39_00665_00745,92,352,,Non-Referential,anusha,./staging/labels - Anusha.csv,26.0
+2021.09.15.14.27.22_veh-39_01281_01346,30,298,Take a left at the stop sign. ,Static Referential,anusha,./staging/labels - Anusha.csv,26.8
+2021.09.15.13.16.40_veh-28_00088_00157,1,186,,Non-Referential,anusha,./staging/labels - Anusha.csv,18.5
+2021.09.15.16.51.15_veh-28_00176_00329,253,511,,Non-Referential,anusha,./staging/labels - Anusha.csv,25.8
+2021.09.15.15.02.19_veh-39_00214_00558,730,1637,Take a right at the signal. Take a right at the next signal. Carefully pass the white car. ,Both,anusha,./staging/labels - Anusha.csv,90.7
+2021.09.15.13.16.40_veh-28_02072_02166,149,342,,Non-Referential,anusha,./staging/labels - Anusha.csv,19.3
+2021.10.01.13.28.54_veh-28_00995_01087,214,448,Take a right at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,23.4
+2021.10.06.17.08.46_veh-28_01298_01548,128,938,Take a right at the stop sign. Slowly pass the stopped car. Take a right at the intersection.,Static Referential,anusha,./staging/labels - Anusha.csv,81.0
+2021.07.16.21.17.55_veh-26_05156_05225,31,215,,Non-Referential,anusha,./staging/labels - Anusha.csv,18.4
+2021.10.06.17.08.46_veh-28_00651_01030,250,1128,Take a left at the signal. ,Static Referential,anusha,./staging/labels - Anusha.csv,87.8
+2021.07.16.16.08.35_veh-35_02551_02640,8,404,Take a left at the signal.Switch one lane to the right.,Static Referential,anusha,./staging/labels - Anusha.csv,39.6
+2021.10.01.19.16.42_veh-28_00392_00906,976,1968,Take a right at the signal. ,Static Referential,anusha,./staging/labels - Anusha.csv,99.2
+2021.09.15.14.50.05_veh-28_00578_00896,29,1180,Take a right at the intersection. Take a right at the intersection. Take a right at the signal. ,Static Referential,anusha,./staging/labels - Anusha.csv,115.1
+2021.07.16.18.06.21_veh-38_01526_02150,185,2330,"Take a left at the signal. Then switch one lane to the right. Switch one more lane to the right. Take a right at the signal, then switch to the left most lane. Take a left into the hotel driveway.",Static Referential,anusha,./staging/labels - Anusha.csv,214.5
+2021.10.01.13.28.54_veh-28_01767_01883,238,510,Take a left into the parking lot. Reverse onto the ramp.,Static Referential,anusha,./staging/labels - Anusha.csv,27.2
+2021.09.15.14.27.22_veh-39_01491_01763,491,1273,Take a right at the signal. Take a right at the next signal. Take a left at the next signal. ,Static Referential,anusha,./staging/labels - Anusha.csv,78.2
+2021.09.15.13.52.55_veh-39_00371_00631,175,1278,"Take a right at the intersection. Go straight at the stop sign, then take a right at the next intersection. Go straight then take a left.",Static Referential,anusha,./staging/labels - Anusha.csv,110.3
+2021.07.16.18.19.22_veh-35_00440_00858,263,1495,Switch into the right most lane. Take a right into the Paris hotel driveway.,Static Referential,anusha,./staging/labels - Anusha.csv,123.2
+2021.10.06.18.52.07_veh-28_01297_01462,187,803,Wait for the truck to take a U-turn before slowly proceesing.,Dynamic Referential,anusha,./staging/labels - Anusha.csv,61.6
+2021.07.16.20.45.29_veh-35_00600_01084,639,2287,Take a right into the Paris driveway. Take the second exit in the roundabout after slowly passing the stopped cars. Go into the left most lane at the signal. Take a left at the signal.,Dynamic Referential,anusha,./staging/labels - Anusha.csv,164.8
+2021.07.16.20.45.29_veh-35_01095_01486,108,1936,Switch one lane to the right. Switch one more lane to the right after the grey car passes. Switch into the rightmost lane and take a right at the signal. Go into the left most lane and take a left into the Luxor driveway. Take a right at the stop sign at the end of the driveway.,Dynamic Referential,anusha,./staging/labels - Anusha.csv,182.8
+2021.07.16.21.17.55_veh-26_01014_01075,1,297,Switch one lane to the right.,Non-Referential,anusha,./staging/labels - Anusha.csv,29.6
+2021.09.15.13.16.40_veh-28_01343_01432,120,372,,Non-Referential,anusha,./staging/labels - Anusha.csv,25.2
+2021.07.16.20.45.29_veh-35_00600_01084,331,1566,Switch into the lane behind the grey car. Go straight then take a right into the Paris hotel driveway. Take the second exit after slowly passing the stopped cars.,Dynamic Referential,anusha,./staging/labels - Anusha.csv,123.5
+2021.09.15.14.50.05_veh-28_00083_00152,91,307,Take a left at the intersection.Take a left at the stop sign.,Static Referential,anusha,./staging/labels - Anusha.csv,21.6
+2021.10.01.19.16.42_veh-28_00392_00906,1343,2105,,Non-Referential,anusha,./staging/labels - Anusha.csv,76.2
+2021.09.15.14.27.22_veh-39_00756_00838,37,192,,Non-Referential,anusha,./staging/labels - Anusha.csv,15.5
+2021.09.15.11.49.23_veh-28_02024_02091,0,300,Take a left at the intersection. Take a right at the next one.,Static Referential,anusha,./staging/labels - Anusha.csv,30.0
+2021.09.15.12.32.43_veh-28_01513_01697,485,830,,Non-Referential,anusha,./staging/labels - Anusha.csv,34.5
+2021.07.16.18.49.56_veh-26_00833_03384,21,2498,"Switch one lane to the right after the black car. Switch one more lane to the right. Switch one more lane to the right after the grey car. Take a right then switch into the leftmost lane. Take a left into the Luxor driveway. Slowly pass the stopped vehicles, then take a right at the stop sign. Go into the second rightmost lane and take a right at the signal.",Both,anusha,./staging/labels - Anusha.csv,247.7
+2021.10.01.19.16.42_veh-28_02903_03140,186,1177,Take the first exit at the traffic circle. ,Non-Referential,anusha,./staging/labels - Anusha.csv,99.1
+2021.09.15.12.32.43_veh-28_00417_00527,238,542,Take a right at the intersection. Take a left at the next inersection.,Static Referential,anusha,./staging/labels - Anusha.csv,30.4
+2021.09.15.15.34.53_veh-28_01133_01234,37,460,,Non-Referential,anusha,./staging/labels - Anusha.csv,42.3
+2021.09.15.15.34.53_veh-28_01639_01805,45,748,Take the first exit at the roundabout.,Static Referential,anusha,./staging/labels - Anusha.csv,70.3
+2021.09.15.14.50.05_veh-28_01740_01833,29,323,Switch into the right lane.,Non-Referential,anusha,./staging/labels - Anusha.csv,29.4
+2021.09.15.12.32.43_veh-28_01513_01697,109,525,Take a right at the intersection. Take a right at the stop sign.,Static Referential,anusha,./staging/labels - Anusha.csv,41.6
+2021.09.15.13.12.49_veh-39_01329_01520,2,785,Carefully pass the parked white trucks. Take the third exit in the roundabout.,Both,anusha,./staging/labels - Anusha.csv,78.3
+2021.09.15.11.49.23_veh-28_01869_02000,16,626,Take a left at the intersection. Take a left at the stop sign. Take a right at the intersection. Take a left at the itnersection.,Static Referential,anusha,./staging/labels - Anusha.csv,61.0
+2021.09.15.12.32.43_veh-28_02111_02342,479,929,Take a left into the parking lot.,Non-Referential,anusha,./staging/labels - Anusha.csv,45.0
+2021.09.15.16.51.15_veh-28_00176_00329,77,512,,Non-Referential,anusha,./staging/labels - Anusha.csv,43.5
+2021.08.17.15.02.08_veh-45_02111_02303,201,940,"Take a right at the stop sign, then take a left. Take a left onto the bridge. ",Static Referential,anusha,./staging/labels - Anusha.csv,73.9
+2021.09.15.16.51.15_veh-28_01225_01302,186,347,,Non-Referential,anusha,./staging/labels - Anusha.csv,16.1
+2021.10.06.17.08.46_veh-28_00651_01030,236,1618,Take a left at the signal. ,Static Referential,anusha,./staging/labels - Anusha.csv,138.2
+2021.10.06.13.21.47_veh-28_01127_01187,14,199,Take a left at the signal. ,Static Referential,anusha,./staging/labels - Anusha.csv,18.5
+2021.08.17.13.15.12_veh-45_00691_00794,28,379,,Non-Referential,anusha,./staging/labels - Anusha.csv,35.1
+2021.09.15.14.50.05_veh-28_00578_00896,462,1566,Take a right at the signal. Take a right at the next signal. ,Static Referential,anusha,./staging/labels - Anusha.csv,110.4
+2021.07.16.21.17.55_veh-26_03772_03842,16,325,Switch into the second right most lane. ,Non-Referential,anusha,./staging/labels - Anusha.csv,30.9
+2021.09.15.14.50.05_veh-28_00083_00152,129,294,Take a left at the intersection. ,Static Referential,anusha,./staging/labels - Anusha.csv,16.5
+2021.09.15.14.00.15_veh-28_00895_00981,146,423,"Take the second exit at the roundabout. Take a left, then take a slight right. ",Static Referential,anusha,./staging/labels - Anusha.csv,27.7
+2021.08.17.16.48.45_veh-43_01439_01665,399,1117,Take a right at the signal and go into the left turn lane. Take a left at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,71.8
+2021.08.17.13.15.12_veh-45_01679_01816,32,646,Take a right at the signal. Switch one lane to the left. Go into the left turn lane and take a left at the signal. Take a left at the stop sign.,Static Referential,anusha,./staging/labels - Anusha.csv,61.4
+2021.07.16.23.22.27_veh-14_01502_01610,208,527,,Non-Referential,anusha,./staging/labels - Anusha.csv,31.9
+2021.09.15.14.27.22_veh-39_00665_00745,107,374,,Non-Referential,anusha,./staging/labels - Anusha.csv,26.7
+2021.08.17.17.17.01_veh-45_01443_01678,355,913,Take a right at the intersection.,Static Referential,anusha,./staging/labels - Anusha.csv,55.8
+2021.09.15.16.51.15_veh-28_00005_00160,237,417,,Non-Referential,anusha,./staging/labels - Anusha.csv,18.0
+2021.07.16.22.40.23_veh-38_00016_00182,453,699,Take a right onto the main road. Go into the second right most lane. ,Static Referential,anusha,./staging/labels - Anusha.csv,24.6
+2021.08.17.16.48.45_veh-43_01439_01665,491,1056,Take a right at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,56.5
+2021.10.06.13.21.47_veh-28_00441_00515,42,257,,Non-Referential,anusha,./staging/labels - Anusha.csv,21.5
+2021.07.16.21.17.55_veh-26_03860_03930,111,308,,Non-Referential,anusha,./staging/labels - Anusha.csv,19.7
+2021.08.17.18.54.02_veh-45_02202_02416,122,896,Take a right into the alley. Reverse into the entrance once the gate opens.,Static Referential,anusha,./staging/labels - Anusha.csv,77.4
+2021.09.15.11.49.23_veh-28_02024_02091,56,279,Take a left and then a slight right to stay on the road.,Static Referential,anusha,./staging/labels - Anusha.csv,22.3
+2021.09.15.12.32.43_veh-28_01070_01157,34,415,Take a left onto Summer Street Bridge. ,Static Referential,anusha,./staging/labels - Anusha.csv,38.1
+2021.07.16.16.08.35_veh-35_04744_06051,1080,2412,Take a left at the signal and switch one lane to the right.,Static Referential,anusha,./staging/labels - Anusha.csv,133.2
+2021.09.15.14.27.22_veh-39_01420_01480,60,274,,Non-Referential,anusha,./staging/labels - Anusha.csv,21.4
+2021.07.16.16.27.22_veh-26_00016_01515,207,2279,Drive through the driveway and take a right at the stop sign. Go into the second left most lane and take a left at the signal. Switch one lane to the right. Switch one more lane to the right.,Static Referential,anusha,./staging/labels - Anusha.csv,207.2
+2021.10.01.18.26.05_veh-28_01211_01323,69,431,Take a left at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,36.2
+2021.09.15.12.32.43_veh-28_01070_01157,45,218,Take a left at the signal onto Summer Street Bridge.,Static Referential,anusha,./staging/labels - Anusha.csv,17.3
+2021.10.01.18.26.05_veh-28_01211_01323,199,504,Take a left onto Summer Street Bridge. ,Static Referential,anusha,./staging/labels - Anusha.csv,30.5
+2021.10.06.17.08.46_veh-28_01626_01702,64,252,Take a left onto Summer Street Bridge.,Static Referential,anusha,./staging/labels - Anusha.csv,18.8
+2021.10.06.13.21.47_veh-28_00262_00334,41,345,Take the second exit on the roundabout.,Static Referential,anusha,./staging/labels - Anusha.csv,30.4
+2021.10.06.17.43.07_veh-28_00016_00291,78,685,Take a slight right on the road next to the Graphics Arts Building. Taka a right at the signal.,Static Referential,anusha,./staging/labels - Anusha.csv,60.7
+2021.10.01.19.16.42_veh-28_01511_01624,153,371,Take a left at the signal. Take a right at the stop sign.,Static Referential,anusha,./staging/labels - Anusha.csv,21.8
+2021.08.17.19.18.39_veh-08_00407_00595,212,689,Take a right and take another right at the intersection.,Static Referential,anusha,./staging/labels - Anusha.csv,47.7
 2021.07.16.16.27.22_veh-26_05058_05383,667,969,make the left turn when the light turns green,Static Referential,parthib,./staging/parthib_submissions6 - Parthib Roy.csv,30.2
 2021.07.16.18.19.22_veh-35_00023_00234,11,1031,make a left turn at the intersection that has arco on it,Static Referential,parthib,./staging/parthib_submissions6 - Parthib Roy.csv,102.0
 2021.06.23.20.00.35_veh-35_00130_00949,1133,1935,"once the white taxi pulls forward, go onto the main road and head toward the exit. you will head toward the direction of the madame tussauds las vegas",Both,parthib,./staging/parthib_submissions6 - Parthib Roy.csv,80.2

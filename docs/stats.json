@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-12T14:53:51",
+  "generated_at": "2026-09-12T20:05:29",
   "table1": {
-    "number_of_annotations": 6236,
+    "number_of_annotations": 6434,
     "number_of_unique_source_clips": 1072,
-    "number_of_annotators": 11,
-    "total_annotated_driving_time_hrs": 90.58080555555556,
-    "mean_segment_duration_sec": 50.18917670682731,
-    "median_segment_duration_sec": 32.8,
+    "number_of_annotators": 12,
+    "total_annotated_driving_time_hrs": 94.47377777777777,
+    "mean_segment_duration_sec": 50.976593279258395,
+    "median_segment_duration_sec": 33.1,
     "min_segment_duration_sec": 15.0,
     "max_segment_duration_sec": 254.4,
-    "unique_annotated_driving_hrs": 27.166888888888895,
-    "equivalent_doscene_annotations": 16723
+    "unique_annotated_driving_hrs": 27.3846388888889,
+    "equivalent_doscene_annotations": 17441
   },
   "table2": {
-    "number_of_instructions": 4930,
-    "mean_instruction_length_words": 15.864503042596349,
+    "number_of_instructions": 5075,
+    "mean_instruction_length_words": 15.913300492610837,
     "median_instruction_length_words": 12.0,
     "min_instruction_length_words": 2,
     "max_instruction_length_words": 157,
-    "vocabulary_size": 968,
-    "type_token_ratio": 0.01237029085518581,
-    "multi_sentence_pct": 36.34888438133874
+    "vocabulary_size": 982,
+    "type_token_ratio": 0.012151961390916967,
+    "multi_sentence_pct": 36.98522167487685
   },
   "table3": {
-    "mean_annotations_per_clip": 5.817164179104478,
+    "mean_annotations_per_clip": 6.001865671641791,
     "median_annotations_per_clip": 5.0,
     "max_annotations_single_clip": 58,
-    "clips_with_multiple_annotations_pct": 95.33582089552239,
-    "overlapping_annotation_pairs": 26040,
-    "mean_temporal_overlap_ratio": 0.64457295097952,
-    "mean_instruction_similarity_for_overlaps": 0.29771638069615713
+    "clips_with_multiple_annotations_pct": 95.7089552238806,
+    "overlapping_annotation_pairs": 27359,
+    "mean_temporal_overlap_ratio": 0.6394749399387148,
+    "mean_instruction_similarity_for_overlaps": 0.2952444178820141
   },
   "coverage": {
     "total_clips_in_manifest": 1085,
@@ -46,7 +46,7 @@
         "total_sec": 77.2,
         "covered_sec": 76.30000000000001,
         "coverage_pct": 98.83419689119172,
-        "num_annotations": 20
+        "num_annotations": 22
       },
       {
         "clip_id": "2021.09.15.11.49.23_veh-28_00280_00506",
@@ -70,7 +70,7 @@
         "total_sec": 93.5,
         "covered_sec": 93.1,
         "coverage_pct": 99.57219251336898,
-        "num_annotations": 12
+        "num_annotations": 13
       },
       {
         "clip_id": "2021.09.15.11.49.23_veh-28_01108_01493",
@@ -86,15 +86,15 @@
         "total_sec": 65.0,
         "covered_sec": 64.6,
         "coverage_pct": 99.38461538461537,
-        "num_annotations": 20
+        "num_annotations": 22
       },
       {
         "clip_id": "2021.09.15.11.49.23_veh-28_02024_02091",
         "city": "boston_1",
         "total_sec": 32.9,
-        "covered_sec": 30.6,
-        "coverage_pct": 93.00911854103344,
-        "num_annotations": 11
+        "covered_sec": 32.7,
+        "coverage_pct": 99.39209726443771,
+        "num_annotations": 14
       },
       {
         "clip_id": "2021.09.15.11.49.23_veh-28_02192_02253",
@@ -110,23 +110,23 @@
         "total_sec": 38.5,
         "covered_sec": 38.199999999999996,
         "coverage_pct": 99.2207792207792,
-        "num_annotations": 22
+        "num_annotations": 24
       },
       {
         "clip_id": "2021.09.15.12.32.43_veh-28_00202_00323",
         "city": "boston_1",
         "total_sec": 59.9,
-        "covered_sec": 58.1,
-        "coverage_pct": 96.99499165275459,
-        "num_annotations": 19
+        "covered_sec": 58.4,
+        "coverage_pct": 97.49582637729549,
+        "num_annotations": 20
       },
       {
         "clip_id": "2021.09.15.12.32.43_veh-28_00417_00527",
         "city": "boston_1",
         "total_sec": 54.4,
-        "covered_sec": 53.4,
-        "coverage_pct": 98.16176470588235,
-        "num_annotations": 19
+        "covered_sec": 54.1,
+        "coverage_pct": 99.44852941176471,
+        "num_annotations": 20
       },
       {
         "clip_id": "2021.09.15.12.32.43_veh-28_00625_00697",
@@ -158,7 +158,7 @@
         "total_sec": 43.0,
         "covered_sec": 42.199999999999996,
         "coverage_pct": 98.13953488372093,
-        "num_annotations": 7
+        "num_annotations": 9
       },
       {
         "clip_id": "2021.09.15.12.32.43_veh-28_01238_01314",
@@ -182,7 +182,7 @@
         "total_sec": 91.4,
         "covered_sec": 86.6,
         "coverage_pct": 94.74835886214441,
-        "num_annotations": 4
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.09.15.12.32.43_veh-28_02111_02342",
@@ -190,7 +190,7 @@
         "total_sec": 114.9,
         "covered_sec": 84.2,
         "coverage_pct": 73.28111401218452,
-        "num_annotations": 6
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.09.15.13.12.49_veh-39_00022_00104",
@@ -198,7 +198,7 @@
         "total_sec": 40.4,
         "covered_sec": 39.4,
         "coverage_pct": 97.52475247524752,
-        "num_annotations": 10
+        "num_annotations": 11
       },
       {
         "clip_id": "2021.09.15.13.12.49_veh-39_00135_00467",
@@ -236,9 +236,9 @@
         "clip_id": "2021.09.15.13.12.49_veh-39_01329_01520",
         "city": "boston_1",
         "total_sec": 94.9,
-        "covered_sec": 77.2,
-        "coverage_pct": 81.34878819810326,
-        "num_annotations": 4
+        "covered_sec": 89.0,
+        "coverage_pct": 93.78292939936776,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.09.15.13.12.49_veh-39_01532_01687",
@@ -252,17 +252,17 @@
         "clip_id": "2021.09.15.13.16.40_veh-28_00088_00157",
         "city": "boston_1",
         "total_sec": 34.0,
-        "covered_sec": 29.900000000000002,
-        "coverage_pct": 87.94117647058825,
-        "num_annotations": 5
+        "covered_sec": 32.0,
+        "coverage_pct": 94.11764705882352,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.09.15.13.16.40_veh-28_00180_00257",
         "city": "boston_1",
         "total_sec": 37.9,
-        "covered_sec": 31.8,
-        "coverage_pct": 83.90501319261215,
-        "num_annotations": 3
+        "covered_sec": 33.9,
+        "coverage_pct": 89.44591029023746,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.09.15.13.16.40_veh-28_00366_00631",
@@ -286,7 +286,7 @@
         "total_sec": 44.0,
         "covered_sec": 40.4,
         "coverage_pct": 91.81818181818181,
-        "num_annotations": 4
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.09.15.13.16.40_veh-28_01473_01612",
@@ -308,9 +308,9 @@
         "clip_id": "2021.09.15.13.16.40_veh-28_02072_02166",
         "city": "boston_1",
         "total_sec": 46.5,
-        "covered_sec": 29.500000000000004,
-        "coverage_pct": 63.440860215053775,
-        "num_annotations": 5
+        "covered_sec": 33.2,
+        "coverage_pct": 71.3978494623656,
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.09.15.13.16.40_veh-28_02198_02321",
@@ -342,7 +342,7 @@
         "total_sec": 129.5,
         "covered_sec": 129.5,
         "coverage_pct": 100.0,
-        "num_annotations": 6
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.09.15.13.52.55_veh-39_00643_00807",
@@ -358,7 +358,7 @@
         "total_sec": 254.5,
         "covered_sec": 226.5,
         "coverage_pct": 88.99803536345776,
-        "num_annotations": 5
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.09.15.13.52.55_veh-39_01385_01446",
@@ -366,7 +366,7 @@
         "total_sec": 30.0,
         "covered_sec": 29.099999999999998,
         "coverage_pct": 97.0,
-        "num_annotations": 12
+        "num_annotations": 13
       },
       {
         "clip_id": "2021.09.15.14.00.15_veh-28_00288_00408",
@@ -396,9 +396,9 @@
         "clip_id": "2021.09.15.14.00.15_veh-28_00895_00981",
         "city": "boston_1",
         "total_sec": 42.4,
-        "covered_sec": 41.800000000000004,
-        "coverage_pct": 98.58490566037737,
-        "num_annotations": 25
+        "covered_sec": 41.9,
+        "coverage_pct": 98.82075471698113,
+        "num_annotations": 26
       },
       {
         "clip_id": "2021.09.15.14.00.15_veh-28_01274_01543",
@@ -446,7 +446,7 @@
         "total_sec": 36.5,
         "covered_sec": 35.2,
         "coverage_pct": 96.43835616438356,
-        "num_annotations": 27
+        "num_annotations": 28
       },
       {
         "clip_id": "2021.09.15.14.27.22_veh-39_00665_00745",
@@ -454,7 +454,7 @@
         "total_sec": 39.5,
         "covered_sec": 37.1,
         "coverage_pct": 93.92405063291139,
-        "num_annotations": 9
+        "num_annotations": 11
       },
       {
         "clip_id": "2021.09.15.14.27.22_veh-39_00756_00838",
@@ -462,15 +462,15 @@
         "total_sec": 40.4,
         "covered_sec": 38.4,
         "coverage_pct": 95.04950495049505,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.09.15.14.27.22_veh-39_00868_01125",
         "city": "boston_1",
         "total_sec": 127.9,
-        "covered_sec": 124.89999999999999,
-        "coverage_pct": 97.65441751368256,
-        "num_annotations": 8
+        "covered_sec": 126.80000000000001,
+        "coverage_pct": 99.13995308835027,
+        "num_annotations": 9
       },
       {
         "clip_id": "2021.09.15.14.27.22_veh-39_01166_01252",
@@ -486,7 +486,7 @@
         "total_sec": 31.9,
         "covered_sec": 30.599999999999998,
         "coverage_pct": 95.92476489028213,
-        "num_annotations": 6
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.09.15.14.27.22_veh-39_01420_01480",
@@ -494,7 +494,7 @@
         "total_sec": 29.4,
         "covered_sec": 26.8,
         "coverage_pct": 91.15646258503402,
-        "num_annotations": 5
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.09.15.14.27.22_veh-39_01491_01763",
@@ -502,7 +502,7 @@
         "total_sec": 135.4,
         "covered_sec": 123.4,
         "coverage_pct": 91.1373707533235,
-        "num_annotations": 23
+        "num_annotations": 24
       },
       {
         "clip_id": "2021.09.15.14.50.05_veh-28_00083_00152",
@@ -510,7 +510,7 @@
         "total_sec": 34.0,
         "covered_sec": 31.499999999999996,
         "coverage_pct": 92.6470588235294,
-        "num_annotations": 11
+        "num_annotations": 13
       },
       {
         "clip_id": "2021.09.15.14.50.05_veh-28_00182_00253",
@@ -534,7 +534,7 @@
         "total_sec": 158.5,
         "covered_sec": 157.7,
         "coverage_pct": 99.49526813880125,
-        "num_annotations": 24
+        "num_annotations": 26
       },
       {
         "clip_id": "2021.09.15.14.50.05_veh-28_01187_01281",
@@ -566,7 +566,7 @@
         "total_sec": 46.0,
         "covered_sec": 45.5,
         "coverage_pct": 98.91304347826086,
-        "num_annotations": 8
+        "num_annotations": 9
       },
       {
         "clip_id": "2021.09.15.14.50.05_veh-28_02133_02222",
@@ -590,7 +590,7 @@
         "total_sec": 171.4,
         "covered_sec": 155.5,
         "coverage_pct": 90.72345390898484,
-        "num_annotations": 5
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.09.15.15.02.19_veh-39_00856_01095",
@@ -606,7 +606,7 @@
         "total_sec": 254.5,
         "covered_sec": 244.5,
         "coverage_pct": 96.07072691552064,
-        "num_annotations": 17
+        "num_annotations": 18
       },
       {
         "clip_id": "2021.09.15.15.34.53_veh-28_00030_00128",
@@ -638,7 +638,7 @@
         "total_sec": 50.0,
         "covered_sec": 47.4,
         "coverage_pct": 94.8,
-        "num_annotations": 8
+        "num_annotations": 9
       },
       {
         "clip_id": "2021.09.15.15.34.53_veh-28_01303_01395",
@@ -646,7 +646,7 @@
         "total_sec": 45.4,
         "covered_sec": 44.0,
         "coverage_pct": 96.91629955947137,
-        "num_annotations": 9
+        "num_annotations": 10
       },
       {
         "clip_id": "2021.09.15.15.34.53_veh-28_01533_01596",
@@ -660,9 +660,9 @@
         "clip_id": "2021.09.15.15.34.53_veh-28_01639_01805",
         "city": "boston_1",
         "total_sec": 82.4,
-        "covered_sec": 58.199999999999996,
-        "coverage_pct": 70.63106796116504,
-        "num_annotations": 6
+        "covered_sec": 77.6,
+        "coverage_pct": 94.17475728155338,
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.09.15.15.34.53_veh-28_01820_02314",
@@ -724,9 +724,9 @@
         "clip_id": "2021.09.15.16.17.26_veh-28_01581_01740",
         "city": "boston_1",
         "total_sec": 78.9,
-        "covered_sec": 72.9,
-        "coverage_pct": 92.39543726235742,
-        "num_annotations": 9
+        "covered_sec": 73.1,
+        "coverage_pct": 92.6489226869455,
+        "num_annotations": 10
       },
       {
         "clip_id": "2021.09.15.16.51.15_veh-28_00005_00160",
@@ -734,7 +734,7 @@
         "total_sec": 77.0,
         "covered_sec": 74.10000000000001,
         "coverage_pct": 96.23376623376625,
-        "num_annotations": 22
+        "num_annotations": 23
       },
       {
         "clip_id": "2021.09.15.16.51.15_veh-28_00176_00329",
@@ -742,7 +742,7 @@
         "total_sec": 75.9,
         "covered_sec": 75.5,
         "coverage_pct": 99.4729907773386,
-        "num_annotations": 5
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.09.15.16.51.15_veh-28_00357_00430",
@@ -756,9 +756,9 @@
         "clip_id": "2021.09.15.16.51.15_veh-28_01225_01302",
         "city": "boston_1",
         "total_sec": 37.9,
-        "covered_sec": 35.5,
-        "coverage_pct": 93.66754617414247,
-        "num_annotations": 5
+        "covered_sec": 36.1,
+        "coverage_pct": 95.25065963060688,
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.09.15.16.51.15_veh-28_01468_01533",
@@ -804,9 +804,9 @@
         "clip_id": "2021.10.01.13.28.54_veh-28_00995_01087",
         "city": "boston_1",
         "total_sec": 45.4,
-        "covered_sec": 39.0,
-        "coverage_pct": 85.90308370044053,
-        "num_annotations": 23
+        "covered_sec": 43.099999999999994,
+        "coverage_pct": 94.9339207048458,
+        "num_annotations": 24
       },
       {
         "clip_id": "2021.10.01.13.28.54_veh-28_01098_01337",
@@ -814,7 +814,7 @@
         "total_sec": 119.0,
         "covered_sec": 112.1,
         "coverage_pct": 94.2016806722689,
-        "num_annotations": 4
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.10.01.13.28.54_veh-28_01421_01615",
@@ -822,7 +822,7 @@
         "total_sec": 96.5,
         "covered_sec": 93.5,
         "coverage_pct": 96.89119170984456,
-        "num_annotations": 8
+        "num_annotations": 9
       },
       {
         "clip_id": "2021.10.01.13.28.54_veh-28_01767_01883",
@@ -830,7 +830,7 @@
         "total_sec": 57.4,
         "covered_sec": 52.7,
         "coverage_pct": 91.81184668989548,
-        "num_annotations": 4
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.10.01.14.20.36_veh-28_00038_00128",
@@ -854,7 +854,7 @@
         "total_sec": 84.9,
         "covered_sec": 84.0,
         "coverage_pct": 98.9399293286219,
-        "num_annotations": 3
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.10.01.14.20.36_veh-28_00825_00919",
@@ -942,7 +942,7 @@
         "total_sec": 106.4,
         "covered_sec": 102.2,
         "coverage_pct": 96.05263157894737,
-        "num_annotations": 8
+        "num_annotations": 9
       },
       {
         "clip_id": "2021.10.01.17.52.06_veh-28_00098_00211",
@@ -980,9 +980,9 @@
         "clip_id": "2021.10.01.17.52.06_veh-28_00748_00952",
         "city": "boston_1",
         "total_sec": 101.4,
-        "covered_sec": 93.8,
-        "coverage_pct": 92.50493096646942,
-        "num_annotations": 9
+        "covered_sec": 95.5,
+        "coverage_pct": 94.18145956607495,
+        "num_annotations": 10
       },
       {
         "clip_id": "2021.10.01.17.52.06_veh-28_01034_01107",
@@ -1006,7 +1006,7 @@
         "total_sec": 31.5,
         "covered_sec": 24.7,
         "coverage_pct": 78.41269841269842,
-        "num_annotations": 3
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.10.01.17.52.06_veh-28_01364_01428",
@@ -1046,7 +1046,7 @@
         "total_sec": 87.0,
         "covered_sec": 82.1,
         "coverage_pct": 94.36781609195401,
-        "num_annotations": 5
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.10.01.18.26.05_veh-28_00949_01041",
@@ -1068,9 +1068,9 @@
         "clip_id": "2021.10.01.18.26.05_veh-28_01211_01323",
         "city": "boston_1",
         "total_sec": 55.4,
-        "covered_sec": 48.0,
-        "coverage_pct": 86.64259927797833,
-        "num_annotations": 6
+        "covered_sec": 48.1,
+        "coverage_pct": 86.82310469314079,
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.10.01.18.26.05_veh-28_01689_01890",
@@ -1084,9 +1084,9 @@
         "clip_id": "2021.10.01.19.16.42_veh-28_00094_00216",
         "city": "boston_1",
         "total_sec": 60.5,
-        "covered_sec": 50.0,
-        "coverage_pct": 82.64462809917356,
-        "num_annotations": 9
+        "covered_sec": 55.1,
+        "coverage_pct": 91.07438016528926,
+        "num_annotations": 10
       },
       {
         "clip_id": "2021.10.01.19.16.42_veh-28_00274_00380",
@@ -1102,7 +1102,7 @@
         "total_sec": 254.5,
         "covered_sec": 248.0,
         "coverage_pct": 97.44597249508841,
-        "num_annotations": 4
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.10.01.19.16.42_veh-28_00917_01499",
@@ -1118,7 +1118,7 @@
         "total_sec": 55.9,
         "covered_sec": 50.9,
         "coverage_pct": 91.05545617173524,
-        "num_annotations": 8
+        "num_annotations": 11
       },
       {
         "clip_id": "2021.10.01.19.16.42_veh-28_01731_01935",
@@ -1126,7 +1126,7 @@
         "total_sec": 101.4,
         "covered_sec": 99.2,
         "coverage_pct": 97.83037475345168,
-        "num_annotations": 8
+        "num_annotations": 10
       },
       {
         "clip_id": "2021.10.01.19.16.42_veh-28_02011_02410",
@@ -1142,7 +1142,7 @@
         "total_sec": 34.4,
         "covered_sec": 32.7,
         "coverage_pct": 95.05813953488374,
-        "num_annotations": 9
+        "num_annotations": 10
       },
       {
         "clip_id": "2021.10.01.19.16.42_veh-28_02568_02833",
@@ -1150,15 +1150,15 @@
         "total_sec": 131.9,
         "covered_sec": 117.7,
         "coverage_pct": 89.23426838514025,
-        "num_annotations": 6
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.10.01.19.16.42_veh-28_02903_03140",
         "city": "boston_1",
         "total_sec": 118.0,
-        "covered_sec": 105.8,
-        "coverage_pct": 89.66101694915254,
-        "num_annotations": 7
+        "covered_sec": 110.0,
+        "coverage_pct": 93.22033898305084,
+        "num_annotations": 9
       },
       {
         "clip_id": "2021.10.01.19.16.42_veh-28_03215_03296",
@@ -1206,15 +1206,15 @@
         "total_sec": 35.4,
         "covered_sec": 33.300000000000004,
         "coverage_pct": 94.06779661016951,
-        "num_annotations": 4
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.10.06.13.21.47_veh-28_00441_00515",
         "city": "boston_1",
         "total_sec": 36.5,
-        "covered_sec": 30.599999999999998,
-        "coverage_pct": 83.83561643835615,
-        "num_annotations": 10
+        "covered_sec": 32.199999999999996,
+        "coverage_pct": 88.21917808219177,
+        "num_annotations": 12
       },
       {
         "clip_id": "2021.10.06.13.21.47_veh-28_00692_00815",
@@ -1238,7 +1238,7 @@
         "total_sec": 29.5,
         "covered_sec": 26.9,
         "coverage_pct": 91.18644067796609,
-        "num_annotations": 3
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.10.06.13.21.47_veh-28_01198_01616",
@@ -1318,7 +1318,7 @@
         "total_sec": 49.4,
         "covered_sec": 46.1,
         "coverage_pct": 93.31983805668017,
-        "num_annotations": 6
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.10.06.14.31.13_veh-28_01388_01849",
@@ -1326,7 +1326,7 @@
         "total_sec": 229.9,
         "covered_sec": 227.89999999999998,
         "coverage_pct": 99.13005654632447,
-        "num_annotations": 7
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.10.06.17.08.46_veh-28_00016_00116",
@@ -1342,7 +1342,7 @@
         "total_sec": 149.9,
         "covered_sec": 137.2,
         "coverage_pct": 91.52768512341561,
-        "num_annotations": 8
+        "num_annotations": 9
       },
       {
         "clip_id": "2021.10.06.17.08.46_veh-28_00498_00621",
@@ -1356,9 +1356,9 @@
         "clip_id": "2021.10.06.17.08.46_veh-28_00651_01030",
         "city": "boston_1",
         "total_sec": 189.0,
-        "covered_sec": 146.9,
-        "coverage_pct": 77.72486772486774,
-        "num_annotations": 5
+        "covered_sec": 151.4,
+        "coverage_pct": 80.10582010582011,
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.10.06.17.08.46_veh-28_01127_01287",
@@ -1374,7 +1374,7 @@
         "total_sec": 124.4,
         "covered_sec": 123.1,
         "coverage_pct": 98.95498392282957,
-        "num_annotations": 4
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.10.06.17.08.46_veh-28_01626_01702",
@@ -1382,15 +1382,15 @@
         "total_sec": 37.5,
         "covered_sec": 37.0,
         "coverage_pct": 98.66666666666667,
-        "num_annotations": 6
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.10.06.17.43.07_veh-28_00016_00291",
         "city": "boston_1",
         "total_sec": 136.9,
-        "covered_sec": 105.6,
-        "coverage_pct": 77.13659605551497,
-        "num_annotations": 15
+        "covered_sec": 115.8,
+        "coverage_pct": 84.58728999269539,
+        "num_annotations": 16
       },
       {
         "clip_id": "2021.10.06.17.43.07_veh-28_00302_00486",
@@ -1430,7 +1430,7 @@
         "total_sec": 90.5,
         "covered_sec": 90.4,
         "coverage_pct": 99.88950276243095,
-        "num_annotations": 9
+        "num_annotations": 10
       },
       {
         "clip_id": "2021.10.06.17.43.07_veh-28_01587_01694",
@@ -1486,7 +1486,7 @@
         "total_sec": 82.0,
         "covered_sec": 80.7,
         "coverage_pct": 98.41463414634146,
-        "num_annotations": 21
+        "num_annotations": 22
       },
       {
         "clip_id": "2021.10.06.18.52.07_veh-28_01474_01908",
@@ -1518,7 +1518,7 @@
         "total_sec": 245.4,
         "covered_sec": 236.4,
         "coverage_pct": 96.33251833740832,
-        "num_annotations": 14
+        "num_annotations": 15
       },
       {
         "clip_id": "2021.10.06.19.27.33_veh-28_00805_01736",
@@ -1526,7 +1526,7 @@
         "total_sec": 254.5,
         "covered_sec": 224.1,
         "coverage_pct": 88.0550098231827,
-        "num_annotations": 5
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.05.12.19.36.12_veh-35_00005_00204",
@@ -7140,9 +7140,9 @@
         "clip_id": "2021.07.16.16.08.35_veh-35_02551_02640",
         "city": "las_vegas_8",
         "total_sec": 44.0,
-        "covered_sec": 16.2,
-        "coverage_pct": 36.81818181818181,
-        "num_annotations": 1
+        "covered_sec": 43.4,
+        "coverage_pct": 98.63636363636363,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.07.16.16.08.35_veh-35_02651_03700",
@@ -7150,31 +7150,31 @@
         "total_sec": 254.5,
         "covered_sec": 249.9,
         "coverage_pct": 98.1925343811395,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.07.16.16.08.35_veh-35_03711_04709",
         "city": "las_vegas_8",
         "total_sec": 254.5,
-        "covered_sec": 152.6,
-        "coverage_pct": 59.9607072691552,
-        "num_annotations": 3
+        "covered_sec": 226.4,
+        "coverage_pct": 88.95874263261297,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.07.16.16.08.35_veh-35_04744_06051",
         "city": "las_vegas_8",
         "total_sec": 254.5,
-        "covered_sec": 198.20000000000002,
-        "coverage_pct": 77.87819253438114,
-        "num_annotations": 2
+        "covered_sec": 239.1,
+        "coverage_pct": 93.94891944990177,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.07.16.16.27.22_veh-26_00016_01515",
         "city": "las_vegas_8",
         "total_sec": 253.8,
-        "covered_sec": 205.79999999999998,
-        "coverage_pct": 81.08747044917257,
-        "num_annotations": 7
+        "covered_sec": 213.5,
+        "coverage_pct": 84.12135539795113,
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.07.16.16.27.22_veh-26_01536_02260",
@@ -7182,31 +7182,31 @@
         "total_sec": 254.3,
         "covered_sec": 228.20000000000002,
         "coverage_pct": 89.73653165552497,
-        "num_annotations": 4
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.07.16.16.27.22_veh-26_02282_03814",
         "city": "las_vegas_8",
         "total_sec": 254.5,
-        "covered_sec": 131.1,
-        "coverage_pct": 51.512770137524555,
-        "num_annotations": 3
+        "covered_sec": 204.89999999999998,
+        "coverage_pct": 80.51080550098231,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.07.16.16.27.22_veh-26_03836_05047",
         "city": "las_vegas_8",
         "total_sec": 254.2,
-        "covered_sec": 195.0,
-        "coverage_pct": 76.71125098347757,
-        "num_annotations": 2
+        "covered_sec": 208.0,
+        "coverage_pct": 81.82533438237608,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.07.16.16.27.22_veh-26_05058_05383",
         "city": "las_vegas_8",
         "total_sec": 162.0,
-        "covered_sec": 127.60000000000001,
-        "coverage_pct": 78.76543209876544,
-        "num_annotations": 5
+        "covered_sec": 139.3,
+        "coverage_pct": 85.98765432098766,
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.07.16.16.27.22_veh-26_05416_05596",
@@ -7214,7 +7214,7 @@
         "total_sec": 89.3,
         "covered_sec": 86.3,
         "coverage_pct": 96.64053751399776,
-        "num_annotations": 2
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.07.16.18.06.21_veh-38_00016_00747",
@@ -7222,7 +7222,7 @@
         "total_sec": 254.5,
         "covered_sec": 203.7,
         "coverage_pct": 80.03929273084479,
-        "num_annotations": 3
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.07.16.18.06.21_veh-38_00770_01505",
@@ -7236,9 +7236,9 @@
         "clip_id": "2021.07.16.18.06.21_veh-38_01526_02150",
         "city": "las_vegas_8",
         "total_sec": 254.5,
-        "covered_sec": 217.1,
-        "coverage_pct": 85.30451866404715,
-        "num_annotations": 5
+        "covered_sec": 228.0,
+        "coverage_pct": 89.58742632612967,
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.07.16.18.06.21_veh-38_02197_03220",
@@ -7246,7 +7246,7 @@
         "total_sec": 254.5,
         "covered_sec": 232.4,
         "coverage_pct": 91.3163064833006,
-        "num_annotations": 4
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.07.16.18.06.21_veh-38_03231_03712",
@@ -7262,23 +7262,23 @@
         "total_sec": 254.5,
         "covered_sec": 241.10000000000002,
         "coverage_pct": 94.73477406679766,
-        "num_annotations": 4
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.07.16.18.06.21_veh-38_04311_04460",
         "city": "las_vegas_8",
         "total_sec": 74.0,
-        "covered_sec": 53.400000000000006,
-        "coverage_pct": 72.16216216216218,
-        "num_annotations": 3
+        "covered_sec": 66.4,
+        "coverage_pct": 89.72972972972974,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.07.16.18.06.21_veh-38_04471_04922",
         "city": "las_vegas_8",
         "total_sec": 225.0,
-        "covered_sec": 180.1,
-        "coverage_pct": 80.04444444444444,
-        "num_annotations": 2
+        "covered_sec": 207.9,
+        "coverage_pct": 92.4,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.07.16.18.06.21_veh-38_04933_05307",
@@ -7292,9 +7292,9 @@
         "clip_id": "2021.07.16.18.06.21_veh-38_05338_05486",
         "city": "las_vegas_8",
         "total_sec": 73.4,
-        "covered_sec": 68.5,
-        "coverage_pct": 93.3242506811989,
-        "num_annotations": 4
+        "covered_sec": 70.6,
+        "coverage_pct": 96.18528610354223,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.07.16.18.19.22_veh-35_00023_00234",
@@ -7310,7 +7310,7 @@
         "total_sec": 80.9,
         "covered_sec": 77.5,
         "coverage_pct": 95.79728059332508,
-        "num_annotations": 6
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.07.16.18.19.22_veh-35_00440_00858",
@@ -7318,7 +7318,7 @@
         "total_sec": 208.5,
         "covered_sec": 200.10000000000002,
         "coverage_pct": 95.97122302158274,
-        "num_annotations": 4
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.07.16.18.19.22_veh-35_00869_03454",
@@ -7334,23 +7334,23 @@
         "total_sec": 109.4,
         "covered_sec": 103.8,
         "coverage_pct": 94.88117001828152,
-        "num_annotations": 5
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.07.16.18.49.56_veh-26_00256_00822",
         "city": "las_vegas_8",
         "total_sec": 254.5,
-        "covered_sec": 111.9,
-        "coverage_pct": 43.96856581532417,
-        "num_annotations": 3
+        "covered_sec": 228.0,
+        "coverage_pct": 89.58742632612967,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.07.16.18.49.56_veh-26_00833_03384",
         "city": "las_vegas_8",
         "total_sec": 251.3,
-        "covered_sec": 196.5,
-        "coverage_pct": 78.19339434938321,
-        "num_annotations": 4
+        "covered_sec": 247.70000000000002,
+        "coverage_pct": 98.5674492638281,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.07.16.18.49.56_veh-26_03407_03538",
@@ -7366,23 +7366,23 @@
         "total_sec": 254.5,
         "covered_sec": 232.3,
         "coverage_pct": 91.2770137524558,
-        "num_annotations": 4
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.07.16.20.45.29_veh-35_00600_01084",
         "city": "las_vegas_8",
         "total_sec": 241.5,
-        "covered_sec": 98.69999999999999,
-        "coverage_pct": 40.869565217391305,
-        "num_annotations": 1
+        "covered_sec": 236.5,
+        "coverage_pct": 97.9296066252588,
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.07.16.20.45.29_veh-35_01095_01486",
         "city": "las_vegas_8",
         "total_sec": 194.9,
-        "covered_sec": 173.4,
-        "coverage_pct": 88.96870189840944,
-        "num_annotations": 4
+        "covered_sec": 192.4,
+        "coverage_pct": 98.71729091841969,
+        "num_annotations": 10
       },
       {
         "clip_id": "2021.07.16.20.45.29_veh-35_01513_02486",
@@ -7396,9 +7396,9 @@
         "clip_id": "2021.07.16.20.45.29_veh-35_02509_02649",
         "city": "las_vegas_8",
         "total_sec": 69.5,
-        "covered_sec": 68.8,
-        "coverage_pct": 98.99280575539568,
-        "num_annotations": 6
+        "covered_sec": 68.9,
+        "coverage_pct": 99.13669064748201,
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.07.16.21.17.55_veh-26_00715_00781",
@@ -7412,17 +7412,17 @@
         "clip_id": "2021.07.16.21.17.55_veh-26_00872_00937",
         "city": "las_vegas_8",
         "total_sec": 32.0,
-        "covered_sec": 31.3,
-        "coverage_pct": 97.8125,
-        "num_annotations": 6
+        "covered_sec": 31.9,
+        "coverage_pct": 99.6875,
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.07.16.21.17.55_veh-26_01014_01075",
         "city": "las_vegas_8",
         "total_sec": 30.0,
-        "covered_sec": 29.0,
-        "coverage_pct": 96.66666666666667,
-        "num_annotations": 3
+        "covered_sec": 29.799999999999997,
+        "coverage_pct": 99.33333333333333,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.07.16.21.17.55_veh-26_01392_01488",
@@ -7430,39 +7430,39 @@
         "total_sec": 47.4,
         "covered_sec": 45.300000000000004,
         "coverage_pct": 95.56962025316457,
-        "num_annotations": 6
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.07.16.21.17.55_veh-26_02927_02992",
         "city": "las_vegas_8",
         "total_sec": 32.0,
-        "covered_sec": 20.1,
-        "coverage_pct": 62.81250000000001,
-        "num_annotations": 1
+        "covered_sec": 29.299999999999997,
+        "coverage_pct": 91.56249999999999,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.07.16.21.17.55_veh-26_03254_03336",
         "city": "las_vegas_8",
         "total_sec": 40.5,
-        "covered_sec": 26.299999999999997,
-        "coverage_pct": 64.93827160493827,
-        "num_annotations": 2
+        "covered_sec": 35.1,
+        "coverage_pct": 86.66666666666667,
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.07.16.21.17.55_veh-26_03772_03842",
         "city": "las_vegas_8",
         "total_sec": 34.4,
-        "covered_sec": 32.6,
-        "coverage_pct": 94.76744186046513,
-        "num_annotations": 3
+        "covered_sec": 34.1,
+        "coverage_pct": 99.1279069767442,
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.07.16.21.17.55_veh-26_03860_03930",
         "city": "las_vegas_8",
         "total_sec": 34.4,
-        "covered_sec": 32.5,
-        "coverage_pct": 94.47674418604652,
-        "num_annotations": 4
+        "covered_sec": 32.800000000000004,
+        "coverage_pct": 95.34883720930235,
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.07.16.21.17.55_veh-26_04426_04488",
@@ -7478,23 +7478,23 @@
         "total_sec": 34.0,
         "covered_sec": 33.9,
         "coverage_pct": 99.70588235294117,
-        "num_annotations": 5
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.07.16.21.17.55_veh-26_05558_05627",
         "city": "las_vegas_8",
         "total_sec": 34.0,
-        "covered_sec": 29.9,
-        "coverage_pct": 87.94117647058823,
-        "num_annotations": 3
+        "covered_sec": 31.200000000000003,
+        "coverage_pct": 91.76470588235294,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.07.16.22.40.23_veh-38_00016_00182",
         "city": "las_vegas_8",
         "total_sec": 82.4,
-        "covered_sec": 69.9,
-        "coverage_pct": 84.83009708737865,
-        "num_annotations": 5
+        "covered_sec": 75.0,
+        "coverage_pct": 91.01941747572815,
+        "num_annotations": 8
       },
       {
         "clip_id": "2021.07.16.22.40.23_veh-38_00204_00360",
@@ -7502,15 +7502,15 @@
         "total_sec": 77.5,
         "covered_sec": 74.9,
         "coverage_pct": 96.64516129032259,
-        "num_annotations": 4
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.07.16.22.40.23_veh-38_00371_00797",
         "city": "las_vegas_8",
         "total_sec": 212.4,
-        "covered_sec": 205.0,
-        "coverage_pct": 96.51600753295668,
-        "num_annotations": 5
+        "covered_sec": 205.5,
+        "coverage_pct": 96.75141242937852,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.07.16.22.40.23_veh-38_00818_03032",
@@ -7518,7 +7518,7 @@
         "total_sec": 254.5,
         "covered_sec": 243.9,
         "coverage_pct": 95.83497053045187,
-        "num_annotations": 4
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_00015_01368",
@@ -7526,23 +7526,23 @@
         "total_sec": 254.5,
         "covered_sec": 236.5,
         "coverage_pct": 92.92730844793712,
-        "num_annotations": 6
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_01383_01479",
         "city": "las_vegas_8",
         "total_sec": 47.5,
-        "covered_sec": 40.5,
-        "coverage_pct": 85.26315789473684,
-        "num_annotations": 3
+        "covered_sec": 42.400000000000006,
+        "coverage_pct": 89.26315789473685,
+        "num_annotations": 4
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_01502_01610",
         "city": "las_vegas_8",
         "total_sec": 53.4,
-        "covered_sec": 50.199999999999996,
-        "coverage_pct": 94.00749063670412,
-        "num_annotations": 4
+        "covered_sec": 52.5,
+        "coverage_pct": 98.31460674157304,
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_01631_03833",
@@ -7550,7 +7550,7 @@
         "total_sec": 254.5,
         "covered_sec": 252.8,
         "coverage_pct": 99.3320235756385,
-        "num_annotations": 7
+        "num_annotations": 9
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_03844_04474",
@@ -7558,7 +7558,7 @@
         "total_sec": 254.5,
         "covered_sec": 249.3,
         "coverage_pct": 97.95677799607073,
-        "num_annotations": 6
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_04496_06203",
@@ -7572,17 +7572,17 @@
         "clip_id": "2021.07.16.23.22.27_veh-14_06214_06318",
         "city": "las_vegas_8",
         "total_sec": 51.4,
-        "covered_sec": 44.9,
-        "coverage_pct": 87.35408560311284,
-        "num_annotations": 4
+        "covered_sec": 46.9,
+        "coverage_pct": 91.24513618677042,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.07.16.23.22.27_veh-14_06339_07673",
         "city": "las_vegas_8",
         "total_sec": 254.5,
-        "covered_sec": 210.70000000000002,
-        "coverage_pct": 82.78978388998036,
-        "num_annotations": 3
+        "covered_sec": 239.3,
+        "coverage_pct": 94.02750491159136,
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.08.17.13.10.50_veh-08_00122_00295",
@@ -7646,7 +7646,7 @@
         "total_sec": 51.0,
         "covered_sec": 42.4,
         "coverage_pct": 83.13725490196077,
-        "num_annotations": 2
+        "num_annotations": 3
       },
       {
         "clip_id": "2021.08.17.13.15.12_veh-45_00819_00884",
@@ -7684,9 +7684,9 @@
         "clip_id": "2021.08.17.13.15.12_veh-45_01679_01816",
         "city": "pittsburgh_1",
         "total_sec": 67.9,
-        "covered_sec": 47.9,
-        "coverage_pct": 70.54491899852724,
-        "num_annotations": 1
+        "covered_sec": 63.89999999999999,
+        "coverage_pct": 94.10898379970543,
+        "num_annotations": 2
       },
       {
         "clip_id": "2021.08.17.13.15.12_veh-45_02025_02103",
@@ -7878,7 +7878,7 @@
         "total_sec": 95.5,
         "covered_sec": 94.7,
         "coverage_pct": 99.16230366492147,
-        "num_annotations": 5
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.08.17.15.02.08_veh-45_02452_02521",
@@ -7924,9 +7924,9 @@
         "clip_id": "2021.08.17.16.48.45_veh-43_01439_01665",
         "city": "pittsburgh_1",
         "total_sec": 112.5,
-        "covered_sec": 108.3,
-        "coverage_pct": 96.26666666666667,
-        "num_annotations": 3
+        "covered_sec": 110.7,
+        "coverage_pct": 98.4,
+        "num_annotations": 5
       },
       {
         "clip_id": "2021.08.17.16.48.45_veh-43_01676_01764",
@@ -8046,7 +8046,7 @@
         "total_sec": 117.0,
         "covered_sec": 104.2,
         "coverage_pct": 89.05982905982907,
-        "num_annotations": 5
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.08.17.17.17.01_veh-45_01796_02069",
@@ -8326,7 +8326,7 @@
         "total_sec": 106.5,
         "covered_sec": 100.10000000000001,
         "coverage_pct": 93.9906103286385,
-        "num_annotations": 5
+        "num_annotations": 6
       },
       {
         "clip_id": "2021.08.17.19.18.39_veh-08_00118_00178",
@@ -8350,7 +8350,7 @@
         "total_sec": 93.4,
         "covered_sec": 85.4,
         "coverage_pct": 91.43468950749465,
-        "num_annotations": 6
+        "num_annotations": 7
       },
       {
         "clip_id": "2021.08.17.19.18.39_veh-08_00696_00823",
@@ -8728,11 +8728,11 @@
       99.57219251336898,
       98.80208333333334,
       99.38461538461537,
-      93.00911854103344,
+      99.39209726443771,
       95.6521739130435,
       99.2207792207792,
-      96.99499165275459,
-      98.16176470588235,
+      97.49582637729549,
+      99.44852941176471,
       99.43661971830984,
       98.08673469387756,
       97.55501222493888,
@@ -8746,16 +8746,16 @@
       83.44226579520696,
       94.60847240051348,
       71.79282868525897,
-      81.34878819810326,
+      93.78292939936776,
       94.15584415584416,
-      87.94117647058825,
-      83.90501319261215,
+      94.11764705882352,
+      89.44591029023746,
       83.86363636363636,
       90.96267190569745,
       91.81818181818181,
       77.35849056603773,
       90.47619047619048,
-      63.440860215053775,
+      71.3978494623656,
       48.275862068965516,
       98.47619047619047,
       77.25000000000001,
@@ -8766,7 +8766,7 @@
       98.48739495798318,
       93.36734693877551,
       96.54320987654322,
-      98.58490566037737,
+      98.82075471698113,
       85.67164179104478,
       95.87786259541986,
       97.20744680851062,
@@ -8775,7 +8775,7 @@
       96.43835616438356,
       93.92405063291139,
       95.04950495049505,
-      97.65441751368256,
+      99.13995308835027,
       94.81132075471697,
       95.92476489028213,
       91.15646258503402,
@@ -8799,7 +8799,7 @@
       94.8,
       96.91629955947137,
       95.46925566343043,
-      70.63106796116504,
+      94.17475728155338,
       98.58012170385395,
       95.51282051282051,
       87.47663551401868,
@@ -8807,17 +8807,17 @@
       91.66666666666666,
       97.64011799410031,
       98.27586206896552,
-      92.39543726235742,
+      92.6489226869455,
       96.23376623376625,
       99.4729907773386,
       94.15041782729804,
-      93.66754617414247,
+      95.25065963060688,
       97.5,
       92.10526315789474,
       90.93023255813952,
       98.01136363636363,
       89.41885964912281,
-      85.90308370044053,
+      94.9339207048458,
       94.2016806722689,
       96.89119170984456,
       91.81184668989548,
@@ -8839,7 +8839,7 @@
       98.18181818181819,
       96.61705006765898,
       88.52459016393442,
-      92.50493096646942,
+      94.18145956607495,
       97.50000000000001,
       80.49180327868852,
       78.41269841269842,
@@ -8850,9 +8850,9 @@
       94.36781609195401,
       98.67841409691631,
       92.44791666666667,
-      86.64259927797833,
+      86.82310469314079,
       93.09309309309309,
-      82.64462809917356,
+      91.07438016528926,
       96.57142857142857,
       97.44597249508841,
       99.96070726915521,
@@ -8861,14 +8861,14 @@
       97.88838612368023,
       95.05813953488374,
       89.23426838514025,
-      89.66101694915254,
+      93.22033898305084,
       90.25000000000001,
       94.72,
       91.84210526315792,
       92.44186046511629,
       99.73684210526315,
       94.06779661016951,
-      83.83561643835615,
+      88.21917808219177,
       99.3431855500821,
       97.51773049645391,
       91.18644067796609,
@@ -8886,11 +8886,11 @@
       90.9090909090909,
       91.52768512341561,
       96.72131147540983,
-      77.72486772486774,
+      80.10582010582011,
       96.97732997481108,
       98.95498392282957,
       98.66666666666667,
-      77.13659605551497,
+      84.58728999269539,
       91.46608315098467,
       76.23708537248504,
       88.5,
@@ -9609,62 +9609,62 @@
       83.49168646080759,
       99.60707269155206,
       98.87323943661971,
-      36.81818181818181,
+      98.63636363636363,
       98.1925343811395,
-      59.9607072691552,
-      77.87819253438114,
-      81.08747044917257,
+      88.95874263261297,
+      93.94891944990177,
+      84.12135539795113,
       89.73653165552497,
-      51.512770137524555,
-      76.71125098347757,
-      78.76543209876544,
+      80.51080550098231,
+      81.82533438237608,
+      85.98765432098766,
       96.64053751399776,
       80.03929273084479,
       54.02750491159135,
-      85.30451866404715,
+      89.58742632612967,
       91.3163064833006,
       0.0,
       94.73477406679766,
-      72.16216216216218,
-      80.04444444444444,
+      89.72972972972974,
+      92.4,
       56.35388739946381,
-      93.3242506811989,
+      96.18528610354223,
       97.23546234509057,
       95.79728059332508,
       95.97122302158274,
       95.28487229862476,
       94.88117001828152,
-      43.96856581532417,
-      78.19339434938321,
+      89.58742632612967,
+      98.5674492638281,
       64.46153846153845,
       91.2770137524558,
-      40.869565217391305,
-      88.96870189840944,
+      97.9296066252588,
+      98.71729091841969,
       92.02357563850687,
-      98.99280575539568,
+      99.13669064748201,
       95.06172839506173,
-      97.8125,
-      96.66666666666667,
+      99.6875,
+      99.33333333333333,
       95.56962025316457,
-      62.81250000000001,
-      64.93827160493827,
-      94.76744186046513,
-      94.47674418604652,
+      91.56249999999999,
+      86.66666666666667,
+      99.1279069767442,
+      95.34883720930235,
       83.60655737704919,
       99.70588235294117,
-      87.94117647058823,
-      84.83009708737865,
+      91.76470588235294,
+      91.01941747572815,
       96.64516129032259,
-      96.51600753295668,
+      96.75141242937852,
       95.83497053045187,
       92.92730844793712,
-      85.26315789473684,
-      94.00749063670412,
+      89.26315789473685,
+      98.31460674157304,
       99.3320235756385,
       97.95677799607073,
       84.83300589390963,
-      87.35408560311284,
-      82.78978388998036,
+      91.24513618677042,
+      94.02750491159136,
       90.69767441860465,
       96.87750200160127,
       90.12675116744495,
@@ -9677,7 +9677,7 @@
       96.39344262295081,
       74.67625899280576,
       93.60000000000001,
-      70.54491899852724,
+      94.10898379970543,
       99.73958333333333,
       97.97619047619047,
       77.73913043478261,
@@ -9707,7 +9707,7 @@
       91.02625298329356,
       93.06122448979592,
       70.50610820244326,
-      96.26666666666667,
+      98.4,
       99.07834101382488,
       91.4914914914915,
       98.15324165029469,
@@ -9832,6 +9832,7 @@
     "jeremykemmerer": 297,
     "Jeevan": 249,
     "ytandon": 223,
+    "anusha": 182,
     "Isaiah Ramirez": 166,
     "noorrauf": 119,
     "jboaz": 82,
@@ -9843,6 +9844,7 @@
     "Jeevan": 15247.599999999999,
     "Marcus": 1883.0,
     "Vrishan": 1778.1999999999998,
+    "anusha": 12899.9,
     "giovanni": 98671.40000000001,
     "grod": 69903.1,
     "jboaz": 5826.700000000001,
@@ -9856,6 +9858,7 @@
     "Jeevan": 61.23534136546184,
     "Marcus": 35.177083333333336,
     "Vrishan": 37.04583333333333,
+    "anusha": 70.87857142857143,
     "giovanni": 42.1041975308642,
     "grod": 60.28623188405797,
     "jboaz": 71.05731707317074,
@@ -11199,6 +11202,471 @@
         92.545,
         40.206,
         35.046
+      ]
+    },
+    "anusha": {
+      "durations": [
+        190.5,
+        207.9,
+        236.5,
+        116.6,
+        66.4,
+        136.0,
+        26.2,
+        15.0,
+        33.4,
+        135.5,
+        144.9,
+        91.1,
+        227.2,
+        27.9,
+        16.3,
+        15.1,
+        144.1,
+        234.2,
+        43.4,
+        32.7,
+        29.1,
+        78.8,
+        116.1,
+        37.0,
+        27.0,
+        53.8,
+        228.0,
+        163.4,
+        216.8,
+        187.6,
+        64.3,
+        24.3,
+        97.8,
+        20.7,
+        150.7,
+        20.0,
+        200.4,
+        41.8,
+        102.5,
+        18.7,
+        51.6,
+        15.5,
+        31.6,
+        153.7,
+        31.2,
+        51.7,
+        18.4,
+        132.7,
+        16.0,
+        29.8,
+        33.0,
+        176.4,
+        126.8,
+        31.6,
+        62.0,
+        203.1,
+        187.5,
+        89.3,
+        19.0,
+        40.7,
+        64.2,
+        59.8,
+        16.7,
+        24.9,
+        22.0,
+        85.6,
+        28.6,
+        65.4,
+        68.4,
+        195.1,
+        30.6,
+        61.9,
+        32.1,
+        61.9,
+        190.4,
+        117.1,
+        51.7,
+        76.4,
+        34.5,
+        57.9,
+        201.4,
+        214.3,
+        33.8,
+        18.3,
+        58.5,
+        28.4,
+        18.4,
+        85.5,
+        43.1,
+        68.0,
+        30.1,
+        21.3,
+        40.7,
+        17.9,
+        33.1,
+        90.8,
+        89.6,
+        35.0,
+        71.6,
+        16.1,
+        19.7,
+        24.6,
+        133.9,
+        18.1,
+        39.8,
+        16.4,
+        99.6,
+        19.6,
+        48.7,
+        26.0,
+        26.8,
+        18.5,
+        25.8,
+        90.7,
+        19.3,
+        23.4,
+        81.0,
+        18.4,
+        87.8,
+        39.6,
+        99.2,
+        115.1,
+        214.5,
+        27.2,
+        78.2,
+        110.3,
+        123.2,
+        61.6,
+        164.8,
+        182.8,
+        29.6,
+        25.2,
+        123.5,
+        21.6,
+        76.2,
+        15.5,
+        30.0,
+        34.5,
+        247.7,
+        99.1,
+        30.4,
+        42.3,
+        70.3,
+        29.4,
+        41.6,
+        78.3,
+        61.0,
+        45.0,
+        43.5,
+        73.9,
+        16.1,
+        138.2,
+        18.5,
+        35.1,
+        110.4,
+        30.9,
+        16.5,
+        27.7,
+        71.8,
+        61.4,
+        31.9,
+        26.7,
+        55.8,
+        18.0,
+        24.6,
+        56.5,
+        21.5,
+        19.7,
+        77.4,
+        22.3,
+        38.1,
+        133.2,
+        21.4,
+        207.2,
+        36.2,
+        17.3,
+        30.5,
+        18.8,
+        30.4,
+        60.7,
+        21.8,
+        47.7
+      ],
+      "referential": {
+        "Non-Referential": 66,
+        "Static Referential": 91,
+        "Dynamic Referential": 7,
+        "Both": 18
+      },
+      "length_by_class": {
+        "Non-Referential": [
+          16,
+          20,
+          24,
+          6,
+          6,
+          13,
+          6,
+          6,
+          6,
+          6,
+          6,
+          5,
+          30,
+          12,
+          6,
+          8,
+          5,
+          7,
+          7
+        ],
+        "Static Referential": [
+          9,
+          2,
+          26,
+          27,
+          14,
+          10,
+          5,
+          28,
+          16,
+          32,
+          26,
+          11,
+          31,
+          30,
+          12,
+          6,
+          7,
+          24,
+          16,
+          13,
+          30,
+          9,
+          37,
+          12,
+          6,
+          25,
+          6,
+          13,
+          12,
+          13,
+          17,
+          6,
+          6,
+          15,
+          6,
+          3,
+          36,
+          20,
+          13,
+          23,
+          12,
+          17,
+          13,
+          6,
+          20,
+          7,
+          6,
+          33,
+          7,
+          7,
+          6,
+          18,
+          6,
+          11,
+          6,
+          18,
+          40,
+          11,
+          20,
+          26,
+          14,
+          12,
+          13,
+          13,
+          7,
+          13,
+          25,
+          17,
+          6,
+          6,
+          13,
+          6,
+          15,
+          19,
+          32,
+          6,
+          14,
+          6,
+          14,
+          13,
+          7,
+          13,
+          39,
+          6,
+          10,
+          7,
+          7,
+          7,
+          19,
+          13,
+          10
+        ],
+        "Dynamic Referential": [
+          2,
+          11,
+          9,
+          11,
+          35,
+          57,
+          29
+        ],
+        "Both": [
+          31,
+          25,
+          34,
+          22,
+          36,
+          22,
+          37,
+          43,
+          25,
+          49,
+          31,
+          31,
+          35,
+          43,
+          11,
+          18,
+          70,
+          13
+        ]
+      },
+      "per_clip": {
+        "1": 70,
+        "2": 39,
+        "3": 5,
+        "4": 2,
+        "5": 1,
+        "6": 1
+      },
+      "scene_cov": [
+        98.636,
+        33.635,
+        73.674,
+        75.914,
+        81.639,
+        11.443,
+        81.825,
+        85.432,
+        73.236,
+        64.204,
+        84.637,
+        40.275,
+        89.273,
+        89.73,
+        92.4,
+        63.896,
+        85.909,
+        93.573,
+        29.89,
+        89.587,
+        98.567,
+        97.93,
+        93.792,
+        96.115,
+        99.688,
+        98.667,
+        32.7,
+        70.617,
+        97.093,
+        86.628,
+        54.118,
+        81.765,
+        60.073,
+        66.581,
+        68.22,
+        85.737,
+        59.214,
+        97.191,
+        85.187,
+        45.815,
+        92.024,
+        68.824,
+        90.427,
+        77.382,
+        63.822,
+        47.692,
+        72.676,
+        51.071,
+        94.301,
+        66.203,
+        95.231,
+        91.185,
+        85.714,
+        71.953,
+        55.882,
+        88.605,
+        78.884,
+        39.164,
+        86.634,
+        82.508,
+        54.412,
+        48.285,
+        57.273,
+        65.806,
+        85.174,
+        22.986,
+        65.333,
+        65.33,
+        44.11,
+        71.392,
+        38.366,
+        99.14,
+        84.013,
+        72.789,
+        57.755,
+        63.529,
+        96.972,
+        63.913,
+        75.321,
+        79.804,
+        84.6,
+        54.846,
+        85.316,
+        40.684,
+        23.377,
+        57.312,
+        79.42,
+        51.542,
+        34.202,
+        35.026,
+        47.387,
+        23.204,
+        67.293,
+        89.546,
+        56.825,
+        24.483,
+        78.52,
+        67.273,
+        44.361,
+        52.236,
+        34.024,
+        47.674,
+        43.897,
+        83.983,
+        85.876,
+        85.479,
+        62.712,
+        67.004,
+        43.323,
+        78.119,
+        73.122,
+        65.113,
+        50.133,
+        44.339,
+        43.978,
+        75.122,
+        31.133,
+        35.206
       ]
     },
     "giovanni": {
@@ -27041,6 +27509,204 @@
       32.1,
       68.4,
       25.1,
+      190.5,
+      207.9,
+      236.5,
+      116.6,
+      66.4,
+      136.0,
+      26.2,
+      15.0,
+      40.3,
+      37.3,
+      33.9,
+      167.1,
+      29.3,
+      62.4,
+      27.5,
+      190.3,
+      82.2,
+      35.4,
+      43.1,
+      75.2,
+      167.1,
+      24.4,
+      33.4,
+      135.5,
+      144.9,
+      91.1,
+      227.2,
+      27.9,
+      16.3,
+      15.1,
+      144.1,
+      234.2,
+      43.4,
+      32.7,
+      29.1,
+      78.8,
+      116.1,
+      37.0,
+      27.0,
+      53.8,
+      228.0,
+      163.4,
+      216.8,
+      187.6,
+      64.3,
+      24.3,
+      97.8,
+      20.7,
+      150.7,
+      20.0,
+      200.4,
+      41.8,
+      102.5,
+      18.7,
+      51.6,
+      15.5,
+      31.6,
+      153.7,
+      31.2,
+      51.7,
+      18.4,
+      132.7,
+      16.0,
+      29.8,
+      33.0,
+      176.4,
+      126.8,
+      31.6,
+      62.0,
+      203.1,
+      187.5,
+      89.3,
+      19.0,
+      40.7,
+      64.2,
+      59.8,
+      16.7,
+      24.9,
+      22.0,
+      85.6,
+      28.6,
+      65.4,
+      68.4,
+      195.1,
+      30.6,
+      61.9,
+      32.1,
+      61.9,
+      190.4,
+      117.1,
+      51.7,
+      76.4,
+      34.5,
+      57.9,
+      201.4,
+      214.3,
+      33.8,
+      59.7,
+      18.3,
+      58.5,
+      28.4,
+      39.6,
+      18.4,
+      85.5,
+      43.1,
+      68.0,
+      30.1,
+      21.3,
+      40.7,
+      17.9,
+      33.1,
+      90.8,
+      89.6,
+      35.0,
+      71.6,
+      16.1,
+      19.7,
+      24.6,
+      133.9,
+      18.1,
+      39.8,
+      16.4,
+      99.6,
+      19.6,
+      48.7,
+      26.0,
+      26.8,
+      18.5,
+      25.8,
+      90.7,
+      19.3,
+      23.4,
+      81.0,
+      18.4,
+      87.8,
+      39.6,
+      99.2,
+      115.1,
+      214.5,
+      27.2,
+      78.2,
+      110.3,
+      123.2,
+      61.6,
+      164.8,
+      182.8,
+      29.6,
+      25.2,
+      123.5,
+      21.6,
+      76.2,
+      15.5,
+      30.0,
+      34.5,
+      247.7,
+      99.1,
+      30.4,
+      42.3,
+      70.3,
+      29.4,
+      41.6,
+      78.3,
+      61.0,
+      45.0,
+      43.5,
+      73.9,
+      16.1,
+      138.2,
+      18.5,
+      35.1,
+      110.4,
+      30.9,
+      16.5,
+      27.7,
+      71.8,
+      61.4,
+      31.9,
+      26.7,
+      55.8,
+      18.0,
+      24.6,
+      56.5,
+      21.5,
+      19.7,
+      77.4,
+      22.3,
+      38.1,
+      133.2,
+      21.4,
+      207.2,
+      36.2,
+      17.3,
+      30.5,
+      18.8,
+      30.4,
+      60.7,
+      21.8,
+      47.7,
       30.2,
       102.0,
       80.2,
@@ -30277,10 +30943,10 @@
       15.0
     ],
     "referential": {
-      "Non-Referential": 2060,
-      "Static Referential": 2601,
-      "Dynamic Referential": 616,
-      "Both": 913
+      "Non-Referential": 2132,
+      "Static Referential": 2698,
+      "Dynamic Referential": 624,
+      "Both": 934
     },
     "length_by_class": {
       "Non-Referential": [
@@ -30613,6 +31279,25 @@
         5,
         7,
         12,
+        16,
+        20,
+        24,
+        6,
+        6,
+        13,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        30,
+        12,
+        6,
+        8,
+        5,
+        7,
+        7,
         9,
         7,
         10,
@@ -32383,6 +33068,103 @@
         18,
         6,
         9,
+        2,
+        26,
+        27,
+        14,
+        19,
+        51,
+        10,
+        15,
+        19,
+        9,
+        10,
+        5,
+        28,
+        16,
+        32,
+        26,
+        11,
+        31,
+        30,
+        12,
+        6,
+        7,
+        24,
+        16,
+        13,
+        30,
+        9,
+        37,
+        12,
+        6,
+        25,
+        6,
+        13,
+        12,
+        13,
+        17,
+        6,
+        6,
+        15,
+        6,
+        3,
+        36,
+        20,
+        13,
+        23,
+        12,
+        17,
+        13,
+        6,
+        20,
+        7,
+        6,
+        33,
+        7,
+        7,
+        6,
+        18,
+        6,
+        11,
+        6,
+        18,
+        40,
+        11,
+        20,
+        26,
+        14,
+        12,
+        13,
+        13,
+        7,
+        13,
+        25,
+        17,
+        6,
+        6,
+        13,
+        6,
+        15,
+        19,
+        32,
+        6,
+        14,
+        6,
+        14,
+        13,
+        7,
+        13,
+        39,
+        6,
+        10,
+        7,
+        7,
+        7,
+        19,
+        13,
+        10,
+        9,
         12,
         5,
         10,
@@ -33946,6 +34728,14 @@
         9,
         8,
         8,
+        2,
+        11,
+        9,
+        15,
+        11,
+        35,
+        57,
+        29,
         12,
         8,
         8,
@@ -34701,6 +35491,27 @@
         23,
         26,
         25,
+        31,
+        54,
+        30,
+        56,
+        25,
+        34,
+        22,
+        36,
+        22,
+        37,
+        43,
+        25,
+        49,
+        31,
+        31,
+        35,
+        43,
+        11,
+        18,
+        70,
+        13,
         28,
         13,
         28,
@@ -35177,34 +35988,33 @@
       ]
     },
     "per_clip": {
-      "1": 50,
-      "2": 115,
-      "3": 159,
-      "4": 173,
-      "5": 177,
-      "6": 114,
-      "7": 79,
-      "8": 55,
-      "9": 32,
-      "10": 21,
-      "11": 12,
-      "12": 11,
-      "13": 9,
+      "1": 46,
+      "2": 109,
+      "3": 148,
+      "4": 164,
+      "5": 171,
+      "6": 120,
+      "7": 95,
+      "8": 57,
+      "9": 34,
+      "10": 27,
+      "11": 13,
+      "12": 10,
+      "13": 12,
       "14": 9,
       "15": 13,
-      "16": 1,
-      "17": 4,
-      "18": 3,
-      "19": 5,
+      "16": 2,
+      "17": 3,
+      "18": 4,
+      "19": 3,
       "20": 5,
-      "21": 2,
-      "22": 4,
-      "23": 4,
-      "24": 4,
-      "25": 1,
-      "26": 1,
-      "27": 2,
-      "28": 1,
+      "21": 1,
+      "22": 5,
+      "23": 3,
+      "24": 6,
+      "26": 3,
+      "27": 1,
+      "28": 2,
       "29": 2,
       "33": 1,
       "38": 1,
@@ -35218,11 +36028,11 @@
       99.572,
       98.802,
       99.385,
-      93.009,
+      99.392,
       95.652,
       99.221,
-      96.995,
-      98.162,
+      97.496,
+      99.449,
       99.437,
       98.087,
       97.555,
@@ -35236,16 +36046,16 @@
       83.442,
       94.608,
       71.793,
-      81.349,
+      93.783,
       94.156,
-      87.941,
-      83.905,
+      94.118,
+      89.446,
       83.864,
       90.963,
       91.818,
       77.358,
       90.476,
-      63.441,
+      71.398,
       48.276,
       98.476,
       77.25,
@@ -35256,7 +36066,7 @@
       98.487,
       93.367,
       96.543,
-      98.585,
+      98.821,
       85.672,
       95.878,
       97.207,
@@ -35265,7 +36075,7 @@
       96.438,
       93.924,
       95.05,
-      97.654,
+      99.14,
       94.811,
       95.925,
       91.156,
@@ -35289,7 +36099,7 @@
       94.8,
       96.916,
       95.469,
-      70.631,
+      94.175,
       98.58,
       95.513,
       87.477,
@@ -35297,17 +36107,17 @@
       91.667,
       97.64,
       98.276,
-      92.395,
+      92.649,
       96.234,
       99.473,
       94.15,
-      93.668,
+      95.251,
       97.5,
       92.105,
       90.93,
       98.011,
       89.419,
-      85.903,
+      94.934,
       94.202,
       96.891,
       91.812,
@@ -35329,7 +36139,7 @@
       98.182,
       96.617,
       88.525,
-      92.505,
+      94.181,
       97.5,
       80.492,
       78.413,
@@ -35340,9 +36150,9 @@
       94.368,
       98.678,
       92.448,
-      86.643,
+      86.823,
       93.093,
-      82.645,
+      91.074,
       96.571,
       97.446,
       99.961,
@@ -35351,14 +36161,14 @@
       97.888,
       95.058,
       89.234,
-      89.661,
+      93.22,
       90.25,
       94.72,
       91.842,
       92.442,
       99.737,
       94.068,
-      83.836,
+      88.219,
       99.343,
       97.518,
       91.186,
@@ -35376,11 +36186,11 @@
       90.909,
       91.528,
       96.721,
-      77.725,
+      80.106,
       96.977,
       98.955,
       98.667,
-      77.137,
+      84.587,
       91.466,
       76.237,
       88.5,
@@ -36099,62 +36909,62 @@
       83.492,
       99.607,
       98.873,
-      36.818,
+      98.636,
       98.193,
-      59.961,
-      77.878,
-      81.087,
+      88.959,
+      93.949,
+      84.121,
       89.737,
-      51.513,
-      76.711,
-      78.765,
+      80.511,
+      81.825,
+      85.988,
       96.641,
       80.039,
       54.028,
-      85.305,
+      89.587,
       91.316,
       0.0,
       94.735,
-      72.162,
-      80.044,
+      89.73,
+      92.4,
       56.354,
-      93.324,
+      96.185,
       97.235,
       95.797,
       95.971,
       95.285,
       94.881,
-      43.969,
-      78.193,
+      89.587,
+      98.567,
       64.462,
       91.277,
-      40.87,
-      88.969,
+      97.93,
+      98.717,
       92.024,
-      98.993,
+      99.137,
       95.062,
-      97.812,
-      96.667,
+      99.688,
+      99.333,
       95.57,
-      62.813,
-      64.938,
-      94.767,
-      94.477,
+      91.562,
+      86.667,
+      99.128,
+      95.349,
       83.607,
       99.706,
-      87.941,
-      84.83,
+      91.765,
+      91.019,
       96.645,
-      96.516,
+      96.751,
       95.835,
       92.927,
-      85.263,
-      94.007,
+      89.263,
+      98.315,
       99.332,
       97.957,
       84.833,
-      87.354,
-      82.79,
+      91.245,
+      94.028,
       90.698,
       96.878,
       90.127,
@@ -36167,7 +36977,7 @@
       96.393,
       74.676,
       93.6,
-      70.545,
+      94.109,
       99.74,
       97.976,
       77.739,
@@ -36197,7 +37007,7 @@
       91.026,
       93.061,
       70.506,
-      96.267,
+      98.4,
       99.078,
       91.491,
       98.153,
@@ -36300,10 +37110,10 @@
     ]
   },
   "referential_distribution": {
-    "Non-Referential": 2060,
-    "Static Referential": 2601,
-    "Dynamic Referential": 616,
-    "Both": 913
+    "Non-Referential": 2132,
+    "Static Referential": 2698,
+    "Dynamic Referential": 624,
+    "Both": 934
   },
   "unmapped_commentary": {
     "Ambiguous": 39,
@@ -36642,6 +37452,25 @@
       5,
       7,
       12,
+      16,
+      20,
+      24,
+      6,
+      6,
+      13,
+      6,
+      6,
+      6,
+      6,
+      6,
+      5,
+      30,
+      12,
+      6,
+      8,
+      5,
+      7,
+      7,
       9,
       7,
       10,
@@ -38412,6 +39241,103 @@
       18,
       6,
       9,
+      2,
+      26,
+      27,
+      14,
+      19,
+      51,
+      10,
+      15,
+      19,
+      9,
+      10,
+      5,
+      28,
+      16,
+      32,
+      26,
+      11,
+      31,
+      30,
+      12,
+      6,
+      7,
+      24,
+      16,
+      13,
+      30,
+      9,
+      37,
+      12,
+      6,
+      25,
+      6,
+      13,
+      12,
+      13,
+      17,
+      6,
+      6,
+      15,
+      6,
+      3,
+      36,
+      20,
+      13,
+      23,
+      12,
+      17,
+      13,
+      6,
+      20,
+      7,
+      6,
+      33,
+      7,
+      7,
+      6,
+      18,
+      6,
+      11,
+      6,
+      18,
+      40,
+      11,
+      20,
+      26,
+      14,
+      12,
+      13,
+      13,
+      7,
+      13,
+      25,
+      17,
+      6,
+      6,
+      13,
+      6,
+      15,
+      19,
+      32,
+      6,
+      14,
+      6,
+      14,
+      13,
+      7,
+      13,
+      39,
+      6,
+      10,
+      7,
+      7,
+      7,
+      19,
+      13,
+      10,
+      9,
       12,
       5,
       10,
@@ -39975,6 +40901,14 @@
       9,
       8,
       8,
+      2,
+      11,
+      9,
+      15,
+      11,
+      35,
+      57,
+      29,
       12,
       8,
       8,
@@ -40730,6 +41664,27 @@
       23,
       26,
       25,
+      31,
+      54,
+      30,
+      56,
+      25,
+      34,
+      22,
+      36,
+      22,
+      37,
+      43,
+      25,
+      49,
+      31,
+      31,
+      35,
+      43,
+      11,
+      18,
+      70,
+      13,
       28,
       13,
       28,
@@ -41207,34 +42162,33 @@
   },
   "per_clip_counts": {
     "0": 13,
-    "1": 50,
-    "2": 115,
-    "3": 159,
-    "4": 173,
-    "5": 177,
-    "6": 114,
-    "7": 79,
-    "8": 55,
-    "9": 32,
-    "10": 21,
-    "11": 12,
-    "12": 11,
-    "13": 9,
+    "1": 46,
+    "2": 109,
+    "3": 148,
+    "4": 164,
+    "5": 171,
+    "6": 120,
+    "7": 95,
+    "8": 57,
+    "9": 34,
+    "10": 27,
+    "11": 13,
+    "12": 10,
+    "13": 12,
     "14": 9,
     "15": 13,
-    "16": 1,
-    "17": 4,
-    "18": 3,
-    "19": 5,
+    "16": 2,
+    "17": 3,
+    "18": 4,
+    "19": 3,
     "20": 5,
-    "21": 2,
-    "22": 4,
-    "23": 4,
-    "24": 4,
-    "25": 1,
-    "26": 1,
-    "27": 2,
-    "28": 1,
+    "21": 1,
+    "22": 5,
+    "23": 3,
+    "24": 6,
+    "26": 3,
+    "27": 1,
+    "28": 2,
     "29": 2,
     "33": 1,
     "38": 1,
@@ -43128,6 +44082,12 @@
           "label": "Go past the Evelyn F. Mookley Bridge Plaque"
         },
         {
+          "start": 16.2,
+          "end": 78.1,
+          "user": "anusha",
+          "label": "Take a right at the signal."
+        },
+        {
           "start": 27.0,
           "end": 89.0,
           "user": "noorrauf",
@@ -43372,6 +44332,12 @@
           "label": "Turn right at this intersection, and then take another right at the next traffic..."
         },
         {
+          "start": 49.1,
+          "end": 127.3,
+          "user": "anusha",
+          "label": "Take a right at the signal. Take a right at the next signal. Take a left at the ..."
+        },
+        {
           "start": 92.6,
           "end": 126.3,
           "user": "Marcus",
@@ -43446,6 +44412,12 @@
           "end": 251.1,
           "user": "parthib",
           "label": "make the next two left turns at the intersections, then a right turn at the next..."
+        },
+        {
+          "start": 33.7,
+          "end": 236.8,
+          "user": "anusha",
+          "label": "Take a left at the signal. Take a right at the next signal.Take a left at the si..."
         },
         {
           "start": 44.2,
@@ -43758,6 +44730,12 @@
           "label": "Follow the orange truck onto the bridge"
         },
         {
+          "start": 21.4,
+          "end": 44.8,
+          "user": "anusha",
+          "label": "Take a right at the signal."
+        },
+        {
           "start": 25.2,
           "end": 40.7,
           "user": "giovanni",
@@ -43923,6 +44901,12 @@
           "end": 36.2,
           "user": "grod",
           "label": "Make a left turn at the intersection."
+        },
+        {
+          "start": 15.9,
+          "end": 32.0,
+          "user": "anusha",
+          "label": "Take a left at the stop sign. "
         },
         {
           "start": 18.1,
@@ -44267,6 +45251,12 @@
       "total_sec": 136.9,
       "bars": [
         {
+          "start": 7.8,
+          "end": 68.5,
+          "user": "anusha",
+          "label": "Take a slight right on the road next to the Graphics Arts Building. Taka a right..."
+        },
+        {
           "start": 18.0,
           "end": 33.4,
           "user": "jeremykemmerer",
@@ -44504,6 +45494,12 @@
           "end": 27.2,
           "user": "giovanni",
           "label": "Yield to oncoming vehicles and procced. Turn left at the intersection."
+        },
+        {
+          "start": 14.6,
+          "end": 42.3,
+          "user": "anusha",
+          "label": "Take the second exit at the roundabout. Take a left, then take a slight right. "
         },
         {
           "start": 18.8,
@@ -44815,6 +45811,12 @@
           "label": "make a right turn at the second and third stoplights you encounter, then make a ..."
         },
         {
+          "start": 2.9,
+          "end": 118.0,
+          "user": "anusha",
+          "label": "Take a right at the intersection. Take a right at the intersection. Take a right..."
+        },
+        {
           "start": 14.3,
           "end": 148.1,
           "user": "grod",
@@ -44899,6 +45901,12 @@
           "label": "nan"
         },
         {
+          "start": 46.2,
+          "end": 156.6,
+          "user": "anusha",
+          "label": "Take a right at the signal. Take a right at the next signal. "
+        },
+        {
           "start": 57.7,
           "end": 139.3,
           "user": "parthib",
@@ -44974,6 +45982,12 @@
           "end": 50.4,
           "user": "giovanni",
           "label": "Cross when the people finish crossing. Stop. Stop for the pedestrian crossing."
+        },
+        {
+          "start": 18.7,
+          "end": 80.3,
+          "user": "anusha",
+          "label": "Wait for the truck to take a U-turn before slowly proceesing."
         },
         {
           "start": 31.0,
@@ -45099,6 +46113,12 @@
           "end": 83.4,
           "user": "giovanni",
           "label": "Wait for the first responders to finish before procceding forward. Make a 2 poin..."
+        },
+        {
+          "start": 32.6,
+          "end": 53.9,
+          "user": "anusha",
+          "label": "nan"
         },
         {
           "start": 33.8,
@@ -45363,6 +46383,12 @@
           "label": "nan"
         },
         {
+          "start": 23.7,
+          "end": 41.7,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
           "start": 23.9,
           "end": 64.2,
           "user": "parthib",
@@ -45526,6 +46552,12 @@
           "start": 0.8,
           "end": 24.3,
           "user": "grod",
+          "label": "nan"
+        },
+        {
+          "start": 1.2,
+          "end": 20.8,
+          "user": "anusha",
           "label": "nan"
         },
         {
@@ -45985,6 +47017,12 @@
           "end": 120.2,
           "user": "jeremykemmerer",
           "label": "Turn left at the end of the road"
+        },
+        {
+          "start": 15.7,
+          "end": 73.6,
+          "user": "anusha",
+          "label": "Take a right."
         },
         {
           "start": 18.8,
@@ -52112,6 +53150,12 @@
           "label": "at the stopsign, make a right turn and go straight"
         },
         {
+          "start": 3.6,
+          "end": 28.5,
+          "user": "anusha",
+          "label": "Take a right at the intersection."
+        },
+        {
           "start": 4.4,
           "end": 29.8,
           "user": "jeremykemmerer",
@@ -52233,6 +53277,12 @@
           "end": 46.6,
           "user": "jeremykemmerer",
           "label": "Switch to the right lane once you pass the light"
+        },
+        {
+          "start": 12.8,
+          "end": 45.9,
+          "user": "anusha",
+          "label": "nan"
         },
         {
           "start": 15.4,
@@ -53445,6 +54495,12 @@
       "total_sec": 36.5,
       "bars": [
         {
+          "start": 4.2,
+          "end": 25.7,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
           "start": 5.8,
           "end": 27.1,
           "user": "Isaiah Ramirez",
@@ -53466,6 +54522,12 @@
           "start": 9.9,
           "end": 29.0,
           "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 10.8,
+          "end": 35.4,
+          "user": "anusha",
           "label": "nan"
         },
         {
@@ -53602,6 +54664,18 @@
           "end": 24.7,
           "user": "giovanni",
           "label": "Stop for the upcoming stop sign, turn left at the intersection. "
+        },
+        {
+          "start": 9.1,
+          "end": 30.7,
+          "user": "anusha",
+          "label": "Take a left at the intersection.Take a left at the stop sign."
+        },
+        {
+          "start": 12.9,
+          "end": 29.4,
+          "user": "anusha",
+          "label": "Take a left at the intersection. "
         },
         {
           "start": 13.1,
@@ -54490,6 +55564,12 @@
           "label": "Enter Tunnel Park, stop at the curb before the stop sign for a few seconds, then..."
         },
         {
+          "start": 35.5,
+          "end": 91.3,
+          "user": "anusha",
+          "label": "Take a right at the intersection."
+        },
+        {
           "start": 55.6,
           "end": 112.2,
           "user": "parthib",
@@ -55245,6 +56325,12 @@
           "label": "nan"
         },
         {
+          "start": 1.4,
+          "end": 19.9,
+          "user": "anusha",
+          "label": "Take a left at the signal. "
+        },
+        {
           "start": 2.3,
           "end": 19.8,
           "user": "parthib",
@@ -55543,6 +56629,12 @@
           "label": "make a left turn at the first intersection. when you appraoch the stopsign make ..."
         },
         {
+          "start": 20.1,
+          "end": 94.0,
+          "user": "anusha",
+          "label": "Take a right at the stop sign, then take a left. Take a left onto the bridge. "
+        },
+        {
           "start": 22.4,
           "end": 92.6,
           "user": "giovanni",
@@ -55741,6 +56833,12 @@
     "2021.09.15.15.34.53_veh-28_01639_01805": {
       "total_sec": 82.4,
       "bars": [
+        {
+          "start": 4.5,
+          "end": 74.8,
+          "user": "anusha",
+          "label": "Take the first exit at the roundabout."
+        },
         {
           "start": 23.9,
           "end": 47.9,
@@ -57003,6 +58101,12 @@
           "label": "nan"
         },
         {
+          "start": 4.1,
+          "end": 34.5,
+          "user": "anusha",
+          "label": "Take the second exit on the roundabout."
+        },
+        {
           "start": 6.1,
           "end": 34.2,
           "user": "parthib",
@@ -57194,6 +58298,12 @@
           "end": 105.0,
           "user": "Isaiah Ramirez",
           "label": "turn right. go around the parked car. "
+        },
+        {
+          "start": 21.0,
+          "end": 97.4,
+          "user": "anusha",
+          "label": "Take a right at the signal."
         },
         {
           "start": 54.1,
@@ -59168,6 +60278,12 @@
           "label": "Merge into the left lane to pass the truck on blocking the right lane. At the up..."
         },
         {
+          "start": 20.9,
+          "end": 60.7,
+          "user": "anusha",
+          "label": "Pass the stopped truck. At the stop sign, take a right."
+        },
+        {
           "start": 36.2,
           "end": 71.7,
           "user": "Isaiah Ramirez",
@@ -59913,6 +61029,12 @@
           "label": "Turn right at the light, then get into the left lane"
         },
         {
+          "start": 83.9,
+          "end": 173.5,
+          "user": "anusha",
+          "label": "Take a right at the signal. "
+        },
+        {
           "start": 86.4,
           "end": 229.0,
           "user": "jeremykemmerer",
@@ -60422,6 +61544,12 @@
           "label": "complete the right turn, make a left turn toward dry dock plaza park. make the f..."
         },
         {
+          "start": 27.8,
+          "end": 144.9,
+          "user": "anusha",
+          "label": "Take a right, then take another right. Take the second exit at the traffic circl..."
+        },
+        {
           "start": 53.5,
           "end": 88.0,
           "user": "Isaiah Ramirez",
@@ -60881,6 +62009,12 @@
           "start": 3.7,
           "end": 30.9,
           "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 4.9,
+          "end": 39.9,
+          "user": "anusha",
           "label": "nan"
         },
         {
@@ -62598,6 +63732,18 @@
           "label": "nan"
         },
         {
+          "start": 1.8,
+          "end": 34.8,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
+          "start": 2.4,
+          "end": 32.2,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
           "start": 2.6,
           "end": 38.3,
           "user": "parthib",
@@ -63126,6 +64272,12 @@
           "label": "Take the first exit of the roundabout"
         },
         {
+          "start": 18.6,
+          "end": 117.7,
+          "user": "anusha",
+          "label": "Take the first exit at the traffic circle. "
+        },
+        {
           "start": 30.8,
           "end": 113.5,
           "user": "giovanni",
@@ -63142,6 +64294,12 @@
           "end": 107.0,
           "user": "giovanni",
           "label": "Stop behind the crosswalk. Merge to the right side, and back to the original to ..."
+        },
+        {
+          "start": 85.0,
+          "end": 113.4,
+          "user": "anusha",
+          "label": "nan"
         }
       ]
     },
@@ -63214,6 +64372,12 @@
           "label": "at the intersectionmake a right turn. when you reach the end of the road make a ..."
         },
         {
+          "start": 3.3,
+          "end": 71.7,
+          "user": "anusha",
+          "label": "Take a right at the intersection. Take a u-turn at the dead end."
+        },
+        {
           "start": 6.9,
           "end": 60.9,
           "user": "noorrauf",
@@ -63272,6 +64436,12 @@
           "end": 75.4,
           "user": "noorrauf",
           "label": "make a U turn at the end of the street"
+        },
+        {
+          "start": 27.4,
+          "end": 76.1,
+          "user": "anusha",
+          "label": "Take a u-turn at the dead end."
         },
         {
           "start": 29.9,
@@ -64256,6 +65426,12 @@
           "label": "switch to the left lane, and follow the white vehicle in front of you"
         },
         {
+          "start": 7.7,
+          "end": 51.2,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
           "start": 12.3,
           "end": 74.9,
           "user": "parthib",
@@ -64266,6 +65442,12 @@
           "end": 55.7,
           "user": "giovanni",
           "label": "Stop for the upcoming red traffic light."
+        },
+        {
+          "start": 25.3,
+          "end": 51.1,
+          "user": "anusha",
+          "label": "nan"
         },
         {
           "start": 39.1,
@@ -64577,6 +65759,12 @@
           "label": "In the intersection make a left turn once the traffic light changes to green. Me..."
         },
         {
+          "start": 34.6,
+          "end": 123.9,
+          "user": "anusha",
+          "label": "Take a right at the signal. Take a right at the signal."
+        },
+        {
           "start": 49.1,
           "end": 71.1,
           "user": "giovanni",
@@ -64587,6 +65775,12 @@
           "end": 124.8,
           "user": "parthib",
           "label": "make a right turn at the light and continue going straight, at the next stopligh..."
+        },
+        {
+          "start": 73.0,
+          "end": 163.7,
+          "user": "anusha",
+          "label": "Take a right at the signal. Take a right at the next signal. Carefully pass the ..."
         },
         {
           "start": 124.6,
@@ -64828,6 +66022,12 @@
           "end": 53.4,
           "user": "noorrauf",
           "label": "turn right at the stop sign then left at the stop sign"
+        },
+        {
+          "start": 16.3,
+          "end": 59.4,
+          "user": "anusha",
+          "label": "Take a right at the intersection, then take a left at the stop. "
         },
         {
           "start": 20.5,
@@ -65678,6 +66878,12 @@
           "label": "at the intersection of the roundabout, make a right turn. switch to the right la..."
         },
         {
+          "start": 9.0,
+          "end": 48.6,
+          "user": "nan",
+          "label": "Slowly go straight as the truck turns. Take the first exit at the traffic circle..."
+        },
+        {
           "start": 28.4,
           "end": 70.2,
           "user": "giovanni",
@@ -65712,6 +66918,12 @@
           "end": 97.7,
           "user": "parthib",
           "label": "when you get near the truck in front of you, switch to the right lane. when you ..."
+        },
+        {
+          "start": 52.0,
+          "end": 86.5,
+          "user": "anusha",
+          "label": "Switch into the right lane."
         }
       ]
     },
@@ -65886,6 +67098,18 @@
           "end": 28.4,
           "user": "giovanni",
           "label": "Stop for the upcoming stop sign. Turn left. Make another stop for the stop sign ..."
+        },
+        {
+          "start": 3.0,
+          "end": 29.8,
+          "user": "anusha",
+          "label": "Take a left at the stop sign. "
+        },
+        {
+          "start": 4.4,
+          "end": 23.4,
+          "user": "anusha",
+          "label": "Take a left at the signal."
         },
         {
           "start": 5.3,
@@ -66564,6 +67788,12 @@
         },
         {
           "start": 2.9,
+          "end": 32.3,
+          "user": "anusha",
+          "label": "Switch into the right lane."
+        },
+        {
+          "start": 2.9,
           "end": 44.8,
           "user": "parthib",
           "label": "nan"
@@ -66644,6 +67874,12 @@
           "end": 94.6,
           "user": "jeremykemmerer",
           "label": "Stay in this lane"
+        },
+        {
+          "start": 53.9,
+          "end": 87.7,
+          "user": "anusha",
+          "label": "nan"
         },
         {
           "start": 69.2,
@@ -67644,6 +68880,12 @@
       "total_sec": 55.4,
       "bars": [
         {
+          "start": 6.9,
+          "end": 43.1,
+          "user": "anusha",
+          "label": "Take a left at the signal."
+        },
+        {
           "start": 7.0,
           "end": 29.0,
           "user": "parthib",
@@ -67666,6 +68908,12 @@
           "end": 37.9,
           "user": "giovanni",
           "label": "nan"
+        },
+        {
+          "start": 19.9,
+          "end": 50.4,
+          "user": "anusha",
+          "label": "Take a left onto Summer Street Bridge. "
         },
         {
           "start": 22.6,
@@ -67914,6 +69162,12 @@
           "start": 1.1,
           "end": 24.7,
           "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 2.8,
+          "end": 37.9,
+          "user": "anusha",
           "label": "nan"
         },
         {
@@ -68336,6 +69590,12 @@
           "label": "Turn onto the pier and go to the parking area"
         },
         {
+          "start": 47.9,
+          "end": 92.9,
+          "user": "anusha",
+          "label": "Take a left into the parking lot."
+        },
+        {
           "start": 49.5,
           "end": 65.7,
           "user": "parthib",
@@ -68377,10 +69637,22 @@
           "label": "Make a stop at the stop sign. Make another stop at the upcoming stop sign, make ..."
         },
         {
+          "start": 39.9,
+          "end": 111.7,
+          "user": "anusha",
+          "label": "Take a right at the signal and go into the left turn lane. Take a left at the si..."
+        },
+        {
           "start": 47.0,
           "end": 83.2,
           "user": "giovanni",
           "label": "At the intersection make a right turn when the light turns green."
+        },
+        {
+          "start": 49.1,
+          "end": 105.6,
+          "user": "anusha",
+          "label": "Take a right at the signal."
         }
       ]
     },
@@ -68732,6 +70004,18 @@
           "label": "make the left turn when the light turns green and just go straight"
         },
         {
+          "start": 3.4,
+          "end": 41.5,
+          "user": "anusha",
+          "label": "Take a left onto Summer Street Bridge. "
+        },
+        {
+          "start": 4.5,
+          "end": 21.8,
+          "user": "anusha",
+          "label": "Take a left at the signal onto Summer Street Bridge."
+        },
+        {
           "start": 5.4,
           "end": 41.8,
           "user": "jeremykemmerer",
@@ -68834,6 +70118,18 @@
           "start": 7.7,
           "end": 34.2,
           "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 9.2,
+          "end": 35.2,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
+          "start": 10.7,
+          "end": 37.4,
+          "user": "anusha",
           "label": "nan"
         },
         {
@@ -68970,6 +70266,12 @@
           "end": 20.9,
           "user": "Marcus",
           "label": "Go toward summer street bridge"
+        },
+        {
+          "start": 6.4,
+          "end": 25.2,
+          "user": "anusha",
+          "label": "Take a left onto Summer Street Bridge."
         },
         {
           "start": 15.9,
@@ -69805,6 +71107,12 @@
           "label": "make a left turn and then a right turn at the next two stopsigns"
         },
         {
+          "start": 7.5,
+          "end": 50.6,
+          "user": "nan",
+          "label": "Take a left at the stop sign. Take a right at the next stop sign."
+        },
+        {
           "start": 7.9,
           "end": 25.5,
           "user": "jeremykemmerer",
@@ -69815,6 +71123,18 @@
           "end": 25.5,
           "user": "jeremykemmerer",
           "label": "Turn left at dry dock plaza park"
+        },
+        {
+          "start": 7.9,
+          "end": 27.9,
+          "user": "anusha",
+          "label": "Take a left at the stop sign."
+        },
+        {
+          "start": 15.3,
+          "end": 37.1,
+          "user": "anusha",
+          "label": "Take a left at the signal. Take a right at the stop sign."
         },
         {
           "start": 18.4,
@@ -70126,6 +71446,12 @@
     "2021.10.01.19.16.42_veh-28_00094_00216": {
       "total_sec": 60.5,
       "bars": [
+        {
+          "start": 3.5,
+          "end": 44.2,
+          "user": "anusha",
+          "label": "Take a right. Take a left after the stop sign. Take a right at the stop sign."
+        },
         {
           "start": 8.6,
           "end": 56.9,
@@ -70559,6 +71885,12 @@
           "end": 62.1,
           "user": "giovanni",
           "label": "Turn left at the intersection. STOP to let the vehicle pass and then shift to th..."
+        },
+        {
+          "start": 41.0,
+          "end": 73.1,
+          "user": "anusha",
+          "label": "Take a right at the signal."
         }
       ]
     },
@@ -70652,6 +71984,18 @@
           "end": 143.4,
           "user": "jeremykemmerer",
           "label": "Pass the car ahead after the left turn "
+        },
+        {
+          "start": 23.6,
+          "end": 161.8,
+          "user": "anusha",
+          "label": "Take a left at the signal. "
+        },
+        {
+          "start": 25.0,
+          "end": 112.8,
+          "user": "anusha",
+          "label": "Take a left at the signal. "
         },
         {
           "start": 32.0,
@@ -71339,6 +72683,12 @@
           "label": "Turn right at the intersection. Yield to oncoming pedestrians, turn right at the..."
         },
         {
+          "start": 109.3,
+          "end": 208.9,
+          "user": "anusha",
+          "label": "Take a right at the intersection. Go into the left turn lane, then take a left a..."
+        },
+        {
           "start": 109.8,
           "end": 182.9,
           "user": "parthib",
@@ -71396,6 +72746,12 @@
     "2021.09.15.13.16.40_veh-28_00180_00257": {
       "total_sec": 37.9,
       "bars": [
+        {
+          "start": 2.7,
+          "end": 21.0,
+          "user": "anusha",
+          "label": "nan"
+        },
         {
           "start": 4.8,
           "end": 36.4,
@@ -72455,6 +73811,12 @@
       "total_sec": 127.9,
       "bars": [
         {
+          "start": 1.1,
+          "end": 127.9,
+          "user": "anusha",
+          "label": "Slowly go around the stopped car. Switch one lane to the left to avoid the biker..."
+        },
+        {
           "start": 1.2,
           "end": 126.1,
           "user": "parthib",
@@ -72617,6 +73979,18 @@
           "end": 19.8,
           "user": "Isaiah Ramirez",
           "label": "nan"
+        },
+        {
+          "start": 1.6,
+          "end": 63.5,
+          "user": "anusha",
+          "label": "Take a left, then take a right at the intersection. Take a left, then take anoth..."
+        },
+        {
+          "start": 1.6,
+          "end": 62.6,
+          "user": "anusha",
+          "label": "Take a left at the intersection. Take a left at the stop sign. Take a right at t..."
         },
         {
           "start": 1.7,
@@ -72946,6 +74320,12 @@
     "2021.09.15.13.16.40_veh-28_00088_00157": {
       "total_sec": 34.0,
       "bars": [
+        {
+          "start": 0.1,
+          "end": 18.6,
+          "user": "anusha",
+          "label": "nan"
+        },
         {
           "start": 2.2,
           "end": 31.0,
@@ -73677,6 +75057,12 @@
           "end": 52.4,
           "user": "parthib",
           "label": "go to the entrace of pier 10 park"
+        },
+        {
+          "start": 23.8,
+          "end": 51.0,
+          "user": "anusha",
+          "label": "Take a left into the parking lot. Reverse onto the ramp."
         },
         {
           "start": 28.3,
@@ -74413,10 +75799,22 @@
       "total_sec": 51.4,
       "bars": [
         {
+          "start": 2.9,
+          "end": 40.2,
+          "user": "nan",
+          "label": "nan"
+        },
+        {
           "start": 4.9,
           "end": 37.4,
           "user": "ytandon",
           "label": "Keep straight"
+        },
+        {
+          "start": 9.3,
+          "end": 49.6,
+          "user": "nan",
+          "label": "nan"
         },
         {
           "start": 9.4,
@@ -74599,6 +75997,12 @@
           "label": "switch to the right lane after passing veer towers east. you need to enter into ..."
         },
         {
+          "start": 66.7,
+          "end": 211.6,
+          "user": "anusha",
+          "label": "Switch into the right lane."
+        },
+        {
           "start": 88.1,
           "end": 136.0,
           "user": "giovanni",
@@ -74722,6 +76126,12 @@
           "end": 43.7,
           "user": "jeremykemmerer",
           "label": "Turn right twice"
+        },
+        {
+          "start": 23.8,
+          "end": 54.2,
+          "user": "anusha",
+          "label": "Take a right at the intersection. Take a left at the next inersection."
         }
       ]
     },
@@ -74883,6 +76293,12 @@
           "end": 242.6,
           "user": "ytandon",
           "label": "Go to Luxor Las Vegas, and then exit immediately and come back on the Las Vegas ..."
+        },
+        {
+          "start": 154.7,
+          "end": 240.3,
+          "user": "anusha",
+          "label": "Take a left at the signal then switch one lane to the right."
         }
       ]
     },
@@ -75188,6 +76604,18 @@
           "label": "move to the right lane and keep straight. stay behind the crosswalk until there ..."
         },
         {
+          "start": 6.5,
+          "end": 201.6,
+          "user": "anusha",
+          "label": "Take a right into the hotel driveway. Slowly drive through around the stopped ca..."
+        },
+        {
+          "start": 19.4,
+          "end": 195.8,
+          "user": "anusha",
+          "label": "Switch into the rightmost lane. Take a right into the hotel driveway after the s..."
+        },
+        {
           "start": 25.9,
           "end": 203.8,
           "user": "grod",
@@ -75198,6 +76626,18 @@
           "end": 203.8,
           "user": "grod",
           "label": "Take me to Paris Las Vegas. "
+        },
+        {
+          "start": 26.3,
+          "end": 149.5,
+          "user": "anusha",
+          "label": "Switch into the right most lane. Take a right into the Paris hotel driveway."
+        },
+        {
+          "start": 71.7,
+          "end": 162.8,
+          "user": "anusha",
+          "label": "Switch into the right lane. Take a right into the hotel driveway. Go into the ro..."
         },
         {
           "start": 95.1,
@@ -75281,6 +76721,12 @@
       "total_sec": 73.4,
       "bars": [
         {
+          "start": 0.5,
+          "end": 21.2,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
           "start": 2.6,
           "end": 31.5,
           "user": "ytandon",
@@ -75303,6 +76749,12 @@
           "end": 71.1,
           "user": "ytandon",
           "label": "Go to the Luxor Las Vegas drop-off loop"
+        },
+        {
+          "start": 44.9,
+          "end": 71.1,
+          "user": "anusha",
+          "label": "Go straight at the stop sign, then take a right into the hotel driveway."
         }
       ]
     },
@@ -75339,6 +76791,12 @@
           "label": "turn left at the light. turn left. turn right. turn right. "
         },
         {
+          "start": 53.6,
+          "end": 94.3,
+          "user": "anusha",
+          "label": "Take a left at the signal. Take one more left at the next signal. Take a right a..."
+        },
+        {
           "start": 75.4,
           "end": 95.9,
           "user": "Isaiah Ramirez",
@@ -75361,6 +76819,12 @@
       "total_sec": 254.5,
       "bars": [
         {
+          "start": 19.4,
+          "end": 247.4,
+          "user": "anusha",
+          "label": "Switch one lane to the right. Take a right after the signal into the hotel drive..."
+        },
+        {
           "start": 22.9,
           "end": 68.9,
           "user": "parthib",
@@ -75377,6 +76841,12 @@
           "end": 107.0,
           "user": "parthib",
           "label": "nan"
+        },
+        {
+          "start": 56.4,
+          "end": 246.8,
+          "user": "anusha",
+          "label": "Take a right after the signal into the hotel driveway. Carefully go through the ..."
         }
       ]
     },
@@ -75590,6 +77060,12 @@
           "end": 27.1,
           "user": "giovanni",
           "label": "Slow down. Make a stop at the stop sign."
+        },
+        {
+          "start": 6.0,
+          "end": 27.4,
+          "user": "anusha",
+          "label": "nan"
         },
         {
           "start": 12.0,
@@ -75820,6 +77296,12 @@
           "label": "nan"
         },
         {
+          "start": 21.2,
+          "end": 68.9,
+          "user": "anusha",
+          "label": "Take a right and take another right at the intersection."
+        },
+        {
           "start": 48.1,
           "end": 82.1,
           "user": "giovanni",
@@ -75948,6 +77430,12 @@
           "label": "nan"
         },
         {
+          "start": 0.8,
+          "end": 52.5,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
           "start": 6.0,
           "end": 44.8,
           "user": "Jeevan",
@@ -75957,6 +77445,18 @@
           "start": 6.4,
           "end": 50.4,
           "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 15.7,
+          "end": 32.0,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
+          "start": 20.8,
+          "end": 52.7,
+          "user": "anusha",
           "label": "nan"
         },
         {
@@ -76016,6 +77516,12 @@
           "end": 39.6,
           "user": "parthib",
           "label": "go stright when the stoplight turns green"
+        },
+        {
+          "start": 3.7,
+          "end": 19.2,
+          "user": "anusha",
+          "label": "nan"
         },
         {
           "start": 19.8,
@@ -76199,6 +77705,12 @@
           "label": "Go straight until the roundabout"
         },
         {
+          "start": 9.3,
+          "end": 25.7,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
           "start": 12.4,
           "end": 30.8,
           "user": "jeremykemmerer",
@@ -76268,6 +77780,18 @@
       "total_sec": 254.5,
       "bars": [
         {
+          "start": 17.6,
+          "end": 150.3,
+          "user": "anusha",
+          "label": "take a left at the signal. Switch one lane to the right.Switch one more lane to ..."
+        },
+        {
+          "start": 18.5,
+          "end": 233.0,
+          "user": "anusha",
+          "label": "Take a left at the signal. Then switch one lane to the right. Switch one more la..."
+        },
+        {
           "start": 28.5,
           "end": 173.4,
           "user": "ytandon",
@@ -76327,9 +77851,21 @@
           "label": "nan"
         },
         {
+          "start": 22.6,
+          "end": 239.4,
+          "user": "anusha",
+          "label": "Switch into the right lane. Take a right at the signal."
+        },
+        {
           "start": 26.4,
           "end": 136.0,
           "user": "Jeevan",
+          "label": "nan"
+        },
+        {
+          "start": 83.5,
+          "end": 143.2,
+          "user": "nan",
           "label": "nan"
         },
         {
@@ -76360,6 +77896,12 @@
           "end": 232.2,
           "user": "Jeevan",
           "label": "Move to the far right lane. Turn right at the light. Turn left at the sign. "
+        },
+        {
+          "start": 11.3,
+          "end": 127.9,
+          "user": "anusha",
+          "label": "Switch lanes."
         },
         {
           "start": 83.0,
@@ -76397,10 +77939,22 @@
           "label": "turn right at the light. turn right. "
         },
         {
+          "start": 10.9,
+          "end": 52.5,
+          "user": "anusha",
+          "label": "Take a right at the intersection. Take a right at the stop sign."
+        },
+        {
           "start": 23.2,
           "end": 80.8,
           "user": "jeremykemmerer",
           "label": "Turn right at the light, then go straight for awhile"
+        },
+        {
+          "start": 48.5,
+          "end": 83.0,
+          "user": "anusha",
+          "label": "nan"
         },
         {
           "start": 60.8,
@@ -76455,9 +78009,21 @@
       "total_sec": 46.5,
       "bars": [
         {
+          "start": 10.0,
+          "end": 40.6,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
           "start": 13.7,
           "end": 31.3,
           "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 14.9,
+          "end": 34.2,
+          "user": "anusha",
           "label": "nan"
         },
         {
@@ -76518,6 +78084,12 @@
           "end": 216.5,
           "user": "jeremykemmerer",
           "label": "Go to the other side of seaport common, then turn right before marina park"
+        },
+        {
+          "start": 144.4,
+          "end": 202.9,
+          "user": "anusha",
+          "label": "Take a left tat the signal hen another left then a right."
         }
       ]
     },
@@ -76839,6 +78411,12 @@
       "total_sec": 32.9,
       "bars": [
         {
+          "start": 0.0,
+          "end": 30.0,
+          "user": "anusha",
+          "label": "Take a left at the intersection. Take a right at the next one."
+        },
+        {
           "start": 2.1,
           "end": 32.7,
           "user": "giovanni",
@@ -76861,6 +78439,12 @@
           "end": 27.4,
           "user": "parthib",
           "label": "go straight at the roundabout and make a left turn at the first intersection. th..."
+        },
+        {
+          "start": 5.6,
+          "end": 27.9,
+          "user": "anusha",
+          "label": "Take a left and then a slight right to stay on the road."
         },
         {
           "start": 5.7,
@@ -76891,6 +78475,12 @@
           "end": 23.6,
           "user": "noorrauf",
           "label": "turn left"
+        },
+        {
+          "start": 8.7,
+          "end": 26.8,
+          "user": "anusha",
+          "label": "Take a left at the intersection."
         },
         {
           "start": 9.4,
@@ -77437,6 +79027,12 @@
       "total_sec": 253.8,
       "bars": [
         {
+          "start": 20.7,
+          "end": 227.9,
+          "user": "anusha",
+          "label": "Drive through the driveway and take a right at the stop sign. Go into the second..."
+        },
+        {
           "start": 28.4,
           "end": 186.4,
           "user": "parthib",
@@ -77536,6 +79132,12 @@
           "label": "Take the southbound road of the strip to head in the direction of Flamingo Las V..."
         },
         {
+          "start": 68.5,
+          "end": 219.2,
+          "user": "anusha",
+          "label": "Take a left at the signal."
+        },
+        {
           "start": 96.6,
           "end": 249.0,
           "user": "ytandon",
@@ -77571,10 +79173,22 @@
           "label": "nan"
         },
         {
+          "start": 97.6,
+          "end": 196.8,
+          "user": "anusha",
+          "label": "Take a right at the signal. "
+        },
+        {
           "start": 102.6,
           "end": 253.6,
           "user": "jeremykemmerer",
           "label": "Go through this light once the pedestrians are gone, then turn right at the next..."
+        },
+        {
+          "start": 134.3,
+          "end": 210.5,
+          "user": "anusha",
+          "label": "nan"
         }
       ]
     },
@@ -77783,6 +79397,12 @@
           "end": 118.5,
           "user": "parthib",
           "label": "at the second stopsign make a right turn. go forward and proceed straight on the..."
+        },
+        {
+          "start": 12.8,
+          "end": 93.8,
+          "user": "anusha",
+          "label": "Take a right at the stop sign. Slowly pass the stopped car. Take a right at the ..."
         },
         {
           "start": 87.0,
@@ -78034,6 +79654,12 @@
           "label": "Wait for oncoming traffic and turn left. Stop for the red traffic light."
         },
         {
+          "start": 3.7,
+          "end": 46.0,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
           "start": 5.1,
           "end": 45.4,
           "user": "giovanni",
@@ -78093,6 +79719,12 @@
           "label": "at the intersection make a right turn"
         },
         {
+          "start": 17.5,
+          "end": 127.8,
+          "user": "anusha",
+          "label": "Take a right at the intersection. Go straight at the stop sign, then take a righ..."
+        },
+        {
           "start": 51.4,
           "end": 75.3,
           "user": "giovanni",
@@ -78126,6 +79758,18 @@
           "end": 243.0,
           "user": "parthib",
           "label": "make the right turn into paris las vegas and go to the entrance and exit out. be..."
+        },
+        {
+          "start": 10.2,
+          "end": 237.4,
+          "user": "anusha",
+          "label": "Take a right into the hotel driveway. Take a right to exit the driveway and go i..."
+        },
+        {
+          "start": 20.1,
+          "end": 234.4,
+          "user": "anusha",
+          "label": "Take a right into the hotel driveway. Slowly drive through the roundabout and ta..."
         },
         {
           "start": 49.8,
@@ -78285,6 +79929,12 @@
       "total_sec": 251.3,
       "bars": [
         {
+          "start": 2.1,
+          "end": 249.8,
+          "user": "anusha",
+          "label": "Switch one lane to the right after the black car. Switch one more lane to the ri..."
+        },
+        {
           "start": 33.0,
           "end": 229.5,
           "user": "parthib",
@@ -78301,6 +79951,12 @@
           "end": 211.1,
           "user": "giovanni",
           "label": "Merge to the right turning lane. At the intersection make a right turn. Merge to..."
+        },
+        {
+          "start": 108.9,
+          "end": 187.7,
+          "user": "anusha",
+          "label": "Take a right at the signal, then go into the left most lane before the stop sign..."
         },
         {
           "start": 183.4,
@@ -78477,10 +80133,22 @@
           "label": "Stop at the stop sign, turn right at the intersection. At the next stop sign mak..."
         },
         {
+          "start": 6.0,
+          "end": 36.1,
+          "user": "anusha",
+          "label": "Take a right at the itnersection then a left at the signal. "
+        },
+        {
           "start": 10.1,
           "end": 32.4,
           "user": "parthib",
           "label": "make a right at the stopsign. slow down before you come across the crosswalk to ..."
+        },
+        {
+          "start": 18.6,
+          "end": 34.7,
+          "user": "anusha",
+          "label": "nan"
         }
       ]
     },
@@ -78566,6 +80234,12 @@
           "end": 48.6,
           "user": "parthib",
           "label": "make a right turn at the intersection then after you pass the next intersection ..."
+        },
+        {
+          "start": 3.2,
+          "end": 64.6,
+          "user": "anusha",
+          "label": "Take a right at the signal. Switch one lane to the left. Go into the left turn l..."
         }
       ]
     },
@@ -78701,6 +80375,12 @@
       "total_sec": 47.5,
       "bars": [
         {
+          "start": 3.8,
+          "end": 39.2,
+          "user": "nan",
+          "label": "nan"
+        },
+        {
           "start": 5.7,
           "end": 46.2,
           "user": "ytandon",
@@ -78798,6 +80478,12 @@
           "end": 234.9,
           "user": "parthib",
           "label": "prepare to enter into paris las vegas, but complete the right turn once the pede..."
+        },
+        {
+          "start": 21.2,
+          "end": 50.3,
+          "user": "anusha",
+          "label": "nan"
         },
         {
           "start": 28.9,
@@ -79113,10 +80799,22 @@
           "label": "Exit Luxor Las Vegas by taking a right at the stop sign"
         },
         {
+          "start": 6.4,
+          "end": 34.3,
+          "user": "anusha",
+          "label": "Drive through the driveway and wait behind the stopped car. Carefully go around ..."
+        },
+        {
           "start": 7.2,
           "end": 74.0,
           "user": "parthib",
           "label": "head toward the exit, making a right. be on the second to left turning lane"
+        },
+        {
+          "start": 7.9,
+          "end": 75.9,
+          "user": "anusha",
+          "label": "Slowly drive through the driveway and take a right at the stop sign. Go into the..."
         },
         {
           "start": 17.1,
@@ -79240,6 +80938,12 @@
       "total_sec": 32.0,
       "bars": [
         {
+          "start": 0.1,
+          "end": 31.7,
+          "user": "anusha",
+          "label": "Switch one lane to the right."
+        },
+        {
           "start": 0.4,
           "end": 31.7,
           "user": "giovanni",
@@ -79274,6 +80978,12 @@
           "end": 30.7,
           "user": "ytandon",
           "label": "Keep straight"
+        },
+        {
+          "start": 13.6,
+          "end": 32.0,
+          "user": "anusha",
+          "label": "Switch one lane to the right."
         }
       ]
     },
@@ -79310,6 +81020,18 @@
           "label": "nan"
         },
         {
+          "start": 5.4,
+          "end": 21.4,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
+          "start": 6.2,
+          "end": 33.2,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
           "start": 11.2,
           "end": 29.9,
           "user": "Jeevan",
@@ -79327,6 +81049,18 @@
       "total_sec": 30.0,
       "bars": [
         {
+          "start": 0.1,
+          "end": 24.5,
+          "user": "nan",
+          "label": "Go into the rightmost lane before approaching the signal."
+        },
+        {
+          "start": 0.1,
+          "end": 29.7,
+          "user": "anusha",
+          "label": "Switch one lane to the right."
+        },
+        {
           "start": 0.9,
           "end": 18.4,
           "user": "Jeevan",
@@ -79337,6 +81071,12 @@
           "end": 27.4,
           "user": "parthib",
           "label": "prepare to make the right turn at the intersection but let the pedestrians cross..."
+        },
+        {
+          "start": 4.5,
+          "end": 19.5,
+          "user": "anusha",
+          "label": "nan"
         },
         {
           "start": 6.3,
@@ -79477,6 +81217,12 @@
           "end": 43.9,
           "user": "ytandon",
           "label": "nan"
+        },
+        {
+          "start": 23.3,
+          "end": 38.8,
+          "user": "anusha",
+          "label": "nan"
         }
       ]
     },
@@ -79512,6 +81258,12 @@
           "end": 95.9,
           "user": "Jeevan",
           "label": "take a right at the stop sign. move to the left lane. move one lane to the right..."
+        },
+        {
+          "start": 38.7,
+          "end": 71.4,
+          "user": "anusha",
+          "label": "Take a right at the stop sign. Switch into the left lane before the stop sign."
         }
       ]
     },
@@ -79577,10 +81329,22 @@
           "label": "Make a right at the light. Move one lane to the left. Make a left at the sign. S..."
         },
         {
+          "start": 2.6,
+          "end": 66.9,
+          "user": "anusha",
+          "label": "Go into the rightmost lane at the signal. Take a right at the signal. Switch int..."
+        },
+        {
           "start": 3.4,
           "end": 52.6,
           "user": "ytandon",
           "label": "Turn right at the intersection near the Arco"
+        },
+        {
+          "start": 5.2,
+          "end": 69.4,
+          "user": "anusha",
+          "label": "Switch into the right lane and take a right at the signal. Switch into the leftm..."
         },
         {
           "start": 7.9,
@@ -79728,10 +81492,34 @@
       "total_sec": 34.4,
       "bars": [
         {
+          "start": 0.1,
+          "end": 33.5,
+          "user": "anusha",
+          "label": "Take a right then go into the second leftmost lane."
+        },
+        {
+          "start": 1.1,
+          "end": 32.7,
+          "user": "anusha",
+          "label": "Take a right at the stop sign. Go one lane to the left. "
+        },
+        {
+          "start": 1.6,
+          "end": 32.5,
+          "user": "anusha",
+          "label": "Switch into the second right most lane. "
+        },
+        {
           "start": 1.6,
           "end": 22.5,
           "user": "parthib",
           "label": "get behind the black suv at the stoplight"
+        },
+        {
+          "start": 3.6,
+          "end": 27.9,
+          "user": "anusha",
+          "label": "Switch one lane to the left."
         },
         {
           "start": 6.7,
@@ -79751,10 +81539,22 @@
       "total_sec": 254.5,
       "bars": [
         {
+          "start": 5.6,
+          "end": 172.7,
+          "user": "nan",
+          "label": "Take a right at the signal. Go into the leftmost lane before approaching the sto..."
+        },
+        {
           "start": 6.2,
           "end": 27.8,
           "user": "Jeevan",
           "label": "Move one lane to the right after the light. "
+        },
+        {
+          "start": 44.5,
+          "end": 232.0,
+          "user": "anusha",
+          "label": "Take a right at the signal. Go into the leftmost lane. Turn into the hotel drive..."
         },
         {
           "start": 100.4,
@@ -79891,9 +81691,448 @@
         }
       ]
     },
+    "2021.07.16.23.22.27_veh-14_06339_07673": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 6.1,
+          "end": 88.3,
+          "user": "nan",
+          "label": "nan"
+        },
+        {
+          "start": 11.2,
+          "end": 245.4,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
+          "start": 19.7,
+          "end": 176.3,
+          "user": "ytandon",
+          "label": "Keep straight towards The Cromwell Las Vegas, constantly following the white car..."
+        },
+        {
+          "start": 49.4,
+          "end": 201.8,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 53.6,
+          "end": 230.4,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 54.0,
+          "end": 244.5,
+          "user": "anusha",
+          "label": "Go straight."
+        }
+      ]
+    },
+    "2021.07.16.18.06.21_veh-38_04471_04922": {
+      "total_sec": 225.0,
+      "bars": [
+        {
+          "start": 13.9,
+          "end": 221.8,
+          "user": "anusha",
+          "label": "Take a left at the signal and go straight."
+        },
+        {
+          "start": 28.1,
+          "end": 135.1,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 116.2,
+          "end": 176.0,
+          "user": "anusha",
+          "label": "Switch one lane to the right."
+        },
+        {
+          "start": 129.4,
+          "end": 208.2,
+          "user": "giovanni",
+          "label": "Stop for the red light. Merge one lane to the right and stop for the red traffic..."
+        }
+      ]
+    },
+    "2021.07.16.20.45.29_veh-35_00600_01084": {
+      "total_sec": 241.5,
+      "bars": [
+        {
+          "start": 4.0,
+          "end": 240.5,
+          "user": "anusha",
+          "label": "Follow the truck, then switch to the right lane before the first signal. Take a ..."
+        },
+        {
+          "start": 23.3,
+          "end": 210.9,
+          "user": "anusha",
+          "label": "Switch into the right lane. Take a right into the hotel driveway. Go through the..."
+        },
+        {
+          "start": 27.9,
+          "end": 125.7,
+          "user": "anusha",
+          "label": "Switch into the right most lane. Take a right after the signal."
+        },
+        {
+          "start": 33.1,
+          "end": 156.6,
+          "user": "anusha",
+          "label": "Switch into the lane behind the grey car. Go straight then take a right into the..."
+        },
+        {
+          "start": 63.9,
+          "end": 228.7,
+          "user": "anusha",
+          "label": "Take a right into the Paris driveway. Take the second exit in the roundabout aft..."
+        },
+        {
+          "start": 84.6,
+          "end": 220.6,
+          "user": "anusha",
+          "label": "Go straight, then take a right into the hotel driveway. Follow the road, then ta..."
+        },
+        {
+          "start": 120.0,
+          "end": 218.7,
+          "user": "parthib",
+          "label": "make the right turn into paris las vegas, go around the roundabout toward the ex..."
+        }
+      ]
+    },
+    "2021.07.16.18.06.21_veh-38_04311_04460": {
+      "total_sec": 74.0,
+      "bars": [
+        {
+          "start": 2.5,
+          "end": 68.9,
+          "user": "anusha",
+          "label": "Go straight at the stop sign. Then take a left into the hotel entry road. Go str..."
+        },
+        {
+          "start": 9.2,
+          "end": 57.1,
+          "user": "parthib",
+          "label": "make the first left turn after the stopsign, then get back on the main road."
+        },
+        {
+          "start": 25.8,
+          "end": 59.2,
+          "user": "ytandon",
+          "label": "Enter and exit the Luxor Las Vegas drop-off loop"
+        },
+        {
+          "start": 41.2,
+          "end": 62.6,
+          "user": "ytandon",
+          "label": "Exit Luxor Las Vegas"
+        }
+      ]
+    },
+    "2021.07.16.16.08.35_veh-35_04744_06051": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 2.1,
+          "end": 170.9,
+          "user": "parthib",
+          "label": "make the right turn at this intersection. after the stopsign make the left turn ..."
+        },
+        {
+          "start": 27.2,
+          "end": 61.1,
+          "user": "nan",
+          "label": "Take a right at the signal, then switch into the leftmost lane before aproaching..."
+        },
+        {
+          "start": 48.0,
+          "end": 201.7,
+          "user": "anusha",
+          "label": "Take a left into the hotel driveway. Take a right at the end of the driveway and..."
+        },
+        {
+          "start": 108.0,
+          "end": 241.2,
+          "user": "anusha",
+          "label": "Take a left at the signal and switch one lane to the right."
+        },
+        {
+          "start": 159.2,
+          "end": 200.3,
+          "user": "giovanni",
+          "label": "In the intersection make a left turn. Merge one lane to the right. Stop for the ..."
+        }
+      ]
+    },
+    "2021.07.16.21.17.55_veh-26_02927_02992": {
+      "total_sec": 32.0,
+      "bars": [
+        {
+          "start": 0.6,
+          "end": 29.9,
+          "user": "nan",
+          "label": "Switch one lane to the right after the first signal."
+        },
+        {
+          "start": 8.5,
+          "end": 28.6,
+          "user": "ytandon",
+          "label": "Keep straight"
+        }
+      ]
+    },
+    "2021.07.16.22.40.23_veh-38_00016_00182": {
+      "total_sec": 82.4,
+      "bars": [
+        {
+          "start": 2.5,
+          "end": 72.1,
+          "user": "ytandon",
+          "label": "Go to Luxor Las Vegas and wait at the entrance for 20 seconds before exiting and..."
+        },
+        {
+          "start": 9.7,
+          "end": 72.2,
+          "user": "parthib",
+          "label": "go into entrance of luxor las vegas then exit out back on the main road"
+        },
+        {
+          "start": 15.1,
+          "end": 77.5,
+          "user": "nan",
+          "label": "Take a right into the hotel driveway. Wait for the pedestrians to cross, then sw..."
+        },
+        {
+          "start": 15.8,
+          "end": 37.0,
+          "user": "ytandon",
+          "label": "Enter Luxor Las Vegas"
+        },
+        {
+          "start": 20.4,
+          "end": 51.6,
+          "user": "anusha",
+          "label": "Go through the driveway and slowly go around the stopped car."
+        },
+        {
+          "start": 25.3,
+          "end": 65.0,
+          "user": "ytandon",
+          "label": "Stop at the drop-off loop at Luxor Las Vegas, then take a right to exit"
+        },
+        {
+          "start": 39.9,
+          "end": 72.4,
+          "user": "parthib",
+          "label": "exit, at the stopsign make a right turn, once the white car passes you change to..."
+        },
+        {
+          "start": 45.3,
+          "end": 69.9,
+          "user": "anusha",
+          "label": "Take a right onto the main road. Go into the second right most lane. "
+        }
+      ]
+    },
+    "2021.07.16.20.45.29_veh-35_01095_01486": {
+      "total_sec": 194.9,
+      "bars": [
+        {
+          "start": 1.2,
+          "end": 50.8,
+          "user": "parthib",
+          "label": "switch to the right lane behind the grey vehicle. after passing the intersection..."
+        },
+        {
+          "start": 10.8,
+          "end": 193.6,
+          "user": "anusha",
+          "label": "Switch one lane to the right. Switch one more lane to the right after the grey c..."
+        },
+        {
+          "start": 17.8,
+          "end": 165.8,
+          "user": "ytandon",
+          "label": "Go to Luxor Las Vegas"
+        },
+        {
+          "start": 34.6,
+          "end": 178.7,
+          "user": "anusha",
+          "label": "Switch into the right lane, then take a right at the signal. Go straight and the..."
+        },
+        {
+          "start": 40.9,
+          "end": 68.4,
+          "user": "nan",
+          "label": "nan"
+        },
+        {
+          "start": 49.4,
+          "end": 165.5,
+          "user": "anusha",
+          "label": "Switch into the right lane, then take a right at the signal. Go into the left mo..."
+        },
+        {
+          "start": 81.1,
+          "end": 169.5,
+          "user": "ytandon",
+          "label": "Take a right at the intersection, then take the second left to enter Luxor Las V..."
+        },
+        {
+          "start": 103.4,
+          "end": 174.6,
+          "user": "giovanni",
+          "label": "Merge to the left lane and come to a stop for the stop sign. Yield to oncoming v..."
+        },
+        {
+          "start": 104.6,
+          "end": 156.3,
+          "user": "anusha",
+          "label": "Switch into the right lane before the stop sign. "
+        },
+        {
+          "start": 123.1,
+          "end": 141.8,
+          "user": "anusha",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.16.16.27.22_veh-26_02282_03814": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 7.8,
+          "end": 198.1,
+          "user": "nan",
+          "label": "Take a left at the signal. Go straight then switch one lane to the right after t..."
+        },
+        {
+          "start": 23.1,
+          "end": 88.5,
+          "user": "parthib",
+          "label": "make the left turn when the light turns green, then switch to the right lane."
+        },
+        {
+          "start": 147.0,
+          "end": 205.6,
+          "user": "ytandon",
+          "label": "Enter Paris Las Vegas drop-off loop"
+        },
+        {
+          "start": 173.7,
+          "end": 212.7,
+          "user": "parthib",
+          "label": "make the right turn and go around the roundabout"
+        }
+      ]
+    },
+    "2021.07.16.22.40.23_veh-38_00818_03032": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 2.2,
+          "end": 244.0,
+          "user": "parthib",
+          "label": "head toward the exit. make a left turn at the stoplight and go straight"
+        },
+        {
+          "start": 4.7,
+          "end": 79.9,
+          "user": "nan",
+          "label": "Go straight through the driveway, then take a right to exit. Go into the leftmos..."
+        },
+        {
+          "start": 11.4,
+          "end": 211.8,
+          "user": "anusha",
+          "label": "Slowly merge into the left lane. Take a right and go into the leftmost lane befo..."
+        },
+        {
+          "start": 19.8,
+          "end": 129.0,
+          "user": "Jeevan",
+          "label": "move to the left lane. move one lane to the right. "
+        },
+        {
+          "start": 102.2,
+          "end": 246.1,
+          "user": "ytandon",
+          "label": "Keep straight"
+        },
+        {
+          "start": 155.0,
+          "end": 186.4,
+          "user": "ytandon",
+          "label": "nan"
+        },
+        {
+          "start": 175.8,
+          "end": 229.6,
+          "user": "anusha",
+          "label": "Switch one lane to the right."
+        }
+      ]
+    },
+    "2021.07.16.20.45.29_veh-35_00016_00589": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 13.2,
+          "end": 198.6,
+          "user": "parthib",
+          "label": "make the left turn toward luxor las vegas. you will make the left turn after the..."
+        },
+        {
+          "start": 18.7,
+          "end": 185.8,
+          "user": "nan",
+          "label": "Go into the leftmost lane before approaching the signal. Take a left, then go in..."
+        },
+        {
+          "start": 83.4,
+          "end": 239.3,
+          "user": "ytandon",
+          "label": "Enter Luxor Las Vegas, and then immediately exit to head into the Las Vegas Stri..."
+        },
+        {
+          "start": 103.5,
+          "end": 149.1,
+          "user": "parthib",
+          "label": "when the first left turn"
+        },
+        {
+          "start": 223.1,
+          "end": 245.5,
+          "user": "ytandon",
+          "label": "nan"
+        }
+      ]
+    },
     "2021.07.16.16.27.22_veh-26_05058_05383": {
       "total_sec": 162.0,
       "bars": [
+        {
+          "start": 11.5,
+          "end": 147.0,
+          "user": "anusha",
+          "label": "Exit the driveway and go into the left most lane before the signal. Take a left,..."
+        },
+        {
+          "start": 16.0,
+          "end": 149.9,
+          "user": "anusha",
+          "label": "Carefully drive through the roundabout and go into the left most lane before the..."
+        },
         {
           "start": 23.2,
           "end": 91.0,
@@ -79905,6 +82144,12 @@
           "end": 146.4,
           "user": "parthib",
           "label": "head toward big apple coaster"
+        },
+        {
+          "start": 44.8,
+          "end": 130.3,
+          "user": "anusha",
+          "label": "Take a left at the signal then switch one lane to the right. Switch one more lan..."
         },
         {
           "start": 66.7,
@@ -79923,6 +82168,608 @@
           "end": 150.8,
           "user": "parthib",
           "label": "nan"
+        }
+      ]
+    },
+    "2021.07.16.21.17.55_veh-26_03860_03930": {
+      "total_sec": 34.4,
+      "bars": [
+        {
+          "start": 1.3,
+          "end": 32.5,
+          "user": "parthib",
+          "label": "make a left turn at the stoplight and switch to the right lane"
+        },
+        {
+          "start": 4.3,
+          "end": 21.0,
+          "user": "anusha",
+          "label": "Switch one lane to the right."
+        },
+        {
+          "start": 7.8,
+          "end": 31.7,
+          "user": "Jeevan",
+          "label": "move one lane to the right."
+        },
+        {
+          "start": 9.8,
+          "end": 27.9,
+          "user": "giovanni",
+          "label": "Stop behind the grey vehicle during the red light."
+        },
+        {
+          "start": 11.1,
+          "end": 30.8,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
+          "start": 16.7,
+          "end": 33.8,
+          "user": "ytandon",
+          "label": "nan"
+        },
+        {
+          "start": 19.0,
+          "end": 34.1,
+          "user": "anusha",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.16.16.08.35_veh-35_02551_02640": {
+      "total_sec": 44.0,
+      "bars": [
+        {
+          "start": 0.0,
+          "end": 43.4,
+          "user": "anusha",
+          "label": "Take a left, then switch one lane to the right. Switch one more lane to the righ..."
+        },
+        {
+          "start": 0.8,
+          "end": 40.4,
+          "user": "anusha",
+          "label": "Take a left at the signal.Switch one lane to the right."
+        },
+        {
+          "start": 2.7,
+          "end": 18.9,
+          "user": "Jeevan",
+          "label": "move over one lane to the right. "
+        },
+        {
+          "start": 10.0,
+          "end": 32.0,
+          "user": "anusha",
+          "label": "Switch one lane to the right."
+        }
+      ]
+    },
+    "2021.07.16.22.40.23_veh-38_00204_00360": {
+      "total_sec": 77.5,
+      "bars": [
+        {
+          "start": 0.1,
+          "end": 65.5,
+          "user": "ytandon",
+          "label": "Keep straight"
+        },
+        {
+          "start": 4.6,
+          "end": 68.2,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 12.4,
+          "end": 29.4,
+          "user": "giovanni",
+          "label": "nan"
+        },
+        {
+          "start": 17.7,
+          "end": 75.0,
+          "user": "giovanni",
+          "label": "Stop for the red traffic light. Stop for the traffic light once again."
+        },
+        {
+          "start": 18.7,
+          "end": 70.3,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
+          "start": 27.7,
+          "end": 64.7,
+          "user": "anusha",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.07.16.18.06.21_veh-38_00016_00747": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 1.4,
+          "end": 205.1,
+          "user": "ytandon",
+          "label": "Enter and immediately exit Luxor Las Vegas, and then take the northbound Las Veg..."
+        },
+        {
+          "start": 15.4,
+          "end": 178.0,
+          "user": "ytandon",
+          "label": "Wait at the Luxor Las Vegas entrance for 10 seconds, then head past the Coca Col..."
+        },
+        {
+          "start": 28.2,
+          "end": 191.6,
+          "user": "anusha",
+          "label": "Take a right onto the main road. Go into the second most left lane before the si..."
+        },
+        {
+          "start": 58.0,
+          "end": 141.9,
+          "user": "parthib",
+          "label": "make the left turn, then changes lanes to the right."
+        }
+      ]
+    },
+    "2021.07.16.16.27.22_veh-26_05416_05596": {
+      "total_sec": 89.3,
+      "bars": [
+        {
+          "start": 1.9,
+          "end": 88.2,
+          "user": "ytandon",
+          "label": "Go to the Luxor Las Vegas drop-off loop"
+        },
+        {
+          "start": 4.8,
+          "end": 70.2,
+          "user": "anusha",
+          "label": "Take a right at the signal. Switch into the left most lane. "
+        },
+        {
+          "start": 11.0,
+          "end": 52.8,
+          "user": "anusha",
+          "label": "Go into the rightmost lane. Take a right at the signal. Switch into the leftmost..."
+        },
+        {
+          "start": 17.1,
+          "end": 54.2,
+          "user": "parthib",
+          "label": "complete the right turn and switch to the left lane after the white suv passes y..."
+        }
+      ]
+    },
+    "2021.07.16.18.06.21_veh-38_02197_03220": {
+      "total_sec": 254.5,
+      "bars": [
+        {
+          "start": 9.9,
+          "end": 214.8,
+          "user": "ytandon",
+          "label": "Go to Paris Las Vegas."
+        },
+        {
+          "start": 20.8,
+          "end": 242.3,
+          "user": "ytandon",
+          "label": "Go to Paris Las Vegas, and immediately prepare to exit it from the left lane"
+        },
+        {
+          "start": 30.4,
+          "end": 224.6,
+          "user": "parthib",
+          "label": "make a left turn and then switch into the right lane. switch into the right lane..."
+        },
+        {
+          "start": 36.1,
+          "end": 138.6,
+          "user": "anusha",
+          "label": "Switch one lane to the right. Switch one more lane to the right."
+        },
+        {
+          "start": 44.6,
+          "end": 225.0,
+          "user": "ytandon",
+          "label": "Go to Paris Las Vegas, and prepare to exit immediately using the left lane"
+        }
+      ]
+    },
+    "2021.07.16.16.27.22_veh-26_03836_05047": {
+      "total_sec": 254.2,
+      "bars": [
+        {
+          "start": 37.9,
+          "end": 99.9,
+          "user": "anusha",
+          "label": "Slowly drive around the stopped cars. Exit the driveway by taking the first exit..."
+        },
+        {
+          "start": 44.5,
+          "end": 245.9,
+          "user": "anusha",
+          "label": "Carefully drive through the roundabout. Take the first exit and go into the left..."
+        },
+        {
+          "start": 47.3,
+          "end": 242.3,
+          "user": "parthib",
+          "label": "head toward the exit.  make the far-left turn at the stoplight. aftermaking the ..."
+        },
+        {
+          "start": 97.7,
+          "end": 232.9,
+          "user": "ytandon",
+          "label": "Take a left, and keep straight, going past Leo the Lion"
+        }
+      ]
+    },
+    "2021.07.16.21.17.55_veh-26_03254_03336": {
+      "total_sec": 40.5,
+      "bars": [
+        {
+          "start": 0.8,
+          "end": 29.4,
+          "user": "anusha",
+          "label": "Carefully drive throught the driveway past the stopped cars."
+        },
+        {
+          "start": 9.6,
+          "end": 35.3,
+          "user": "parthib",
+          "label": "head toward the exit to make a left turn"
+        },
+        {
+          "start": 10.9,
+          "end": 35.9,
+          "user": "ytandon",
+          "label": "Prepare to exit Paris Las Vegas using the left lane"
+        }
+      ]
+    },
+    "2021.09.15.13.16.40_veh-28_01343_01432": {
+      "total_sec": 44.0,
+      "bars": [
+        {
+          "start": 2.1,
+          "end": 35.5,
+          "user": "giovanni",
+          "label": "Look for oncoming vehicles and then turn left at the intersection. Turn right at..."
+        },
+        {
+          "start": 5.0,
+          "end": 42.5,
+          "user": "Isaiah Ramirez",
+          "label": "change to the left lane. "
+        },
+        {
+          "start": 5.8,
+          "end": 41.8,
+          "user": "parthib",
+          "label": "you will just follow the road without making any turns"
+        },
+        {
+          "start": 11.6,
+          "end": 38.5,
+          "user": "giovanni",
+          "label": "At the intersection turn right, Merge to the left lane."
+        },
+        {
+          "start": 12.0,
+          "end": 37.2,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
+          "start": 15.5,
+          "end": 33.9,
+          "user": "anusha",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.10.01.17.52.06_veh-28_01289_01353": {
+      "total_sec": 31.5,
+      "bars": [
+        {
+          "start": 0.5,
+          "end": 25.2,
+          "user": "ytandon",
+          "label": "Exit out of the dead-end and keep straight until the stop sign"
+        },
+        {
+          "start": 0.7,
+          "end": 23.3,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 1.9,
+          "end": 19.8,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
+          "start": 2.0,
+          "end": 18.6,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.10.01.17.52.06_veh-28_00748_00952": {
+      "total_sec": 101.4,
+      "bars": [
+        {
+          "start": 3.4,
+          "end": 39.6,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        },
+        {
+          "start": 4.5,
+          "end": 82.8,
+          "user": "Isaiah Ramirez",
+          "label": "turn left at the light. "
+        },
+        {
+          "start": 7.0,
+          "end": 30.8,
+          "user": "Isaiah Ramirez",
+          "label": "nan"
+        },
+        {
+          "start": 8.1,
+          "end": 98.9,
+          "user": "anusha",
+          "label": "Take a left at the signal. Take a right at the next signal."
+        },
+        {
+          "start": 10.2,
+          "end": 65.7,
+          "user": "parthib",
+          "label": "make a left turn at the stoplight"
+        },
+        {
+          "start": 37.0,
+          "end": 52.5,
+          "user": "giovanni",
+          "label": "Stop at the red traffic light."
+        },
+        {
+          "start": 38.6,
+          "end": 65.9,
+          "user": "Isaiah Ramirez",
+          "label": "turn left"
+        },
+        {
+          "start": 46.0,
+          "end": 97.2,
+          "user": "giovanni",
+          "label": "At the intersection make a left turn. Make a stop for the red traffic light. Tur..."
+        },
+        {
+          "start": 46.1,
+          "end": 73.7,
+          "user": "parthib",
+          "label": "make a left turn when the light turns green"
+        },
+        {
+          "start": 62.8,
+          "end": 77.9,
+          "user": "giovanni",
+          "label": "Turn left at the intersection."
+        }
+      ]
+    },
+    "2021.10.01.15.32.11_veh-28_01178_01392": {
+      "total_sec": 106.4,
+      "bars": [
+        {
+          "start": 3.5,
+          "end": 60.4,
+          "user": "giovanni",
+          "label": "Stop for the red traffic light. Enter the roundabout and take the third exit. Le..."
+        },
+        {
+          "start": 6.6,
+          "end": 78.2,
+          "user": "anusha",
+          "label": "Take the second exit at the roundabout.Take a right at the intersection, then ta..."
+        },
+        {
+          "start": 8.5,
+          "end": 42.4,
+          "user": "giovanni",
+          "label": "Make a stop for the upcoming red traffic light. Continue straight."
+        },
+        {
+          "start": 9.6,
+          "end": 95.4,
+          "user": "jeremykemmerer",
+          "label": "Speed up to pass some of these cars, and go to pier 10 park"
+        },
+        {
+          "start": 13.7,
+          "end": 81.9,
+          "user": "Isaiah Ramirez",
+          "label": "take first exit on the roundabout. stop for pedestiran. turn right, then turn le..."
+        },
+        {
+          "start": 16.1,
+          "end": 78.1,
+          "user": "parthib",
+          "label": "when you approach the intersection that has dry dock plaza park make a right tur..."
+        },
+        {
+          "start": 24.8,
+          "end": 60.6,
+          "user": "jeremykemmerer",
+          "label": "Take the second exit of the roundabout to keep going straight"
+        },
+        {
+          "start": 32.4,
+          "end": 104.0,
+          "user": "Isaiah Ramirez",
+          "label": "take first exit of the traffic circle. stop to let pedestiran cross. turn right,..."
+        },
+        {
+          "start": 75.3,
+          "end": 105.7,
+          "user": "giovanni",
+          "label": "Enter the docking bay. Merge to the left to avoid the trailer."
+        }
+      ]
+    },
+    "2021.10.01.14.20.36_veh-28_00475_00646": {
+      "total_sec": 84.9,
+      "bars": [
+        {
+          "start": 0.5,
+          "end": 84.5,
+          "user": "Isaiah Ramirez",
+          "label": "turn right. slow to allow pedestrians to cross. "
+        },
+        {
+          "start": 12.0,
+          "end": 31.7,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
+          "start": 23.3,
+          "end": 62.3,
+          "user": "parthib",
+          "label": "when the light turns green make the left turn once the two oncoming cars pass"
+        },
+        {
+          "start": 43.4,
+          "end": 69.9,
+          "user": "jeremykemmerer",
+          "label": "Turn left at the light"
+        }
+      ]
+    },
+    "2021.07.16.21.17.55_veh-26_05156_05225": {
+      "total_sec": 34.0,
+      "bars": [
+        {
+          "start": 0.1,
+          "end": 19.3,
+          "user": "ytandon",
+          "label": "Keep straight"
+        },
+        {
+          "start": 0.2,
+          "end": 21.9,
+          "user": "ytandon",
+          "label": "Keep straight"
+        },
+        {
+          "start": 0.2,
+          "end": 21.5,
+          "user": "giovanni",
+          "label": "Follow the red trike."
+        },
+        {
+          "start": 0.3,
+          "end": 34.0,
+          "user": "parthib",
+          "label": "nan"
+        },
+        {
+          "start": 3.1,
+          "end": 21.5,
+          "user": "anusha",
+          "label": "nan"
+        },
+        {
+          "start": 10.7,
+          "end": 33.3,
+          "user": "ytandon",
+          "label": "Keep straight"
+        }
+      ]
+    },
+    "2021.09.15.13.12.49_veh-39_01329_01520": {
+      "total_sec": 94.9,
+      "bars": [
+        {
+          "start": 0.2,
+          "end": 78.5,
+          "user": "anusha",
+          "label": "Carefully pass the parked white trucks. Take the third exit in the roundabout."
+        },
+        {
+          "start": 12.0,
+          "end": 77.9,
+          "user": "giovanni",
+          "label": "Make a stop for the upcoming red traffic light. Continue straight. Slow down and..."
+        },
+        {
+          "start": 13.9,
+          "end": 57.1,
+          "user": "parthib",
+          "label": "keep going straight but when you see the white parked vehicle ahead of you chang..."
+        },
+        {
+          "start": 24.0,
+          "end": 88.1,
+          "user": "Isaiah Ramirez",
+          "label": "change to the left lane. take the second exit on  the roundabout. "
+        },
+        {
+          "start": 73.0,
+          "end": 89.2,
+          "user": "jeremykemmerer",
+          "label": "nan"
+        }
+      ]
+    },
+    "2021.08.17.18.54.02_veh-45_02202_02416": {
+      "total_sec": 106.5,
+      "bars": [
+        {
+          "start": 1.6,
+          "end": 101.7,
+          "user": "parthib",
+          "label": "make the next left turn then the second irght turn. when you see a barrier in th..."
+        },
+        {
+          "start": 12.2,
+          "end": 89.6,
+          "user": "anusha",
+          "label": "Take a right into the alley. Reverse into the entrance once the gate opens."
+        },
+        {
+          "start": 27.7,
+          "end": 83.2,
+          "user": "Jeevan",
+          "label": "turn left on this upcoming intersection. keep on straight and give some room for..."
+        },
+        {
+          "start": 42.1,
+          "end": 69.8,
+          "user": "giovanni",
+          "label": "Take a right turn. Stop and back up into the buliding."
+        },
+        {
+          "start": 42.9,
+          "end": 100.9,
+          "user": "giovanni",
+          "label": "Look on the right side and turn right.  Back up into the gate. Go back and forth..."
+        },
+        {
+          "start": 50.4,
+          "end": 67.6,
+          "user": "giovanni",
+          "label": "Stop and enter the opening gate."
         }
       ]
     },
@@ -80055,23 +82902,6 @@
           "end": 40.7,
           "user": "giovanni",
           "label": "Stop for the red traffic light."
-        }
-      ]
-    },
-    "2021.07.16.18.06.21_veh-38_04471_04922": {
-      "total_sec": 225.0,
-      "bars": [
-        {
-          "start": 28.1,
-          "end": 135.1,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 129.4,
-          "end": 208.2,
-          "user": "giovanni",
-          "label": "Stop for the red light. Merge one lane to the right and stop for the red traffic..."
         }
       ]
     },
@@ -80242,35 +83072,6 @@
         }
       ]
     },
-    "2021.07.16.22.40.23_veh-38_00204_00360": {
-      "total_sec": 77.5,
-      "bars": [
-        {
-          "start": 0.1,
-          "end": 65.5,
-          "user": "ytandon",
-          "label": "Keep straight"
-        },
-        {
-          "start": 4.6,
-          "end": 68.2,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 12.4,
-          "end": 29.4,
-          "user": "giovanni",
-          "label": "nan"
-        },
-        {
-          "start": 17.7,
-          "end": 75.0,
-          "user": "giovanni",
-          "label": "Stop for the red traffic light. Stop for the traffic light once again."
-        }
-      ]
-    },
     "2021.06.14.16.32.09_veh-35_02537_02597": {
       "total_sec": 29.5,
       "bars": [
@@ -80407,29 +83208,6 @@
           "end": 59.8,
           "user": "jeremykemmerer",
           "label": "Turn left and drive down the pier"
-        }
-      ]
-    },
-    "2021.07.16.23.22.27_veh-14_06339_07673": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 19.7,
-          "end": 176.3,
-          "user": "ytandon",
-          "label": "Keep straight towards The Cromwell Las Vegas, constantly following the white car..."
-        },
-        {
-          "start": 49.4,
-          "end": 201.8,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 53.6,
-          "end": 230.4,
-          "user": "parthib",
-          "label": "nan"
         }
       ]
     },
@@ -80948,41 +83726,6 @@
         }
       ]
     },
-    "2021.07.16.21.17.55_veh-26_05156_05225": {
-      "total_sec": 34.0,
-      "bars": [
-        {
-          "start": 0.1,
-          "end": 19.3,
-          "user": "ytandon",
-          "label": "Keep straight"
-        },
-        {
-          "start": 0.2,
-          "end": 21.9,
-          "user": "ytandon",
-          "label": "Keep straight"
-        },
-        {
-          "start": 0.2,
-          "end": 21.5,
-          "user": "giovanni",
-          "label": "Follow the red trike."
-        },
-        {
-          "start": 0.3,
-          "end": 34.0,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 10.7,
-          "end": 33.3,
-          "user": "ytandon",
-          "label": "Keep straight"
-        }
-      ]
-    },
     "2021.06.09.11.54.15_veh-12_04138_04355": {
       "total_sec": 107.9,
       "bars": [
@@ -81003,29 +83746,6 @@
           "end": 64.3,
           "user": "giovanni",
           "label": "Merge to the left lane to leave the drop off zone. Stop for the upcoming red tra..."
-        }
-      ]
-    },
-    "2021.07.16.18.06.21_veh-38_04311_04460": {
-      "total_sec": 74.0,
-      "bars": [
-        {
-          "start": 9.2,
-          "end": 57.1,
-          "user": "parthib",
-          "label": "make the first left turn after the stopsign, then get back on the main road."
-        },
-        {
-          "start": 25.8,
-          "end": 59.2,
-          "user": "ytandon",
-          "label": "Enter and exit the Luxor Las Vegas drop-off loop"
-        },
-        {
-          "start": 41.2,
-          "end": 62.6,
-          "user": "ytandon",
-          "label": "Exit Luxor Las Vegas"
         }
       ]
     },
@@ -81191,23 +83911,6 @@
         }
       ]
     },
-    "2021.07.16.21.17.55_veh-26_03254_03336": {
-      "total_sec": 40.5,
-      "bars": [
-        {
-          "start": 9.6,
-          "end": 35.3,
-          "user": "parthib",
-          "label": "head toward the exit to make a left turn"
-        },
-        {
-          "start": 10.9,
-          "end": 35.9,
-          "user": "ytandon",
-          "label": "Prepare to exit Paris Las Vegas using the left lane"
-        }
-      ]
-    },
     "2021.06.14.18.13.35_veh-26_00863_00924": {
       "total_sec": 30.0,
       "bars": [
@@ -81267,23 +83970,6 @@
           "end": 97.1,
           "user": "parthib",
           "label": "when the light turns green make a left turn"
-        }
-      ]
-    },
-    "2021.07.16.16.08.35_veh-35_04744_06051": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 2.1,
-          "end": 170.9,
-          "user": "parthib",
-          "label": "make the right turn at this intersection. after the stopsign make the left turn ..."
-        },
-        {
-          "start": 159.2,
-          "end": 200.3,
-          "user": "giovanni",
-          "label": "In the intersection make a left turn. Merge one lane to the right. Stop for the ..."
         }
       ]
     },
@@ -81348,82 +84034,6 @@
           "end": 92.2,
           "user": "parthib",
           "label": "nan"
-        }
-      ]
-    },
-    "2021.10.01.15.32.11_veh-28_01178_01392": {
-      "total_sec": 106.4,
-      "bars": [
-        {
-          "start": 3.5,
-          "end": 60.4,
-          "user": "giovanni",
-          "label": "Stop for the red traffic light. Enter the roundabout and take the third exit. Le..."
-        },
-        {
-          "start": 8.5,
-          "end": 42.4,
-          "user": "giovanni",
-          "label": "Make a stop for the upcoming red traffic light. Continue straight."
-        },
-        {
-          "start": 9.6,
-          "end": 95.4,
-          "user": "jeremykemmerer",
-          "label": "Speed up to pass some of these cars, and go to pier 10 park"
-        },
-        {
-          "start": 13.7,
-          "end": 81.9,
-          "user": "Isaiah Ramirez",
-          "label": "take first exit on the roundabout. stop for pedestiran. turn right, then turn le..."
-        },
-        {
-          "start": 16.1,
-          "end": 78.1,
-          "user": "parthib",
-          "label": "when you approach the intersection that has dry dock plaza park make a right tur..."
-        },
-        {
-          "start": 24.8,
-          "end": 60.6,
-          "user": "jeremykemmerer",
-          "label": "Take the second exit of the roundabout to keep going straight"
-        },
-        {
-          "start": 32.4,
-          "end": 104.0,
-          "user": "Isaiah Ramirez",
-          "label": "take first exit of the traffic circle. stop to let pedestiran cross. turn right,..."
-        },
-        {
-          "start": 75.3,
-          "end": 105.7,
-          "user": "giovanni",
-          "label": "Enter the docking bay. Merge to the left to avoid the trailer."
-        }
-      ]
-    },
-    "2021.10.01.14.20.36_veh-28_00475_00646": {
-      "total_sec": 84.9,
-      "bars": [
-        {
-          "start": 0.5,
-          "end": 84.5,
-          "user": "Isaiah Ramirez",
-          "label": "turn right. slow to allow pedestrians to cross. "
-        },
-        {
-          "start": 23.3,
-          "end": 62.3,
-          "user": "parthib",
-          "label": "when the light turns green make the left turn once the two oncoming cars pass"
-        },
-        {
-          "start": 43.4,
-          "end": 69.9,
-          "user": "jeremykemmerer",
-          "label": "Turn left at the light"
         }
       ]
     },
@@ -81509,123 +84119,6 @@
         }
       ]
     },
-    "2021.10.01.17.52.06_veh-28_00748_00952": {
-      "total_sec": 101.4,
-      "bars": [
-        {
-          "start": 3.4,
-          "end": 39.6,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        },
-        {
-          "start": 4.5,
-          "end": 82.8,
-          "user": "Isaiah Ramirez",
-          "label": "turn left at the light. "
-        },
-        {
-          "start": 7.0,
-          "end": 30.8,
-          "user": "Isaiah Ramirez",
-          "label": "nan"
-        },
-        {
-          "start": 10.2,
-          "end": 65.7,
-          "user": "parthib",
-          "label": "make a left turn at the stoplight"
-        },
-        {
-          "start": 37.0,
-          "end": 52.5,
-          "user": "giovanni",
-          "label": "Stop at the red traffic light."
-        },
-        {
-          "start": 38.6,
-          "end": 65.9,
-          "user": "Isaiah Ramirez",
-          "label": "turn left"
-        },
-        {
-          "start": 46.0,
-          "end": 97.2,
-          "user": "giovanni",
-          "label": "At the intersection make a left turn. Make a stop for the red traffic light. Tur..."
-        },
-        {
-          "start": 46.1,
-          "end": 73.7,
-          "user": "parthib",
-          "label": "make a left turn when the light turns green"
-        },
-        {
-          "start": 62.8,
-          "end": 77.9,
-          "user": "giovanni",
-          "label": "Turn left at the intersection."
-        }
-      ]
-    },
-    "2021.09.15.13.12.49_veh-39_01329_01520": {
-      "total_sec": 94.9,
-      "bars": [
-        {
-          "start": 12.0,
-          "end": 77.9,
-          "user": "giovanni",
-          "label": "Make a stop for the upcoming red traffic light. Continue straight. Slow down and..."
-        },
-        {
-          "start": 13.9,
-          "end": 57.1,
-          "user": "parthib",
-          "label": "keep going straight but when you see the white parked vehicle ahead of you chang..."
-        },
-        {
-          "start": 24.0,
-          "end": 88.1,
-          "user": "Isaiah Ramirez",
-          "label": "change to the left lane. take the second exit on  the roundabout. "
-        },
-        {
-          "start": 73.0,
-          "end": 89.2,
-          "user": "jeremykemmerer",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.09.15.13.16.40_veh-28_01343_01432": {
-      "total_sec": 44.0,
-      "bars": [
-        {
-          "start": 2.1,
-          "end": 35.5,
-          "user": "giovanni",
-          "label": "Look for oncoming vehicles and then turn left at the intersection. Turn right at..."
-        },
-        {
-          "start": 5.0,
-          "end": 42.5,
-          "user": "Isaiah Ramirez",
-          "label": "change to the left lane. "
-        },
-        {
-          "start": 5.8,
-          "end": 41.8,
-          "user": "parthib",
-          "label": "you will just follow the road without making any turns"
-        },
-        {
-          "start": 11.6,
-          "end": 38.5,
-          "user": "giovanni",
-          "label": "At the intersection turn right, Merge to the left lane."
-        }
-      ]
-    },
     "2021.06.09.17.37.09_veh-12_04489_04816": {
       "total_sec": 163.0,
       "bars": [
@@ -81652,41 +84145,6 @@
           "end": 70.5,
           "user": "Jeevan",
           "label": "After this light, switch to the right lane, and keep straight"
-        }
-      ]
-    },
-    "2021.08.17.18.54.02_veh-45_02202_02416": {
-      "total_sec": 106.5,
-      "bars": [
-        {
-          "start": 1.6,
-          "end": 101.7,
-          "user": "parthib",
-          "label": "make the next left turn then the second irght turn. when you see a barrier in th..."
-        },
-        {
-          "start": 27.7,
-          "end": 83.2,
-          "user": "Jeevan",
-          "label": "turn left on this upcoming intersection. keep on straight and give some room for..."
-        },
-        {
-          "start": 42.1,
-          "end": 69.8,
-          "user": "giovanni",
-          "label": "Take a right turn. Stop and back up into the buliding."
-        },
-        {
-          "start": 42.9,
-          "end": 100.9,
-          "user": "giovanni",
-          "label": "Look on the right side and turn right.  Back up into the gate. Go back and forth..."
-        },
-        {
-          "start": 50.4,
-          "end": 67.6,
-          "user": "giovanni",
-          "label": "Stop and enter the opening gate."
         }
       ]
     },
@@ -81727,17 +84185,6 @@
           "end": 42.3,
           "user": "Jeevan",
           "label": "move one lane to the right."
-        }
-      ]
-    },
-    "2021.07.16.16.08.35_veh-35_02551_02640": {
-      "total_sec": 44.0,
-      "bars": [
-        {
-          "start": 2.7,
-          "end": 18.9,
-          "user": "Jeevan",
-          "label": "move over one lane to the right. "
         }
       ]
     },
@@ -81792,35 +84239,6 @@
         }
       ]
     },
-    "2021.07.16.22.40.23_veh-38_00818_03032": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 2.2,
-          "end": 244.0,
-          "user": "parthib",
-          "label": "head toward the exit. make a left turn at the stoplight and go straight"
-        },
-        {
-          "start": 19.8,
-          "end": 129.0,
-          "user": "Jeevan",
-          "label": "move to the left lane. move one lane to the right. "
-        },
-        {
-          "start": 102.2,
-          "end": 246.1,
-          "user": "ytandon",
-          "label": "Keep straight"
-        },
-        {
-          "start": 155.0,
-          "end": 186.4,
-          "user": "ytandon",
-          "label": "nan"
-        }
-      ]
-    },
     "2021.06.14.18.13.35_veh-26_01537_01717": {
       "total_sec": 89.6,
       "bars": [
@@ -81853,35 +84271,6 @@
           "end": 63.2,
           "user": "Jeevan",
           "label": "follow the white car in front of you. yield for pedestrians before making the ri..."
-        }
-      ]
-    },
-    "2021.07.16.21.17.55_veh-26_03860_03930": {
-      "total_sec": 34.4,
-      "bars": [
-        {
-          "start": 1.3,
-          "end": 32.5,
-          "user": "parthib",
-          "label": "make a left turn at the stoplight and switch to the right lane"
-        },
-        {
-          "start": 7.8,
-          "end": 31.7,
-          "user": "Jeevan",
-          "label": "move one lane to the right."
-        },
-        {
-          "start": 9.8,
-          "end": 27.9,
-          "user": "giovanni",
-          "label": "Stop behind the grey vehicle during the red light."
-        },
-        {
-          "start": 16.7,
-          "end": 33.8,
-          "user": "ytandon",
-          "label": "nan"
         }
       ]
     },
@@ -81967,29 +84356,6 @@
           "start": 172.9,
           "end": 235.1,
           "user": "Jeevan",
-          "label": "nan"
-        }
-      ]
-    },
-    "2021.10.01.17.52.06_veh-28_01289_01353": {
-      "total_sec": 31.5,
-      "bars": [
-        {
-          "start": 0.5,
-          "end": 25.2,
-          "user": "ytandon",
-          "label": "Exit out of the dead-end and keep straight until the stop sign"
-        },
-        {
-          "start": 0.7,
-          "end": 23.3,
-          "user": "parthib",
-          "label": "nan"
-        },
-        {
-          "start": 2.0,
-          "end": 18.6,
-          "user": "jeremykemmerer",
           "label": "nan"
         }
       ]
@@ -82424,23 +84790,6 @@
         }
       ]
     },
-    "2021.07.16.16.27.22_veh-26_03836_05047": {
-      "total_sec": 254.2,
-      "bars": [
-        {
-          "start": 47.3,
-          "end": 242.3,
-          "user": "parthib",
-          "label": "head toward the exit.  make the far-left turn at the stoplight. aftermaking the ..."
-        },
-        {
-          "start": 97.7,
-          "end": 232.9,
-          "user": "ytandon",
-          "label": "Take a left, and keep straight, going past Leo the Lion"
-        }
-      ]
-    },
     "2021.06.09.14.50.36_veh-26_00598_00665": {
       "total_sec": 33.0,
       "bars": [
@@ -82449,35 +84798,6 @@
           "end": 29.8,
           "user": "parthib",
           "label": "switch to the left lane go straight after the stopsign"
-        }
-      ]
-    },
-    "2021.07.16.20.45.29_veh-35_00016_00589": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 13.2,
-          "end": 198.6,
-          "user": "parthib",
-          "label": "make the left turn toward luxor las vegas. you will make the left turn after the..."
-        },
-        {
-          "start": 83.4,
-          "end": 239.3,
-          "user": "ytandon",
-          "label": "Enter Luxor Las Vegas, and then immediately exit to head into the Las Vegas Stri..."
-        },
-        {
-          "start": 103.5,
-          "end": 149.1,
-          "user": "parthib",
-          "label": "when the first left turn"
-        },
-        {
-          "start": 223.1,
-          "end": 245.5,
-          "user": "ytandon",
-          "label": "nan"
         }
       ]
     },
@@ -82610,46 +84930,6 @@
           "end": 113.5,
           "user": "parthib",
           "label": "follow the same path as the white vehicle in front of you"
-        }
-      ]
-    },
-    "2021.07.16.16.27.22_veh-26_05416_05596": {
-      "total_sec": 89.3,
-      "bars": [
-        {
-          "start": 1.9,
-          "end": 88.2,
-          "user": "ytandon",
-          "label": "Go to the Luxor Las Vegas drop-off loop"
-        },
-        {
-          "start": 17.1,
-          "end": 54.2,
-          "user": "parthib",
-          "label": "complete the right turn and switch to the left lane after the white suv passes y..."
-        }
-      ]
-    },
-    "2021.07.16.16.27.22_veh-26_02282_03814": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 23.1,
-          "end": 88.5,
-          "user": "parthib",
-          "label": "make the left turn when the light turns green, then switch to the right lane."
-        },
-        {
-          "start": 147.0,
-          "end": 205.6,
-          "user": "ytandon",
-          "label": "Enter Paris Las Vegas drop-off loop"
-        },
-        {
-          "start": 173.7,
-          "end": 212.7,
-          "user": "parthib",
-          "label": "make the right turn and go around the roundabout"
         }
       ]
     },
@@ -82813,70 +85093,6 @@
         }
       ]
     },
-    "2021.07.16.22.40.23_veh-38_00016_00182": {
-      "total_sec": 82.4,
-      "bars": [
-        {
-          "start": 2.5,
-          "end": 72.1,
-          "user": "ytandon",
-          "label": "Go to Luxor Las Vegas and wait at the entrance for 20 seconds before exiting and..."
-        },
-        {
-          "start": 9.7,
-          "end": 72.2,
-          "user": "parthib",
-          "label": "go into entrance of luxor las vegas then exit out back on the main road"
-        },
-        {
-          "start": 15.8,
-          "end": 37.0,
-          "user": "ytandon",
-          "label": "Enter Luxor Las Vegas"
-        },
-        {
-          "start": 25.3,
-          "end": 65.0,
-          "user": "ytandon",
-          "label": "Stop at the drop-off loop at Luxor Las Vegas, then take a right to exit"
-        },
-        {
-          "start": 39.9,
-          "end": 72.4,
-          "user": "parthib",
-          "label": "exit, at the stopsign make a right turn, once the white car passes you change to..."
-        }
-      ]
-    },
-    "2021.07.16.18.06.21_veh-38_02197_03220": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 9.9,
-          "end": 214.8,
-          "user": "ytandon",
-          "label": "Go to Paris Las Vegas."
-        },
-        {
-          "start": 20.8,
-          "end": 242.3,
-          "user": "ytandon",
-          "label": "Go to Paris Las Vegas, and immediately prepare to exit it from the left lane"
-        },
-        {
-          "start": 30.4,
-          "end": 224.6,
-          "user": "parthib",
-          "label": "make a left turn and then switch into the right lane. switch into the right lane..."
-        },
-        {
-          "start": 44.6,
-          "end": 225.0,
-          "user": "ytandon",
-          "label": "Go to Paris Las Vegas, and prepare to exit immediately using the left lane"
-        }
-      ]
-    },
     "2021.06.09.12.51.31_veh-35_05299_05468": {
       "total_sec": 83.9,
       "bars": [
@@ -82959,17 +85175,6 @@
           "end": 30.0,
           "user": "parthib",
           "label": "make the first left turn"
-        }
-      ]
-    },
-    "2021.07.16.20.45.29_veh-35_00600_01084": {
-      "total_sec": 241.5,
-      "bars": [
-        {
-          "start": 120.0,
-          "end": 218.7,
-          "user": "parthib",
-          "label": "make the right turn into paris las vegas, go around the roundabout toward the ex..."
         }
       ]
     },
@@ -83202,35 +85407,6 @@
         }
       ]
     },
-    "2021.07.16.20.45.29_veh-35_01095_01486": {
-      "total_sec": 194.9,
-      "bars": [
-        {
-          "start": 1.2,
-          "end": 50.8,
-          "user": "parthib",
-          "label": "switch to the right lane behind the grey vehicle. after passing the intersection..."
-        },
-        {
-          "start": 17.8,
-          "end": 165.8,
-          "user": "ytandon",
-          "label": "Go to Luxor Las Vegas"
-        },
-        {
-          "start": 81.1,
-          "end": 169.5,
-          "user": "ytandon",
-          "label": "Take a right at the intersection, then take the second left to enter Luxor Las V..."
-        },
-        {
-          "start": 103.4,
-          "end": 174.6,
-          "user": "giovanni",
-          "label": "Merge to the left lane and come to a stop for the stop sign. Yield to oncoming v..."
-        }
-      ]
-    },
     "2021.07.16.18.06.21_veh-38_04933_05307": {
       "total_sec": 186.5,
       "bars": [
@@ -83302,29 +85478,6 @@
           "end": 121.5,
           "user": "giovanni",
           "label": "Stop for the red traffic light."
-        }
-      ]
-    },
-    "2021.07.16.18.06.21_veh-38_00016_00747": {
-      "total_sec": 254.5,
-      "bars": [
-        {
-          "start": 1.4,
-          "end": 205.1,
-          "user": "ytandon",
-          "label": "Enter and immediately exit Luxor Las Vegas, and then take the northbound Las Veg..."
-        },
-        {
-          "start": 15.4,
-          "end": 178.0,
-          "user": "ytandon",
-          "label": "Wait at the Luxor Las Vegas entrance for 10 seconds, then head past the Coca Col..."
-        },
-        {
-          "start": 58.0,
-          "end": 141.9,
-          "user": "parthib",
-          "label": "make the left turn, then changes lanes to the right."
         }
       ]
     },
@@ -83993,17 +86146,6 @@
           "end": 47.7,
           "user": "giovanni",
           "label": "Slow down and stop for the upcoming red traffic light."
-        }
-      ]
-    },
-    "2021.07.16.21.17.55_veh-26_02927_02992": {
-      "total_sec": 32.0,
-      "bars": [
-        {
-          "start": 8.5,
-          "end": 28.6,
-          "user": "ytandon",
-          "label": "Keep straight"
         }
       ]
     },
