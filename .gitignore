@@ -7,4 +7,7 @@ scripts/autoLabeler/SampleData/
 scripts/settings.txt
 scripts/outputs/
 data/
-outputs/
+outputs/*
+!outputs/doPlan_submissions/
+outputs/doPlan_submissions/*
+!outputs/doPlan_submissions/release_annotationsV1.csv
