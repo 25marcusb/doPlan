@@ -130,7 +130,7 @@ Submit here: <https://docs.google.com/forms/d/e/1FAIpQLSddH6G8gL1wS_DZ8cp8TkQc0B
 
 ## Dashboard
 
-Live annotation stats (updates every 6 hours): <https://25marcusb.github.io/doPlan/dashboard.html>
+Live annotation stats (updates every 6 hours): <https://mi3-lab.github.io/doPlan/dashboard.html>
 
 ## Issues?
 
